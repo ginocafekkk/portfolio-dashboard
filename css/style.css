@@ -224,11 +224,12 @@ body.light-theme {
 .theme-btn.active, .lang-btn.active { border-color: var(--accent); background: rgba(108,99,255,0.15); color: var(--accent); font-weight: 600; }
 
 /* ====== Market Status (Header) ====== */
-.market-dots { display: flex; align-items: center; gap: 8px; margin-left: 6px; }
-.m-dot { display: flex; align-items: center; gap: 4px; font-size: 0.85rem; cursor: default; }
+.market-dots { display: flex; align-items: center; gap: 10px; margin-left: 8px; }
+.m-dot { display: flex; align-items: center; gap: 4px; font-size: 1rem; cursor: default; }
+.m-dot .flag { font-size: 1.1rem; line-height: 1; }
 .m-indicator {
   display: inline-block; width: 10px; height: 10px; border-radius: 50%;
-  transition: 0.3s;
+  transition: 0.3s; vertical-align: middle;
 }
 .m-indicator.green { background: #00c853; box-shadow: 0 0 6px rgba(0,200,83,0.5); }
 .m-indicator.gray { background: #555; }
