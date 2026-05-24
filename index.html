@@ -47,6 +47,12 @@
       <div class="logo" style="margin-bottom:12px;"><img src="img/logo.jpg" style="width:80px;height:auto;border-radius:50%;"></div>
       <h1>Portfolio Dashboard</h1>
       <p>请输入密码查看持仓</p>
+      <div id="bioFaceBtn" style="display:none;margin-bottom:12px;">
+        <button class="login-btn" onclick="tryBiometricLogin()" style="background:var(--card);border:1px solid var(--accent);margin-top:8px;">
+          🔐 面容ID / 指纹登录
+        </button>
+        <div style="margin-top:8px;font-size:0.8rem;color:var(--text-dim);">或输入密码</div>
+      </div>
       <input type="password" id="loginPassword" class="login-input" placeholder="密码"
              autocomplete="current-password" inputmode="text"
              onkeydown="if(event.key==='Enter')doLogin()">

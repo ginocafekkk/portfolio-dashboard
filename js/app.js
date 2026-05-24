@@ -1,24 +1,84 @@
 // ====== Login ======
 const STORAGE_KEY = 'portfolio_auth';
+const BIO_KEY = 'portfolio_bio';
 const DEFAULT_HASH = '2c4793fa990df69f4b55737d365695c6d97b77d4567d5c7be669bb4e9a7bd3c4';
 
 function hashPassword(pw) {
   return crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
     .then(h => Array.from(new Uint8Array(h)).map(b => b.toString(16).padStart(2,'0')).join(''));
 }
+
+// ====== Face ID / Biometric Login ======
+async function saveBiometric(password) {
+  try {
+    if (!window.PasswordCredential) return;
+    const cred = new PasswordCredential({
+      id: 'portfolio-dashboard',
+      password: password,
+      name: 'Portfolio Dashboard'
+    });
+    await navigator.credentials.store(cred);
+    localStorage.setItem(BIO_KEY, '1');
+  } catch(e) { /* ignore */ }
+}
+
+async function tryBiometricLogin() {
+  try {
+    if (!navigator.credentials || !localStorage.getItem(BIO_KEY)) return false;
+    navigator.credentials.preventSilentAccess();
+    const cred = await navigator.credentials.get({ password: true, unmediated: false });
+    if (cred && cred.password) {
+      const hash = await hashPassword(cred.password);
+      const customHash = localStorage.getItem('portfolio_custom_hash');
+      if (hash === (customHash || DEFAULT_HASH)) {
+        sessionStorage.setItem(STORAGE_KEY, '1');
+        document.getElementById('login-overlay').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
+        document.getElementById('totalValue').textContent = '⏳ 加载数据...';
+        loadPortfolio();
+        return true;
+      }
+    }
+  } catch(e) { /* user cancelled */ }
+  return false;
+}
+
 function doLogin() {
   const pw = document.getElementById('loginPassword');
   hashPassword(pw.value).then(hash => {
-    if (hash === DEFAULT_HASH) {
+    const customHash = localStorage.getItem('portfolio_custom_hash');
+    const validHash = customHash || DEFAULT_HASH;
+    if (hash === validHash) {
       sessionStorage.setItem(STORAGE_KEY, '1');
       document.getElementById('login-overlay').classList.add('hidden');
       document.getElementById('app').classList.remove('hidden');
+      document.getElementById('totalValue').textContent = '⏳ 加载数据...';
+      saveBiometric(pw.value); // silent save for future Face ID
       loadPortfolio();
     } else {
       document.getElementById('loginError').textContent = '❌ 密码错误';
       pw.value = ''; pw.focus();
     }
   });
+}
+
+function checkAuth() {
+  const authed = sessionStorage.getItem(STORAGE_KEY);
+  if (authed) {
+    document.getElementById('login-overlay').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+    document.getElementById('totalValue').textContent = '⏳ 加载数据...';
+    loadPortfolio();
+  } else {
+    tryBiometricLogin().then(ok => {
+      if (!ok) {
+        document.getElementById('totalValue').textContent = '🔐 请登录';
+        if (localStorage.getItem(BIO_KEY)) {
+          document.getElementById('bioFaceBtn').style.display = 'block';
+        }
+      }
+    });
+  }
 }
 function checkAuth() {
   const authed = sessionStorage.getItem(STORAGE_KEY);
@@ -404,24 +464,6 @@ function doChangePwd() {
       err.textContent = '✅ 密码已修改，下次登录生效';
       setTimeout(() => { closeChangePwd(); window.location.reload(); }, 1500);
     });
-  });
-}
-
-// Modified login to check localStorage hash first
-function doLogin() {
-  const pw = document.getElementById('loginPassword');
-  hashPassword(pw.value).then(hash => {
-    const customHash = localStorage.getItem('portfolio_custom_hash');
-    const validHash = customHash || DEFAULT_HASH;
-    if (hash === validHash) {
-      sessionStorage.setItem(STORAGE_KEY, '1');
-      document.getElementById('login-overlay').classList.add('hidden');
-      document.getElementById('app').classList.remove('hidden');
-      loadPortfolio();
-    } else {
-      document.getElementById('loginError').textContent = '❌ 密码错误';
-      pw.value = ''; pw.focus();
-    }
   });
 }
 
