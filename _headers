@@ -1,0 +1,4 @@
+# CORS & caching
+/data/portfolio.json
+  Cache-Control: no-cache, no-store, must-revalidate
+  Access-Control-Allow-Origin: *
