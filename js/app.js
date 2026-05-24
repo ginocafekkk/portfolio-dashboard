@@ -379,46 +379,32 @@ function renderOptions() {
 // ====== Market Status ======
 function renderMarketStatus() {
   const now = new Date();
-  const dow = now.getDay(); // 0=Sun, 6=Sat
-  const h = now.getHours(), m = now.getMinutes();
-  const tz = 'Asia/Shanghai';
-  
-  // Helper: is weekday?
-  const weekday = dow >= 1 && dow <= 5;
-  
-  // US: Mon-Fri 9:30-16:00 ET (summer UTC-4, winter UTC-5)
-  // Current time in ET
   const utc = now.getTime() + now.getTimezoneOffset() * 60000;
-  const etOffset = -4; // EDT (Mar-Nov)
-  const etH = new Date(utc + etOffset * 3600000).getUTCHours();
-  const etM = new Date(utc + etOffset * 3600000).getUTCMinutes();
-  const etDow = new Date(utc + etOffset * 3600000).getUTCDay();
+  const etOffset = -4; // EDT
+  const et = new Date(utc + etOffset * 3600000);
+  const etDow = et.getUTCDay();
+  const etH = et.getUTCHours(), etM = et.getUTCMinutes();
   const usOpen = etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
   
-  // HK: Mon-Fri 9:30-16:00 HKT (UTC+8)
-  const hkH = new Date(utc + 8 * 3600000).getUTCHours();
-  const hkM = new Date(utc + 8 * 3600000).getUTCMinutes();
-  const hkDow = new Date(utc + 8 * 3600000).getUTCDay();
-  const hkOpen = hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16 && !(hkH === 12 && hkM > 0);
+  const hk = new Date(utc + 8 * 3600000);
+  const hkDow = hk.getUTCDay();
+  const hkH = hk.getUTCHours();
+  const hkOpen = hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16;
   
-  // A: Mon-Fri 9:30-11:30, 13:00-15:00 CST (UTC+8)
-  const aH = hkH, aM = hkM, aDow = hkDow;
+  const aDow = hkDow, aH = hkH, aM = hk.getUTCMinutes();
   const aOpen = aDow >= 1 && aDow <= 5 && 
-    ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || 
-     (aH >= 13 && aH < 15));
+    ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || (aH >= 13 && aH < 15));
   
-  setStatus('us', usOpen, '美股');
-  setStatus('hk', hkOpen, '港股');
-  setStatus('a', aOpen, 'A股');
+  setDot('md-us', usOpen);
+  setDot('md-hk', hkOpen);
+  setDot('md-a', aOpen);
 }
 
-function setStatus(market, open, label) {
-  const card = document.getElementById('status-' + market);
-  if (!card) return;
-  const dot = card.querySelector('.status-dot');
-  const time = card.querySelector('.status-time');
-  dot.className = 'status-dot ' + (open ? 'green' : 'gray');
-  time.textContent = open ? '🟢 交易中' : '⚫ 已休市';
+function setDot(id, open) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const ind = el.querySelector('.m-indicator');
+  if (ind) ind.className = 'm-indicator ' + (open ? 'green' : 'gray');
 }
 
 // ====== Highlights ======
@@ -828,5 +814,12 @@ function changeCity() {
 document.addEventListener('DOMContentLoaded', function() {
   initCardListeners();
   checkAuth();
-  fetchWeather(); // Always fetch weather on page load
+  fetchWeather();
+  
+  // Auto-refresh market status every 30s
+  renderMarketStatus();
+  setInterval(renderMarketStatus, 30000);
+  
+  // Refresh weather every 30 min
+  setInterval(fetchWeather, 1800000);
 });

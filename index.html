@@ -105,6 +105,11 @@
     <header class="header">
       <div class="header-left">
         <span class="logo" id="logoBtn" style="cursor:pointer;"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
+        <span class="market-dots" id="marketDots">
+          <span class="m-dot" id="md-us" title="美股">🇺🇸<span class="m-indicator gray"></span></span>
+          <span class="m-dot" id="md-hk" title="港股">🇭🇰<span class="m-indicator gray"></span></span>
+          <span class="m-dot" id="md-a" title="A股">🇨🇳<span class="m-indicator gray"></span></span>
+        </span>
       </div>
       <div class="header-right">
         <span id="weatherDisplay" style="font-size:0.85rem;color:var(--text-dim);cursor:default;" title="点击切换城市" onclick="changeCity()"></span>
@@ -279,18 +284,6 @@
             </thead>
             <tbody></tbody>
           </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- 🟢🔴 市场状态 -->
-    <section class="market-section" id="section-market-status">
-      <h2>🟢🔴 市场状态</h2>
-      <div class="market-body">
-        <div class="status-grid" id="statusGrid">
-          <div class="status-card" id="status-us"><div class="status-dot gray"></div><div class="status-name">🇺🇸 美股</div><div class="status-time">--</div></div>
-          <div class="status-card" id="status-hk"><div class="status-dot gray"></div><div class="status-name">🇭🇰 港股</div><div class="status-time">--</div></div>
-          <div class="status-card" id="status-a"><div class="status-dot gray"></div><div class="status-name">🇨🇳 A股</div><div class="status-time">--</div></div>
         </div>
       </div>
     </section>
