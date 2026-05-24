@@ -21,10 +21,15 @@ function doLogin() {
   });
 }
 function checkAuth() {
-  if (sessionStorage.getItem(STORAGE_KEY)) {
+  const authed = sessionStorage.getItem(STORAGE_KEY);
+  console.log('checkAuth: authed =', authed);
+  if (authed) {
     document.getElementById('login-overlay').classList.add('hidden');
     document.getElementById('app').classList.remove('hidden');
+    document.getElementById('totalValue').textContent = '⏳ 加载数据...';
     loadPortfolio();
+  } else {
+    document.getElementById('totalValue').textContent = '🔐 请登录';
   }
 }
 
@@ -71,17 +76,22 @@ function switchCurrency(cur) {
 
 // ====== Load & Render ======
 async function loadPortfolio() {
-  // Retry up to 3 times in case of transient load issues
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const resp = await fetch('data/portfolio.json?_=' + Date.now());
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       portfolio = await resp.json();
+      // Debug: check data integrity
+      if (!portfolio.markets || !portfolio.fx || !portfolio.fx.USD_HKD) {
+        throw new Error('数据格式异常：缺少markets或fx字段');
+      }
+      document.getElementById('totalValue').textContent = '⏳ 正在渲染...';
       renderAll();
       return;
     } catch (e) {
-      if (attempt < 2) await new Promise(r => setTimeout(r, 500));
-      else document.getElementById('totalValue').textContent = '⚠️ 加载失败，请刷新页面';
+      console.error('loadPortfolio attempt', attempt, ':', e);
+      if (attempt < 2) await new Promise(r => setTimeout(r, 800));
+      else document.getElementById('totalValue').textContent = '⚠️ ' + e.message;
     }
   }
 }
