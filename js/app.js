@@ -87,7 +87,11 @@ async function loadPortfolio() {
 }
 
 function renderAll() {
-  if (!portfolio) return;
+  try {
+  if (!portfolio) {
+    document.getElementById('totalValue').textContent = '⏳ 数据未加载';
+    return;
+  }
   const fx = portfolio.fx;
   const data = portfolio.markets;
   const cur = displayCurrency;
@@ -191,8 +195,12 @@ function renderAll() {
   renderOptions();
   
   // Charts (USD)
-  renderPieChart(totalUSD, data, cashUSD);
-  renderBarChart(allStocks);
+  try { renderPieChart(totalUSD, data, cashUSD); } catch(e) { console.error('Pie chart error:', e); }
+  try { renderBarChart(allStocks); } catch(e) { console.error('Bar chart error:', e); }
+  } catch(e) {
+    console.error('renderAll error:', e);
+    document.getElementById('totalValue').textContent = '⚠️ 渲染错误: ' + e.message;
+  }
 }
 
 // ====== Render US Table (USD) ======
