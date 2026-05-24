@@ -69,12 +69,18 @@ function switchCurrency(cur) {
 
 // ====== Load & Render ======
 async function loadPortfolio() {
-  try {
-    const resp = await fetch('data/portfolio.json?' + Date.now());
-    portfolio = await resp.json();
-    renderAll();
-  } catch (e) {
-    document.getElementById('totalValue').textContent = '⚠️ 加载失败';
+  // Retry up to 3 times in case of transient load issues
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const resp = await fetch('data/portfolio.json?_=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      portfolio = await resp.json();
+      renderAll();
+      return;
+    } catch (e) {
+      if (attempt < 2) await new Promise(r => setTimeout(r, 500));
+      else document.getElementById('totalValue').textContent = '⚠️ 加载失败，请刷新页面';
+    }
   }
 }
 
@@ -137,14 +143,10 @@ function renderAll() {
   const hkTotalUSD = data.hk.stocks.reduce((s, st) => s + (st.lastPrice * st.shares) / fx.USD_HKD, 0);
   const aTotalUSD  = data.a.stocks.reduce((s, st) => s + st.lastPrice / fx.USD_CNY, 0);
   
-  // Convert totals to display currency
+  // Convert total to display currency
   const totalDisp = fromUSD(totalUSD, cur);
-  const usTotalDisp = fromUSD(usTotalUSD, cur);
-  const hkTotalDisp = fromUSD(hkTotalUSD, cur);
-  const aTotalDisp  = fromUSD(aTotalUSD, cur);
-  const cashTotalDisp = fromUSD(cashUSD, cur);
   
-  // Summary cards
+  // Summary cards — local currencies for markets, display currency for total
   document.getElementById('totalValue').textContent = formatCurrency(totalDisp, cur);
   
   const totalCost = allStocks.reduce((s, st) => s + st.cost, 0);
@@ -153,13 +155,18 @@ function renderAll() {
   document.getElementById('totalChange').innerHTML = 
     `总盈亏: <span class="${totalPnl >= 0 ? 'positive' : 'negative'}">${formatCurrency(fromUSD(totalPnl, cur), cur)} (${formatPct(totalPnlPct)})</span>`;
   
-  document.getElementById('usValue').textContent = formatCurrency(usTotalDisp, cur);
+  // Market cards always show local currency
+  const usTotalLocal = usTotalUSD; // US is already USD
+  const hkTotalLocal = data.hk.stocks.reduce((s, st) => s + st.lastPrice * st.shares, 0); // HKD
+  const aTotalLocal  = data.a.stocks.reduce((s, st) => s + st.lastPrice, 0); // CNY
+  
+  document.getElementById('usValue').textContent = formatCurrency(usTotalLocal, 'USD');
   document.getElementById('usPct').textContent = (usTotalUSD / totalUSD * 100).toFixed(1) + '%';
-  document.getElementById('hkValue').textContent = formatCurrency(hkTotalDisp, cur);
+  document.getElementById('hkValue').textContent = formatCurrency(hkTotalLocal, 'HKD');
   document.getElementById('hkPct').textContent = (hkTotalUSD / totalUSD * 100).toFixed(1) + '%';
-  document.getElementById('aValue').textContent = formatCurrency(aTotalDisp, cur);
+  document.getElementById('aValue').textContent = formatCurrency(aTotalLocal, 'CNY');
   document.getElementById('aPct').textContent = (aTotalUSD / totalUSD * 100).toFixed(1) + '%';
-  document.getElementById('cashValue').textContent = formatCurrency(cashTotalDisp, cur);
+  document.getElementById('cashValue').textContent = formatCurrency(cashUSD, 'USD');
   document.getElementById('cashPct').textContent = (cashUSD / totalUSD * 100).toFixed(1) + '%';
   
   document.getElementById('updateBadge').textContent = '📅 ' + portfolio.lastUpdated;
