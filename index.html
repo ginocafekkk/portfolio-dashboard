@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Labuster Portfolio Dashboard</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧸</text></svg>">
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="apple-touch-icon" href="img/logo.jpg">
   <link rel="stylesheet" href="css/style.css">
   <!-- Login CSS -->
   <style>
@@ -20,7 +21,6 @@
       border-radius: 16px; padding: 40px; width: 380px; max-width: 90%;
       text-align: center;
     }
-    .login-box .logo { font-size: 3rem; margin-bottom: 12px; }
     .login-box h1 { font-size: 1.5rem; margin-bottom: 4px; }
     .login-box p { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 24px; }
     .login-input {
@@ -44,7 +44,7 @@
   <!-- Login Overlay -->
   <div id="login-overlay">
     <div class="login-box">
-      <div class="logo">🧸</div>
+      <div class="logo" style="margin-bottom:12px;"><img src="img/logo.jpg" style="width:80px;height:auto;border-radius:50%;"></div>
       <h1>Portfolio Dashboard</h1>
       <p>请输入密码查看持仓</p>
       <input type="password" id="loginPassword" class="login-input" placeholder="密码"
@@ -87,12 +87,12 @@
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <span class="logo">🧸 Labuster</span>
+        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;margin-right:6px;"> Labuster</span>
         <span class="header-subtitle">Portfolio Dashboard</span>
       </div>
       <div class="header-right">
         <span class="update-badge" id="updateBadge">📅 加载中...</span>
-        <span class="version-badge">v1.2</span>
+        <span class="version-badge">v1.3</span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>

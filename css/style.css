@@ -35,7 +35,6 @@ body {
   margin-bottom: 20px;
 }
 .header-left { display: flex; align-items: center; gap: 12px; }
-.logo { font-size: 1.4rem; font-weight: 700; }
 .header-subtitle { color: var(--text-dim); font-size: 0.9rem; }
 .header-right { display: flex; align-items: center; gap: 12px; }
 .update-badge { font-size: 0.8rem; color: var(--text-dim); }
