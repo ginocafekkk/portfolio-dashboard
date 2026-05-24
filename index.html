@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labuster Portfolio Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧸</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <span class="logo">🧸 Labuster</span>
+        <span class="header-subtitle">Portfolio Dashboard</span>
+      </div>
+      <div class="header-right">
+        <span class="update-badge" id="updateBadge">📅 加载中...</span>
+        <button class="btn-refresh" onclick="loadPortfolio()" title="刷新数据">🔄</button>
+      </div>
+    </header>
+
+    <!-- Summary Cards -->
+    <section class="summary-grid" id="summaryGrid">
+      <div class="summary-card total">
+        <div class="card-label">总资产净值</div>
+        <div class="card-value" id="totalValue">--</div>
+        <div class="card-change" id="totalChange"></div>
+      </div>
+      <div class="summary-card" onclick="scrollToMarket('us')">
+        <div class="card-label">🇺🇸 美股</div>
+        <div class="card-value" id="usValue">--</div>
+        <div class="card-sub">占总资产 <span id="usPct">--</span></div>
+      </div>
+      <div class="summary-card" onclick="scrollToMarket('hk')">
+        <div class="card-label">🇭🇰 港股</div>
+        <div class="card-value" id="hkValue">--</div>
+        <div class="card-sub">占总资产 <span id="hkPct">--</span></div>
+      </div>
+      <div class="summary-card" onclick="scrollToMarket('a')">
+        <div class="card-label">🇨🇳 A股 ETF</div>
+        <div class="card-value" id="aValue">--</div>
+        <div class="card-sub">占总资产 <span id="aPct">--</span></div>
+      </div>
+      <div class="summary-card cash" onclick="scrollToMarket('cash')">
+        <div class="card-label">💰 现金</div>
+        <div class="card-value" id="cashValue">--</div>
+        <div class="card-sub">占总资产 <span id="cashPct">--</span></div>
+      </div>
+    </section>
+
+    <!-- Charts Row -->
+    <section class="charts-grid">
+      <div class="chart-card">
+        <h3>📊 资产分布</h3>
+        <div class="chart-container"><canvas id="pieChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>📈 个股盈亏</h3>
+        <div class="chart-container"><canvas id="barChart"></canvas></div>
+      </div>
+    </section>
+
+    <!-- Market Sections -->
+    <section id="market-us" class="market-section">
+      <h2 onclick="toggleMarket('us')">🇺🇸 美股持股 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-us">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-us">
+            <thead>
+              <tr>
+                <th onclick="sortTable('us','ticker')">代码 ↕</th>
+                <th>名称</th>
+                <th onclick="sortTable('us','shares')">股数 ↕</th>
+                <th onclick="sortTable('us','avgCost')">成本价 ↕</th>
+                <th onclick="sortTable('us','lastPrice')">现价 ↕</th>
+                <th onclick="sortTable('us','marketValue')">市值 ↕</th>
+                <th onclick="sortTable('us','pnl')">盈亏 ↕</th>
+                <th onclick="sortTable('us','pnlPct')">盈亏% ↕</th>
+                <th onclick="sortTable('us','pctOfTotal')">占比 ↕</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-hk" class="market-section">
+      <h2 onclick="toggleMarket('hk')">🇭🇰 港股持股 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-hk">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-hk">
+            <thead>
+              <tr>
+                <th onclick="sortTable('hk','ticker')">代码 ↕</th>
+                <th>名称</th>
+                <th onclick="sortTable('hk','shares')">股数 ↕</th>
+                <th onclick="sortTable('hk','avgCost')">成本价 ↕</th>
+                <th onclick="sortTable('hk','lastPrice')">现价 ↕</th>
+                <th onclick="sortTable('hk','marketValue')">市值(USD) ↕</th>
+                <th onclick="sortTable('hk','pnl')">盈亏(USD) ↕</th>
+                <th onclick="sortTable('hk','pnlPct')">盈亏% ↕</th>
+                <th onclick="sortTable('hk','pctOfTotal')">占比 ↕</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-a" class="market-section">
+      <h2 onclick="toggleMarket('a')">🇨🇳 A股 ETF <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-a">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-a">
+            <thead>
+              <tr>
+                <th>代码</th>
+                <th>名称</th>
+                <th>投入金额</th>
+                <th>当前市值</th>
+                <th>盈亏(USD)</th>
+                <th>盈亏%</th>
+                <th>占比</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-cash" class="market-section">
+      <h2 onclick="toggleMarket('cash')">💰 现金（货币基金） <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-cash">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-cash">
+            <thead>
+              <tr>
+                <th>名称</th>
+                <th>金额(原始货币)</th>
+                <th>折合 USD</th>
+                <th>占比</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Options Section -->
+    <section class="market-section">
+      <h2 onclick="toggleMarket('options')">📄 期权持仓 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-options">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-options">
+            <thead>
+              <tr>
+                <th>标的</th>
+                <th>类型</th>
+                <th>行权价</th>
+                <th>到期日</th>
+                <th>权利金(USD)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
