@@ -50,6 +50,12 @@ body {
   transition: 0.2s;
 }
 .btn-refresh:hover { background: var(--card-hover); }
+.currency-select {
+  background: var(--card); border: 1px solid var(--border); color: var(--text);
+  padding: 6px 10px; border-radius: 8px; font-size: 0.85rem; cursor: pointer;
+  outline: none;
+}
+.currency-select:hover { background: var(--card-hover); }
 
 /* ====== Summary Cards ====== */
 .summary-grid {
