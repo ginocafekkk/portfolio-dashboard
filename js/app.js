@@ -1,6 +1,5 @@
 // ====== Login ======
 const STORAGE_KEY = 'portfolio_auth';
-const BIO_KEY = 'portfolio_bio';
 const DEFAULT_HASH = '2c4793fa990df69f4b55737d365695c6d97b77d4567d5c7be669bb4e9a7bd3c4';
 
 function hashPassword(pw) {
@@ -8,43 +7,15 @@ function hashPassword(pw) {
     .then(h => Array.from(new Uint8Array(h)).map(b => b.toString(16).padStart(2,'0')).join(''));
 }
 
-// ====== Face ID / Biometric Login ======
-async function saveBiometric(password) {
-  try {
-    if (!window.PasswordCredential) return;
-    const cred = new PasswordCredential({
-      id: 'portfolio-dashboard',
-      password: password,
-      name: 'Portfolio Dashboard'
-    });
-    await navigator.credentials.store(cred);
-    localStorage.setItem(BIO_KEY, '1');
-  } catch(e) { /* ignore */ }
-}
-
-async function tryBiometricLogin() {
-  try {
-    if (!navigator.credentials || !localStorage.getItem(BIO_KEY)) return false;
-    navigator.credentials.preventSilentAccess();
-    const cred = await navigator.credentials.get({ password: true, unmediated: false });
-    if (cred && cred.password) {
-      const hash = await hashPassword(cred.password);
-      const customHash = localStorage.getItem('portfolio_custom_hash');
-      if (hash === (customHash || DEFAULT_HASH)) {
-        sessionStorage.setItem(STORAGE_KEY, '1');
-        document.getElementById('login-overlay').classList.add('hidden');
-        document.getElementById('app').classList.remove('hidden');
-        document.getElementById('totalValue').textContent = '⏳ 加载数据...';
-        loadPortfolio();
-        return true;
-      }
-    }
-  } catch(e) { /* user cancelled */ }
-  return false;
-}
-
 function doLogin() {
+  const btn = document.querySelector('#login-overlay .login-btn');
   const pw = document.getElementById('loginPassword');
+  const err = document.getElementById('loginError');
+  
+  btn.textContent = '⏳ 验证中...';
+  btn.disabled = true;
+  err.textContent = '';
+  
   hashPassword(pw.value).then(hash => {
     const customHash = localStorage.getItem('portfolio_custom_hash');
     const validHash = customHash || DEFAULT_HASH;
@@ -53,31 +24,26 @@ function doLogin() {
       document.getElementById('login-overlay').classList.add('hidden');
       document.getElementById('app').classList.remove('hidden');
       document.getElementById('totalValue').textContent = '⏳ 加载数据...';
-      saveBiometric(pw.value); // silent save for future Face ID
       loadPortfolio();
     } else {
-      document.getElementById('loginError').textContent = '❌ 密码错误';
+      err.textContent = '❌ 密码错误';
       pw.value = ''; pw.focus();
+      btn.textContent = '进入 Dashboard';
+      btn.disabled = false;
     }
+  }).catch(e => {
+    err.textContent = '❌ 验证失败: ' + e.message;
+    btn.textContent = '进入 Dashboard';
+    btn.disabled = false;
   });
 }
 
 function checkAuth() {
-  const authed = sessionStorage.getItem(STORAGE_KEY);
-  if (authed) {
+  if (sessionStorage.getItem(STORAGE_KEY)) {
     document.getElementById('login-overlay').classList.add('hidden');
     document.getElementById('app').classList.remove('hidden');
     document.getElementById('totalValue').textContent = '⏳ 加载数据...';
     loadPortfolio();
-  } else {
-    tryBiometricLogin().then(ok => {
-      if (!ok) {
-        document.getElementById('totalValue').textContent = '🔐 请登录';
-        if (localStorage.getItem(BIO_KEY)) {
-          document.getElementById('bioFaceBtn').style.display = 'block';
-        }
-      }
-    });
   }
 }
 function checkAuth() {
@@ -476,27 +442,10 @@ function doChangePwd() {
 
 // ====== Settings ======
 function openSettings() {
-  const bio = localStorage.getItem(BIO_KEY);
   const dark = localStorage.getItem('theme_dark');
   const lang = localStorage.getItem('lang') || 'zh';
   
   document.getElementById('settingsBody').innerHTML = `
-    <!-- Biometric -->
-    <div class="toggle-wrap">
-      <div>
-        <div class="toggle-label">🔐 面容/指纹登录</div>
-        <div class="toggle-desc">${bio ? '下次打开页面将自动弹出验证' : '启用后下次访问自动弹出'}</div>
-      </div>
-      <div class="toggle-switch ${bio ? 'on' : ''}" onclick="toggleBio()" id="bioToggle"></div>
-    </div>
-    <!-- Theme -->
-    <div class="toggle-wrap">
-      <div>
-        <div class="toggle-label">🎨 深色主题</div>
-        <div class="toggle-desc">${dark === 'light' ? '当前：浅色模式' : '当前：深色模式'}</div>
-      </div>
-      <div class="toggle-switch ${dark !== 'light' ? 'on' : ''}" onclick="toggleTheme()" id="themeToggle"></div>
-    </div>
     <!-- Edit Holdings -->
     <div class="toggle-wrap" style="cursor:pointer;" onclick="closeSettings();openEditHoldings();">
       <div>
@@ -513,16 +462,13 @@ function openSettings() {
       </div>
       <span style="color:var(--accent);font-size:1.2rem;">›</span>
     </div>
-    <!-- Lang -->
+    <!-- Theme -->
     <div class="toggle-wrap">
       <div>
-        <div class="toggle-label">🌐 语言</div>
-        <div class="toggle-desc">${lang === 'zh' ? '当前：中文' : '当前：English'}</div>
+        <div class="toggle-label">🎨 深色主题</div>
+        <div class="toggle-desc">${dark === 'light' ? '当前：浅色模式' : '当前：深色模式'}</div>
       </div>
-      <div style="display:flex;gap:6px;">
-        <button class="lang-btn ${lang==='zh'?'active':''}" onclick="setLang('zh')" style="padding:4px 12px;font-size:0.8rem;">中文</button>
-        <button class="lang-btn ${lang==='en'?'active':''}" onclick="setLang('en')" style="padding:4px 12px;font-size:0.8rem;">EN</button>
-      </div>
+      <div class="toggle-switch ${dark !== 'light' ? 'on' : ''}" onclick="toggleTheme()" id="themeToggle"></div>
     </div>
   `;
   document.getElementById('settingsModal').style.display = 'flex';
