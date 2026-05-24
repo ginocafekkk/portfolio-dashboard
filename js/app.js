@@ -49,6 +49,7 @@ function checkAuth() {
 // ====== State ======
 let portfolio = null;
 let allStocks = [];
+let cashUSD = 0;
 let displayCurrency = 'USD';
 const CURRENCY_SYMBOLS = { USD: '$', HKD: 'HK$', CNY: '¥' };
 
@@ -166,7 +167,7 @@ function renderAll() {
   });
   
   // Cash
-  let cashUSD = 0;
+  cashUSD = 0;
   data.cash.items.forEach(c => {
     if (c.currency === 'USD') cashUSD += safeNum(c.amount);
     else if (c.currency === 'HKD') cashUSD += safeNum(c.amount) / safeNum(fx.USD_HKD, 1);
@@ -219,6 +220,9 @@ function renderAll() {
   renderTableA(data.a.stocks, totalUSD);
   renderTableCash(data.cash, totalUSD);
   renderOptions();
+  renderMarketStatus();
+  renderHighlights();
+  renderOverview();
   
   // Charts (USD)
   try { renderPieChart(totalUSD, data, cashUSD); } catch(e) { console.error('Pie chart error:', e); }
@@ -370,6 +374,90 @@ function renderOptions() {
   portfolio.options.forEach(o => {
     tbody.innerHTML += `<tr><td>${o.ticker}</td><td>${o.type}</td><td>$${o.strike}</td><td>${o.expiry}</td><td>$${o.premium}</td></tr>`;
   });
+}
+
+// ====== Market Status ======
+function renderMarketStatus() {
+  const now = new Date();
+  const dow = now.getDay(); // 0=Sun, 6=Sat
+  const h = now.getHours(), m = now.getMinutes();
+  const tz = 'Asia/Shanghai';
+  
+  // Helper: is weekday?
+  const weekday = dow >= 1 && dow <= 5;
+  
+  // US: Mon-Fri 9:30-16:00 ET (summer UTC-4, winter UTC-5)
+  // Current time in ET
+  const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+  const etOffset = -4; // EDT (Mar-Nov)
+  const etH = new Date(utc + etOffset * 3600000).getUTCHours();
+  const etM = new Date(utc + etOffset * 3600000).getUTCMinutes();
+  const etDow = new Date(utc + etOffset * 3600000).getUTCDay();
+  const usOpen = etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
+  
+  // HK: Mon-Fri 9:30-16:00 HKT (UTC+8)
+  const hkH = new Date(utc + 8 * 3600000).getUTCHours();
+  const hkM = new Date(utc + 8 * 3600000).getUTCMinutes();
+  const hkDow = new Date(utc + 8 * 3600000).getUTCDay();
+  const hkOpen = hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16 && !(hkH === 12 && hkM > 0);
+  
+  // A: Mon-Fri 9:30-11:30, 13:00-15:00 CST (UTC+8)
+  const aH = hkH, aM = hkM, aDow = hkDow;
+  const aOpen = aDow >= 1 && aDow <= 5 && 
+    ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || 
+     (aH >= 13 && aH < 15));
+  
+  setStatus('us', usOpen, '美股');
+  setStatus('hk', hkOpen, '港股');
+  setStatus('a', aOpen, 'A股');
+}
+
+function setStatus(market, open, label) {
+  const card = document.getElementById('status-' + market);
+  if (!card) return;
+  const dot = card.querySelector('.status-dot');
+  const time = card.querySelector('.status-time');
+  dot.className = 'status-dot ' + (open ? 'green' : 'gray');
+  time.textContent = open ? '🟢 交易中' : '⚫ 已休市';
+}
+
+// ====== Highlights ======
+function renderHighlights() {
+  const grid = document.getElementById('highlightsGrid');
+  if (!grid || !allStocks.length) return;
+  
+  const sorted = [...allStocks].filter(s => s.pnlPct !== 999).sort((a, b) => b.pnlPct - a.pnlPct);
+  const best = sorted[0];
+  const worst = sorted[sorted.length - 1];
+  
+  grid.innerHTML = `
+    <div class="highlight-card" style="border-color:rgba(0,200,83,0.3);">
+      <div class="highlight-label" style="color:#00c853;">🏆 最佳持仓</div>
+      <div class="highlight-ticker" style="color:#00c853;">${best.ticker}</div>
+      <div class="highlight-price">${best.name} · ${formatCurrency(best.marketValueLocal, best.localCurrency)}</div>
+      <div class="highlight-pnl" style="color:#00c853;">${formatPct(best.pnlPct)}</div>
+    </div>
+    <div class="highlight-card" style="border-color:rgba(255,82,82,0.3);">
+      <div class="highlight-label" style="color:#ff5252;">⚠️ 最差持仓</div>
+      <div class="highlight-ticker" style="color:#ff5252;">${worst.ticker}</div>
+      <div class="highlight-price">${worst.name} · ${formatCurrency(worst.marketValueLocal, worst.localCurrency)}</div>
+      <div class="highlight-pnl" style="color:#ff5252;">${formatPct(worst.pnlPct)}</div>
+    </div>
+  `;
+}
+
+// ====== Overview ======
+function renderOverview() {
+  const grid = document.getElementById('overviewGrid');
+  if (!grid) return;
+  grid.innerHTML = `
+    <div class="overview-item"><span class="overview-label">总资产</span><span class="overview-value">${formatCurrency(fromUSD(allStocks.reduce((s,st) => s + st.marketValueUSD, 0) + cashUSD, displayCurrency), displayCurrency)}</span></div>
+    <div class="overview-item"><span class="overview-label">持仓数量</span><span class="overview-value">${allStocks.length} 只</span></div>
+    <div class="overview-item"><span class="overview-label">汇率 USD/HKD</span><span class="overview-value">${portfolio.fx.USD_HKD}</span></div>
+    <div class="overview-item"><span class="overview-label">汇率 USD/CNY</span><span class="overview-value">${portfolio.fx.USD_CNY}</span></div>
+    <div class="overview-item"><span class="overview-label">数据更新</span><span class="overview-value">${portfolio.lastUpdated}</span></div>
+    <div class="overview-item"><span class="overview-label">⏰ 统计时间</span><span class="overview-value">${new Date().toLocaleString('zh-CN', {hour12:false})}</span></div>
+  `;
 }
 
 // ====== Toggle ======

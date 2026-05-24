@@ -230,4 +230,41 @@ body.light-theme {
   .card-value { font-size: 1.2rem; }
   .stock-table { font-size: 0.75rem; }
   .stock-table th, .stock-table td { padding: 6px 8px; }
+  .status-grid { gap: 8px; }
+  .status-card { padding: 12px; }
 }
+
+/* ====== Market Status ====== */
+.status-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 16px; }
+.status-card {
+  background: var(--bg); border-radius: 10px; padding: 16px; text-align: center;
+  border: 1px solid var(--border);
+}
+.status-dot {
+  width: 14px; height: 14px; border-radius: 50%; margin: 0 auto 8px;
+  transition: 0.3s;
+}
+.status-dot.green { background: #00c853; box-shadow: 0 0 8px rgba(0,200,83,0.4); }
+.status-dot.gray { background: #555; }
+.status-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; }
+.status-time { font-size: 0.75rem; color: var(--text-dim); }
+
+/* ====== Highlights ====== */
+.highlights-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px; }
+.highlight-card {
+  background: var(--bg); border-radius: 10px; padding: 16px; border: 1px solid var(--border);
+}
+.highlight-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.highlight-ticker { font-size: 1.4rem; font-weight: 700; }
+.highlight-price { font-size: 0.85rem; color: var(--text-dim); margin: 4px 0; }
+.highlight-pnl { font-size: 0.9rem; font-weight: 600; }
+
+/* ====== Overview ====== */
+.overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px; }
+.overview-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 12px; background: var(--bg); border-radius: 8px;
+  border: 1px solid var(--border); font-size: 0.9rem;
+}
+.overview-label { color: var(--text-dim); }
+.overview-value { font-weight: 600; }
