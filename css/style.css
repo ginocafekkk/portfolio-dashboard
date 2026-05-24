@@ -176,6 +176,10 @@ body {
 }
 
 /* ====== Responsive ====== */
+/* Stock rows clickable */
+.stock-table tbody tr { cursor: pointer; }
+.stock-table tbody tr:hover td { background: rgba(108,99,255,0.08) !important; }
+
 @media (max-width: 600px) {
   .summary-grid { grid-template-columns: 1fr 1fr; }
   .stock-table { font-size: 0.75rem; }

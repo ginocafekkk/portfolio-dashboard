@@ -379,5 +379,106 @@ function sortTable(market, field) {
   // A proper sort would need table rebuilding
 }
 
+// ====== Face ID / Password Change ======
+function showChangePwd() {
+  document.getElementById('pwdModal').style.display = 'flex';
+  document.getElementById('pwdError').textContent = '';
+}
+function closeChangePwd() {
+  document.getElementById('pwdModal').style.display = 'none';
+}
+function doChangePwd() {
+  const oldPw = document.getElementById('oldPwd').value;
+  const newPw = document.getElementById('newPwd').value;
+  const confPw = document.getElementById('confirmPwd').value;
+  const err = document.getElementById('pwdError');
+  
+  hashPassword(oldPw).then(oldHash => {
+    if (oldHash !== DEFAULT_HASH) { err.textContent = '❌ 当前密码错误'; return; }
+    if (newPw.length < 6) { err.textContent = '❌ 新密码至少6位'; return; }
+    if (newPw !== confPw) { err.textContent = '❌ 两次密码不一致'; return; }
+    
+    hashPassword(newPw).then(newHash => {
+      localStorage.setItem('portfolio_custom_hash', newHash);
+      err.style.color = 'var(--green)';
+      err.textContent = '✅ 密码已修改，下次登录生效';
+      setTimeout(() => { closeChangePwd(); window.location.reload(); }, 1500);
+    });
+  });
+}
+
+// Modified login to check localStorage hash first
+function doLogin() {
+  const pw = document.getElementById('loginPassword');
+  hashPassword(pw.value).then(hash => {
+    const customHash = localStorage.getItem('portfolio_custom_hash');
+    const validHash = customHash || DEFAULT_HASH;
+    if (hash === validHash) {
+      sessionStorage.setItem(STORAGE_KEY, '1');
+      document.getElementById('login-overlay').classList.add('hidden');
+      document.getElementById('app').classList.remove('hidden');
+      loadPortfolio();
+    } else {
+      document.getElementById('loginError').textContent = '❌ 密码错误';
+      pw.value = ''; pw.focus();
+    }
+  });
+}
+
+// ====== Stock Modal ======
+function openStockModal(ticker, name, market) {
+  const s = allStocks.find(st => st.ticker === ticker && st.market === market);
+  if (!s) return;
+  
+  document.getElementById('stockModalTitle').textContent = ticker + ' — ' + name;
+  
+  const pnlStr = s.pnl >= 0 ? '+' + formatCurrency(s.pnl, 'USD') : formatCurrency(s.pnl, 'USD');
+  const pnlCls = s.pnl >= 0 ? 'positive' : 'negative';
+  
+  const baseUrl = market === 'hk' ? 'https://hk.finance.yahoo.com/quote/' + ticker :
+                  market === 'us' ? 'https://finance.yahoo.com/quote/' + ticker :
+                  market === 'a' ? 'https://finance.eastmoney.com/a/' + ticker + '.html' :
+                  'https://finance.yahoo.com/quote/' + ticker;
+  
+  document.getElementById('stockModalBody').innerHTML = `
+    <div><strong>现价</strong>: <span style="font-size:1.3rem;">${formatCurrency(s.localCurrency === 'USD' ? s.lastPrice : s.lastPrice, s.localCurrency)}</span></div>
+    <div><strong>股数</strong>: ${s.shares.toLocaleString()}</div>
+    <div><strong>市值</strong>: ${formatCurrency(s.marketValueLocal, s.localCurrency)}</div>
+    <div><strong>盈亏</strong>: <span class="${pnlCls}">${pnlStr}</span></div>
+    <div><strong>占仓位</strong>: ${s.pctOfTotal.toFixed(1)}%</div>
+  `;
+  
+  document.getElementById('stockModalLinks').innerHTML = `
+    <div style="font-size:0.8rem;color:var(--text-dim);margin-bottom:8px;">📰 外部链接</div>
+    <a href="${market === 'a' ? 'https://finance.eastmoney.com/a/' + ticker + '.html' : baseUrl}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;margin-right:16px;font-size:0.85rem;">📈 Yahoo Finance</a>
+    <a href="https://www.google.com/finance/quote/${ticker}${market === 'hk' ? ':HKG' : market === 'us' ? ':NASDAQ' : ''}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;margin-right:16px;font-size:0.85rem;">🔍 Google Finance</a>
+    <a href="https://www.tradingview.com/symbols/${ticker}/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-size:0.85rem;">📊 TradingView</a>
+  `;
+  
+  document.getElementById('stockModal').style.display = 'flex';
+}
+function closeStockModal() {
+  document.getElementById('stockModal').style.display = 'none';
+}
+
+// Add click handler to stock rows after rendering
+document.addEventListener('click', function(e) {
+  const cell = e.target.closest('.stock-table tbody tr');
+  if (cell) {
+    const td = cell.querySelector('td');
+    if (td) {
+      const tickerSpan = td.querySelector('.ticker-cell');
+      if (tickerSpan) {
+        const ticker = tickerSpan.textContent.trim();
+        const name = cell.querySelector('td:nth-child(2)')?.textContent || '';
+        // Determine market from parent section
+        const section = cell.closest('.market-section');
+        const marketId = section?.id?.replace('market-', '') || 'us';
+        openStockModal(ticker, name, marketId);
+      }
+    }
+  }
+});
+
 // ====== Init ======
 document.addEventListener('DOMContentLoaded', checkAuth);

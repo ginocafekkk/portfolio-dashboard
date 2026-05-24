@@ -38,7 +38,7 @@
     .login-btn:hover { opacity: 0.85; }
     .login-error { color: var(--red); font-size: 0.85rem; margin-top: 12px; min-height: 20px; }
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="js/chart.min.js"></script>
 </head>
 <body>
   <!-- Login Overlay -->
@@ -47,10 +47,39 @@
       <div class="logo">🧸</div>
       <h1>Portfolio Dashboard</h1>
       <p>请输入密码查看持仓</p>
-      <input type="password" id="loginPassword" class="login-input" placeholder="密码" autocomplete="off"
+      <input type="password" id="loginPassword" class="login-input" placeholder="密码"
+             autocomplete="current-password" inputmode="text"
              onkeydown="if(event.key==='Enter')doLogin()">
       <button class="login-btn" onclick="doLogin()">进入 Dashboard</button>
+      <div style="margin-top:12px;font-size:0.8rem;">
+        <a href="#" onclick="showChangePwd();return false" style="color:var(--text-dim);text-decoration:none;">修改密码</a>
+      </div>
       <div class="login-error" id="loginError"></div>
+    </div>
+  </div>
+
+  <!-- Password Change Modal -->
+  <div id="pwdModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="max-width:360px;">
+      <h3 style="margin-bottom:16px;">🔑 修改密码</h3>
+      <input type="password" id="oldPwd" class="login-input" placeholder="当前密码" autocomplete="off">
+      <input type="password" id="newPwd" class="login-input" placeholder="新密码（至少6位）" autocomplete="new-password">
+      <input type="password" id="confirmPwd" class="login-input" placeholder="确认新密码" autocomplete="new-password">
+      <button class="login-btn" onclick="doChangePwd()" style="margin-bottom:8px;">确认修改</button>
+      <button class="login-btn" onclick="closeChangePwd()" style="background:var(--card);color:var(--text);">取消</button>
+      <div id="pwdError" style="color:var(--red);font-size:0.85rem;margin-top:10px;min-height:20px;"></div>
+    </div>
+  </div>
+
+  <!-- Stock Detail Modal -->
+  <div id="stockModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="text-align:left;max-width:400px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <h3 id="stockModalTitle" style="font-size:1.2rem;"></h3>
+        <button onclick="closeStockModal()" style="background:none;border:none;color:var(--text-dim);font-size:1.5rem;cursor:pointer;">✕</button>
+      </div>
+      <div id="stockModalBody" style="font-size:0.9rem;line-height:1.6;"></div>
+      <div style="margin-top:16px;border-top:1px solid var(--border);padding-top:12px;" id="stockModalLinks"></div>
     </div>
   </div>
 
