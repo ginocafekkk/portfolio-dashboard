@@ -222,6 +222,8 @@ body.light-theme {
 
 @media (max-width: 600px) {
   .summary-grid { grid-template-columns: 1fr 1fr; }
+  .summary-card { padding: 12px; }
+  .card-value { font-size: 1.2rem; }
   .stock-table { font-size: 0.75rem; }
   .stock-table th, .stock-table td { padding: 6px 8px; }
 }

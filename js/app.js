@@ -664,14 +664,10 @@ document.addEventListener('click', function(e) {
 
 // Set card IDs and init
 function setupCards() {
-  document.querySelectorAll('.summary-grid .summary-card').forEach((c, i) => {
-    const names = ['card-total', 'card-us', 'card-hk', 'card-a', 'card-cash'];
-    if (i < names.length) c.id = c.id || names[i];
-  });
+  // IDs are now hardcoded in HTML, just keep for backward compat
 }
 
 // ====== Init ======
 document.addEventListener('DOMContentLoaded', function() {
-  setupCards();
   checkAuth();
 });
