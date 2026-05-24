@@ -87,10 +87,8 @@ body.light-theme {
 }
 .summary-card:hover { background: var(--card-hover); transform: translateY(-2px); }
 .summary-card.highlight { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-.summary-card.total-card { border-color: var(--accent); }
-.summary-card:hover { background: var(--card-hover); transform: translateY(-2px); }
-.summary-card.total { border-color: var(--accent); }
-.summary-card.cash { border-color: #ffd700; }
+/* Default no special border for total card */
+/* Default no special border for total card */
 .card-label { font-size: 0.8rem; color: var(--text-dim); margin-bottom: 6px; }
 .card-value { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
 .card-change { font-size: 0.85rem; }

@@ -443,11 +443,16 @@ function sortTable(market, field) {
 
 // ====== Face ID / Password Change ======
 function showChangePwd() {
+  document.getElementById('login-overlay').style.display = 'none';
   document.getElementById('pwdModal').style.display = 'flex';
   document.getElementById('pwdError').textContent = '';
+  document.getElementById('oldPwd').value = '';
+  document.getElementById('newPwd').value = '';
+  document.getElementById('confirmPwd').value = '';
 }
 function closeChangePwd() {
   document.getElementById('pwdModal').style.display = 'none';
+  document.getElementById('login-overlay').style.display = 'flex';
 }
 function doChangePwd() {
   const oldPw = document.getElementById('oldPwd').value;

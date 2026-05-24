@@ -105,10 +105,9 @@
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;margin-right:6px;"> Dashboard</span>
+        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
       </div>
       <div class="header-right">
-        <span class="update-badge" id="updateBadge">📅</span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>
@@ -120,7 +119,7 @@
 
     <!-- Summary Cards -->
     <section class="summary-grid" id="summaryGrid">
-      <div class="summary-card total-card" id="card-total">
+      <div class="summary-card" id="card-total">
         <div class="card-label">总资产净值</div>
         <div class="card-value" id="totalValue">--</div>
         <div class="card-change" id="totalChange"></div>
