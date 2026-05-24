@@ -1,7 +1,7 @@
 // ====== Login ======
 // Default password hash (SHA256 of "labuster")
 const STORAGE_KEY = 'portfolio_auth';
-const DEFAULT_HASH = 'f5c0d0e3a68f8a0b3ab9e7a4e9f4c0d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9';
+const DEFAULT_HASH = '2c4793fa990df69f4b55737d365695c6d97b77d4567d5c7be669bb4e9a7bd3c4';
 
 function hashPassword(pw) {
   return crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
