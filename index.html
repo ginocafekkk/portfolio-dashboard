@@ -104,9 +104,10 @@
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
+        <span class="logo" id="logoBtn" style="cursor:pointer;"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
       </div>
       <div class="header-right">
+        <span id="weatherDisplay" style="font-size:0.85rem;color:var(--text-dim);cursor:default;" title="点击切换城市" onclick="changeCity()"></span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>
@@ -115,6 +116,20 @@
         <button class="btn-refresh" onclick="openSettings()" title="设置">⚙️</button>
       </div>
     </header>
+
+    <!-- User popover -->
+    <div id="userPopover" style="display:none;position:absolute;top:56px;left:16px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,0.3);min-width:200px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <img src="img/logo.jpg" style="width:36px;height:36px;border-radius:50%;">
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Ken</div>
+          <div style="font-size:0.75rem;color:var(--text-dim);">kenlxj@gmail.com</div>
+        </div>
+      </div>
+      <div style="font-size:0.75rem;color:var(--text-dim);border-top:1px solid var(--border);padding-top:8px;margin-top:4px;">
+        by Ken &amp; Labuster 🧸
+      </div>
+    </div>
 
     <!-- Summary Cards -->
     <section class="summary-grid" id="summaryGrid">

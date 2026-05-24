@@ -650,8 +650,95 @@ function setupCards() {
   // IDs are now hardcoded in HTML, just keep for backward compat
 }
 
+// ====== Logo Popover ======
+document.addEventListener('click', function(e) {
+  const popover = document.getElementById('userPopover');
+  if (e.target.closest('#logoBtn')) {
+    const vis = popover.style.display === 'block';
+    popover.style.display = vis ? 'none' : 'block';
+    // Position relative to header
+    const header = document.querySelector('.header');
+    if (header) {
+      const rect = header.querySelector('.header-left').getBoundingClientRect();
+      popover.style.position = 'fixed';
+      popover.style.top = (rect.bottom + 4) + 'px';
+      popover.style.left = rect.left + 'px';
+    }
+  } else if (!e.target.closest('#userPopover')) {
+    popover.style.display = 'none';
+  }
+});
+
+// ====== Weather ======
+const WEATHER_CITY_KEY = 'weather_city';
+const DEFAULT_CITY = { name: '上海', lat: 31.23, lon: 121.47 };
+
+function getWeatherCity() {
+  const saved = localStorage.getItem(WEATHER_CITY_KEY);
+  return saved ? JSON.parse(saved) : DEFAULT_CITY;
+}
+
+function saveWeatherCity(city) {
+  localStorage.setItem(WEATHER_CITY_KEY, JSON.stringify(city));
+}
+
+async function fetchWeather() {
+  const city = getWeatherCity();
+  const el = document.getElementById('weatherDisplay');
+  if (!el) return;
+  
+  el.textContent = '🌤 加载中...';
+  
+  try {
+    const resp = await fetch(
+      `https://api.open-meteo.com/v1/forecast?latitude=${city.lat}&longitude=${city.lon}&current=temperature_2m,weather_code&timezone=auto`
+    );
+    const data = await resp.json();
+    const current = data.current;
+    const temp = Math.round(current.temperature_2m);
+    const icon = weatherCodeToEmoji(current.weather_code);
+    el.textContent = `${icon} ${temp}°C`;
+    el.title = `${city.name} · 点击切换城市`;
+  } catch(e) {
+    el.textContent = '🌤 --°C';
+  }
+}
+
+function weatherCodeToEmoji(code) {
+  if (code === 0) return '☀️';       // Clear
+  if (code <= 2) return '⛅';        // Partly cloudy
+  if (code <= 3) return '☁️';        // Overcast
+  if (code <= 48) return '🌫️';      // Fog
+  if (code <= 57) return '🌧️';      // Drizzle
+  if (code <= 67) return '🌧️';      // Rain
+  if (code <= 77) return '🌨️';      // Snow
+  if (code <= 82) return '🌦️';      // Showers
+  if (code <= 86) return '⛈️';      // Thunderstorm
+  return '🌤️';                        // Default
+}
+
+function changeCity() {
+  const city = prompt('输入城市名（如：上海、北京、深圳）：', getWeatherCity().name);
+  if (!city) return;
+  
+  // Simple geocoding via Open-Meteo
+  fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=zh`)
+    .then(r => r.json())
+    .then(data => {
+      if (data.results && data.results.length > 0) {
+        const r = data.results[0];
+        saveWeatherCity({ name: r.name, lat: r.latitude, lon: r.longitude });
+        fetchWeather();
+      } else {
+        alert('未找到该城市');
+      }
+    })
+    .catch(() => alert('查询失败'));
+}
+
 // ====== Init ======
 document.addEventListener('DOMContentLoaded', function() {
   initCardListeners();
   checkAuth();
+  fetchWeather(); // Always fetch weather on page load
 });
