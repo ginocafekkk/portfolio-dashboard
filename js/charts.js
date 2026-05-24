@@ -3,20 +3,20 @@ let barChartInstance = null;
 
 function renderPieChart(totalUSD, data, cashUSD) {
   const ctx = document.getElementById('pieChart');
-  if (!ctx) return;
-  
+  if (!ctx || !portfolio || !totalUSD) return;
   if (pieChartInstance) pieChartInstance.destroy();
   
-  const usTotal = data.us.stocks.reduce((s, st) => s + (st.avgCost < 0 ? st.lastPrice * st.shares : st.lastPrice * st.shares), 0);
-  const hkTotal = data.hk.stocks.reduce((s, st) => s + (st.lastPrice * st.shares) / portfolio.fx.USD_HKD, 0);
-  const aTotal  = data.a.stocks.reduce((s, st) => s + st.lastPrice / portfolio.fx.USD_CNY, 0);
+  const fx = portfolio.fx;
+  const usTotal = data.us.stocks.reduce((s, st) => s + safeNum(st.lastPrice) * safeNum(st.shares), 0);
+  const hkTotal = data.hk.stocks.reduce((s, st) => s + (safeNum(st.lastPrice) * safeNum(st.shares)) / safeNum(fx.USD_HKD, 1), 0);
+  const aTotal  = data.a.stocks.reduce((s, st) => s + safeNum(st.lastPrice) / safeNum(fx.USD_CNY, 1), 0);
   
   pieChartInstance = new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: ['🇺🇸 美股', '🇭🇰 港股', '🇨🇳 A股 ETF', '💰 现金'],
       datasets: [{
-        data: [usTotal, hkTotal, aTotal, cashUSD],
+        data: [safeNum(usTotal), safeNum(hkTotal), safeNum(aTotal), safeNum(cashUSD)],
         backgroundColor: ['#6c63ff', '#ff6b6b', '#ffa502', '#ffd700'],
         borderColor: '#1a1a2e',
         borderWidth: 2
@@ -33,9 +33,9 @@ function renderPieChart(totalUSD, data, cashUSD) {
         tooltip: {
           callbacks: {
             label: ctx => {
-              const val = ctx.parsed;
-              const pct = (val / totalUSD * 100).toFixed(1);
-              return ctx.label + ': ' + formatUSD(val) + ' (' + pct + '%)';
+              const val = safeNum(ctx.parsed);
+              const pct = safeNum(totalUSD) > 0 ? (val / totalUSD * 100).toFixed(1) : '0.0';
+              return ctx.label + ': ' + formatCurrency(val, 'USD') + ' (' + pct + '%)';
             }
           }
         }
@@ -43,8 +43,7 @@ function renderPieChart(totalUSD, data, cashUSD) {
       onClick: (e, items) => {
         if (items.length > 0) {
           const idx = items[0].index;
-          const markets = ['us', 'hk', 'a', 'cash'];
-          scrollToMarket(markets[idx]);
+          scrollToMarket(['us', 'hk', 'a', 'cash'][idx]);
         }
       }
     }
@@ -53,13 +52,12 @@ function renderPieChart(totalUSD, data, cashUSD) {
 
 function renderBarChart(stocks) {
   const ctx = document.getElementById('barChart');
-  if (!ctx) return;
-  
+  if (!ctx || !stocks || !stocks.length) return;
   if (barChartInstance) barChartInstance.destroy();
   
   const labels = stocks.map(s => s.ticker);
-  const pnlData = stocks.map(s => s.pnl);
-  const colors = stocks.map(s => s.pnl >= 0 ? '#00c853' : '#ff5252');
+  const pnlData = stocks.map(s => safeNum(s.pnl));
+  const colors = pnlData.map(v => v >= 0 ? '#00c853' : '#ff5252');
   
   barChartInstance = new Chart(ctx, {
     type: 'bar',
@@ -80,14 +78,14 @@ function renderBarChart(stocks) {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: ctx => formatUSD(ctx.parsed.x)
+            label: ctx => formatCurrency(safeNum(ctx.parsed.x), 'USD')
           }
         }
       },
       scales: {
         x: {
           grid: { color: 'rgba(255,255,255,0.05)' },
-          ticks: { color: '#8888aa', callback: v => formatUSD(v) }
+          ticks: { color: '#8888aa', callback: v => formatCurrency(safeNum(v), 'USD') }
         },
         y: {
           grid: { display: false },
@@ -98,7 +96,7 @@ function renderBarChart(stocks) {
         if (items.length > 0) {
           const idx = items[0].dataIndex;
           const stock = stocks[idx];
-          scrollToMarket(stock.market);
+          if (stock) scrollToMarket(stock.market);
         }
       }
     }

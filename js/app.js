@@ -34,10 +34,12 @@ let allStocks = [];
 let displayCurrency = 'USD';
 const CURRENCY_SYMBOLS = { USD: '$', HKD: 'HK$', CNY: '¥' };
 
+function safeNum(v, fallback) { const n = Number(v); return isNaN(n) ? (fallback || 0) : n; }
 function formatCurrency(v, cur) {
+  const val = safeNum(v);
   const s = CURRENCY_SYMBOLS[cur] || '$';
-  if (v >= 0) return s + v.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
-  return '-' + s + Math.abs(v).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+  if (val >= 0) return s + val.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+  return '-' + s + Math.abs(val).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
 }
 function formatPct(v) {
   return (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
@@ -95,46 +97,53 @@ function renderAll() {
   allStocks = [];
   let si = 0;
   
+  // Helper: safe price calc
+  function calc(s, priceField, sharesField) {
+    const price = safeNum(s[priceField]);
+    const shares = safeNum(s[sharesField]);
+    const avgCost = safeNum(s.avgCost);
+    const mv = price * shares;
+    const cost = avgCost < 0 ? 0 : avgCost * shares;
+    const pnl = avgCost < 0 ? mv : mv - cost;
+    const pnlPct = cost > 0 ? (mv - cost) / cost * 100 : avgCost < 0 ? 999 : 0;
+    return { mv, cost, pnl, pnlPct };
+  }
+  
   // US — native USD
   data.us.stocks.forEach(s => {
-    const mv = s.lastPrice * s.shares;
-    const cost = s.avgCost < 0 ? 0 : s.avgCost * s.shares;
-    const pnl = s.avgCost < 0 ? mv : mv - cost;
-    const pnlPct = cost > 0 ? (mv - cost) / cost * 100 : 999;
-    allStocks.push({ ...s, localCurrency: 'USD', marketValueLocal: mv, marketValueUSD: mv, cost, pnl, pnlPct, market: 'us', color: getTickerColor(s.ticker, si++) });
-    totalUSD += mv;
+    const c = calc(s, 'lastPrice', 'shares');
+    allStocks.push({ ...s, localCurrency: 'USD', marketValueLocal: c.mv, marketValueUSD: c.mv, cost: c.cost, pnl: c.pnl, pnlPct: c.pnlPct, market: 'us', color: getTickerColor(s.ticker, si++) });
+    totalUSD += c.mv;
   });
   
   // HK — native HKD
   data.hk.stocks.forEach(s => {
-    const mvLocal = s.lastPrice * s.shares;
-    const mvUSD = mvLocal / fx.USD_HKD;
-    const costLocal = s.avgCost * s.shares;
-    const costUSD = costLocal / fx.USD_HKD;
+    const c = calc(s, 'lastPrice', 'shares');
+    const mvUSD = c.mv / safeNum(fx.USD_HKD, 1);
+    const costUSD = c.cost / safeNum(fx.USD_HKD, 1);
     const pnlUSD = mvUSD - costUSD;
-    const pnlPct = costUSD > 0 ? (mvUSD - costUSD) / costUSD * 100 : 0;
-    allStocks.push({ ...s, localCurrency: 'HKD', marketValueLocal: mvLocal, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'hk', color: getTickerColor(s.ticker, si++) });
+    const pnlPct = c.cost > 0 ? c.pnl / c.cost * 100 : 0;
+    allStocks.push({ ...s, localCurrency: 'HKD', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'hk', color: getTickerColor(s.ticker, si++) });
     totalUSD += mvUSD;
   });
   
   // A — native CNY
   data.a.stocks.forEach(s => {
-    const mvLocal = s.lastPrice;
-    const mvUSD = mvLocal / fx.USD_CNY;
-    const costLocal = s.avgCost;
-    const costUSD = costLocal / fx.USD_CNY;
+    const c = calc(s, 'lastPrice', 'shares');
+    const mvUSD = c.mv / safeNum(fx.USD_CNY, 1);
+    const costUSD = c.cost / safeNum(fx.USD_CNY, 1);
     const pnlUSD = mvUSD - costUSD;
-    const pnlPct = costUSD > 0 ? (mvUSD - costUSD) / costUSD * 100 : 0;
-    allStocks.push({ ...s, localCurrency: 'CNY', marketValueLocal: mvLocal, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'a', color: getTickerColor(s.ticker, si++) });
+    const pnlPct = c.cost > 0 ? c.pnl / c.cost * 100 : 0;
+    allStocks.push({ ...s, localCurrency: 'CNY', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'a', color: getTickerColor(s.ticker, si++) });
     totalUSD += mvUSD;
   });
   
   // Cash
   let cashUSD = 0;
   data.cash.items.forEach(c => {
-    if (c.currency === 'USD') cashUSD += c.amount;
-    else if (c.currency === 'HKD') cashUSD += c.amount / fx.USD_HKD;
-    else cashUSD += c.amount / fx.USD_CNY;
+    if (c.currency === 'USD') cashUSD += safeNum(c.amount);
+    else if (c.currency === 'HKD') cashUSD += safeNum(c.amount) / safeNum(fx.USD_HKD, 1);
+    else cashUSD += safeNum(c.amount) / safeNum(fx.USD_CNY, 1);
   });
   totalUSD += cashUSD;
   
