@@ -23,7 +23,6 @@ function doLogin() {
       sessionStorage.setItem(STORAGE_KEY, '1');
       document.getElementById('login-overlay').classList.add('hidden');
       document.getElementById('app').classList.remove('hidden');
-      document.getElementById('totalValue').textContent = '⏳ 加载数据...';
       loadPortfolio();
     } else {
       err.textContent = '❌ 密码错误';
@@ -39,23 +38,11 @@ function doLogin() {
 }
 
 function checkAuth() {
-  if (sessionStorage.getItem(STORAGE_KEY)) {
-    document.getElementById('login-overlay').classList.add('hidden');
-    document.getElementById('app').classList.remove('hidden');
-    document.getElementById('totalValue').textContent = '⏳ 加载数据...';
-    loadPortfolio();
-  }
-}
-function checkAuth() {
   const authed = sessionStorage.getItem(STORAGE_KEY);
-  console.log('checkAuth: authed =', authed);
   if (authed) {
     document.getElementById('login-overlay').classList.add('hidden');
     document.getElementById('app').classList.remove('hidden');
-    document.getElementById('totalValue').textContent = '⏳ 加载数据...';
     loadPortfolio();
-  } else {
-    document.getElementById('totalValue').textContent = '🔐 请登录';
   }
 }
 
@@ -220,7 +207,8 @@ function renderAll() {
   
   // Show just the day number from lastUpdated (e.g., "2026-05-22" → "📅 22")
   const day = portfolio.lastUpdated ? portfolio.lastUpdated.split('-').pop() : '';
-  document.getElementById('updateBadge').textContent = '📅 ' + day;
+  const badge = document.getElementById('updateBadge');
+  if (badge) badge.textContent = '📅 ' + day;
   
   // Percentages
   allStocks.forEach(s => s.pctOfTotal = s.marketValueUSD / totalUSD * 100);
@@ -476,13 +464,6 @@ function openSettings() {
 
 function closeSettings() {
   document.getElementById('settingsModal').style.display = 'none';
-}
-
-function toggleBio() {
-  const has = localStorage.getItem(BIO_KEY);
-  if (has) { localStorage.removeItem(BIO_KEY); }
-  else { localStorage.setItem(BIO_KEY, '1'); }
-  openSettings();
 }
 
 function toggleTheme() {
