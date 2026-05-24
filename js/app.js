@@ -474,29 +474,48 @@ function openSettings() {
   const lang = localStorage.getItem('lang') || 'zh';
   
   document.getElementById('settingsBody').innerHTML = `
-    <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">
-      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🔐 面容/指纹登录</div>
-      <div style="display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-size:0.85rem;color:var(--text-dim);">${bio ? '✅ 已启用' : '未启用 — 点击启用后下次访问自动弹出'}</span>
-        <button class="login-btn" onclick="toggleBiometric()" style="width:auto;padding:8px 16px;font-size:0.8rem;">
-          ${bio ? '关闭面容ID' : '启用面容ID'}
-        </button>
+    <!-- Biometric -->
+    <div class="toggle-wrap">
+      <div>
+        <div class="toggle-label">🔐 面容/指纹登录</div>
+        <div class="toggle-desc">${bio ? '下次打开页面将自动弹出验证' : '启用后下次访问自动弹出'}</div>
       </div>
+      <div class="toggle-switch ${bio ? 'on' : ''}" onclick="toggleBio()" id="bioToggle"></div>
     </div>
-    <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">
-      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🎨 主题</div>
-      <div style="display:flex;gap:8px;">
-        <button class="login-btn" onclick="setTheme('dark')" style="width:auto;padding:8px 16px;font-size:0.8rem;${dark !== 'light' ? '' : 'opacity:0.5;'}">🌙 深色</button>
-        <button class="login-btn" onclick="setTheme('light')" style="width:auto;padding:8px 16px;font-size:0.8rem;background:var(--bg);color:var(--text);${dark === 'light' ? '' : 'opacity:0.5;'}">☀️ 浅色</button>
+    <!-- Theme -->
+    <div class="toggle-wrap">
+      <div>
+        <div class="toggle-label">🎨 深色主题</div>
+        <div class="toggle-desc">${dark === 'light' ? '当前：浅色模式' : '当前：深色模式'}</div>
       </div>
+      <div class="toggle-switch ${dark !== 'light' ? 'on' : ''}" onclick="toggleTheme()" id="themeToggle"></div>
     </div>
-    <div style="margin-bottom:12px;">
-      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🌐 语言</div>
-      <div style="display:flex;gap:8px;">
-        <button class="login-btn" onclick="setLang('zh')" style="width:auto;padding:8px 16px;font-size:0.8rem;${lang === 'zh' ? '' : 'opacity:0.5;'}">中文</button>
-        <button class="login-btn" onclick="setLang('en')" style="width:auto;padding:8px 16px;font-size:0.8rem;background:var(--bg);color:var(--text);${lang === 'en' ? '' : 'opacity:0.5;'}">English</button>
+    <!-- Edit Holdings -->
+    <div class="toggle-wrap" style="cursor:pointer;" onclick="closeSettings();openEditHoldings();">
+      <div>
+        <div class="toggle-label">✏️ 编辑持仓</div>
+        <div class="toggle-desc">修改股数、成本价</div>
       </div>
-      <div style="font-size:0.75rem;color:var(--text-dim);margin-top:8px;">切换语言需刷新页面生效</div>
+      <span style="color:var(--accent);font-size:1.2rem;">›</span>
+    </div>
+    <!-- Password -->
+    <div class="toggle-wrap" style="cursor:pointer;" onclick="closeSettings();showChangePwd();">
+      <div>
+        <div class="toggle-label">🔑 修改密码</div>
+        <div class="toggle-desc">更改登录密码</div>
+      </div>
+      <span style="color:var(--accent);font-size:1.2rem;">›</span>
+    </div>
+    <!-- Lang -->
+    <div class="toggle-wrap">
+      <div>
+        <div class="toggle-label">🌐 语言</div>
+        <div class="toggle-desc">${lang === 'zh' ? '当前：中文' : '当前：English'}</div>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <button class="lang-btn ${lang==='zh'?'active':''}" onclick="setLang('zh')" style="padding:4px 12px;font-size:0.8rem;">中文</button>
+        <button class="lang-btn ${lang==='en'?'active':''}" onclick="setLang('en')" style="padding:4px 12px;font-size:0.8rem;">EN</button>
+      </div>
     </div>
   `;
   document.getElementById('settingsModal').style.display = 'flex';
@@ -506,37 +525,116 @@ function closeSettings() {
   document.getElementById('settingsModal').style.display = 'none';
 }
 
-function toggleBiometric() {
-  const bio = localStorage.getItem(BIO_KEY);
-  if (bio) {
-    localStorage.removeItem(BIO_KEY);
-    alert('面容ID已关闭');
-  } else {
-    alert('请先使用密码登录一次，浏览器会提示保存密码。\n保存后下次访问将自动弹出面容/指纹验证。\n\n你也可以在Safari中手动添加密码：\n设置 → 密码 → 添加密码 → 填入 https://portfolio-dashboard-4oa.pages.dev 和密码');
-    localStorage.setItem(BIO_KEY, '1');
-  }
-  openSettings(); // refresh
+function toggleBio() {
+  const has = localStorage.getItem(BIO_KEY);
+  if (has) { localStorage.removeItem(BIO_KEY); }
+  else { localStorage.setItem(BIO_KEY, '1'); }
+  openSettings();
 }
 
-function setTheme(mode) {
-  localStorage.setItem('theme_dark', mode);
-  if (mode === 'light') document.body.classList.add('light-theme');
-  else document.body.classList.remove('light-theme');
-  closeSettings();
+function toggleTheme() {
+  const cur = localStorage.getItem('theme_dark');
+  if (cur === 'light') { localStorage.setItem('theme_dark', 'dark'); document.body.classList.remove('light-theme'); }
+  else { localStorage.setItem('theme_dark', 'light'); document.body.classList.add('light-theme'); }
+  openSettings();
 }
 
-function setLang(lang) {
-  localStorage.setItem('lang', lang);
+function setLang(l) {
+  localStorage.setItem('lang', l);
   closeSettings();
-  // Simple page reload to apply
   location.reload();
 }
 
-// Apply theme on load
 (function applyTheme() {
-  if (localStorage.getItem('theme_dark') === 'light') {
-    document.body.classList.add('light-theme');
-  }
+  if (localStorage.getItem('theme_dark') === 'light') document.body.classList.add('light-theme');
+})();
+
+// ====== Edit Holdings ======
+function openEditHoldings() {
+  // Build edit form from all stocks
+  let html = '<div style="max-height:60vh;overflow-y:auto;">';
+  portfolio.markets.us.stocks.forEach(s => {
+    html += buildEditRow(s, 'us');
+  });
+  portfolio.markets.hk.stocks.forEach(s => {
+    html += buildEditRow(s, 'hk');
+  });
+  portfolio.markets.a.stocks.forEach(s => {
+    html += buildEditRow(s, 'a');
+  });
+  html += '</div>';
+  html += `<button class="login-btn" onclick="saveEditHoldings()" style="margin-top:12px;">💾 保存修改</button>
+           <button class="login-btn" onclick="closeSettings();openSettings();" style="margin-top:8px;background:var(--card);color:var(--text);font-size:0.85rem;">取消</button>
+           <div id="editStatus" style="font-size:0.85rem;margin-top:8px;text-align:center;"></div>`;
+  
+  document.getElementById('settingsModal').style.display = 'flex';
+  document.querySelector('#settingsModal .login-box').innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+      <h3 style="font-size:1.2rem;">✏️ 编辑持仓</h3>
+      <button onclick="closeSettings();openSettings();" style="background:none;border:none;color:var(--text-dim);font-size:1.5rem;cursor:pointer;">✕</button>
+    </div>
+    ${html}
+  `;
+}
+
+function buildEditRow(s, market) {
+  const prefix = market === 'us' ? '$' : (market === 'hk' ? 'HK$' : '¥');
+  return `<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.85rem;">
+    <span style="width:65px;font-weight:600;">${s.ticker}</span>
+    <span style="width:80px;color:var(--text-dim);font-size:0.75rem;overflow:hidden;">${s.name.substring(0,8)}</span>
+    <input id="edit_shares_${s.ticker}" value="${s.shares}" style="width:55px;padding:4px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);text-align:right;font-size:0.8rem;" placeholder="股数">
+    <span style="font-size:0.75rem;color:var(--text-dim);">×</span>
+    <input id="edit_cost_${s.ticker}" value="${s.avgCost}" style="width:70px;padding:4px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);text-align:right;font-size:0.8rem;" placeholder="成本">
+    <span style="font-size:0.7rem;color:var(--text-dim);">${prefix}</span>
+  </div>`;
+}
+
+function saveEditHoldings() {
+  const edits = {};
+  document.querySelectorAll('[id^="edit_shares_"]').forEach(el => {
+    const ticker = el.id.replace('edit_shares_', '');
+    const shares = parseInt(el.value);
+    const cost = parseFloat(document.getElementById('edit_cost_' + ticker)?.value);
+    if (!isNaN(shares) && !isNaN(cost)) edits[ticker] = { shares, cost };
+  });
+  
+  // Apply edits to portfolio
+  ['us', 'hk', 'a'].forEach(market => {
+    portfolio.markets[market].stocks.forEach(s => {
+      if (edits[s.ticker]) {
+        s.shares = edits[s.ticker].shares;
+        s.avgCost = edits[s.ticker].cost;
+      }
+    });
+  });
+  
+  // Save to localStorage for persistence
+  localStorage.setItem('portfolio_edits', JSON.stringify(edits));
+  
+  document.getElementById('editStatus').textContent = '✅ 已保存！刷新页面查看';
+  document.getElementById('editStatus').style.color = 'var(--green)';
+  renderAll();
+}
+
+// Apply saved edits on load
+(function applyEdits() {
+  try {
+    const edits = JSON.parse(localStorage.getItem('portfolio_edits'));
+    if (edits && portfolio) {
+      ['us', 'hk', 'a'].forEach(market => {
+        if (portfolio.markets[market]) {
+          portfolio.markets[market].stocks.forEach(s => {
+            if (edits[s.ticker]) {
+              s.shares = edits[s.ticker].shares;
+              s.avgCost = edits[s.ticker].cost;
+            }
+          });
+        }
+      });
+    }
+  } catch(e) {}
+  // Re-render if already loaded
+  if (portfolio) renderAll();
 })();
 
 // ====== Stock Modal ======
