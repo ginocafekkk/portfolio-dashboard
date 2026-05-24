@@ -105,45 +105,42 @@
     <!-- Header -->
     <header class="header">
       <div class="header-left">
-        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;margin-right:6px;"> Portfolio Dashboard</span>
-        <span class="header-subtitle">Portfolio Dashboard</span>
+        <span class="logo"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;margin-right:6px;"> Dashboard</span>
       </div>
       <div class="header-right">
-        <span class="update-badge" id="updateBadge">📅 加载中...</span>
-        <span class="version-badge">v1.5</span>
+        <span class="update-badge" id="updateBadge">📅</span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>
           <option value="CNY">¥ CNY</option>
         </select>
-        <button class="btn-refresh" onclick="loadPortfolio()" title="刷新数据">🔄</button>
         <button class="btn-refresh" onclick="openSettings()" title="设置">⚙️</button>
       </div>
     </header>
 
     <!-- Summary Cards -->
     <section class="summary-grid" id="summaryGrid">
-      <div class="summary-card total">
+      <div class="summary-card total-card" id="card-total">
         <div class="card-label">总资产净值</div>
         <div class="card-value" id="totalValue">--</div>
         <div class="card-change" id="totalChange"></div>
       </div>
-      <div class="summary-card" onclick="scrollToMarket('us')">
+      <div class="summary-card" >
         <div class="card-label">🇺🇸 美股</div>
         <div class="card-value" id="usValue">--</div>
         <div class="card-sub">占总资产 <span id="usPct">--</span></div>
       </div>
-      <div class="summary-card" onclick="scrollToMarket('hk')">
+      <div class="summary-card" >
         <div class="card-label">🇭🇰 港股</div>
         <div class="card-value" id="hkValue">--</div>
         <div class="card-sub">占总资产 <span id="hkPct">--</span></div>
       </div>
-      <div class="summary-card" onclick="scrollToMarket('a')">
+      <div class="summary-card" >
         <div class="card-label">🇨🇳 A股 ETF</div>
         <div class="card-value" id="aValue">--</div>
         <div class="card-sub">占总资产 <span id="aPct">--</span></div>
       </div>
-      <div class="summary-card cash" onclick="scrollToMarket('cash')">
+      <div class="summary-card" id="card-cash">
         <div class="card-label">💰 现金</div>
         <div class="card-value" id="cashValue">--</div>
         <div class="card-sub">占总资产 <span id="cashPct">--</span></div>
@@ -274,8 +271,8 @@
     </section>
   </div>
 
-  <footer style="text-align:center;padding:24px 16px;font-size:0.75rem;color:var(--text-dim);border-top:1px solid var(--border);margin-top:20px;">
-    by Ken & Labuster 🧸 · 数据来源 Yahoo Finance & 天天基金 · 非投资建议
+  <footer style="text-align:center;padding:20px 16px;font-size:0.75rem;color:var(--text-dim);border-top:1px solid var(--border);margin-top:20px;">
+    by Ken &amp; Labuster 🧸 · <span class="version-badge" style="background:transparent;color:var(--text-dim);padding:0;font-size:inherit;">v1.5</span> · 数据来源 Yahoo Finance &amp; 天天基金 · 非投资建议
   </footer>
 
   <script src="js/data.js"></script>

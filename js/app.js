@@ -252,7 +252,9 @@ function renderAll() {
   document.getElementById('cashValue').textContent = formatCurrency(cashUSD, 'USD');
   document.getElementById('cashPct').textContent = (cashUSD / totalUSD * 100).toFixed(1) + '%';
   
-  document.getElementById('updateBadge').textContent = '📅 ' + portfolio.lastUpdated;
+  // Show just the day number from lastUpdated (e.g., "2026-05-22" → "📅 22")
+  const day = portfolio.lastUpdated ? portfolio.lastUpdated.split('-').pop() : '';
+  document.getElementById('updateBadge').textContent = '📅 ' + day;
   
   // Percentages
   allStocks.forEach(s => s.pctOfTotal = s.marketValueUSD / totalUSD * 100);
@@ -673,7 +675,24 @@ function closeStockModal() {
   document.getElementById('stockModal').style.display = 'none';
 }
 
-// Add click handler to stock rows after rendering
+// ====== Summary Card Click / DblClick ======
+document.querySelector('.summary-grid').addEventListener('click', function(e) {
+  const card = e.target.closest('.summary-card');
+  if (!card) return;
+  document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('highlight'));
+  card.classList.add('highlight');
+});
+
+document.querySelector('.summary-grid').addEventListener('dblclick', function(e) {
+  const card = e.target.closest('.summary-card');
+  if (!card) return;
+  const id = card.id || '';
+  const marketMap = { 'card-total': 'total', 'card-us': 'us', 'card-hk': 'hk', 'card-a': 'a', 'card-cash': 'cash' };
+  const market = marketMap[id];
+  if (market) scrollToMarket(market);
+});
+
+// ====== Stock Row Click ======
 document.addEventListener('click', function(e) {
   const cell = e.target.closest('.stock-table tbody tr');
   if (cell) {
@@ -692,5 +711,16 @@ document.addEventListener('click', function(e) {
   }
 });
 
+// Set card IDs and init
+function setupCards() {
+  document.querySelectorAll('.summary-grid .summary-card').forEach((c, i) => {
+    const names = ['card-total', 'card-us', 'card-hk', 'card-a', 'card-cash'];
+    if (i < names.length) c.id = c.id || names[i];
+  });
+}
+
 // ====== Init ======
-document.addEventListener('DOMContentLoaded', checkAuth);
+document.addEventListener('DOMContentLoaded', function() {
+  setupCards();
+  checkAuth();
+});
