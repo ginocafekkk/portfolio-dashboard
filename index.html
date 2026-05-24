@@ -6,10 +6,55 @@
   <title>Labuster Portfolio Dashboard</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧸</text></svg>">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Login CSS -->
+  <style>
+    #login-overlay {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 9999;
+    }
+    #login-overlay.hidden { display: none; }
+    .login-box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 40px; width: 380px; max-width: 90%;
+      text-align: center;
+    }
+    .login-box .logo { font-size: 3rem; margin-bottom: 12px; }
+    .login-box h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    .login-box p { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 24px; }
+    .login-input {
+      width: 100%; padding: 12px 16px; border-radius: 10px;
+      border: 1px solid var(--border); background: var(--bg);
+      color: var(--text); font-size: 1rem; margin-bottom: 16px;
+      outline: none; transition: 0.2s;
+    }
+    .login-input:focus { border-color: var(--accent); }
+    .login-btn {
+      width: 100%; padding: 12px; border: none; border-radius: 10px;
+      background: var(--accent); color: #fff; font-size: 1rem;
+      font-weight: 600; cursor: pointer; transition: 0.2s;
+    }
+    .login-btn:hover { opacity: 0.85; }
+    .login-error { color: var(--red); font-size: 0.85rem; margin-top: 12px; min-height: 20px; }
+  </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
-  <div id="app">
+  <!-- Login Overlay -->
+  <div id="login-overlay">
+    <div class="login-box">
+      <div class="logo">🧸</div>
+      <h1>Portfolio Dashboard</h1>
+      <p>请输入密码查看持仓</p>
+      <input type="password" id="loginPassword" class="login-input" placeholder="密码" autocomplete="off"
+             onkeydown="if(event.key==='Enter')doLogin()">
+      <button class="login-btn" onclick="doLogin()">进入 Dashboard</button>
+      <div class="login-error" id="loginError"></div>
+    </div>
+  </div>
+
+  <div id="app" class="hidden">
     <!-- Header -->
     <header class="header">
       <div class="header-left">
@@ -98,8 +143,8 @@
                 <th onclick="sortTable('hk','ticker')">代码 ↕</th>
                 <th>名称</th>
                 <th onclick="sortTable('hk','shares')">股数 ↕</th>
-                <th onclick="sortTable('hk','avgCost')">成本价 ↕</th>
-                <th onclick="sortTable('hk','lastPrice')">现价 ↕</th>
+                <th onclick="sortTable('hk','avgCost')">成本价(USD) ↕</th>
+                <th onclick="sortTable('hk','lastPrice')">现价(HKD) ↕</th>
                 <th onclick="sortTable('hk','marketValue')">市值(USD) ↕</th>
                 <th onclick="sortTable('hk','pnl')">盈亏(USD) ↕</th>
                 <th onclick="sortTable('hk','pnlPct')">盈亏% ↕</th>
@@ -121,7 +166,7 @@
               <tr>
                 <th>代码</th>
                 <th>名称</th>
-                <th>投入金额</th>
+                <th>投入(CNY)</th>
                 <th>当前市值</th>
                 <th>盈亏(USD)</th>
                 <th>盈亏%</th>

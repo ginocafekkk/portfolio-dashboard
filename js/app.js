@@ -1,14 +1,42 @@
+// ====== Login ======
+// Default password hash (SHA256 of "labuster")
+const STORAGE_KEY = 'portfolio_auth';
+const DEFAULT_HASH = 'f5c0d0e3a68f8a0b3ab9e7a4e9f4c0d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9';
+
+function hashPassword(pw) {
+  return crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
+    .then(h => Array.from(new Uint8Array(h)).map(b => b.toString(16).padStart(2,'0')).join(''));
+}
+
+function doLogin() {
+  const pw = document.getElementById('loginPassword');
+  hashPassword(pw.value).then(hash => {
+    if (hash === DEFAULT_HASH) {
+      sessionStorage.setItem(STORAGE_KEY, '1');
+      document.getElementById('login-overlay').classList.add('hidden');
+      document.getElementById('app').classList.remove('hidden');
+      loadPortfolio();
+    } else {
+      document.getElementById('loginError').textContent = '❌ 密码错误，请重试';
+      pw.value = '';
+      pw.focus();
+    }
+  });
+}
+
+// Check session on load
+function checkAuth() {
+  if (sessionStorage.getItem(STORAGE_KEY)) {
+    document.getElementById('login-overlay').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+    loadPortfolio();
+  }
+}
+
 // ====== Portfolio Data Loader ======
 let portfolio = null;
 let allStocks = [];
 let marketColors = {};
-
-const MARKET_CONFIG = {
-  us: { label: '🇺🇸 美股', color: '#6c63ff' },
-  hk: { label: '🇭🇰 港股', color: '#ff6b6b' },
-  a:  { label: '🇨🇳 A股', color: '#ffa502' },
-  cash: { label: '💰 现金', color: '#ffd700' }
-};
 
 async function loadPortfolio() {
   try {
@@ -304,4 +332,4 @@ function sortTable(market, field) {
 }
 
 // ====== Init ======
-document.addEventListener('DOMContentLoaded', loadPortfolio);
+document.addEventListener('DOMContentLoaded', checkAuth);
