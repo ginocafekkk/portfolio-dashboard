@@ -77,6 +77,17 @@
     </div>
   </div>
 
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="text-align:left;max-width:400px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+        <h3 style="font-size:1.2rem;">⚙️ 设置</h3>
+        <button onclick="closeSettings()" style="background:none;border:none;color:var(--text-dim);font-size:1.5rem;cursor:pointer;">✕</button>
+      </div>
+      <div id="settingsBody"></div>
+    </div>
+  </div>
   <!-- Stock Detail Modal -->
   <div id="stockModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
     <div class="login-box" style="text-align:left;max-width:400px;">
@@ -98,13 +109,14 @@
       </div>
       <div class="header-right">
         <span class="update-badge" id="updateBadge">📅 加载中...</span>
-        <span class="version-badge">v1.3</span>
+        <span class="version-badge">v1.4</span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>
           <option value="CNY">¥ CNY</option>
         </select>
         <button class="btn-refresh" onclick="loadPortfolio()" title="刷新数据">🔄</button>
+        <button class="btn-refresh" onclick="openSettings()" title="设置">⚙️</button>
       </div>
     </header>
 

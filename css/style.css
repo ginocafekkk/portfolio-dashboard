@@ -23,6 +23,16 @@ body {
   min-height: 100vh;
   padding-bottom: 40px;
 }
+/* Light theme */
+body.light-theme {
+  --bg: #f5f5fa;
+  --card: #ffffff;
+  --card-hover: #f0f0f5;
+  --text: #1a1a2e;
+  --text-dim: #8888aa;
+  --accent: #6c63ff;
+  --border: #e0e0ea;
+}
 #app { max-width: 1200px; margin: 0 auto; padding: 16px; }
 
 /* ====== Header ====== */

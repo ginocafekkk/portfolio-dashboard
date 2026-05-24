@@ -467,6 +467,78 @@ function doChangePwd() {
   });
 }
 
+// ====== Settings ======
+function openSettings() {
+  const bio = localStorage.getItem(BIO_KEY);
+  const dark = localStorage.getItem('theme_dark');
+  const lang = localStorage.getItem('lang') || 'zh';
+  
+  document.getElementById('settingsBody').innerHTML = `
+    <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">
+      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🔐 面容/指纹登录</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <span style="font-size:0.85rem;color:var(--text-dim);">${bio ? '✅ 已启用' : '未启用 — 点击启用后下次访问自动弹出'}</span>
+        <button class="login-btn" onclick="toggleBiometric()" style="width:auto;padding:8px 16px;font-size:0.8rem;">
+          ${bio ? '关闭面容ID' : '启用面容ID'}
+        </button>
+      </div>
+    </div>
+    <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border);">
+      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🎨 主题</div>
+      <div style="display:flex;gap:8px;">
+        <button class="login-btn" onclick="setTheme('dark')" style="width:auto;padding:8px 16px;font-size:0.8rem;${dark !== 'light' ? '' : 'opacity:0.5;'}">🌙 深色</button>
+        <button class="login-btn" onclick="setTheme('light')" style="width:auto;padding:8px 16px;font-size:0.8rem;background:var(--bg);color:var(--text);${dark === 'light' ? '' : 'opacity:0.5;'}">☀️ 浅色</button>
+      </div>
+    </div>
+    <div style="margin-bottom:12px;">
+      <div style="font-size:0.9rem;font-weight:600;margin-bottom:12px;">🌐 语言</div>
+      <div style="display:flex;gap:8px;">
+        <button class="login-btn" onclick="setLang('zh')" style="width:auto;padding:8px 16px;font-size:0.8rem;${lang === 'zh' ? '' : 'opacity:0.5;'}">中文</button>
+        <button class="login-btn" onclick="setLang('en')" style="width:auto;padding:8px 16px;font-size:0.8rem;background:var(--bg);color:var(--text);${lang === 'en' ? '' : 'opacity:0.5;'}">English</button>
+      </div>
+      <div style="font-size:0.75rem;color:var(--text-dim);margin-top:8px;">切换语言需刷新页面生效</div>
+    </div>
+  `;
+  document.getElementById('settingsModal').style.display = 'flex';
+}
+
+function closeSettings() {
+  document.getElementById('settingsModal').style.display = 'none';
+}
+
+function toggleBiometric() {
+  const bio = localStorage.getItem(BIO_KEY);
+  if (bio) {
+    localStorage.removeItem(BIO_KEY);
+    alert('面容ID已关闭');
+  } else {
+    alert('请先使用密码登录一次，浏览器会提示保存密码。\n保存后下次访问将自动弹出面容/指纹验证。\n\n你也可以在Safari中手动添加密码：\n设置 → 密码 → 添加密码 → 填入 https://portfolio-dashboard-4oa.pages.dev 和密码');
+    localStorage.setItem(BIO_KEY, '1');
+  }
+  openSettings(); // refresh
+}
+
+function setTheme(mode) {
+  localStorage.setItem('theme_dark', mode);
+  if (mode === 'light') document.body.classList.add('light-theme');
+  else document.body.classList.remove('light-theme');
+  closeSettings();
+}
+
+function setLang(lang) {
+  localStorage.setItem('lang', lang);
+  closeSettings();
+  // Simple page reload to apply
+  location.reload();
+}
+
+// Apply theme on load
+(function applyTheme() {
+  if (localStorage.getItem('theme_dark') === 'light') {
+    document.body.classList.add('light-theme');
+  }
+})();
+
 // ====== Stock Modal ======
 function openStockModal(ticker, name, market) {
   const s = allStocks.find(st => st.ticker === ticker && st.market === market);
