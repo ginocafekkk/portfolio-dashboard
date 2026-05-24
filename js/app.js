@@ -608,21 +608,23 @@ function closeStockModal() {
 }
 
 // ====== Summary Card Click / DblClick ======
-document.querySelector('.summary-grid').addEventListener('click', function(e) {
-  const card = e.target.closest('.summary-card');
-  if (!card) return;
-  document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('highlight'));
-  card.classList.add('highlight');
-});
-
-document.querySelector('.summary-grid').addEventListener('dblclick', function(e) {
-  const card = e.target.closest('.summary-card');
-  if (!card) return;
-  const id = card.id || '';
-  const marketMap = { 'card-total': 'total', 'card-us': 'us', 'card-hk': 'hk', 'card-a': 'a', 'card-cash': 'cash' };
-  const market = marketMap[id];
-  if (market) scrollToMarket(market);
-});
+function initCardListeners() {
+  const grid = document.querySelector('.summary-grid');
+  if (!grid) return;
+  grid.addEventListener('click', function(e) {
+    const card = e.target.closest('.summary-card');
+    if (!card) return;
+    document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('highlight'));
+    card.classList.add('highlight');
+  });
+  grid.addEventListener('dblclick', function(e) {
+    const card = e.target.closest('.summary-card');
+    if (!card) return;
+    const marketMap = { 'card-total': 'total', 'card-us': 'us', 'card-hk': 'hk', 'card-a': 'a', 'card-cash': 'cash' };
+    const m = marketMap[card.id];
+    if (m) scrollToMarket(m);
+  });
+}
 
 // ====== Stock Row Click ======
 document.addEventListener('click', function(e) {
@@ -650,5 +652,6 @@ function setupCards() {
 
 // ====== Init ======
 document.addEventListener('DOMContentLoaded', function() {
+  initCardListeners();
   checkAuth();
 });
