@@ -233,6 +233,7 @@ body.light-theme {
 }
 .m-indicator.green { background: #00c853; box-shadow: 0 0 6px rgba(0,200,83,0.5); }
 .m-indicator.gray { background: #555; }
+.m-label { font-size: 0.65rem; color: var(--text-dim); white-space: nowrap; }
 
 @media (max-width: 600px) {
   .market-dots { gap: 4px; }

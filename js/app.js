@@ -67,18 +67,19 @@ function formatPct(v) {
 }
 function getPnlColor(pnlPct) {
   // Green-red gradient based on P&L%
-  if (pnlPct === 999 || pnlPct >= 100) return '#1b5e20';   // deep green
-  if (pnlPct >= 50)  return '#2e7d32';   // green
-  if (pnlPct >= 20)  return '#388e3c';   // medium green
-  if (pnlPct >= 10)  return '#4caf50';   // light green
-  if (pnlPct >= 5)   return '#66bb6a';   // pale green
-  if (pnlPct >= 2)   return '#a5d6a7';   // very pale green
-  if (pnlPct > -2)   return '#9e9e9e';   // neutral gray
-  if (pnlPct > -5)   return '#ef9a9a';   // very pale red
-  if (pnlPct > -10)  return '#e57373';   // pale red
-  if (pnlPct > -20)  return '#ef5350';   // light red
-  if (pnlPct > -50)  return '#d32f2f';   // red
-  return '#b71c1c';                       // deep red
+  if (pnlPct === 999 || pnlPct >= 80) return '#003d00';  // darkest green
+  if (pnlPct >= 40)  return '#1b5e20';   // very dark green
+  if (pnlPct >= 20)  return '#2e7d32';   // dark green
+  if (pnlPct >= 10)  return '#388e3c';   // medium green
+  if (pnlPct >= 5)   return '#4caf50';   // green
+  if (pnlPct >= 2)   return '#66bb6a';   // light green
+  if (pnlPct > -2)   return '#bdbdbd';   // light gray
+  if (pnlPct > -5)   return '#ef9a9a';   // very light red
+  if (pnlPct > -10)  return '#e57373';   // light red
+  if (pnlPct > -20)  return '#ef5350';   // medium red
+  if (pnlPct > -40)  return '#d32f2f';   // dark red
+  if (pnlPct > -60)  return '#b71c1c';   // very dark red
+  return '#7f0000';                       // darkest red
 }
 
 // Currency conversion helpers
@@ -441,34 +442,18 @@ function renderMarketStatus() {
   const aOpen = aDow >= 1 && aDow <= 5 && 
     ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || (aH >= 13 && aH < 15));
   
-  setDot('md-us', usOpen);
-  setDot('md-hk', hkOpen);
-  setDot('md-a', aOpen);
-  // Also store status text
-  document.querySelectorAll('.m-label').forEach(el => {
-    if (el.closest('#md-us')) {
-      const txt = usOpen ? '交易中' : (isMemorialDay ? '🇺🇸 节假日休市' : '已收盘');
-      const span = el.querySelector('span:last-child');
-      if (span) span.textContent = txt;
-    }
-    if (el.closest('#md-hk')) {
-      const txt = hkOpen ? '交易中' : (isBuddhaBirthday ? '🇭🇰 佛诞假期' : '已收盘');
-      const span = el.querySelector('span:last-child');
-      if (span) span.textContent = txt;
-    }
-    if (el.closest('#md-a')) {
-      const txt = aOpen ? '交易中' : '已收盘';
-      const span = el.querySelector('span:last-child');
-      if (span) span.textContent = txt;
-    }
-  });
+  setDot('md-us', usOpen, isMemorialDay ? '🇺🇸 节假日' : usOpen ? '交易中' : '已收盘');
+  setDot('md-hk', hkOpen, isBuddhaBirthday ? '🇭🇰 佛诞' : hkOpen ? '交易中' : '已收盘');
+  setDot('md-a', aOpen, aOpen ? '交易中' : '已收盘');
 }
 
-function setDot(id, open) {
+function setDot(id, open, label) {
   const el = document.getElementById(id);
   if (!el) return;
   const ind = el.querySelector('.m-indicator');
   if (ind) ind.className = 'm-indicator ' + (open ? 'green' : 'gray');
+  const lbl = el.querySelector('.m-label');
+  if (lbl) lbl.textContent = label || (open ? '交易中' : '已收盘');
 }
 
 // ====== 宏观指数卡片 ======
