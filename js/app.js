@@ -544,7 +544,7 @@ function renderOverview() {
     <div class="overview-item"><span class="overview-label">汇率 USD/HKD</span><span class="overview-value">${portfolio.fx.USD_HKD}</span></div>
     <div class="overview-item"><span class="overview-label">汇率 USD/CNY</span><span class="overview-value">${portfolio.fx.USD_CNY}</span></div>
     <div class="overview-item"><span class="overview-label">数据更新</span><span class="overview-value">${portfolio.lastUpdated}</span></div>
-    <div class="overview-item"><span class="overview-label">⏰ 当前时间</span><span class="overview-value">${new Date().toLocaleString('zh-CN', {hour12:false, timeZone:'Asia/Shanghai'})}</span></div>
+    <div class="overview-item"><span class="overview-label">⏰ 刷新时间</span><span class="overview-value">${new Date().toLocaleString('zh-CN', {hour12:false, timeZone:'Asia/Shanghai', hour:'2-digit', minute:'2-digit'})}</span></div>
   `;
 }
 

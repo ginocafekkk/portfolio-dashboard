@@ -261,14 +261,18 @@ body.light-theme {
 .highlight-pnl { font-size: 0.9rem; font-weight: 600; }
 
 /* ====== Overview ====== */
-.overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px; }
+.overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 16px; }
 .overview-item {
   display: flex; justify-content: space-between; align-items: center;
   padding: 10px 12px; background: var(--bg); border-radius: 8px;
-  border: 1px solid var(--border); font-size: 0.9rem;
+  border: 1px solid var(--border); font-size: 0.85rem; gap: 8px;
 }
-.overview-label { color: var(--text-dim); }
-.overview-value { font-weight: 600; }
+.overview-label { color: var(--text-dim); flex-shrink: 0; }
+.overview-value { font-weight: 600; text-align: right; white-space: nowrap; }
+@media (max-width: 480px) {
+  .overview-item { font-size: 0.78rem; padding: 8px 10px; }
+  .overview-value { font-size: 0.75rem; }
+}
 
 /* ====== 新版底部资讯区 ====== */
 .macro-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; padding: 16px; }
