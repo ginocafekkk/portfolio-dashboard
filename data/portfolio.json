@@ -1,51 +1,143 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-25",
   "fx": {
     "USD_HKD": 7.83,
-    "USD_CNY": 7.20
+    "USD_CNY": 7.2
   },
   "markets": {
     "us": {
       "name": "美股持股",
       "currency": "USD",
       "stocks": [
-        { "ticker": "NVDA", "name": "NVIDIA", "shares": 350, "avgCost": 136.35, "lastPrice": 215.33 },
-        { "ticker": "MSFT", "name": "Microsoft", "shares": 210, "avgCost": 379.40, "lastPrice": 419.09 },
-        { "ticker": "META", "name": "Meta Platforms", "shares": 120, "avgCost": 619.59, "lastPrice": 610.26 },
-        { "ticker": "GOOG", "name": "Alphabet (GOOG)", "shares": 100, "avgCost": -82.60, "lastPrice": 379.38 },
-        { "ticker": "AMZN", "name": "Amazon", "shares": 100, "avgCost": 168.80, "lastPrice": 266.32 },
-        { "ticker": "TSLA", "name": "Tesla", "shares": 80, "avgCost": 229.20, "lastPrice": 426.01 },
-        { "ticker": "INTU", "name": "Intuit", "shares": 100, "avgCost": 463.54, "lastPrice": 319.94 },
-        { "ticker": "TRV", "name": "Travelers", "shares": 130, "avgCost": 217.90, "lastPrice": 306.46 }
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "shares": 350,
+          "avgCost": 136.35,
+          "lastPrice": 215.33
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "shares": 210,
+          "avgCost": 379.4,
+          "lastPrice": 419.09
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "shares": 120,
+          "avgCost": 619.59,
+          "lastPrice": 610.26
+        },
+        {
+          "ticker": "GOOG",
+          "name": "Alphabet (GOOG)",
+          "shares": 100,
+          "avgCost": -82.6,
+          "lastPrice": 379.38
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "shares": 100,
+          "avgCost": 168.8,
+          "lastPrice": 266.32
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "shares": 80,
+          "avgCost": 229.2,
+          "lastPrice": 426.01
+        },
+        {
+          "ticker": "INTU",
+          "name": "Intuit",
+          "shares": 100,
+          "avgCost": 463.54,
+          "lastPrice": 319.94
+        },
+        {
+          "ticker": "TRV",
+          "name": "Travelers",
+          "shares": 130,
+          "avgCost": 217.9,
+          "lastPrice": 306.46
+        }
       ]
     },
     "hk": {
       "name": "港股持股",
       "currency": "HKD",
       "stocks": [
-        { "ticker": "0700.HK", "name": "腾讯控股", "shares": 400, "avgCost": 512.50, "lastPrice": 441.00 },
-        { "ticker": "9988.HK", "name": "阿里巴巴", "shares": 400, "avgCost": 137.25, "lastPrice": 127.00 }
+        {
+          "ticker": "0700.HK",
+          "name": "腾讯控股",
+          "shares": 400,
+          "avgCost": 512.5,
+          "lastPrice": 441.0
+        },
+        {
+          "ticker": "9988.HK",
+          "name": "阿里巴巴",
+          "shares": 400,
+          "avgCost": 137.25,
+          "lastPrice": 127.0
+        }
       ]
     },
     "a": {
       "name": "A股 ETF",
       "currency": "CNY",
       "stocks": [
-        { "ticker": "021457", "name": "易方达恒生红利低波A", "shares": 1, "avgCost": 200000, "lastPrice": 196000 },
-        { "ticker": "007466", "name": "华泰柏瑞中证红利低波A", "shares": 1, "avgCost": 100000, "lastPrice": 98200 }
+        {
+          "ticker": "021457",
+          "name": "易方达恒生红利低波A",
+          "shares": 1,
+          "avgCost": 200000,
+          "lastPrice": 196000
+        },
+        {
+          "ticker": "007466",
+          "name": "华泰柏瑞中证红利低波A",
+          "shares": 1,
+          "avgCost": 100000,
+          "lastPrice": 98200
+        }
       ]
     },
     "cash": {
       "name": "现金（货币基金）",
       "currency": "mixed",
       "items": [
-        { "name": "美股货基", "amount": 73135, "currency": "USD" },
-        { "name": "港股货基", "amount": 500000, "currency": "HKD" }
+        {
+          "name": "美股货基",
+          "amount": 96017,
+          "currency": "USD"
+        },
+        {
+          "name": "港股货基",
+          "amount": 494377,
+          "currency": "HKD"
+        }
       ]
     }
   },
   "options": [
-    { "ticker": "INTU", "type": "Short Put", "strike": 280, "expiry": "2026-06-26", "premium": 800 },
-    { "ticker": "WMT", "type": "Short Put", "strike": 119, "expiry": "2026-05-29", "premium": 106 }
+    {
+      "ticker": "INTU",
+      "type": "Short Put",
+      "strike": 280,
+      "expiry": "2026-06-26",
+      "premium": 800
+    },
+    {
+      "ticker": "WMT",
+      "type": "Short Put",
+      "strike": 119,
+      "expiry": "2026-05-29",
+      "premium": 106
+    }
   ]
 }
