@@ -67,17 +67,17 @@ function formatPct(v) {
 }
 function getPnlColor(pnlPct) {
   // Green-red gradient based on P&L%
-  if (pnlPct === 999 || pnlPct >= 80) return '#003d00';  // darkest green
-  if (pnlPct >= 40)  return '#1b5e20';   // very dark green
-  if (pnlPct >= 20)  return '#2e7d32';   // dark green
-  if (pnlPct >= 10)  return '#388e3c';   // medium green
-  if (pnlPct >= 5)   return '#4caf50';   // green
-  if (pnlPct >= 2)   return '#66bb6a';   // light green
-  if (pnlPct > -2)   return '#bdbdbd';   // light gray
-  if (pnlPct > -5)   return '#ef9a9a';   // very light red
-  if (pnlPct > -10)  return '#e57373';   // light red
-  if (pnlPct > -20)  return '#ef5350';   // medium red
-  if (pnlPct > -40)  return '#d32f2f';   // dark red
+  if (pnlPct === 999 || pnlPct >= 60) return '#003300';  // darkest green
+  if (pnlPct >= 30)  return '#1b5e20';   // very dark green
+  if (pnlPct >= 15)  return '#2e7d32';   // dark green
+  if (pnlPct >= 8)   return '#388e3c';   // medium green
+  if (pnlPct >= 3)   return '#4caf50';   // green
+  if (pnlPct >= 1)   return '#66bb6a';   // light green
+  if (pnlPct > -1)   return '#bdbdbd';   // light gray (near zero)
+  if (pnlPct > -3)   return '#ef9a9a';   // light red
+  if (pnlPct > -8)   return '#e57373';   // pale red
+  if (pnlPct > -15)  return '#ef5350';   // medium red
+  if (pnlPct > -30)  return '#d32f2f';   // dark red
   if (pnlPct > -60)  return '#b71c1c';   // very dark red
   return '#7f0000';                       // darkest red
 }

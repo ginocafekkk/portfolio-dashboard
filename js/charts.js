@@ -17,7 +17,7 @@ function renderPieChart(totalUSD, data, cashUSD) {
       labels: ['🇺🇸 美股', '🇭🇰 港股', '🇨🇳 A股 ETF', '💰 现金'],
       datasets: [{
         data: [safeNum(usTotal), safeNum(hkTotal), safeNum(aTotal), safeNum(cashUSD)],
-        backgroundColor: ['#2e7d32', '#4caf50', '#81c784', '#a5d6a7'],
+        backgroundColor: ['#1b5e20', '#388e3c', '#66bb6a', '#9e9e9e'],
         borderColor: '#1a1a2e',
         borderWidth: 2
       }]
