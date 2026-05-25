@@ -96,14 +96,14 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 196000
+          "lastPrice": 192336.31
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 98200
+          "lastPrice": 97774.8
         }
       ]
     },
@@ -130,14 +130,50 @@
       "type": "Short Put",
       "strike": 280,
       "expiry": "2026-06-26",
-      "premium": 800
+      "premium": 800,
+      "willingToAssign": false
     },
     {
       "ticker": "WMT",
       "type": "Short Put",
       "strike": 119,
       "expiry": "2026-05-29",
-      "premium": 106
+      "premium": 106,
+      "willingToAssign": true
+    },
+    {
+      "ticker": "NVDA",
+      "type": "Short Put",
+      "strike": 195,
+      "expiry": "2026-06-26",
+      "premium": 267,
+      "willingToAssign": true
+    },
+    {
+      "ticker": "AMZN",
+      "type": "Short Put",
+      "strike": 245,
+      "expiry": "2026-06-18",
+      "premium": 410,
+      "willingToAssign": true
+    },
+    {
+      "ticker": "0700.HK",
+      "type": "Short Put",
+      "strike": 450,
+      "expiry": "2026-05-28",
+      "premium": 988,
+      "currency": "HKD",
+      "willingToAssign": true
+    },
+    {
+      "ticker": "9988.HK",
+      "type": "Short Put",
+      "strike": 115,
+      "expiry": "2026-06-29",
+      "premium": 200,
+      "currency": "HKD",
+      "willingToAssign": true
     }
   ]
 }

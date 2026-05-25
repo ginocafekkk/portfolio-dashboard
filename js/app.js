@@ -51,6 +51,8 @@ let portfolio = null;
 let allStocks = [];
 let cashUSD = 0;
 let displayCurrency = 'USD';
+// Sort state for click-to-sort (default: descending)
+let sortState = { us: { field: null, desc: true }, hk: { field: null, desc: true }, a: { field: null, desc: true }, options: { field: null, desc: true } };
 const CURRENCY_SYMBOLS = { USD: '$', HKD: 'HK$', CNY: '¥' };
 
 function safeNum(v, fallback) { const n = Number(v); return isNaN(n) ? (fallback || 0) : n; }
@@ -214,10 +216,10 @@ function renderAll() {
   // Percentages
   allStocks.forEach(s => s.pctOfTotal = s.marketValueUSD / totalUSD * 100);
   
-  // Render tables (local currency)
-  renderTableUS(data.us.stocks, totalUSD);
-  renderTableHK(data.hk.stocks, totalUSD);
-  renderTableA(data.a.stocks, totalUSD);
+  // Render tables (local currency) — with sort
+  renderTableUS(getSortedData(data.us.stocks, 'us', totalUSD), totalUSD);
+  renderTableHK(getSortedData(data.hk.stocks, 'hk', totalUSD), totalUSD);
+  renderTableA(getSortedData(data.a.stocks, 'a', totalUSD), totalUSD);
   renderTableCash(data.cash, totalUSD);
   renderOptions();
   renderMarketStatus();
@@ -371,9 +373,23 @@ function renderOptions() {
   const tbody = document.getElementById('table-options')?.querySelector('tbody');
   if (!tbody) return;
   tbody.innerHTML = '';
-  portfolio.options.forEach(o => {
-    tbody.innerHTML += `<tr><td>${o.ticker}</td><td>${o.type}</td><td>$${o.strike}</td><td>${o.expiry}</td><td>$${o.premium}</td></tr>`;
+  const opts = sortOptions(portfolio.options);
+  opts.forEach(o => {
+    const rc = o.willingToAssign ? '✅ 愿意' : '🔴 不接';
+    const pm = o.currency === 'HKD' ? 'HK$' + o.premium : '$' + o.premium;
+    tbody.innerHTML += `<tr><td>${o.ticker}</td><td>${o.type}</td><td>$${o.strike}</td><td>${o.expiry}</td><td>${pm}</td><td>${rc}</td></tr>`;
   });
+}
+function sortOptions(opts) {
+  const state = sortState.options;
+  if (!state || !state.field) return opts;
+  const arr = [...opts];
+  arr.sort((a, b) => {
+    let va = a[state.field], vb = b[state.field];
+    if (typeof va === 'string') return state.desc ? vb.localeCompare(va) : va.localeCompare(vb);
+    return state.desc ? vb - va : va - vb;
+  });
+  return arr;
 }
 
 // ====== Market Status ======
@@ -463,10 +479,75 @@ function scrollToMarket(id) {
 
 // ====== Sort ======
 function sortTable(market, field) {
-  let stocks = [...allStocks.filter(s => s.market === market)];
-  const fx = portfolio.fx;
-  // Re-render is complex with sorting, for now just say sorted
-  // A proper sort would need table rebuilding
+  if (market === 'options') {
+    sortState.options = sortState.options || { field: null, desc: true };
+    if (sortState.options.field === field) sortState.options.desc = !sortState.options.desc;
+    else { sortState.options.field = field; sortState.options.desc = true; }
+    // Update arrows
+    document.querySelectorAll('#table-options thead th').forEach(th => {
+      th.innerHTML = th.innerHTML.replace(/ [↕↑↓]/g, '') + ' ↕';
+    });
+    const activeTh = document.querySelector(`#table-options thead th[onclick*="'options','${field}'"]`);
+    if (activeTh) activeTh.innerHTML = activeTh.innerHTML.replace(' ↕', sortState.options.desc ? ' ↓' : ' ↑');
+    renderOptions();
+    return;
+  }
+  const state = sortState[market];
+  if (state.field === field) {
+    state.desc = !state.desc; // toggle direction
+  } else {
+    state.field = field;
+    state.desc = true; // default descending
+  }
+  // Update ↕ arrows on table headers
+  document.querySelectorAll(`#table-${market} thead th`).forEach(th => {
+    th.innerHTML = th.innerHTML.replace(/ [↕↑↓]/g, '') + ' ↕';
+  });
+  const activeTh = document.querySelector(`#table-${market} thead th[onclick*="'${market}','${field}'"]`);
+  if (activeTh) {
+    activeTh.innerHTML = activeTh.innerHTML.replace(' ↕', state.desc ? ' ↓' : ' ↑');
+  }
+  renderAll();
+}
+function getSortedData(stocks, market, totalUSD) {
+  const state = sortState[market];
+  if (!state.field) return [...stocks]; // no sort active
+  const arr = [...stocks];
+  arr.sort((a, b) => {
+    let va, vb;
+    switch (state.field) {
+      case 'ticker': va = a.ticker; vb = b.ticker; break;
+      case 'shares': va = a.shares; vb = b.shares; break;
+      case 'avgCost': va = a.avgCost; vb = b.avgCost; break;
+      case 'lastPrice': va = a.lastPrice; vb = b.lastPrice; break;
+      case 'marketValue': va = a.lastPrice * a.shares; vb = b.lastPrice * b.shares; break;
+      case 'pnl': {
+        const ca = a.avgCost < 0 ? 0 : a.avgCost * a.shares;
+        const cb = b.avgCost < 0 ? 0 : b.avgCost * b.shares;
+        va = a.avgCost < 0 ? a.lastPrice * a.shares : a.lastPrice * a.shares - ca;
+        vb = b.avgCost < 0 ? b.lastPrice * b.shares : b.lastPrice * b.shares - cb;
+        break;
+      }
+      case 'pnlPct': {
+        const ca = a.avgCost < 0 ? 0 : a.avgCost * a.shares;
+        const cb = b.avgCost < 0 ? 0 : b.avgCost * b.shares;
+        va = ca > 0 ? (a.lastPrice * a.shares - ca) / ca : 0;
+        vb = cb > 0 ? (b.lastPrice * b.shares - cb) / cb : 0;
+        break;
+      }
+      case 'pctOfTotal': {
+        const mva = a.lastPrice * a.shares / (portfolio.fx[`USD_${market==='hk'?'HKD':market==='a'?'CNY':'USD'}`] || 1);
+        const mvb = b.lastPrice * b.shares / (portfolio.fx[`USD_${market==='hk'?'HKD':market==='a'?'CNY':'USD'}`] || 1);
+        va = mva / totalUSD * 100;
+        vb = mvb / totalUSD * 100;
+        break;
+      }
+      default: return 0;
+    }
+    if (typeof va === 'string') return state.desc ? vb.localeCompare(va) : va.localeCompare(vb);
+    return state.desc ? vb - va : va - vb;
+  });
+  return arr;
 }
 
 // ====== Face ID / Password Change ======
