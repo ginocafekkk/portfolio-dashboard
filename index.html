@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Dashboard</title>
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="apple-touch-icon" href="img/logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Login CSS -->
+  <style>
+    #login-overlay {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 9999;
+    }
+    #login-overlay.hidden { display: none; }
+    .login-box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 40px; width: 380px; max-width: 90%;
+      text-align: center;
+    }
+    .login-box h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    .login-box p { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 24px; }
+    .login-input {
+      width: 100%; padding: 12px 16px; border-radius: 10px;
+      border: 1px solid var(--border); background: var(--bg);
+      color: var(--text); font-size: 1rem; margin-bottom: 16px;
+      outline: none; transition: 0.2s;
+    }
+    .login-input:focus { border-color: var(--accent); }
+    .login-btn {
+      width: 100%; padding: 12px; border: none; border-radius: 10px;
+      background: var(--accent); color: #fff; font-size: 1rem;
+      font-weight: 600; cursor: pointer; transition: 0.2s;
+    }
+    .login-btn:hover { opacity: 0.85; }
+    .login-error { color: var(--red); font-size: 0.85rem; margin-top: 12px; min-height: 20px; }
+  </style>
+  <script src="js/chart.min.js"></script>
+</head>
+<body>
+  <!-- Login Overlay -->
+  <div id="login-overlay">
+    <div class="login-box">
+      <div class="logo" style="margin-bottom:12px;"><img src="img/logo.jpg" style="width:80px;height:auto;border-radius:50%;"></div>
+      <h1>Portfolio Dashboard</h1>
+      <p>by Ken & Labuster</p>
+      <p style="margin-bottom:20px;font-size:0.85rem;">请输入密码</p>
+      <div id="bioFaceBtn" style="display:none;margin-bottom:12px;">
+        <div style="font-size:0.75rem;color:var(--text-dim);">
+          💡 在 Safari 中保存密码后，下次可用面容/指纹自动填充
+        </div>
+      </div>
+      <input type="password" id="loginPassword" class="login-input" placeholder="密码"
+             autocomplete="current-password" inputmode="text"
+             onkeydown="if(event.key==='Enter')doLogin()">
+      <button class="login-btn" onclick="doLogin()">进入 Dashboard</button>
+      <div style="margin-top:12px;font-size:0.8rem;">
+        <a href="#" onclick="showChangePwd();return false" style="color:var(--text-dim);text-decoration:none;">修改密码</a>
+      </div>
+      <div class="login-error" id="loginError"></div>
+    </div>
+  </div>
+
+  <!-- Password Change Modal -->
+  <div id="pwdModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="max-width:360px;">
+      <h3 style="margin-bottom:16px;">🔑 修改密码</h3>
+      <input type="password" id="oldPwd" class="login-input" placeholder="当前密码" autocomplete="off">
+      <input type="password" id="newPwd" class="login-input" placeholder="新密码（至少6位）" autocomplete="new-password">
+      <input type="password" id="confirmPwd" class="login-input" placeholder="确认新密码" autocomplete="new-password">
+      <button class="login-btn" onclick="doChangePwd()" style="margin-bottom:8px;">确认修改</button>
+      <button class="login-btn" onclick="closeChangePwd()" style="background:var(--card);color:var(--text);">取消</button>
+      <div id="pwdError" style="color:var(--red);font-size:0.85rem;margin-top:10px;min-height:20px;"></div>
+    </div>
+  </div>
+
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="text-align:left;max-width:400px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+        <h3 style="font-size:1.2rem;">⚙️ 设置</h3>
+        <button onclick="closeSettings()" style="background:none;border:none;color:var(--text-dim);font-size:1.5rem;cursor:pointer;">✕</button>
+      </div>
+      <div id="settingsBody"></div>
+    </div>
+  </div>
+  <!-- Stock Detail Modal -->
+  <div id="stockModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9998;align-items:center;justify-content:center;">
+    <div class="login-box" style="text-align:left;max-width:400px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <h3 id="stockModalTitle" style="font-size:1.2rem;"></h3>
+        <button onclick="closeStockModal()" style="background:none;border:none;color:var(--text-dim);font-size:1.5rem;cursor:pointer;">✕</button>
+      </div>
+      <div id="stockModalBody" style="font-size:0.9rem;line-height:1.6;"></div>
+      <div style="margin-top:16px;border-top:1px solid var(--border);padding-top:12px;" id="stockModalLinks"></div>
+    </div>
+  </div>
+
+  <div id="app" class="hidden">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <span class="logo" id="logoBtn" style="cursor:pointer;"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
+        <span class="market-dots" id="marketDots">
+          <span class="m-dot" id="md-us" title="美股"><span class="flag">🇺🇸</span><span class="m-indicator gray"></span></span>
+          <span class="m-dot" id="md-hk" title="港股"><span class="flag">🇭🇰</span><span class="m-indicator gray"></span></span>
+          <span class="m-dot" id="md-a" title="A股"><span class="flag">🇨🇳</span><span class="m-indicator gray"></span></span>
+        </span>
+      </div>
+      <div class="header-right">
+        <span id="weatherDisplay" style="font-size:0.85rem;color:var(--text-dim);cursor:default;" title="点击切换城市" onclick="changeCity()"></span>
+        <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
+          <option value="USD">$ USD</option>
+          <option value="HKD">HK$ HKD</option>
+          <option value="CNY">¥ CNY</option>
+        </select>
+        <button class="btn-refresh" onclick="openSettings()" title="设置">⚙️</button>
+      </div>
+    </header>
+
+    <!-- User popover -->
+    <div id="userPopover" style="display:none;position:absolute;top:56px;left:16px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,0.3);min-width:200px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <img src="img/logo.jpg" style="width:36px;height:36px;border-radius:50%;">
+        <div>
+          <div style="font-weight:600;font-size:0.9rem;">Ken</div>
+          <div style="font-size:0.75rem;color:var(--text-dim);">kenlxj@gmail.com</div>
+        </div>
+      </div>
+      <div style="font-size:0.75rem;color:var(--text-dim);border-top:1px solid var(--border);padding-top:8px;margin-top:4px;">
+        by Ken &amp; Labuster 🧸
+      </div>
+    </div>
+
+    <!-- Summary Cards -->
+    <section class="summary-grid" id="summaryGrid">
+      <div class="summary-card" id="card-total">
+        <div class="card-label">总资产净值</div>
+        <div class="card-value" id="totalValue">--</div>
+        <div class="card-change" id="totalChange"></div>
+      </div>
+      <div class="summary-card" id="card-us">
+        <div class="card-label">🇺🇸 美股</div>
+        <div class="card-value" id="usValue">--</div>
+        <div class="card-sub">占总资产 <span id="usPct">--</span></div>
+      </div>
+      <div class="summary-card" id="card-hk">
+        <div class="card-label">🇭🇰 港股</div>
+        <div class="card-value" id="hkValue">--</div>
+        <div class="card-sub">占总资产 <span id="hkPct">--</span></div>
+      </div>
+      <div class="summary-card" id="card-a">
+        <div class="card-label">🇨🇳 A股 ETF</div>
+        <div class="card-value" id="aValue">--</div>
+        <div class="card-sub">占总资产 <span id="aPct">--</span></div>
+      </div>
+      <div class="summary-card" id="card-cash">
+        <div class="card-label">💰 现金</div>
+        <div class="card-value" id="cashValue">--</div>
+        <div class="card-sub">占总资产 <span id="cashPct">--</span></div>
+      </div>
+    </section>
+
+    <!-- Charts Row -->
+    <section class="charts-grid">
+      <div class="chart-card">
+        <h3>📊 资产分布</h3>
+        <div class="chart-container"><canvas id="pieChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>📈 个股盈亏</h3>
+        <div class="chart-container"><canvas id="barChart"></canvas></div>
+      </div>
+    </section>
+
+    <!-- Market Sections -->
+    <section id="market-us" class="market-section">
+      <h2 onclick="toggleMarket('us')">🇺🇸 美股持股 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-us">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-us">
+            <thead>
+              <tr>
+                <th onclick="sortTable('us','ticker')">代码 ↕</th>
+                <th>名称</th>
+                <th onclick="sortTable('us','shares')">股数 ↕</th>
+                <th onclick="sortTable('us','avgCost')">成本价 ↕</th>
+                <th onclick="sortTable('us','lastPrice')">现价 ↕</th>
+                <th onclick="sortTable('us','marketValue')">市值 ↕</th>
+                <th onclick="sortTable('us','pnl')">盈亏 ↕</th>
+                <th onclick="sortTable('us','pnlPct')">盈亏% ↕</th>
+                <th onclick="sortTable('us','pctOfTotal')">占比 ↕</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-hk" class="market-section">
+      <h2 onclick="toggleMarket('hk')">🇭🇰 港股持股 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-hk">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-hk">
+            <thead>
+              <tr>
+                <th onclick="sortTable('hk','ticker')">代码 ↕</th>
+                <th>名称</th>
+                <th onclick="sortTable('hk','shares')">股数 ↕</th>
+                <th onclick="sortTable('hk','avgCost')">成本价(HKD) ↕</th>
+                <th onclick="sortTable('hk','lastPrice')">现价(HKD) ↕</th>
+                <th onclick="sortTable('hk','marketValue')">市值(HKD) ↕</th>
+                <th onclick="sortTable('hk','pnl')">盈亏(HKD) ↕</th>
+                <th onclick="sortTable('hk','pnlPct')">盈亏% ↕</th>
+                <th onclick="sortTable('hk','pctOfTotal')">占比(USD) ↕</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-a" class="market-section">
+      <h2 onclick="toggleMarket('a')">🇨🇳 A股 ETF <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-a">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-a">
+            <thead>
+              <tr>
+                <th onclick="sortTable('a','ticker')">代码 ↕</th>
+                <th>名称</th>
+                <th onclick="sortTable('a','avgCost')">投入(CNY) ↕</th>
+                <th onclick="sortTable('a','marketValue')">当前市值 ↕</th>
+                <th onclick="sortTable('a','pnl')">盈亏(CNY) ↕</th>
+                <th onclick="sortTable('a','pnlPct')">盈亏% ↕</th>
+                <th onclick="sortTable('a','pctOfTotal')">占比(USD) ↕</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="market-cash" class="market-section">
+      <h2 onclick="toggleMarket('cash')">💰 现金（货币基金） <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-cash">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-cash">
+            <thead>
+              <tr>
+                <th>名称</th>
+                <th>金额(原始货币)</th>
+                <th>折合 USD</th>
+                <th>占比</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Options Section -->
+    <section class="market-section">
+      <h2 onclick="toggleMarket('options')">📄 期权持仓 <span class="toggle-icon">▼</span></h2>
+      <div class="market-body" id="marketBody-options">
+        <div class="stock-table-wrap">
+          <table class="stock-table" id="table-options">
+            <thead>
+              <tr>
+                <th onclick="sortTable('options','ticker')">标的 ↕</th>
+                <th>类型</th>
+                <th onclick="sortTable('options','strike')">行权价 ↕</th>
+                <th onclick="sortTable('options','expiry')">到期日 ↕</th>
+                <th onclick="sortTable('options','premium')">权利金 ↕</th>
+                <th>接货意愿</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🏆 持仓亮点 -->
+    <section class="market-section" id="section-highlights">
+      <h2>🏆 持仓亮点</h2>
+      <div class="market-body">
+        <div class="highlights-grid" id="highlightsGrid"></div>
+      </div>
+    </section>
+
+    <!-- 📰 市场概览 -->
+    <section class="market-section" id="section-overview">
+      <h2>📰 市场概览</h2>
+      <div class="market-body">
+        <div class="overview-grid" id="overviewGrid"></div>
+      </div>
+    </section>
+  </div>
+
+  <footer style="text-align:center;padding:20px 16px;font-size:0.75rem;color:var(--text-dim);border-top:1px solid var(--border);margin-top:20px;">
+    by Ken &amp; Labuster 🧸 · <span class="version-badge" style="background:transparent;color:var(--text-dim);padding:0;font-size:inherit;">v1.6</span> · 数据来源 Yahoo Finance &amp; 天天基金 · 非投资建议
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/charts.js"></script>
+</body>
+</html>
