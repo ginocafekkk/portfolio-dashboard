@@ -175,5 +175,109 @@
       "currency": "HKD",
       "willingToAssign": true
     }
-  ]
+  ],
+  "marketData": {
+    "indices": [
+      {
+        "key": "sp500",
+        "name": "S&P 500",
+        "value": 7473,
+        "change": 0.37,
+        "date": "05-22",
+        "status": "closed",
+        "note": "今日Memorial Day休市"
+      },
+      {
+        "key": "hsi",
+        "name": "恒生指数",
+        "value": 25606,
+        "change": -0.43,
+        "date": "05-22",
+        "status": "closed",
+        "note": "佛诞假期休市"
+      },
+      {
+        "key": "csi300",
+        "name": "沪深300",
+        "value": 4873,
+        "change": 0.58,
+        "date": "05-25",
+        "status": "open",
+        "note": ""
+      },
+      {
+        "key": "a500",
+        "name": "中证A500",
+        "value": 6115,
+        "pe": 17.75,
+        "date": "05-22",
+        "status": "open",
+        "note": "加权PE 17.75x"
+      }
+    ],
+    "assets": [
+      {
+        "name": "美股(S&P500)",
+        "change": 0.37
+      },
+      {
+        "name": "港股(恒生)",
+        "change": -0.43
+      },
+      {
+        "name": "A股(沪深300)",
+        "change": 0.58
+      },
+      {
+        "name": "黄金(XAU)",
+        "change": -0.28
+      },
+      {
+        "name": "美债10Y",
+        "value": "4.56%",
+        "change": -0.01
+      }
+    ],
+    "fx": {
+      "USD_HKD": 7.83,
+      "USD_CNY": 7.2
+    },
+    "news": [
+      {
+        "ticker": "NVDA",
+        "source": "📊 客观数据",
+        "text": "NVDA 本周创历史新高 22.30，市值突破 .4T，超越整个加拿大股市"
+      },
+      {
+        "ticker": "META",
+        "source": "📊 客观数据",
+        "text": "Meta 洽谈购买 Google TPU 芯片，价值数十亿美元，可能降低对NVDA依赖"
+      },
+      {
+        "ticker": "GOOG",
+        "source": "📊 客观数据",
+        "text": "Alphabet 市值 .8T，Gemini 在AI领域挑战 OpenAI；搜索业务仍是现金牛"
+      },
+      {
+        "ticker": "INTU",
+        "source": "📊 客观数据",
+        "text": "INTU 裁员17%（~3000人）后股价从 84 暴跌至 07，上周五反弹+4.19%至19.94"
+      },
+      {
+        "ticker": "腾讯",
+        "source": "📊 客观数据",
+        "text": "Q1营收增长9%，AI投入加大致利润miss；南下资金近期净卖出"
+      },
+      {
+        "ticker": "ALL",
+        "source": "🧸 Labuster 观点",
+        "text": "INTU 00支撑仍关键，需等待Q4 TurboTax数据验证。NVDA创新高后不宜追涨，等回调00以下再考虑加仓。AI芯片竞争加剧(Meta+Google)是中长期隐忧。"
+      },
+      {
+        "ticker": "ALL",
+        "source": "🧸 Labuster 观点",
+        "text": "红利低波当前股息率4.48%，A500加权PE仅17.75x，两个指数当前位置对建仓偏友好。建议分批建仓，不急于一次到位。"
+      }
+    ]
+  }
 }

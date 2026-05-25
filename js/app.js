@@ -223,6 +223,9 @@ function renderAll() {
   renderTableCash(data.cash, totalUSD);
   renderOptions();
   renderMarketStatus();
+  renderMacroGrid();
+  renderAssetRow();
+  renderNewsFeed();
   renderHighlights();
   renderOverview();
   
@@ -396,17 +399,24 @@ function sortOptions(opts) {
 function renderMarketStatus() {
   const now = new Date();
   const utc = now.getTime() + now.getTimezoneOffset() * 60000;
-  const etOffset = -4; // EDT
-  const et = new Date(utc + etOffset * 3600000);
+  
+  // US (ET = UTC-4 during EDT)
+  const et = new Date(utc - 4 * 3600000);
   const etDow = et.getUTCDay();
   const etH = et.getUTCHours(), etM = et.getUTCMinutes();
-  const usOpen = etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
+  // Memorial Day 2026 = May 25 (last Monday of May)
+  const isMemorialDay = (et.getUTCMonth() === 4 && et.getUTCDate() === 25);
+  const usOpen = !isMemorialDay && etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
   
+  // HK (UTC+8)
   const hk = new Date(utc + 8 * 3600000);
   const hkDow = hk.getUTCDay();
   const hkH = hk.getUTCHours();
-  const hkOpen = hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16;
+  // Buddha's Birthday 2026 = May 25 (Monday)
+  const isBuddhaBirthday = (hk.getUTCMonth() === 4 && hk.getUTCDate() === 25);
+  const hkOpen = !isBuddhaBirthday && hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16;
   
+  // A-share (UTC+8, no holiday today)
   const aDow = hkDow, aH = hkH, aM = hk.getUTCMinutes();
   const aOpen = aDow >= 1 && aDow <= 5 && 
     ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || (aH >= 13 && aH < 15));
@@ -414,6 +424,24 @@ function renderMarketStatus() {
   setDot('md-us', usOpen);
   setDot('md-hk', hkOpen);
   setDot('md-a', aOpen);
+  // Also store status text
+  document.querySelectorAll('.m-label').forEach(el => {
+    if (el.closest('#md-us')) {
+      const txt = usOpen ? '交易中' : (isMemorialDay ? '🇺🇸 节假日休市' : '已收盘');
+      const span = el.querySelector('span:last-child');
+      if (span) span.textContent = txt;
+    }
+    if (el.closest('#md-hk')) {
+      const txt = hkOpen ? '交易中' : (isBuddhaBirthday ? '🇭🇰 佛诞假期' : '已收盘');
+      const span = el.querySelector('span:last-child');
+      if (span) span.textContent = txt;
+    }
+    if (el.closest('#md-a')) {
+      const txt = aOpen ? '交易中' : '已收盘';
+      const span = el.querySelector('span:last-child');
+      if (span) span.textContent = txt;
+    }
+  });
 }
 
 function setDot(id, open) {
@@ -423,21 +451,72 @@ function setDot(id, open) {
   if (ind) ind.className = 'm-indicator ' + (open ? 'green' : 'gray');
 }
 
+// ====== 宏观指数卡片 ======
+function renderMacroGrid() {
+  const grid = document.getElementById('macroGrid');
+  if (!grid || !portfolio.marketData) return;
+  grid.innerHTML = portfolio.marketData.indices.map(idx => {
+    const cls = idx.change >= 0 ? 'positive' : 'negative';
+    const arrow = idx.change >= 0 ? '▲' : '▼';
+    const statusDot = idx.status === 'open' ? 'green' : 'gray';
+    return `<div class="macro-card">
+      <div class="macro-name">${idx.name}</div>
+      <div class="macro-value">${idx.value.toLocaleString()}</div>
+      <div class="macro-change ${cls}">${arrow} ${Math.abs(idx.change).toFixed(2)}% ${idx.date}</div>
+      ${idx.pe ? `<div class="macro-pe">PE ${idx.pe}x</div>` : ''}
+      <div class="macro-note"><span class="macro-status ${statusDot}"></span>${idx.status === 'open' ? '交易中' : idx.note || '已收盘'}</div>
+    </div>`;
+  }).join('');
+}
+
+// ====== 大类资产表现 ======
+function renderAssetRow() {
+  const row = document.getElementById('assetRow');
+  if (!row || !portfolio.marketData) return;
+  row.innerHTML = portfolio.marketData.assets.map(a => {
+    const cls = a.change >= 0 ? 'positive' : 'negative';
+    const arrow = a.change >= 0 ? '▲' : '▼';
+    const val = a.value || `${arrow}${Math.abs(a.change).toFixed(2)}%`;
+    return `<span class="asset-chip">${a.name} <span class="change ${cls}">${val}</span></span>`;
+  }).join('');
+}
+
+// ====== 持仓相关资讯 ======
+function renderNewsFeed() {
+  const feed = document.getElementById('newsFeed');
+  if (!feed || !portfolio.marketData) return;
+  feed.innerHTML = portfolio.marketData.news.map(n => {
+    const isOpinion = n.source.includes('Labuster');
+    return `<div class="news-item">
+      <div class="news-source ${isOpinion ? 'opinion' : 'data'}">${n.source} · ${n.ticker}</div>
+      <div>${n.text}</div>
+    </div>`;
+  }).join('');
+}
+
 // ====== Highlights ======
 function renderHighlights() {
   const grid = document.getElementById('highlightsGrid');
   if (!grid || !allStocks.length) return;
   
-  const sorted = [...allStocks].filter(s => s.pnlPct !== 999).sort((a, b) => b.pnlPct - a.pnlPct);
+  // Sort by pnl%, put GOOG (negative cost = ∞) at top if it has highest mv
+  const sorted = [...allStocks].sort((a, b) => {
+    if (a.pnlPct === 999) return -1;
+    if (b.pnlPct === 999) return 1;
+    return b.pnlPct - a.pnlPct;
+  });
   const best = sorted[0];
   const worst = sorted[sorted.length - 1];
+  
+  // Best ticker display
+  const bestPnlText = best.avgCost < 0 ? '∞ (已回本)' : formatPct(best.pnlPct);
   
   grid.innerHTML = `
     <div class="highlight-card" style="border-color:rgba(0,200,83,0.3);">
       <div class="highlight-label" style="color:#00c853;">🏆 最佳持仓</div>
       <div class="highlight-ticker" style="color:#00c853;">${best.ticker}</div>
       <div class="highlight-price">${best.name} · ${formatCurrency(best.marketValueLocal, best.localCurrency)}</div>
-      <div class="highlight-pnl" style="color:#00c853;">${formatPct(best.pnlPct)}</div>
+      <div class="highlight-pnl" style="color:#00c853;">${bestPnlText}</div>
     </div>
     <div class="highlight-card" style="border-color:rgba(255,82,82,0.3);">
       <div class="highlight-label" style="color:#ff5252;">⚠️ 最差持仓</div>
@@ -452,13 +531,15 @@ function renderHighlights() {
 function renderOverview() {
   const grid = document.getElementById('overviewGrid');
   if (!grid) return;
+  const totalMV = allStocks.reduce((s,st) => s + st.marketValueUSD, 0) + cashUSD;
+  const totalPnl = allStocks.reduce((s,st) => s + st.pnl, 0);
   grid.innerHTML = `
-    <div class="overview-item"><span class="overview-label">总资产</span><span class="overview-value">${formatCurrency(fromUSD(allStocks.reduce((s,st) => s + st.marketValueUSD, 0) + cashUSD, displayCurrency), displayCurrency)}</span></div>
-    <div class="overview-item"><span class="overview-label">持仓数量</span><span class="overview-value">${allStocks.length} 只</span></div>
+    <div class="overview-item"><span class="overview-label">总资产(USD)</span><span class="overview-value">${formatCurrency(totalMV, 'USD')}</span></div>
+    <div class="overview-item"><span class="overview-label">持仓盈亏(USD)</span><span class="overview-value ${totalPnl>=0?'positive':'negative'}">${formatCurrency(totalPnl, 'USD')}</span></div>
     <div class="overview-item"><span class="overview-label">汇率 USD/HKD</span><span class="overview-value">${portfolio.fx.USD_HKD}</span></div>
     <div class="overview-item"><span class="overview-label">汇率 USD/CNY</span><span class="overview-value">${portfolio.fx.USD_CNY}</span></div>
     <div class="overview-item"><span class="overview-label">数据更新</span><span class="overview-value">${portfolio.lastUpdated}</span></div>
-    <div class="overview-item"><span class="overview-label">⏰ 统计时间</span><span class="overview-value">${new Date().toLocaleString('zh-CN', {hour12:false})}</span></div>
+    <div class="overview-item"><span class="overview-label">⏰ 当前时间</span><span class="overview-value">${new Date().toLocaleString('zh-CN', {hour12:false, timeZone:'Asia/Shanghai'})}</span></div>
   `;
 }
 
