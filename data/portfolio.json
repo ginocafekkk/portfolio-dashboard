@@ -131,7 +131,8 @@
       "strike": 280,
       "expiry": "2026-06-26",
       "premium": 800,
-      "willingToAssign": false
+      "willingToAssign": false,
+      "currentPrice": null
     },
     {
       "ticker": "WMT",
@@ -139,7 +140,8 @@
       "strike": 119,
       "expiry": "2026-05-29",
       "premium": 106,
-      "willingToAssign": true
+      "willingToAssign": true,
+      "currentPrice": null
     },
     {
       "ticker": "NVDA",
@@ -147,7 +149,8 @@
       "strike": 195,
       "expiry": "2026-06-26",
       "premium": 267,
-      "willingToAssign": true
+      "willingToAssign": true,
+      "currentPrice": null
     },
     {
       "ticker": "AMZN",
@@ -155,7 +158,8 @@
       "strike": 245,
       "expiry": "2026-06-18",
       "premium": 410,
-      "willingToAssign": true
+      "willingToAssign": true,
+      "currentPrice": null
     },
     {
       "ticker": "0700.HK",
@@ -164,7 +168,8 @@
       "expiry": "2026-05-28",
       "premium": 988,
       "currency": "HKD",
-      "willingToAssign": true
+      "willingToAssign": true,
+      "currentPrice": null
     },
     {
       "ticker": "9988.HK",
@@ -173,7 +178,8 @@
       "expiry": "2026-06-29",
       "premium": 200,
       "currency": "HKD",
-      "willingToAssign": true
+      "willingToAssign": true,
+      "currentPrice": null
     }
   ],
   "marketData": {

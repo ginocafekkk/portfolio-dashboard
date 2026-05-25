@@ -380,7 +380,16 @@ function renderOptions() {
   opts.forEach(o => {
     const rc = o.willingToAssign ? '✅ 愿意' : '🔴 不接';
     const pm = o.currency === 'HKD' ? 'HK$' + o.premium : '$' + o.premium;
-    tbody.innerHTML += `<tr><td>${o.ticker}</td><td>${o.type}</td><td>$${o.strike}</td><td>${o.expiry}</td><td>${pm}</td><td>${rc}</td></tr>`;
+    let curPrice = '--';
+    let pnlStr = '--';
+    let pnlClass = '';
+    if (o.currentPrice !== null && o.currentPrice !== undefined) {
+      curPrice = o.currency === 'HKD' ? 'HK$' + o.currentPrice : '$' + o.currentPrice;
+      const diff = o.premium - o.currentPrice;
+      pnlStr = (diff >= 0 ? '+' : '') + (o.currency === 'HKD' ? 'HK$' : '$') + diff.toFixed(0);
+      pnlClass = diff >= 0 ? 'positive' : 'negative';
+    }
+    tbody.innerHTML += `<tr><td>${o.ticker}</td><td>${o.type}</td><td>$${o.strike}</td><td>${o.expiry}</td><td>${pm}</td><td>${curPrice}</td><td class="${pnlClass}">${pnlStr}</td><td>${rc}</td></tr>`;
   });
 }
 function sortOptions(opts) {

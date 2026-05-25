@@ -68,6 +68,32 @@ def fetch_forex(pair):
     except:
         return None
 
+def fetch_option_price(ticker, strike, expiry):
+    """Fetch current option mid/price from Yahoo Finance"""
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'}
+    try:
+        from datetime import datetime
+        exp_date = datetime.strptime(expiry, '%Y-%m-%d')
+        ts = int(exp_date.timestamp())
+        # Need crumb for Yahoo options API
+        sess = requests.Session()
+        sess.headers.update(headers)
+        sess.get('https://fc.yahoo.com/')
+        crumb_r = sess.get('https://query2.finance.yahoo.com/v1/test/getcrumb')
+        if crumb_r.status_code != 200:
+            return None
+        crumb = crumb_r.text.strip()
+        url = f'https://query2.finance.yahoo.com/v7/finance/options/{ticker}?date={ts}&crumb={crumb}'
+        r = sess.get(url, timeout=10)
+        data = r.json()
+        for option_list in data['optionChain']['result'][0]['options']:
+            for put in option_list['puts']:
+                if abs(put['strike'] - strike) < 0.01:
+                    return round(put['lastPrice'], 2)
+        return None
+    except:
+        return None
+
 def main():
     print("=== 自动更新持仓数据 ===", datetime.now())
     data = load_data()
@@ -114,6 +140,25 @@ def main():
         print(f"  USD/CNY: {cny}")
     
     data['lastUpdated'] = datetime.now().strftime('%Y-%m-%d')
+    
+    # Options pricing (US only, HK options not available via Yahoo)
+    print("\n--- 期权当前价格 ---")
+    for o in data['options']:
+        ticker = o['ticker']
+        if '.' in ticker or '/' in ticker:
+            print(f"  {ticker}: 港股期权暂不支持抓取")
+            o['currentPrice'] = None
+            continue
+        p = fetch_option_price(ticker, o['strike'], o['expiry'])
+        if p is not None:
+            o['currentPrice'] = p
+            diff = o['premium'] - p
+            emoji = '💰' if diff >= 0 else '📉'
+            print(f"  {ticker} ${o['strike']} {o['expiry']}: 当前${p} (卖出${o['premium']}) {emoji} {diff:+.0f}")
+        else:
+            o['currentPrice'] = None
+            print(f"  {ticker} ${o['strike']} {o['expiry']}: 未获取到（可能API限流）")
+    
     save_data(data)
     print(f"\n✅ 数据已更新至 {data['lastUpdated']}")
     return 0
