@@ -65,9 +65,20 @@ function formatCurrency(v, cur) {
 function formatPct(v) {
   return (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 }
-function getTickerColor(ticker, index) {
-  const c = ['#6c63ff','#ff6b6b','#ffa502','#00bcd4','#4caf50','#e91e63','#9c27b0','#ff9800','#607d8b','#795548'];
-  return c[index % c.length];
+function getPnlColor(pnlPct) {
+  // Green-red gradient based on P&L%
+  if (pnlPct === 999 || pnlPct >= 100) return '#1b5e20';   // deep green
+  if (pnlPct >= 50)  return '#2e7d32';   // green
+  if (pnlPct >= 20)  return '#388e3c';   // medium green
+  if (pnlPct >= 10)  return '#4caf50';   // light green
+  if (pnlPct >= 5)   return '#66bb6a';   // pale green
+  if (pnlPct >= 2)   return '#a5d6a7';   // very pale green
+  if (pnlPct > -2)   return '#9e9e9e';   // neutral gray
+  if (pnlPct > -5)   return '#ef9a9a';   // very pale red
+  if (pnlPct > -10)  return '#e57373';   // pale red
+  if (pnlPct > -20)  return '#ef5350';   // light red
+  if (pnlPct > -50)  return '#d32f2f';   // red
+  return '#b71c1c';                       // deep red
 }
 
 // Currency conversion helpers
@@ -142,7 +153,7 @@ function renderAll() {
   // US — native USD
   data.us.stocks.forEach(s => {
     const c = calc(s, 'lastPrice', 'shares');
-    allStocks.push({ ...s, localCurrency: 'USD', marketValueLocal: c.mv, marketValueUSD: c.mv, cost: c.cost, pnl: c.pnl, pnlPct: c.pnlPct, market: 'us', color: getTickerColor(s.ticker, si++) });
+    allStocks.push({ ...s, localCurrency: 'USD', marketValueLocal: c.mv, marketValueUSD: c.mv, cost: c.cost, pnl: c.pnl, pnlPct: c.pnlPct, market: 'us', color: getPnlColor(c.pnlPct) });
     totalUSD += c.mv;
   });
   
@@ -153,7 +164,7 @@ function renderAll() {
     const costUSD = c.cost / safeNum(fx.USD_HKD, 1);
     const pnlUSD = mvUSD - costUSD;
     const pnlPct = c.cost > 0 ? c.pnl / c.cost * 100 : 0;
-    allStocks.push({ ...s, localCurrency: 'HKD', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'hk', color: getTickerColor(s.ticker, si++) });
+    allStocks.push({ ...s, localCurrency: 'HKD', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'hk', color: getPnlColor(pnlPct) });
     totalUSD += mvUSD;
   });
   
@@ -164,7 +175,7 @@ function renderAll() {
     const costUSD = c.cost / safeNum(fx.USD_CNY, 1);
     const pnlUSD = mvUSD - costUSD;
     const pnlPct = c.cost > 0 ? c.pnl / c.cost * 100 : 0;
-    allStocks.push({ ...s, localCurrency: 'CNY', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'a', color: getTickerColor(s.ticker, si++) });
+    allStocks.push({ ...s, localCurrency: 'CNY', marketValueLocal: c.mv, marketValueUSD: mvUSD, cost: costUSD, pnl: pnlUSD, pnlPct, market: 'a', color: getPnlColor(pnlPct) });
     totalUSD += mvUSD;
   });
   
@@ -251,7 +262,7 @@ function renderTableUS(stocks, totalUSD) {
     const pct = mv / totalUSD * 100;
     if (s.avgCost < 0) {
       tbody.innerHTML += `<tr>
-        <td><span class="ticker-cell"><span class="ticker-color" style="background:${getTickerColor(s.ticker,i)}"></span>${s.ticker}</span></td>
+        <td><span class="ticker-cell"><span class="ticker-color" style="background:${s.avgCost < 0 ? "#2e7d32" : getPnlColor(pnlPct)}"></span>${s.ticker}</span></td>
         <td>${s.name}</td><td>${s.shares.toLocaleString()}</td>
         <td>已回本 ✅</td><td>$${s.lastPrice.toFixed(2)}</td>
         <td>${formatCurrency(mv,'USD')}</td>
@@ -259,7 +270,7 @@ function renderTableUS(stocks, totalUSD) {
         <td class="positive">∞</td><td>${pct.toFixed(1)}%</td></tr>`;
     } else {
       tbody.innerHTML += `<tr>
-        <td><span class="ticker-cell"><span class="ticker-color" style="background:${getTickerColor(s.ticker,i)}"></span>${s.ticker}</span></td>
+        <td><span class="ticker-cell"><span class="ticker-color" style="background:${s.avgCost < 0 ? "#2e7d32" : getPnlColor(pnlPct)}"></span>${s.ticker}</span></td>
         <td>${s.name}</td><td>${s.shares.toLocaleString()}</td>
         <td>$${s.avgCost.toFixed(2)}</td><td>$${s.lastPrice.toFixed(2)}</td>
         <td>${formatCurrency(mv,'USD')}</td>
@@ -293,7 +304,7 @@ function renderTableHK(stocks, totalUSD) {
     const mvUSD = mvHKD / fx.USD_HKD;
     const pct = mvUSD / totalUSD * 100;
     tbody.innerHTML += `<tr>
-      <td><span class="ticker-cell"><span class="ticker-color" style="background:${getTickerColor(s.ticker,i)}"></span>${s.ticker}</span></td>
+      <td><span class="ticker-cell"><span class="ticker-color" style="background:${s.avgCost < 0 ? "#2e7d32" : getPnlColor(pnlPct)}"></span>${s.ticker}</span></td>
       <td>${s.name}</td><td>${s.shares.toLocaleString()}</td>
       <td>HK$${s.avgCost.toFixed(2)}</td><td>HK$${s.lastPrice.toFixed(2)}</td>
       <td>${formatCurrency(mvHKD,'HKD')}</td>
