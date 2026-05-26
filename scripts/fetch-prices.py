@@ -118,15 +118,10 @@ def main():
         else:
             print(f"  {s['ticker']}: 失败 (保留 HK${s['lastPrice']})")
     
-    # A-share ETFs
-    print("\n--- A股基金 ---")
+    # A-share ETFs — 用户手动更新，不自动覆盖
+    print("\n--- A股基金 (跳过，用户手动更新) ---")
     for s in data['markets']['a']['stocks']:
-        p = fetch_fund_eastmoney(s['ticker'])
-        if p:
-            s['lastPrice'] = p
-            print(f"  {s['ticker']} {s['name']}: ¥{p}")
-        else:
-            print(f"  {s['ticker']}: 失败 (保留 ¥{s['lastPrice']})")
+        print(f"  {s['ticker']} {s['name']}: 保留 ¥{s['lastPrice']}")
     
     # Forex
     print("\n--- 汇率 ---")
