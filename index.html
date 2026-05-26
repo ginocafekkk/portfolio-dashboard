@@ -6,7 +6,7 @@
   <title>Portfolio Dashboard</title>
   <link rel="icon" href="img/logo.jpg">
   <link rel="apple-touch-icon" href="img/logo.jpg">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=1779777216">
   <!-- Login CSS -->
   <style>
     #login-overlay {
@@ -105,14 +105,10 @@
     <header class="header">
       <div class="header-left">
         <span class="logo" id="logoBtn" style="cursor:pointer;"><img src="img/logo.jpg" style="width:28px;height:auto;border-radius:50%;vertical-align:middle;"></span>
-        <span class="market-dots" id="marketDots">
-          <span class="m-dot" id="md-us" title="美股"><span class="flag">🇺🇸</span><span class="m-indicator gray"></span><span class="m-label">已收盘</span></span>
-          <span class="m-dot" id="md-hk" title="港股"><span class="flag">🇭🇰</span><span class="m-indicator gray"></span><span class="m-label">已收盘</span></span>
-          <span class="m-dot" id="md-a" title="A股"><span class="flag">🇨🇳</span><span class="m-indicator gray"></span><span class="m-label">已收盘</span></span>
-        </span>
+        <span id="dateDisplay" style="font-size:0.85rem;color:var(--text);white-space:nowrap;"></span>
+        <span id="weatherDisplay" style="font-size:0.85rem;color:var(--text-dim);cursor:default;" title="点击切换城市" onclick="changeCity()"></span>
       </div>
       <div class="header-right">
-        <span id="weatherDisplay" style="font-size:0.85rem;color:var(--text-dim);cursor:default;" title="点击切换城市" onclick="changeCity()"></span>
         <select id="currencySelect" class="currency-select" onchange="switchCurrency(this.value)" title="切换显示货币">
           <option value="USD">$ USD</option>
           <option value="HKD">HK$ HKD</option>

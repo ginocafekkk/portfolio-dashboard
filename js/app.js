@@ -234,7 +234,7 @@ function renderAll() {
   renderTableA(getSortedData(data.a.stocks, 'a', totalUSD), totalUSD);
   renderTableCash(data.cash, totalUSD);
   renderOptions();
-  renderMarketStatus();
+  renderDate();
   renderMacroGrid();
   renderAssetRow();
   renderNewsFeed();
@@ -416,64 +416,16 @@ function sortOptions(opts) {
   return arr;
 }
 
-// ====== Market Status ======
-function renderMarketStatus() {
-  const now = new Date();
-  const utc = now.getTime(); // getTime() 已返回 UTC 毫秒数，勿加时区偏移
-  
-  // ====== 节假日表（可扩展） ======
-  const isHoliday = (month, day) => {
-    const d = new Date(utc + 8 * 3600000);
-    return d.getUTCMonth() === month && d.getUTCDate() === day;
-  };
-  // US holidays (ET = UTC+8 换算)
-  const usHolidays = [
-    // 2026年已过节假日不列入，以下为未来通用规则
-  ];
-  // HK holidays
-  const hkHolidays = [
-    // 已过节日不列入
-  ];
-  // CN holidays (A股)
-  const cnHolidays = [
-    // 已过节日不列入
-  ];
-  
-  const isUSHoliday = usHolidays.some(h => isHoliday(h[0], h[1]));
-  const isHKHoliday = hkHolidays.some(h => isHoliday(h[0], h[1]));
-  const isCNHoliday = cnHolidays.some(h => isHoliday(h[0], h[1]));
-  
-  // US (ET = UTC-4 during EDT, UTC-5 during EST)
-  const et = new Date(utc - 4 * 3600000);
-  const etDow = et.getUTCDay();
-  const etH = et.getUTCHours(), etM = et.getUTCMinutes();
-  const usOpen = !isUSHoliday && etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
-  
-  // HK (UTC+8)
-  const hk = new Date(utc + 8 * 3600000);
-  const hkDow = hk.getUTCDay();
-  const hkH = hk.getUTCHours(), hkM = hk.getUTCMinutes();
-  // HK 交易时间: 9:30-16:00（连续，无午休）
-  const hkOpen = !isHKHoliday && hkDow >= 1 && hkDow <= 5 && 
-    ((hkH > 9 || (hkH === 9 && hkM >= 30)) && hkH < 16);
-  
-  // A-share (UTC+8) 交易时间: 9:30-11:30, 13:00-15:00
-  const aDow = hkDow, aH = hkH, aM = hkM;
-  const aOpen = !isCNHoliday && aDow >= 1 && aDow <= 5 && 
-    ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || (aH >= 13 && aH < 15));
-  
-  setDot('md-us', usOpen, isUSHoliday ? '🇺🇸 休市' : usOpen ? '交易中' : '已收盘');
-  setDot('md-hk', hkOpen, isHKHoliday ? '🇭🇰 休市' : hkOpen ? '交易中' : '已收盘');
-  setDot('md-a', aOpen, isCNHoliday ? '🇨🇳 休市' : aOpen ? '交易中' : '已收盘');
-}
 
-function setDot(id, open, label) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const ind = el.querySelector('.m-indicator');
-  if (ind) ind.className = 'm-indicator ' + (open ? 'green' : 'gray');
-  const lbl = el.querySelector('.m-label');
-  if (lbl) lbl.textContent = label || (open ? '交易中' : '已收盘');
+// ====== 日期显示 ======
+function renderDate() {
+  const now = new Date();
+  const days = ['日','一','二','三','四','五','六'];
+  const m = now.getMonth() + 1;
+  const d = now.getDate();
+  const dow = days[now.getDay()];
+  const el = document.getElementById('dateDisplay');
+  if (el) el.textContent = `${m}月${d}日(${dow})`;
 }
 
 // ====== 宏观指数卡片 ======
@@ -1004,8 +956,7 @@ document.addEventListener('DOMContentLoaded', function() {
   fetchWeather();
   
   // Auto-refresh market status every 30s
-  renderMarketStatus();
-  setInterval(renderMarketStatus, 30000);
+  renderDate();
   
   // Refresh weather every 30 min
   setInterval(fetchWeather, 1800000);
