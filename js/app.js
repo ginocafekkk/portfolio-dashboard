@@ -332,30 +332,32 @@ function renderTableA(stocks, totalUSD) {
   tbody.innerHTML = '';
   const fx = portfolio.fx;
   stocks.forEach((s, i) => {
-    const mvCNY = s.lastPrice;
+    const mvCNY = s.lastPrice || 0;
     const costCNY = s.avgCost;
-    const pnlCNY = mvCNY - costCNY;
-    const pnlPct = costCNY > 0 ? (mvCNY - costCNY) / costCNY * 100 : 0;
+    const hasCost = costCNY !== null && !isNaN(costCNY) && costCNY !== 0;
+    const pnlCNY = hasCost ? mvCNY - costCNY : 0;
+    const pnlPct = hasCost ? (mvCNY - costCNY) / costCNY * 100 : 0;
     const mvUSD = mvCNY / fx.USD_CNY;
     const pct = mvUSD / totalUSD * 100;
     tbody.innerHTML += `<tr>
       <td>${s.ticker}</td><td>${s.name}</td>
-      <td>${formatCurrency(costCNY,'CNY')}</td>
+      <td>${hasCost ? formatCurrency(costCNY,'CNY') : '—'}</td>
       <td>${formatCurrency(mvCNY,'CNY')}</td>
-      <td class="${pnlCNY>=0?'positive':'negative'}">${formatCurrency(pnlCNY,'CNY')}</td>
-      <td class="${pnlCNY>=0?'positive':'negative'}">${formatPct(pnlPct)}</td>
+      <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatCurrency(pnlCNY,'CNY') : '待更新'}</td>
+      <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatPct(pnlPct) : '—'}</td>
       <td>${pct.toFixed(1)}%</td></tr>`;
   });
-  const totalMVCNY = stocks.reduce((s,st) => s + st.lastPrice, 0);
-  const totalCostCNY = stocks.reduce((s,st) => s + st.avgCost, 0);
-  const totalPnlCNY = totalMVCNY - totalCostCNY;
+  const totalMVCNY = stocks.reduce((s,st) => s + (st.lastPrice || 0), 0);
+  const totalCostCNY = stocks.reduce((s,st) => s + (st.avgCost || 0), 0);
+  const hasAnyCost = stocks.some(s => s.avgCost !== null && !isNaN(s.avgCost) && s.avgCost !== 0);
+  const totalPnlCNY = hasAnyCost ? totalMVCNY - totalCostCNY : 0;
   const totalMVUSD = totalMVCNY / fx.USD_CNY;
   tbody.innerHTML += `<tr style="font-weight:700">
     <td colspan="2">📊 合计</td>
-    <td>${formatCurrency(totalCostCNY,'CNY')}</td>
+    <td>${hasAnyCost ? formatCurrency(totalCostCNY,'CNY') : '—'}</td>
     <td>${formatCurrency(totalMVCNY,'CNY')}</td>
-    <td class="${totalPnlCNY>=0?'positive':'negative'}">${formatCurrency(totalPnlCNY,'CNY')}</td>
-    <td class="${totalPnlCNY>=0?'positive':'negative'}">${formatPct(totalPnlCNY/totalCostCNY*100)}</td>
+    <td class="${!hasAnyCost ? '' : (totalPnlCNY>=0?'positive':'negative')}">${hasAnyCost ? formatCurrency(totalPnlCNY,'CNY') : '待更新'}</td>
+    <td class="${!hasAnyCost ? '' : (totalPnlCNY>=0?'positive':'negative')}">${hasAnyCost ? formatPct(totalPnlCNY/totalCostCNY*100) : '—'}</td>
     <td>${(totalMVUSD/totalUSD*100).toFixed(1)}%</td></tr>`;
 }
 
