@@ -104,6 +104,13 @@
           "shares": 1,
           "avgCost": 100000,
           "lastPrice": 97774.8
+        },
+        {
+          "ticker": "022438",
+          "name": "华泰柏瑞中证A500ETF联接A",
+          "shares": null,
+          "avgCost": null,
+          "lastPrice": 100000.0
         }
       ]
     },
