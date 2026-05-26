@@ -419,7 +419,7 @@ function sortOptions(opts) {
 // ====== Market Status ======
 function renderMarketStatus() {
   const now = new Date();
-  const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+  const utc = now.getTime(); // getTime() 已返回 UTC 毫秒数，勿加时区偏移
   
   // ====== 节假日表（可扩展） ======
   const isHoliday = (month, day) => {
