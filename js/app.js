@@ -726,6 +726,15 @@ function openEditHoldings() {
 
 function buildEditRow(s, market) {
   const prefix = market === 'us' ? '$' : (market === 'hk' ? 'HK$' : '¥');
+  // A股基金：显示总持仓金额，而非股数×成本
+  if (market === 'a') {
+    return `<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.85rem;">
+    <span style="width:65px;font-weight:600;">${s.ticker}</span>
+    <span style="width:80px;color:var(--text-dim);font-size:0.75rem;overflow:hidden;">${s.name.substring(0,8)}</span>
+    <input id="edit_a_val_${s.ticker}" value="${s.lastPrice}" style="width:100px;padding:4px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);text-align:right;font-size:0.8rem;" placeholder="持仓金额">
+    <span style="font-size:0.7rem;color:var(--text-dim);">${prefix} 总金额</span>
+  </div>`;
+  }
   return `<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.85rem;">
     <span style="width:65px;font-weight:600;">${s.ticker}</span>
     <span style="width:80px;color:var(--text-dim);font-size:0.75rem;overflow:hidden;">${s.name.substring(0,8)}</span>
@@ -738,19 +747,30 @@ function buildEditRow(s, market) {
 
 function saveEditHoldings() {
   const edits = {};
+  // 保存美股/港股（股数×成本）
   document.querySelectorAll('[id^="edit_shares_"]').forEach(el => {
     const ticker = el.id.replace('edit_shares_', '');
     const shares = parseInt(el.value);
     const cost = parseFloat(document.getElementById('edit_cost_' + ticker)?.value);
     if (!isNaN(shares) && !isNaN(cost)) edits[ticker] = { shares, cost };
   });
+  // 保存A股（总持仓金额）
+  document.querySelectorAll('[id^="edit_a_val_"]').forEach(el => {
+    const ticker = el.id.replace('edit_a_val_', '');
+    const val = parseFloat(el.value);
+    if (!isNaN(val) && val > 0) edits[ticker] = { lastPrice: val };
+  });
   
   // Apply edits to portfolio
   ['us', 'hk', 'a'].forEach(market => {
     portfolio.markets[market].stocks.forEach(s => {
       if (edits[s.ticker]) {
-        s.shares = edits[s.ticker].shares;
-        s.avgCost = edits[s.ticker].cost;
+        if (edits[s.ticker].lastPrice) {
+          s.lastPrice = edits[s.ticker].lastPrice;
+        } else {
+          s.shares = edits[s.ticker].shares;
+          s.avgCost = edits[s.ticker].cost;
+        }
       }
     });
   });
