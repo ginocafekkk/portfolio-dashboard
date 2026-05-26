@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-26",
   "fx": {
-    "USD_HKD": 7.83,
-    "USD_CNY": 6.8
+    "USD_HKD": 7.8351,
+    "USD_CNY": 6.7858
   },
   "markets": {
     "us": {
@@ -21,7 +21,7 @@
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 419.09
+          "lastPrice": 418.57
         },
         {
           "ticker": "META",
@@ -76,14 +76,14 @@
           "name": "腾讯控股",
           "shares": 400,
           "avgCost": 512.5,
-          "lastPrice": 441.0
+          "lastPrice": 436.6
         },
         {
           "ticker": "9988.HK",
           "name": "阿里巴巴",
           "shares": 400,
           "avgCost": 137.25,
-          "lastPrice": 127.0
+          "lastPrice": 127.4
         }
       ]
     },
@@ -96,14 +96,14 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 192336.31
+          "lastPrice": 1.2436
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 97774.8
+          "lastPrice": 1.6046
         }
       ]
     },

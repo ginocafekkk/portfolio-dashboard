@@ -421,30 +421,50 @@ function renderMarketStatus() {
   const now = new Date();
   const utc = now.getTime() + now.getTimezoneOffset() * 60000;
   
-  // US (ET = UTC-4 during EDT)
+  // ====== 节假日表（可扩展） ======
+  const isHoliday = (month, day) => {
+    const d = new Date(utc + 8 * 3600000);
+    return d.getUTCMonth() === month && d.getUTCDate() === day;
+  };
+  // US holidays (ET = UTC+8 换算)
+  const usHolidays = [
+    // 2026年已过节假日不列入，以下为未来通用规则
+  ];
+  // HK holidays
+  const hkHolidays = [
+    // 已过节日不列入
+  ];
+  // CN holidays (A股)
+  const cnHolidays = [
+    // 已过节日不列入
+  ];
+  
+  const isUSHoliday = usHolidays.some(h => isHoliday(h[0], h[1]));
+  const isHKHoliday = hkHolidays.some(h => isHoliday(h[0], h[1]));
+  const isCNHoliday = cnHolidays.some(h => isHoliday(h[0], h[1]));
+  
+  // US (ET = UTC-4 during EDT, UTC-5 during EST)
   const et = new Date(utc - 4 * 3600000);
   const etDow = et.getUTCDay();
   const etH = et.getUTCHours(), etM = et.getUTCMinutes();
-  // Memorial Day 2026 = May 25 (last Monday of May)
-  const isMemorialDay = (et.getUTCMonth() === 4 && et.getUTCDate() === 25);
-  const usOpen = !isMemorialDay && etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
+  const usOpen = !isUSHoliday && etDow >= 1 && etDow <= 5 && (etH > 9 || (etH === 9 && etM >= 30)) && etH < 16;
   
   // HK (UTC+8)
   const hk = new Date(utc + 8 * 3600000);
   const hkDow = hk.getUTCDay();
-  const hkH = hk.getUTCHours();
-  // Buddha's Birthday 2026 = May 25 (Monday)
-  const isBuddhaBirthday = (hk.getUTCMonth() === 4 && hk.getUTCDate() === 25);
-  const hkOpen = !isBuddhaBirthday && hkDow >= 1 && hkDow <= 5 && hkH >= 9 && hkH < 16;
+  const hkH = hk.getUTCHours(), hkM = hk.getUTCMinutes();
+  // HK 交易时间: 9:30-16:00（连续，无午休）
+  const hkOpen = !isHKHoliday && hkDow >= 1 && hkDow <= 5 && 
+    ((hkH > 9 || (hkH === 9 && hkM >= 30)) && hkH < 16);
   
-  // A-share (UTC+8, no holiday today)
-  const aDow = hkDow, aH = hkH, aM = hk.getUTCMinutes();
-  const aOpen = aDow >= 1 && aDow <= 5 && 
+  // A-share (UTC+8) 交易时间: 9:30-11:30, 13:00-15:00
+  const aDow = hkDow, aH = hkH, aM = hkM;
+  const aOpen = !isCNHoliday && aDow >= 1 && aDow <= 5 && 
     ((aH > 9 || (aH === 9 && aM >= 30)) && (aH < 11 || (aH === 11 && aM <= 30)) || (aH >= 13 && aH < 15));
   
-  setDot('md-us', usOpen, isMemorialDay ? '🇺🇸 节假日' : usOpen ? '交易中' : '已收盘');
-  setDot('md-hk', hkOpen, isBuddhaBirthday ? '🇭🇰 佛诞' : hkOpen ? '交易中' : '已收盘');
-  setDot('md-a', aOpen, aOpen ? '交易中' : '已收盘');
+  setDot('md-us', usOpen, isUSHoliday ? '🇺🇸 休市' : usOpen ? '交易中' : '已收盘');
+  setDot('md-hk', hkOpen, isHKHoliday ? '🇭🇰 休市' : hkOpen ? '交易中' : '已收盘');
+  setDot('md-a', aOpen, isCNHoliday ? '🇨🇳 休市' : aOpen ? '交易中' : '已收盘');
 }
 
 function setDot(id, open, label) {
