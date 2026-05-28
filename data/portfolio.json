@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -14,56 +14,56 @@
           "name": "NVIDIA",
           "shares": 350,
           "avgCost": 136.35,
-          "lastPrice": 212.6
+          "lastPrice": 214.25
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 412.67
+          "lastPrice": 426.99
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 120,
           "avgCost": 619.59,
-          "lastPrice": 635.25
+          "lastPrice": 635.29
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 384.83
+          "lastPrice": 386.12
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 271.85
+          "lastPrice": 274.0
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 229.2,
-          "lastPrice": 440.36
+          "lastPrice": 442.1
         },
         {
           "ticker": "INTU",
           "name": "Intuit",
           "shares": 100,
           "avgCost": 463.54,
-          "lastPrice": 307.73
+          "lastPrice": 313.0
         },
         {
           "ticker": "TRV",
           "name": "Travelers",
           "shares": 130,
           "avgCost": 217.9,
-          "lastPrice": 299.94
+          "lastPrice": 294.31
         }
       ]
     },
