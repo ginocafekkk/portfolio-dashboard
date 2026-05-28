@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-28",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -14,56 +14,56 @@
           "name": "NVIDIA",
           "shares": 350,
           "avgCost": 136.35,
-          "lastPrice": 215.33
+          "lastPrice": 212.6
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 418.57
+          "lastPrice": 412.67
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 120,
           "avgCost": 619.59,
-          "lastPrice": 610.26
+          "lastPrice": 635.25
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 379.38
+          "lastPrice": 384.83
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 266.32
+          "lastPrice": 271.85
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 229.2,
-          "lastPrice": 426.01
+          "lastPrice": 440.36
         },
         {
           "ticker": "INTU",
           "name": "Intuit",
           "shares": 100,
           "avgCost": 463.54,
-          "lastPrice": 319.94
+          "lastPrice": 307.73
         },
         {
           "ticker": "TRV",
           "name": "Travelers",
           "shares": 130,
           "avgCost": 217.9,
-          "lastPrice": 306.46
+          "lastPrice": 299.94
         }
       ]
     },
@@ -76,14 +76,14 @@
           "name": "腾讯控股",
           "shares": 400,
           "avgCost": 512.5,
-          "lastPrice": 436.6
+          "lastPrice": 434.4
         },
         {
           "ticker": "9988.HK",
           "name": "阿里巴巴",
           "shares": 400,
           "avgCost": 137.25,
-          "lastPrice": 127.4
+          "lastPrice": 124.3
         }
       ]
     },
@@ -259,37 +259,42 @@
       {
         "ticker": "NVDA",
         "source": "📊 客观数据",
-        "text": "NVDA 本周创历史新高 22.30，市值突破 .4T，超越整个加拿大股市"
+        "text": "NVDA 收 $212.60，Tigress Financial 大幅上调目标价 $360→$425；HSBC 维持 Buy，PT $295→$325。Jensen Huang 联手 SK Hynix/TSMC 强化 AI 芯片联盟。"
       },
       {
         "ticker": "META",
         "source": "📊 客观数据",
-        "text": "Meta 洽谈购买 Google TPU 芯片，价值数十亿美元，可能降低对NVDA依赖"
+        "text": "META 收 $635.26 (🟢 +3.74%)，科技板块反弹领涨。Q1 AI 支出计划获市场认可，大摩维持 Overweight，PT $700+。"
       },
       {
-        "ticker": "GOOG",
+        "ticker": "AMZN",
         "source": "📊 客观数据",
-        "text": "Alphabet 市值 .8T，Gemini 在AI领域挑战 OpenAI；搜索业务仍是现金牛"
+        "text": "AMZN 收 $271.85 (🟢 +2.47%)，AWS推出AI购物工具；Snowflake 承诺 5 年 60 亿 AWS 支出；英国宣布 $200 亿投资计划。"
       },
       {
         "ticker": "INTU",
         "source": "📊 客观数据",
-        "text": "INTU 裁员17%（~3000人）后股价从 84 暴跌至 07，上周五反弹+4.19%至19.94"
+        "text": "INTU 收 $307.73 (🟢 +1.11%) 连涨三日！$300 止损线守住。BofA 首次覆盖 Buy + $400 PT。距离 52周低 $302 仅 $5，反弹空间大但风险仍存。"
       },
       {
-        "ticker": "腾讯",
+        "ticker": "TSLA",
         "source": "📊 客观数据",
-        "text": "Q1营收增长9%，AI投入加大致利润miss；南下资金近期净卖出"
+        "text": "TSLA 收 $440.36 (🟢 +1.56%)，SpaceX 特斯拉合并传闻持续发酵。欧洲 4月注册量激增 46%，需求回暖。"
+      },
+      {
+        "ticker": "TRV",
+        "source": "📊 客观数据",
+        "text": "TRV 收 $299.94 (🔴 -1.61%) 保险板块走弱。22年无亏损承保记录为其核心护城河。"
       },
       {
         "ticker": "ALL",
         "source": "🧸 Labuster 观点",
-        "text": "INTU 00支撑仍关键，需等待Q4 TurboTax数据验证。NVDA创新高后不宜追涨，等回调00以下再考虑加仓。AI芯片竞争加剧(Meta+Google)是中长期隐忧。"
+        "text": "WMT Put $119 5/29 距到期仅 1 天！WMT 收 $118.54 价内 $0.46，成本 $106 已浮亏。今日留意 WMT 走势决定行权策略。"
       },
       {
         "ticker": "ALL",
         "source": "🧸 Labuster 观点",
-        "text": "红利低波当前股息率4.48%，A500加权PE仅17.75x，两个指数当前位置对建仓偏友好。建议分批建仓，不急于一次到位。"
+        "text": "组合当日 +$2,150 ✅ 靠 META (+$2,749) 和 AMZN (+$656) 拉动。NVDA/MSFT/TRV 三只拖后腿 -$2,135。整体组合仍健康，INTU 守 $300 是短期重点。"
       }
     ]
   }
