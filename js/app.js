@@ -339,8 +339,14 @@ function renderTableA(stocks, totalUSD) {
     const pnlPct = hasCost ? (mvCNY - costCNY) / costCNY * 100 : 0;
     const mvUSD = mvCNY / fx.USD_CNY;
     const pct = mvUSD / totalUSD * 100;
+    // Get benchmark name if set
+    let bmNote = '';
+    if (s.benchmark && portfolio.marketData) {
+      const bmIdx = portfolio.marketData.indices.find(idx => idx.key === s.benchmark);
+      if (bmIdx) bmNote = '<br><span style="font-size:0.65rem;color:var(--text-dim);">📊 跟踪: ' + bmIdx.name + '</span>';
+    }
     tbody.innerHTML += `<tr>
-      <td>${s.ticker}</td><td>${s.name}</td>
+      <td>${s.ticker}</td><td>${s.name}${bmNote}</td>
       <td>${hasCost ? formatCurrency(costCNY,'CNY') : '—'}</td>
       <td>${formatCurrency(mvCNY,'CNY')}</td>
       <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatCurrency(pnlCNY,'CNY') : '待更新'}</td>
@@ -443,9 +449,24 @@ function renderMacroGrid() {
       <div class="macro-value">${idx.value.toLocaleString()}</div>
       <div class="macro-change ${cls}">${arrow} ${Math.abs(idx.change).toFixed(2)}% ${idx.date}</div>
       ${idx.pe ? `<div class="macro-pe">PE ${idx.pe}x</div>` : ''}
-      <div class="macro-note"><span class="macro-status ${statusDot}"></span>${idx.status === 'open' ? '交易中' : idx.note || '已收盘'}</div>
+      <div class="macro-note"><span class="macro-status ${statusDot}"></span>${idx.status === 'open' ? '交易中' : idx.note || '已收盘'}${getTrackedETFTag(idx.key)}</div>
     </div>`;
   }).join('');
+}
+
+// Helper: show which ETFs track this index
+function getTrackedETFTag(indexKey) {
+  if (!portfolio || !portfolio.markets) return '';
+  const tracked = [];
+  ['us','hk','a'].forEach(m => {
+    if (portfolio.markets[m] && portfolio.markets[m].stocks) {
+      portfolio.markets[m].stocks.forEach(s => {
+        if (s.benchmark === indexKey) tracked.push(s.ticker);
+      });
+    }
+  });
+  if (tracked.length === 0) return '';
+  return ' 🔗' + tracked.join('/');
 }
 
 // ====== 大类资产表现 ======

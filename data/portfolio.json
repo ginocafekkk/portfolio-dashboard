@@ -96,21 +96,24 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 192336.31
+          "lastPrice": 192336.31,
+          "benchmark": "hshylv"
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 97774.8
+          "lastPrice": 97774.8,
+          "benchmark": "csi-lowvol"
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 100000.0,
-          "lastPrice": 100000.0
+          "lastPrice": 100000.0,
+          "benchmark": "a500"
         }
       ]
     },
