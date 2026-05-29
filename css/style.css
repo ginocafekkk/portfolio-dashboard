@@ -271,6 +271,7 @@ body.light-theme {
 .macro-status { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 4px; }
 .macro-status.green { background: #00c853; }
 .macro-status.gray { background: #666; }
+.macro-status.orange { background: #ff9800; }
 .macro-pe { font-size: 0.7rem; color: var(--accent); margin-top: 2px; }
 
 .asset-row {

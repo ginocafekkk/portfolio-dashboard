@@ -437,19 +437,60 @@ function renderDate() {
 }
 
 // ====== 宏观指数卡片 ======
+// Get live market status based on current time
+function getLiveMarketStatus(indexKey) {
+  const now = new Date();
+  const et = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+  const cst = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+  const hkt = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Hong_Kong' }));
+  
+  const etH = et.getHours(), etM = et.getMinutes(), etMin = etH * 60 + etM;
+  const cstH = cst.getHours(), cstM = cst.getMinutes(), cstMin = cstH * 60 + cstM;
+  const hktH = hkt.getHours(), hktM = hkt.getMinutes(), hktMin = hktH * 60 + hktM;
+  const etDow = et.getDay();
+  const isWeekend = etDow === 0 || etDow === 6;
+  
+  // US markets (NYSE/NASDAQ)
+  if (indexKey === 'sp500' || indexKey === 'nasdaq') {
+    if (isWeekend) return { status: 'closed', dot: 'gray', label: '周末休市' };
+    if (etMin >= 570 && etMin < 960) return { status: 'open', dot: 'green', label: '交易中' };
+    if (etMin >= 240 && etMin < 570) return { status: 'pre', dot: 'orange', label: '盘前' };
+    if (etMin >= 960 && etMin < 1200) return { status: 'after', dot: 'orange', label: '盘后' };
+    return { status: 'closed', dot: 'gray', label: '已收盘' };
+  }
+  
+  // HK market
+  if (indexKey === 'hshylv') {
+    const hktDow = hkt.getDay();
+    if (hktDow === 0 || hktDow === 6) return { status: 'closed', dot: 'gray', label: '周末休市' };
+    if (hktMin >= 570 && hktMin < 960) return { status: 'open', dot: 'green', label: '交易中' };
+    return { status: 'closed', dot: 'gray', label: '已收盘' };
+  }
+  
+  // A-share market
+  if (indexKey === 'a500' || indexKey === 'csi-lowvol') {
+    const cstDow = cst.getDay();
+    if (cstDow === 0 || cstDow === 6) return { status: 'closed', dot: 'gray', label: '周末休市' };
+    if ((cstMin >= 570 && cstMin < 690) || (cstMin >= 780 && cstMin < 900)) return { status: 'open', dot: 'green', label: '交易中' };
+    return { status: 'closed', dot: 'gray', label: '已收盘' };
+  }
+  
+  return { status: 'closed', dot: 'gray', label: '已收盘' };
+}
+
 function renderMacroGrid() {
   const grid = document.getElementById('macroGrid');
   if (!grid || !portfolio.marketData) return;
   grid.innerHTML = portfolio.marketData.indices.map(idx => {
     const cls = idx.change >= 0 ? 'positive' : 'negative';
     const arrow = idx.change >= 0 ? '▲' : '▼';
-    const statusDot = idx.status === 'open' ? 'green' : 'gray';
+    const live = getLiveMarketStatus(idx.key);
     return `<div class="macro-card">
       <div class="macro-name">${idx.name}</div>
       <div class="macro-value">${idx.value.toLocaleString()}</div>
       <div class="macro-change ${cls}">${arrow} ${Math.abs(idx.change).toFixed(2)}% ${idx.date}</div>
       ${idx.pe ? `<div class="macro-pe">PE ${idx.pe}x</div>` : ''}
-      <div class="macro-note"><span class="macro-status ${statusDot}"></span>${idx.status === 'open' ? '交易中' : idx.note || '已收盘'}${getTrackedETFTag(idx.key)}</div>
+      <div class="macro-note"><span class="macro-status ${live.dot}"></span>${live.label}${getTrackedETFTag(idx.key)}</div>
     </div>`;
   }).join('');
 }
