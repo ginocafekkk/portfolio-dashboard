@@ -189,27 +189,30 @@
         "name": "标普500",
         "value": 7564,
         "change": 0.58,
+        "pe": 26.47,
         "date": "05-28",
         "status": "closed",
-        "note": ""
+        "note": "Trailing PE 26.47x"
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
         "value": 26917,
         "change": 0.91,
+        "pe": 34.0,
         "date": "05-28",
         "status": "closed",
-        "note": ""
+        "note": "NDX 100 PE ~34x"
       },
       {
         "key": "hshylv",
         "name": "恒生低波红利",
         "value": 4792,
         "change": -0.43,
+        "pe": 7.86,
         "date": "05-28",
         "status": "open",
-        "note": "恒生港股通高股息低波动"
+        "note": "PE 7.86x 股息率 ~6.2%"
       },
       {
         "key": "a500",
