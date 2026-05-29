@@ -74,8 +74,8 @@
         {
           "ticker": "0700.HK",
           "name": "腾讯控股",
-          "shares": 400,
-          "avgCost": 512.5,
+          "shares": 500,
+          "avgCost": 500.0,
           "lastPrice": 425.0
         },
         {
@@ -165,16 +165,6 @@
       "strike": 245,
       "expiry": "2026-06-18",
       "premium": 410,
-      "willingToAssign": true,
-      "currentPrice": null
-    },
-    {
-      "ticker": "0700.HK",
-      "type": "Short Put",
-      "strike": 450,
-      "expiry": "2026-05-28",
-      "premium": 988,
-      "currency": "HKD",
       "willingToAssign": true,
       "currentPrice": null
     },
@@ -285,6 +275,16 @@
         "ticker": "TRV",
         "source": "📊 客观数据",
         "text": "TRV 收 $299.94 (🔴 -1.61%) 保险板块走弱。22年无亏损承保记录为其核心护城河。"
+      },
+      {
+        "ticker": "0700.HK",
+        "source": "📊 操作记录",
+        "text": "腾讯 Put $450 被指派 100股，持仓增至 500股 @ 均价 HK$500。港股货币基金减少 HK$45,000。"
+      },
+      {
+        "ticker": "ALL",
+        "source": "🧸 Labuster 观点",
+        "text": "WMT Put $119 今天到期，关注最终结果。腾讯 Put 昨日行权已落地。"
       },
       {
         "ticker": "ALL",
