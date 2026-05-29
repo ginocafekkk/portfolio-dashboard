@@ -183,62 +183,71 @@
     "indices": [
       {
         "key": "sp500",
-        "name": "S&P 500",
-        "value": 7473,
-        "change": 0.37,
-        "date": "05-22",
-        "status": "closed",
-        "note": "今日Memorial Day休市"
-      },
-      {
-        "key": "hsi",
-        "name": "恒生指数",
-        "value": 25606,
-        "change": -0.43,
-        "date": "05-22",
-        "status": "closed",
-        "note": "佛诞假期休市"
-      },
-      {
-        "key": "csi300",
-        "name": "沪深300",
-        "value": 4873,
+        "name": "标普500",
+        "value": 7564,
         "change": 0.58,
-        "date": "05-25",
-        "status": "open",
+        "date": "05-28",
+        "status": "closed",
         "note": ""
+      },
+      {
+        "key": "nasdaq",
+        "name": "纳斯达克",
+        "value": 26917,
+        "change": 0.91,
+        "date": "05-28",
+        "status": "closed",
+        "note": ""
+      },
+      {
+        "key": "hshylv",
+        "name": "恒生低波红利",
+        "value": 4792,
+        "change": -0.43,
+        "date": "05-28",
+        "status": "closed",
+        "note": "恒生港股通高股息低波动"
       },
       {
         "key": "a500",
         "name": "中证A500",
         "value": 6115,
         "pe": 17.75,
-        "date": "05-22",
+        "date": "05-28",
         "status": "open",
         "note": "加权PE 17.75x"
+      },
+      {
+        "key": "csi-lowvol",
+        "name": "中证低波红利",
+        "value": 11538,
+        "change": -0.85,
+        "pe": 8.78,
+        "date": "05-28",
+        "status": "open",
+        "note": "红利低波100 PE 8.78x"
       }
     ],
     "assets": [
       {
-        "name": "美股(S&P500)",
-        "change": 0.37
-      },
-      {
-        "name": "港股(恒生)",
-        "change": -0.43
-      },
-      {
-        "name": "A股(沪深300)",
+        "name": "美股(标普500)",
         "change": 0.58
       },
       {
-        "name": "黄金(XAU)",
-        "change": -0.28
+        "name": "美股(纳斯达克)",
+        "change": 0.91
       },
       {
-        "name": "美债10Y",
-        "value": "4.56%",
-        "change": -0.01
+        "name": "港股(恒生低波红利)",
+        "change": -0.43
+      },
+      {
+        "name": "A股(A500)",
+        "change": 0.29
+      },
+      {
+        "name": "A股(中证低波红利)",
+        "change": -0.85
       }
     ],
     "fx": {
