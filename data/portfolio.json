@@ -274,52 +274,52 @@
       {
         "ticker": "NVDA",
         "source": "📊 客观数据",
-        "text": "NVDA 收 $212.60，Tigress Financial 大幅上调目标价 $360→$425；HSBC 维持 Buy，PT $295→$325。Jensen Huang 联手 SK Hynix/TSMC 强化 AI 芯片联盟。"
+        "text": "NVDA 收 $211.14 (🔴 -1.45%)。Tigress Financial 大幅上调目标价 $360→$425；HSBC 维持 Buy PT $295→$325。AI 芯片联盟巩固。"
+      },
+      {
+        "ticker": "MSFT",
+        "source": "📊 客观数据",
+        "text": "MSFT 收 $450.24 (🟢 +5.45%)！D.A. Davidson 上调至 Buy PT $500；BofA 重新覆盖 Buy PT $500。市值重回增长轨道。"
       },
       {
         "ticker": "META",
         "source": "📊 客观数据",
-        "text": "META 收 $635.26 (🟢 +3.74%)，科技板块反弹领涨。Q1 AI 支出计划获市场认可，大摩维持 Overweight，PT $700+。"
+        "text": "META 收 $632.51 (🔴 -0.44%)。大摩维持 Overweight PT $700+。YTD -4.1%，AI 投入周期中暂承压。"
+      },
+      {
+        "ticker": "GOOG",
+        "source": "📊 客观数据",
+        "text": "GOOG 收 $376.43 (🔴 -2.51%)。YTD +20.4% 仍是组合最佳。AI 搜索变现持续扩张中。"
       },
       {
         "ticker": "AMZN",
         "source": "📊 客观数据",
-        "text": "AMZN 收 $271.85 (🟢 +2.47%)，AWS推出AI购物工具；Snowflake 承诺 5 年 60 亿 AWS 支出；英国宣布 $200 亿投资计划。"
-      },
-      {
-        "ticker": "INTU",
-        "source": "📊 客观数据",
-        "text": "INTU 收 $307.73 (🟢 +1.11%) 连涨三日！$300 止损线守住。BofA 首次覆盖 Buy + $400 PT。距离 52周低 $302 仅 $5，反弹空间大但风险仍存。"
+        "text": "AMZN 收 $270.64 (🔴 -1.23%)。AWS 推出 AI 购物工具；Snowflake 承诺 5年 $60亿 AWS 支出；英 $200亿投资计划。"
       },
       {
         "ticker": "TSLA",
         "source": "📊 客观数据",
-        "text": "TSLA 收 $440.36 (🟢 +1.56%)，SpaceX 特斯拉合并传闻持续发酵。欧洲 4月注册量激增 46%，需求回暖。"
+        "text": "TSLA 收 $435.79 (🔴 -1.43%)。SpaceX 合并传闻持续发酵。欧洲 4月注册量激增 46%，需求回暖趋势。"
+      },
+      {
+        "ticker": "INTU",
+        "source": "📊 客观数据",
+        "text": "INTU 收 $331.53 (🟢 +5.92%) 强劲反弹！BofA 首次覆盖 Buy + $400 PT。距 52周低 $302 约 10%，反弹空间仍在但风险未消。"
       },
       {
         "ticker": "TRV",
         "source": "📊 客观数据",
-        "text": "TRV 收 $299.94 (🔴 -1.61%) 保险板块走弱。22年无亏损承保记录为其核心护城河。"
+        "text": "TRV 收 $291.89 (🔴 -0.83%) 保险板块走弱。22年无亏损承保记录为长期护城河。YTD +1.0% 平稳运行。"
       },
       {
         "ticker": "0700.HK",
-        "source": "📊 操作记录",
-        "text": "腾讯 Put $450 被指派 100股，持仓增至 500股 @ 均价 HK$500。港股货币基金减少 HK$45,000。"
+        "source": "📊 客观数据",
+        "text": "腾讯收 HK$427.20 (🟢 +0.52%)。YTD -28.7% 承压。AI 投资周期利润受压，但游戏+广告基本盘稳固。"
       },
       {
-        "ticker": "ALL",
-        "source": "🧸 Labuster 观点",
-        "text": "WMT Put $119 今天到期，关注最终结果。腾讯 Put 昨日行权已落地。"
-      },
-      {
-        "ticker": "ALL",
-        "source": "🧸 Labuster 观点",
-        "text": "WMT Put $119 5/29 距到期仅 1 天！WMT 收 $118.54 价内 $0.46，成本 $106 已浮亏。今日留意 WMT 走势决定行权策略。"
-      },
-      {
-        "ticker": "ALL",
-        "source": "🧸 Labuster 观点",
-        "text": "组合当日 +$2,150 ✅ 靠 META (+$2,749) 和 AMZN (+$656) 拉动。NVDA/MSFT/TRV 三只拖后腿 -$2,135。整体组合仍健康，INTU 守 $300 是短期重点。"
+        "ticker": "9988.HK",
+        "source": "📊 客观数据",
+        "text": "阿里收 HK$120.90 (🔴 -0.74%)。YTD -24.4%。AI 云业务增长亮眼但电商竞争加剧压制估值。"
       }
     ]
   }
