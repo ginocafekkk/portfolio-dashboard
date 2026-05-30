@@ -14,56 +14,64 @@
           "name": "NVIDIA",
           "shares": 350,
           "avgCost": 136.35,
-          "lastPrice": 211.14
+          "lastPrice": 211.14,
+          "ytdReturn": 13.22
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 450.24
+          "lastPrice": 450.24,
+          "ytdReturn": -6.49
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 120,
           "avgCost": 619.59,
-          "lastPrice": 632.51
+          "lastPrice": 632.51,
+          "ytdReturn": -4.10
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 376.43
+          "lastPrice": 376.43,
+          "ytdReturn": 21.60
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 270.64
+          "lastPrice": 270.64,
+          "ytdReturn": 17.25
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 229.2,
-          "lastPrice": 435.79
+          "lastPrice": 435.79,
+          "ytdReturn": -3.10
         },
         {
           "ticker": "INTU",
           "name": "Intuit",
           "shares": 100,
           "avgCost": 463.54,
-          "lastPrice": 331.53
+          "lastPrice": 331.53,
+          "ytdReturn": -49.70
         },
         {
           "ticker": "TRV",
           "name": "Travelers",
           "shares": 130,
           "avgCost": 217.9,
-          "lastPrice": 291.89
+          "lastPrice": 291.89,
+          "ytdReturn": 1.00
         }
       ]
     },
@@ -76,14 +84,16 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 427.2
+          "lastPrice": 427.2,
+          "ytdReturn": -29.0
         },
         {
           "ticker": "9988.HK",
           "name": "阿里巴巴",
           "shares": 400,
           "avgCost": 137.25,
-          "lastPrice": 120.9
+          "lastPrice": 120.9,
+          "ytdReturn": -23.0
         }
       ]
     },
