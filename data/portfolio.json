@@ -15,7 +15,7 @@
           "shares": 350,
           "avgCost": 136.35,
           "lastPrice": 211.14,
-          "ytdReturn": 13.22
+          "ytdStartPrice": 186.49
         },
         {
           "ticker": "MSFT",
@@ -23,7 +23,7 @@
           "shares": 210,
           "avgCost": 379.4,
           "lastPrice": 450.24,
-          "ytdReturn": -6.49
+          "ytdStartPrice": 481.48
         },
         {
           "ticker": "META",
@@ -31,7 +31,7 @@
           "shares": 120,
           "avgCost": 619.59,
           "lastPrice": 632.51,
-          "ytdReturn": -4.10
+          "ytdStartPrice": 659.53
         },
         {
           "ticker": "GOOG",
@@ -39,7 +39,7 @@
           "shares": 100,
           "avgCost": -82.6,
           "lastPrice": 376.43,
-          "ytdReturn": 21.60
+          "ytdStartPrice": 312.78
         },
         {
           "ticker": "AMZN",
@@ -47,7 +47,7 @@
           "shares": 100,
           "avgCost": 168.8,
           "lastPrice": 270.64,
-          "ytdReturn": 17.25
+          "ytdStartPrice": 230.82
         },
         {
           "ticker": "TSLA",
@@ -55,7 +55,7 @@
           "shares": 80,
           "avgCost": 229.2,
           "lastPrice": 435.79,
-          "ytdReturn": -3.10
+          "ytdStartPrice": 449.72
         },
         {
           "ticker": "INTU",
@@ -63,7 +63,7 @@
           "shares": 100,
           "avgCost": 463.54,
           "lastPrice": 331.53,
-          "ytdReturn": -49.70
+          "ytdStartPrice": 662.42
         },
         {
           "ticker": "TRV",
@@ -71,7 +71,7 @@
           "shares": 130,
           "avgCost": 217.9,
           "lastPrice": 291.89,
-          "ytdReturn": 1.00
+          "ytdStartPrice": 289.01
         }
       ]
     },
@@ -85,7 +85,7 @@
           "shares": 500,
           "avgCost": 500.0,
           "lastPrice": 427.2,
-          "ytdReturn": -29.0
+          "ytdStartPrice": 599
         },
         {
           "ticker": "9988.HK",
@@ -93,7 +93,7 @@
           "shares": 400,
           "avgCost": 137.25,
           "lastPrice": 120.9,
-          "ytdReturn": -23.0
+          "ytdStartPrice": 160
         }
       ]
     },

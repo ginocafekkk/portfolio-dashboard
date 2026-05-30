@@ -65,6 +65,9 @@ function formatCurrency(v, cur) {
 function formatPct(v) {
   return (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 }
+// Calculate YTD return % from start-of-year price
+function getYtdPct(s) { return s.ytdStartPrice ? (s.lastPrice - s.ytdStartPrice) / s.ytdStartPrice * 100 : 0; }
+
 function getPnlColor(pnlPct) {
   // Green-red gradient based on P&L%
   if (pnlPct === 999 || pnlPct >= 60) return '#003300';  // darkest green
@@ -261,7 +264,7 @@ function renderTableUS(stocks, totalUSD) {
     const pnl = s.avgCost < 0 ? mv : mv - cost;
     const pnlPct = cost > 0 ? (mv - cost) / cost * 100 : 0;
     const pct = mv / totalUSD * 100;
-    const ytdCls = (s.ytdReturn || 0) >= 0 ? 'positive' : 'negative';
+    const ytdCls = getYtdPct(s) >= 0 ? 'positive' : 'negative';
     if (s.avgCost < 0) {
       tbody.innerHTML += `<tr>
         <td><span class="ticker-cell"><span class="ticker-color" style="background:${s.avgCost < 0 ? "#2e7d32" : getPnlColor(pnlPct)}"></span>${s.ticker}</span></td>
@@ -270,7 +273,7 @@ function renderTableUS(stocks, totalUSD) {
         <td>${formatCurrency(mv,'USD')}</td>
         <td class="positive">+${formatCurrency(pnl,'USD')}</td>
         <td class="positive">∞</td>
-        <td class="${ytdCls}">${formatPct(s.ytdReturn || 0)}</td>
+        <td class="${ytdCls}">${formatPct(getYtdPct(s))}</td>
         <td>${pct.toFixed(1)}%</td></tr>`;
     } else {
       tbody.innerHTML += `<tr>
@@ -280,7 +283,7 @@ function renderTableUS(stocks, totalUSD) {
         <td>${formatCurrency(mv,'USD')}</td>
         <td class="${pnl>=0?'positive':'negative'}">${formatCurrency(pnl,'USD')}</td>
         <td class="${pnl>=0?'positive':'negative'}">${formatPct(pnlPct)}</td>
-        <td class="${ytdCls}">${formatPct(s.ytdReturn || 0)}</td>
+        <td class="${ytdCls}">${formatPct(getYtdPct(s))}</td>
         <td>${pct.toFixed(1)}%</td></tr>`;
     }
   });
@@ -289,7 +292,7 @@ function renderTableUS(stocks, totalUSD) {
   const totalPnl = totalMV - totalCost;
   // Weighted blended YTD
   let wYTD = 0, wYTDmv = 0;
-  stocks.forEach(st => { const m = st.lastPrice * st.shares; wYTD += (st.ytdReturn || 0) * m; wYTDmv += m; });
+  stocks.forEach(st => { const m = st.lastPrice * st.shares; wYTD += (getYtdPct(st)) * m; wYTDmv += m; });
   const bYTD = wYTDmv > 0 ? wYTD / wYTDmv : 0;
   tbody.innerHTML += `<tr style="font-weight:700">
     <td colspan="2">📊 合计</td><td></td><td></td><td></td>
@@ -313,7 +316,7 @@ function renderTableHK(stocks, totalUSD) {
     const pnlPct = costHKD > 0 ? (mvHKD - costHKD) / costHKD * 100 : 0;
     const mvUSD = mvHKD / fx.USD_HKD;
     const pct = mvUSD / totalUSD * 100;
-    const ytdCls = (s.ytdReturn || 0) >= 0 ? 'positive' : 'negative';
+    const ytdCls = getYtdPct(s) >= 0 ? 'positive' : 'negative';
     tbody.innerHTML += `<tr>
       <td><span class="ticker-cell"><span class="ticker-color" style="background:${s.avgCost < 0 ? "#2e7d32" : getPnlColor(pnlPct)}"></span>${s.ticker}</span></td>
       <td>${s.name}</td><td>${s.shares.toLocaleString()}</td>
@@ -321,7 +324,7 @@ function renderTableHK(stocks, totalUSD) {
       <td>${formatCurrency(mvHKD,'HKD')}</td>
       <td class="${pnlHKD>=0?'positive':'negative'}">${formatCurrency(pnlHKD,'HKD')}</td>
       <td class="${pnlHKD>=0?'positive':'negative'}">${formatPct(pnlPct)}</td>
-      <td class="${ytdCls}">${formatPct(s.ytdReturn || 0)}</td>
+      <td class="${ytdCls}">${formatPct(getYtdPct(s))}</td>
       <td>${pct.toFixed(1)}%</td></tr>`;
   });
   const totalMVHKD = stocks.reduce((s,st) => s + st.lastPrice * st.shares, 0);
@@ -330,7 +333,7 @@ function renderTableHK(stocks, totalUSD) {
   const totalMVUSD = totalMVHKD / fx.USD_HKD;
   // Weighted blended YTD
   let wYTD = 0, wYTDmv = 0;
-  stocks.forEach(st => { const m = st.lastPrice * st.shares; wYTD += (st.ytdReturn || 0) * m; wYTDmv += m; });
+  stocks.forEach(st => { const m = st.lastPrice * st.shares; wYTD += (getYtdPct(st)) * m; wYTDmv += m; });
   const bYTD = wYTDmv > 0 ? wYTD / wYTDmv : 0;
   tbody.innerHTML += `<tr style="font-weight:700">
     <td colspan="2">📊 合计</td><td></td><td></td><td></td>
@@ -674,8 +677,8 @@ function getSortedData(stocks, market, totalUSD) {
         break;
       }
       case 'ytdReturn': {
-        va = a.ytdReturn || 0;
-        vb = b.ytdReturn || 0;
+        va = getYtdPct(a);
+        vb = getYtdPct(b);
         break;
       }
       case 'pctOfTotal': {
@@ -904,13 +907,13 @@ function openStockModal(ticker, name, market) {
                   market === 'a' ? 'https://finance.eastmoney.com/a/' + ticker + '.html' :
                   'https://finance.yahoo.com/quote/' + ticker;
   
-  const ytdCls = s.ytdReturn >= 0 ? 'positive' : 'negative';
+  const ytdCls = getYtdPct(s) >= 0 ? 'positive' : 'negative';
   document.getElementById('stockModalBody').innerHTML = `
     <div><strong>现价</strong>: <span style="font-size:1.3rem;">${formatCurrency(s.localCurrency === 'USD' ? s.lastPrice : s.lastPrice, s.localCurrency)}</span></div>
     <div><strong>股数</strong>: ${s.shares.toLocaleString()}</div>
     <div><strong>市值</strong>: ${formatCurrency(s.marketValueLocal, s.localCurrency)}</div>
     <div><strong>盈亏</strong>: <span class="${pnlCls}">${pnlStr}</span></div>
-    <div><strong>YTD</strong>: <span class="${ytdCls}">${formatPct(s.ytdReturn)}</span></div>
+    <div><strong>YTD</strong>: <span class="${ytdCls}">${formatPct(getYtdPct(s))}</span></div>
     <div><strong>占仓位</strong>: ${s.pctOfTotal.toFixed(1)}%</div>
   `;
   
