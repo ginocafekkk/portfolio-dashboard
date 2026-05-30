@@ -72,6 +72,14 @@
           "avgCost": 217.9,
           "lastPrice": 291.89,
           "ytdStartPrice": 289.01
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "shares": 150,
+          "avgCost": 117.60,
+          "lastPrice": 115.75,
+          "ytdStartPrice": 111.41
         }
       ]
     },
@@ -133,7 +141,7 @@
       "items": [
         {
           "name": "美股货基",
-          "amount": 96017,
+          "amount": 78377,
           "currency": "USD"
         },
         {
@@ -152,15 +160,6 @@
       "expiry": "2026-06-26",
       "premium": 800,
       "willingToAssign": false,
-      "currentPrice": null
-    },
-    {
-      "ticker": "WMT",
-      "type": "Short Put",
-      "strike": 119,
-      "expiry": "2026-05-29",
-      "premium": 106,
-      "willingToAssign": true,
       "currentPrice": null
     },
     {
@@ -320,6 +319,11 @@
         "ticker": "9988.HK",
         "source": "📊 客观数据",
         "text": "阿里收 HK$120.90 (🔴 -0.74%)。YTD -24.4%。AI 云业务增长亮眼但电商竞争加剧压制估值。"
+      },
+      {
+        "ticker": "WMT",
+        "source": "🧸 操作记录",
+        "text": "WMT 建仓 150 股 @ 均价 $117.60。Put $119 行权指派 100 股 + 直接买入 50 股 @ $114.80。防守底仓到位。"
       }
     ]
   }
