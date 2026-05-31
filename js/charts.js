@@ -22,19 +22,20 @@ function renderPieChart(totalUSD, data, cashUSD) {
   const aTotal  = data.a.stocks.reduce((s, st) => s + safeNum(st.lastPrice) / safeNum(fx.USD_CNY, 1), 0);
   const values = [safeNum(usTotal), safeNum(hkTotal), safeNum(aTotal), safeNum(cashUSD)];
   
-  // Build offset array: only the active segment gets offset
-  const activeOffset = activePieIndex >= 0 ? 15 : 0;
+  // Build offset array: active segment pops out significantly
   const offsets = activePieIndex >= 0
-    ? [0, 0, 0, 0].map((v, i) => i === activePieIndex ? 20 : 0)
+    ? [0, 0, 0, 0].map((v, i) => i === activePieIndex ? 30 : 4)
     : [0, 0, 0, 0];
   
   const hoverOffsets = activePieIndex >= 0
-    ? [0, 0, 0, 0].map((v, i) => i === activePieIndex ? 25 : 0)
-    : [8, 8, 8, 8];
+    ? [0, 0, 0, 0].map((v, i) => i === activePieIndex ? 38 : 6)
+    : [12, 12, 12, 12];
   
-  // Build colors: active segment brighter
+  // Build colors: active segment brighter with glow border
   const bgColors = PIE_COLORS.bg.map((c, i) => i === activePieIndex ? PIE_COLORS.bgActive[i] : c);
   const borderColors = PIE_COLORS.border.map((c, i) => i === activePieIndex ? c : '#1a1a2e');
+  // Active segment gets a much thicker border = visual "enlargement"
+  const borderWidths = PIE_COLORS.border.map((c, i) => i === activePieIndex ? 8 : 1.5);
   
   pieChartInstance = new Chart(ctx, {
     type: 'doughnut',
@@ -44,7 +45,7 @@ function renderPieChart(totalUSD, data, cashUSD) {
         data: values,
         backgroundColor: bgColors,
         borderColor: borderColors,
-        borderWidth: i => i === activePieIndex ? 3 : 2,
+        borderWidth: borderWidths,
         offset: offsets,
         hoverOffset: hoverOffsets
       }]
@@ -52,7 +53,7 @@ function renderPieChart(totalUSD, data, cashUSD) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      cutout: activePieIndex >= 0 ? '45%' : '50%',
+      cutout: activePieIndex >= 0 ? '42%' : '50%',
       animation: {
         animateRotate: true,
         duration: 350
