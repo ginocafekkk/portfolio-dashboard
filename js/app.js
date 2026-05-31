@@ -934,17 +934,32 @@ function closeStockModal() {
 function initCardListeners() {
   const grid = document.querySelector('.summary-grid');
   if (!grid) return;
+  const marketMap = { 'card-us': 0, 'card-hk': 1, 'card-a': 2, 'card-cash': 3 };
   grid.addEventListener('click', function(e) {
     const card = e.target.closest('.summary-card');
     if (!card) return;
-    document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('highlight'));
-    card.classList.add('highlight');
+    
+    // If it's a market card (not total), sync with pie chart
+    const pieIdx = marketMap[card.id];
+    if (pieIdx !== undefined) {
+      // Toggle pie segment selection
+      const totalUSD = calculateTotalUSD();
+      if (activePieIndex === pieIdx) {
+        deselectPieSegment(totalUSD);
+      } else {
+        selectPieSegment(pieIdx, totalUSD);
+      }
+    } else {
+      // Total card: just highlight, deselect pie
+      document.querySelectorAll('.summary-card').forEach(c => c.classList.remove('highlight'));
+      card.classList.add('highlight');
+      deselectPieSegment(calculateTotalUSD());
+    }
   });
   grid.addEventListener('dblclick', function(e) {
     const card = e.target.closest('.summary-card');
     if (!card) return;
-    const marketMap = { 'card-total': 'total', 'card-us': 'us', 'card-hk': 'hk', 'card-a': 'a', 'card-cash': 'cash' };
-    const m = marketMap[card.id];
+    const m = marketMap[card.id] !== undefined ? ['us', 'hk', 'a', 'cash'][marketMap[card.id]] : 'total';
     if (m) scrollToMarket(m);
   });
 }
