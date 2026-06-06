@@ -118,14 +118,35 @@ def fetch_assets():
     return assets
 
 # ====== 格式化新闻为Dashboard格式 ======
+
+# ====== 翻译（英→中） ======
+def translate_en2zh(text):
+    """将英文翻译为中文，使用 Google Translate"""
+    if not text or re.search(r'[一-鿿]', text):
+        return text  # 已有中文则跳过
+    try:
+        url = 'https://translate.googleapis.com/translate_a/single'
+        params = {
+            'client': 'gtx',
+            'sl': 'en', 'tl': 'zh-CN',
+            'dt': 't', 'q': text[:500]
+        }
+        r = requests.get(url, params=params, headers={"User-Agent": UA}, timeout=5)
+        if r.status_code == 200:
+            result = ''.join([part[0] for part in r.json()[0]])
+            return result if result else text
+    except:
+        pass
+    return text
+
 def format_news(ticker, headlines, current_price):
     """将原始新闻转换为 dashboard 格式的 news item"""
     news_items = []
     for h in headlines[:2]:
         news_items.append({
-            'source': '📰 自动抓取',
+            'source': '📰 实时资讯',
             'ticker': ticker,
-            'text': h
+            'text': translate_en2zh(h)
         })
     return news_items
 
