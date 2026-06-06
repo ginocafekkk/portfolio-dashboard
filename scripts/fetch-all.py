@@ -42,7 +42,7 @@ def fetch_index_price(ticker):
 
 # ====== 新闻获取（Yahoo Finance） ======
 def fetch_news(ticker, market='us'):
-    """从 Yahoo Finance 获取个股新闻，返回结构化列表"""
+    """从 Yahoo Finance 获取个股新闻，返回 [{title, url}]"""
     news_list = []
     try:
         url = f'https://finance.yahoo.com/quote/{ticker}'
@@ -50,19 +50,19 @@ def fetch_news(ticker, market='us'):
         r = requests.get(url, headers=headers, timeout=10)
         if r.status_code == 200:
             soup = BeautifulSoup(r.text, 'html.parser')
-            # 尝试提取新闻条目
             items = soup.find_all('li', class_='js-stream-content')
             if not items:
-                # 备用：找所有包含新闻的 section
                 items = soup.select('section[data-testid="quoteNews"] ul li')
             for item in items[:3]:
+                link = item.find('a') if hasattr(item, 'find') else None
+                href = link.get('href', '') if link else ''
+                if href and not href.startswith('http'):
+                    href = 'https://finance.yahoo.com' + href
                 text = item.get_text(strip=True)
                 if text and len(text) > 10:
-                    news_list.append(text[:120])
-        # 备用：RSS feed
+                    news_list.append({'title': text[:150], 'url': href})
+        # 备用：Google News RSS
         if not news_list:
-            rss_url = f'https://feeds.content.dowjones.io/public/rss/mw_topstories'
-            # Yahoo Finance 没有公开RSS了，试试 Google News
             g_url = f'https://news.google.com/rss/search?q={ticker}+stock&hl=en-US&gl=US&ceid=US:en'
             try:
                 rg = requests.get(g_url, headers={'User-Agent': UA}, timeout=8)
@@ -71,8 +71,11 @@ def fetch_news(ticker, market='us'):
                     root = ElementTree.fromstring(rg.content)
                     for item in root.findall('.//item')[:3]:
                         title = item.find('title')
-                        if title is not None and title.text:
-                            news_list.append(title.text[:120])
+                        link = item.find('link')
+                        t = title.text if title is not None else ''
+                        l = link.text if link is not None else ''
+                        if t:
+                            news_list.append({'title': t[:150], 'url': l})
             except:
                 pass
     except:
@@ -143,10 +146,14 @@ def format_news(ticker, headlines, current_price):
     """将原始新闻转换为 dashboard 格式的 news item"""
     news_items = []
     for h in headlines[:2]:
+        title = h['title'] if isinstance(h, dict) else h
+        url = h.get('url', '') if isinstance(h, dict) else ''
+        cn_title = translate_en2zh(title)
         news_items.append({
             'source': '📰 实时资讯',
             'ticker': ticker,
-            'text': translate_en2zh(h)
+            'text': cn_title,
+            'url': url
         })
     return news_items
 

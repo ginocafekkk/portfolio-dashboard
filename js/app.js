@@ -547,9 +547,13 @@ function renderNewsFeed() {
   if (!feed || !portfolio.marketData) return;
   feed.innerHTML = portfolio.marketData.news.map(n => {
     const isOpinion = n.source.includes('Labuster');
+    const hasUrl = n.url && n.url.length > 5;
+    const textContent = hasUrl
+      ? `<a href="${n.url}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none;cursor:pointer;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color=''">${n.text} ↗</a>`
+      : `<span>${n.text}</span>`;
     return `<div class="news-item">
       <div class="news-source ${isOpinion ? 'opinion' : 'data'}">${n.source} · ${n.ticker}</div>
-      <div>${n.text}</div>
+      <div>${textContent}</div>
     </div>`;
   }).join('');
 }
