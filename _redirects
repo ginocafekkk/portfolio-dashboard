@@ -1,2 +1,3 @@
-# Cloudflare Pages redirects
+# SPA redirect - except data files
+/data/* /data/:splat 200
 /* /index.html 200
