@@ -196,73 +196,48 @@
       {
         "key": "sp500",
         "name": "标普500",
-        "value": 7564,
-        "change": 0.58,
-        "pe": 26.47,
-        "date": "05-28",
-        "status": "closed",
-        "note": "Trailing PE 26.47x"
+        "value": 7383.74,
+        "change": 0,
+        "date": "06/06",
+        "pe": null
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
-        "value": 26917,
-        "change": 0.91,
-        "pe": 34.0,
-        "date": "05-28",
-        "status": "closed",
-        "note": "NDX 100 PE ~34x"
+        "value": 25709.43,
+        "change": 0,
+        "date": "06/06",
+        "pe": null
       },
       {
         "key": "hshylv",
         "name": "恒生低波红利",
-        "value": 4792,
-        "change": -0.43,
-        "pe": 7.86,
-        "date": "05-28",
-        "status": "open",
-        "note": "PE 7.86x 股息率 ~6.2%"
-      },
-      {
-        "key": "a500",
-        "name": "中证A500",
-        "value": 6115,
-        "pe": 17.75,
-        "date": "05-28",
-        "status": "open",
-        "note": "加权PE 17.75x"
-      },
-      {
-        "key": "csi-lowvol",
-        "name": "中证低波红利",
-        "value": 11538,
-        "change": -0.85,
-        "pe": 8.78,
-        "date": "05-28",
-        "status": "open",
-        "note": "红利低波100 PE 8.78x"
+        "value": 24961.95,
+        "change": 0,
+        "date": "06/06",
+        "pe": null
       }
     ],
     "assets": [
       {
-        "name": "美股(标普500)",
-        "change": 0.58
+        "name": "美元指数",
+        "value": "100.07",
+        "change": 0
       },
       {
-        "name": "美股(纳斯达克)",
-        "change": 0.91
+        "name": "黄金",
+        "value": "4365.3",
+        "change": 0
       },
       {
-        "name": "港股(恒生低波红利)",
-        "change": -0.43
+        "name": "原油",
+        "value": "90.54",
+        "change": 0
       },
       {
-        "name": "A股(A500)",
-        "change": 0.29
-      },
-      {
-        "name": "A股(中证低波红利)",
-        "change": -0.85
+        "name": "10Y美债",
+        "value": "4.54",
+        "change": 0
       }
     ],
     "fx": {
@@ -271,59 +246,119 @@
     },
     "news": [
       {
-        "ticker": "NVDA",
-        "source": "📊 客观数据",
-        "text": "NVDA 收 $211.14 (🔴 -1.45%)。Tigress Financial 大幅上调目标价 $360→$425；HSBC 维持 Buy PT $295→$325。AI 芯片联盟巩固。"
-      },
-      {
-        "ticker": "MSFT",
-        "source": "📊 客观数据",
-        "text": "MSFT 收 $450.24 (🟢 +5.45%)！D.A. Davidson 上调至 Buy PT $500；BofA 重新覆盖 Buy PT $500。市值重回增长轨道。"
-      },
-      {
-        "ticker": "META",
-        "source": "📊 客观数据",
-        "text": "META 收 $632.51 (🔴 -0.44%)。大摩维持 Overweight PT $700+。YTD -4.1%，AI 投入周期中暂承压。"
-      },
-      {
-        "ticker": "GOOG",
-        "source": "📊 客观数据",
-        "text": "GOOG 收 $376.43 (🔴 -2.51%)。YTD +20.4% 仍是组合最佳。AI 搜索变现持续扩张中。"
-      },
-      {
-        "ticker": "AMZN",
-        "source": "📊 客观数据",
-        "text": "AMZN 收 $270.64 (🔴 -1.23%)。AWS 推出 AI 购物工具；Snowflake 承诺 5年 $60亿 AWS 支出；英 $200亿投资计划。"
-      },
-      {
-        "ticker": "TSLA",
-        "source": "📊 客观数据",
-        "text": "TSLA 收 $435.79 (🔴 -1.43%)。SpaceX 合并传闻持续发酵。欧洲 4月注册量激增 46%，需求回暖趋势。"
-      },
-      {
-        "ticker": "INTU",
-        "source": "📊 客观数据",
-        "text": "INTU 收 $331.53 (🟢 +5.92%) 强劲反弹！BofA 首次覆盖 Buy + $400 PT。距 52周低 $302 约 10%，反弹空间仍在但风险未消。"
-      },
-      {
-        "ticker": "TRV",
-        "source": "📊 客观数据",
-        "text": "TRV 收 $291.89 (🔴 -0.83%) 保险板块走弱。22年无亏损承保记录为长期护城河。YTD +1.0% 平稳运行。"
-      },
-      {
-        "ticker": "0700.HK",
-        "source": "📊 客观数据",
-        "text": "腾讯收 HK$427.20 (🟢 +0.52%)。YTD -28.7% 承压。AI 投资周期利润受压，但游戏+广告基本盘稳固。"
-      },
-      {
-        "ticker": "9988.HK",
-        "source": "📊 客观数据",
-        "text": "阿里收 HK$120.90 (🔴 -0.74%)。YTD -24.4%。AI 云业务增长亮眼但电商竞争加剧压制估值。"
-      },
-      {
         "ticker": "WMT",
         "source": "🧸 操作记录",
         "text": "WMT 建仓 150 股 @ 均价 $117.60。Put $119 行权指派 100 股 + 直接买入 50 股 @ $114.80。防守底仓到位。"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "NVDA",
+        "text": "Nvidia Stock Falls On Concerns Of Backdoor AI Chip Sales To China - Investor's Business Daily"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "NVDA",
+        "text": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026 With a Return of 120% - The Motley Fool"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "MSFT",
+        "text": "3 Top-Tech Stocks to Buy With $1,000 Right Now - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "MSFT",
+        "text": "Microsoft Stock Rejected A Key Resistance Level. What's Next (NASDAQ:MSFT) - Seeking Alpha"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "META",
+        "text": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "META",
+        "text": "Meta Platforms (NASDAQ:META) Stock Price Down 5.5% - What's Next? - MarketBeat"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "GOOG",
+        "text": "Alphabet Stock Edges Lower Friday: What's Going On? - Alphabet (NASDAQ:GOOG), Alphabet (NASDAQ:GOOGL) - Benzinga"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "GOOG",
+        "text": "Why Alphabet’s $85B Stock Sale Is A Game Changer (NASDAQ:GOOG) - Seeking Alpha"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "AMZN",
+        "text": "3 Stocks Poised to Make Billions from the Anthropic IPO - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "AMZN",
+        "text": "History Says This Unstoppable Dow Juggernaut Is a No-Brainer Buy Right Now - 24/7 Wall St."
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "TSLA",
+        "text": "Sold Out: Tesla Stock (NASDAQ:TSLA) Plunges as Used Cybertrucks Sell Out Within Hours - TipRanks"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "TSLA",
+        "text": "Tesla Stock Has One Less Sell Rating. J.P. Morgan Raises Its Price Target by 228%. - Barron's"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "INTU",
+        "text": "INTU Stock Drop: Intuit Investigated for Securities Fraud after Stock Plummets 20% on Pricing Issues - PR Newswire"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "INTU",
+        "text": "Intuit Stock And The Market’s Undertow - Trefis"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "TRV",
+        "text": "Piper Sandler Raises PT on The Travelers Companies (TRV) Stock - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "TRV",
+        "text": "New floating docks help protect Mystic Seaport Museum from rising seas - Stock Titan"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "WMT",
+        "text": "Walmart Investors Reject Proposal To Disclose AI Impact On Workers’ Safety And Well-Being: Report - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "WMT",
+        "text": "Walmart’s stock was once a market darling. Now its tech-fueled valuation faces a reality check. - MarketWatch"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "0700.HK",
+        "text": "Tencent Holdings (SEHK:700) Valuation Check After Recent Share Price Swings - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "0700.HK",
+        "text": "Hong Kong Stock Market Alert | Tencent (0700.HK) Surges Over 6% in Early Trading Amid Reports It Is Close to Launching a"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "9988.HK",
+        "text": "Alibaba stock surges amid probe, Citi to cut 1,000 jobs - Yahoo Finance"
+      },
+      {
+        "source": "📰 自动抓取",
+        "ticker": "9988.HK",
+        "text": "Alibaba HK shares slide as dismal Q3 earnings overshadow AI, cloud growth - Investing.com"
       }
     ]
   }
