@@ -162,15 +162,6 @@
   },
   "options": [
     {
-      "ticker": "INTU",
-      "type": "Short Put",
-      "strike": 280,
-      "expiry": "2026-06-26",
-      "premium": 800,
-      "willingToAssign": false,
-      "currentPrice": null
-    },
-    {
       "ticker": "NVDA",
       "type": "Short Put",
       "strike": 195,
