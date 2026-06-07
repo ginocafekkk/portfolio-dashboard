@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06",
+  "lastUpdated": "2026-06-07",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -12,8 +12,8 @@
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "shares": 350,
-          "avgCost": 136.35,
+          "shares": 400,
+          "avgCost": 145.31,
           "lastPrice": 205.1,
           "ytdStartPrice": 186.49
         },
@@ -102,6 +102,14 @@
           "avgCost": 137.25,
           "lastPrice": 122.4,
           "ytdStartPrice": 160
+        },
+        {
+          "ticker": "0068.HK",
+          "name": "群核科技",
+          "shares": 500,
+          "avgCost": -3.56,
+          "lastPrice": 18.0,
+          "ytdStartPrice": 20.7
         }
       ]
     },
@@ -114,7 +122,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 192336.31,
+          "lastPrice": 191672,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 97774.8,
+          "lastPrice": 98274,
           "benchmark": "csi-lowvol"
         },
         {
@@ -130,7 +138,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 100000.0,
-          "lastPrice": 100000.0,
+          "lastPrice": 96737,
           "benchmark": "a500"
         }
       ]
@@ -141,12 +149,12 @@
       "items": [
         {
           "name": "美股货基",
-          "amount": 78377,
+          "amount": 82898,
           "currency": "USD"
         },
         {
           "name": "港股货基",
-          "amount": 494377,
+          "amount": 503475,
           "currency": "HKD"
         }
       ]
