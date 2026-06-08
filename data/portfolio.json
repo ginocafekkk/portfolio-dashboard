@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 145.31,
-          "lastPrice": 205.1,
+          "lastPrice": 208.64,
           "ytdStartPrice": 186.49
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 416.67,
+          "lastPrice": 411.74,
           "ytdStartPrice": 481.48
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 140,
           "avgCost": 615.16,
-          "lastPrice": 593.0,
+          "lastPrice": 585.39,
           "ytdStartPrice": 659.53
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 365.76,
+          "lastPrice": 361.17,
           "ytdStartPrice": 312.78
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 246.03,
+          "lastPrice": 245.22,
           "ytdStartPrice": 230.82
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 229.2,
-          "lastPrice": 391.0,
+          "lastPrice": 408.95,
           "ytdStartPrice": 449.72
         },
         {
@@ -62,7 +62,7 @@
           "name": "Intuit",
           "shares": 50,
           "avgCost": 463.54,
-          "lastPrice": 296.76,
+          "lastPrice": 305.51,
           "ytdStartPrice": 662.42
         },
         {
@@ -70,7 +70,7 @@
           "name": "Travelers",
           "shares": 130,
           "avgCost": 217.9,
-          "lastPrice": 303.25,
+          "lastPrice": 296.73,
           "ytdStartPrice": 289.01
         },
         {
@@ -78,7 +78,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.6,
-          "lastPrice": 118.88,
+          "lastPrice": 119.83,
           "ytdStartPrice": 111.41
         }
       ]
