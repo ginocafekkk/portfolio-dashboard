@@ -99,6 +99,7 @@ def fetch_market_indices():
         ('hsi',    '恒生指数',  '^HSI'),
         ('csi300', '沪深300',   '000300.SS'),
         ('sse',    '上证指数',  '000001.SS'),
+        ('a500',   '中证A500',   '000510.SS'),
     ]
     indices = []
     for key, name, ticker in indices_config:

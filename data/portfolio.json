@@ -122,7 +122,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 191096.98,
+          "lastPrice": 190523.69,
           "benchmark": "hshylv"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 98519.68,
+          "lastPrice": 98765.98,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,7 +138,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 100000.0,
-          "lastPrice": 95198.88,
+          "lastPrice": 93685.22,
           "benchmark": "a500"
         }
       ]
@@ -231,23 +231,31 @@
         "change": -2.84,
         "date": "06/08",
         "pe": null
+      },
+      {
+        "key": "a500",
+        "name": "中证A500",
+        "value": 5855.89,
+        "change": -2.55,
+        "date": "06/08",
+        "pe": null
       }
     ],
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.98",
-        "change": 0.45
+        "value": "99.96",
+        "change": 0.44
       },
       {
         "name": "黄金",
-        "value": "4336.4",
-        "change": -2.26
+        "value": "4339.7",
+        "change": -2.19
       },
       {
         "name": "原油",
-        "value": "92.88",
-        "change": -3.27
+        "value": "92.46",
+        "change": -3.71
       },
       {
         "name": "10Y美债",
