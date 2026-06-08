@@ -28,8 +28,8 @@
         {
           "ticker": "META",
           "name": "Meta Platforms",
-          "shares": 120,
-          "avgCost": 619.59,
+          "shares": 140,
+          "avgCost": 615.16,
           "lastPrice": 593.0,
           "ytdStartPrice": 659.53
         },
@@ -60,7 +60,7 @@
         {
           "ticker": "INTU",
           "name": "Intuit",
-          "shares": 100,
+          "shares": 50,
           "avgCost": 463.54,
           "lastPrice": 296.76,
           "ytdStartPrice": 662.42
