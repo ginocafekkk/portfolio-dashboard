@@ -96,24 +96,55 @@ def fetch_market_indices():
     indices_config = [
         ('sp500',  '标普500',   '^GSPC'),
         ('nasdaq', '纳斯达克',  '^IXIC'),
-        ('hsi',    '恒生指数',  '^HSI'),
-        ('csi300', '沪深300',   '000300.SS'),
-        ('sse',    '上证指数',  '000001.SS'),
         ('a500',   '中证A500',   '000510.SS'),
     ]
+
+    # PE estimates (approximate, updated periodically)
+    pe_estimates = {
+        'sp500': 26.0,
+        'nasdaq': 35.0,
+        'a500': 15.0,
+    }
     indices = []
+    # Fetch HSHYLV from fund NAV
+    try:
+        headers = {'Referer': 'https://finance.sina.com.cn', 'User-Agent': UA}
+        r = requests.get('https://hq.sinajs.cn/list=of021457', headers=headers, timeout=10)
+        if r.status_code == 200 and r.text.strip():
+            parts = r.text.split(',')
+            if len(parts) >= 5 and parts[1] and parts[4]:
+                fund_nav = float(parts[1])
+                fund_change = float(parts[4])
+                # Index ≈ NAV * 3700 (approximate ratio)
+                hshylv_value = round(fund_nav * 3700, 2)
+                indices.append({
+                    'key': 'hshylv',
+                    'name': '恒生红利低波',
+                    'value': hshylv_value,
+                    'change': round(fund_change, 2),
+                    'date': datetime.now().strftime('%m/%d'),
+                    'pe': 8.5
+                })
+                print('  \u2705 恒生红利低波: ' + str(hshylv_value) + ' (' + str(fund_change) + '%)')
+            else:
+                print('  \u274c 恒生红利低波: 获取失败')
+    except Exception as e:
+        print('  \u274c 恒生红利低波: ' + str(e))
+
+    existing_keys = {idx['key'] for idx in indices}
     for key, name, ticker in indices_config:
         pd = fetch_index_with_change(ticker)
         if pd:
             v = round(pd['price'], 2)
             c = round(pd['change_pct'], 2)
+            pe_val = pe_estimates.get(key)
             indices.append({
                 'key': key,
                 'name': name,
                 'value': v,
                 'change': c,
                 'date': datetime.now().strftime('%m/%d'),
-                'pe': None
+                'pe': pe_val
             })
             print('  \u2705 ' + name + ': ' + str(v) + ' (' + str(c) + '%)')
         else:

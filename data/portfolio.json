@@ -122,7 +122,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 190523.69,
+          "lastPrice": 189952.12,
           "benchmark": "hshylv"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 98765.98,
+          "lastPrice": 99012.89,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,7 +138,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 100000.0,
-          "lastPrice": 93685.22,
+          "lastPrice": 92195.63,
           "benchmark": "a500"
         }
       ]
@@ -193,12 +193,20 @@
   "marketData": {
     "indices": [
       {
+        "key": "hshylv",
+        "name": "恒生红利低波",
+        "value": 4584.67,
+        "change": -0.3,
+        "date": "06/08",
+        "pe": 8.5
+      },
+      {
         "key": "sp500",
         "name": "标普500",
         "value": 7383.74,
         "change": -2.59,
         "date": "06/08",
-        "pe": null
+        "pe": 26.0
       },
       {
         "key": "nasdaq",
@@ -206,31 +214,7 @@
         "value": 25709.43,
         "change": -4.68,
         "date": "06/08",
-        "pe": null
-      },
-      {
-        "key": "hsi",
-        "name": "恒生指数",
-        "value": 24657.06,
-        "change": -2.92,
-        "date": "06/08",
-        "pe": null
-      },
-      {
-        "key": "csi300",
-        "name": "沪深300",
-        "value": 4713.64,
-        "change": -4.09,
-        "date": "06/08",
-        "pe": null
-      },
-      {
-        "key": "sse",
-        "name": "上证指数",
-        "value": 3959.34,
-        "change": -2.84,
-        "date": "06/08",
-        "pe": null
+        "pe": 35.0
       },
       {
         "key": "a500",
@@ -238,24 +222,24 @@
         "value": 5855.89,
         "change": -2.55,
         "date": "06/08",
-        "pe": null
+        "pe": 15.0
       }
     ],
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.96",
-        "change": 0.44
+        "value": "99.9",
+        "change": 0.37
       },
       {
         "name": "黄金",
-        "value": "4339.7",
-        "change": -2.19
+        "value": "4353.0",
+        "change": -1.89
       },
       {
         "name": "原油",
-        "value": "92.46",
-        "change": -3.71
+        "value": "92.19",
+        "change": -3.99
       },
       {
         "name": "10Y美债",
@@ -294,8 +278,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "富国银行提高微软 (MSFT) 股票的 PT - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDI4LTNNZUs0TWNrZXJ0SEM1T05VMnp2TF9VN0tvRXdZalRIUVRoVHR3S3BUS1ZOaVFZM3NqMk1sUlBiemF5dzJETEh1OEJxVy1wM2ljemxBeFBzYVM3MmlkUUxIMjJUazF0b2xjcUduNzd3dXRub1ZYRUpNZXNPUUZQZ3JzTkQ1WnlwTDV3dFJZaXB0SUpBZFJpcUM?oc=5"
+        "text": "微软（MSFT）是亿万富翁肯·费舍尔投资组合中的顶级人工智能股票 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZm9DUS1vbFhOWXlxSFZRaVAydFFQdE5FemVDclJTNWNmNEFpX050ZURsRG1EbzNxd0ZrYzZ1Rl92Y1FfUDBscGZZOVRRN3Y1cXN1NW1lZlI5ZDBWeFZLaUZQTXNzT1ltSzljU0VXYVJmaFdYTTFDWGZCbC0xMDE2dy04SnBnNmpGNVRVNC1pa3NiaS0xOUl0bVl2b08?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -366,8 +350,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TRV",
-        "text": "旅行者和国家历史保护信托基金将国家复原力倡议带到康涅狄格州 - 美国商业资讯",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPR1drNUI1OVN1THVOMXU1cTNLakgtMzRnZDlIT2hjLU5UbkdHaGg5c2VXa0RkckhLbmpHenRpUDJCcE1BdzdWV1kxck14aUtiUE9HRHFMZGRRVXA3c1g5dzBGbGJwM0tmMWxyR2tyLUc0Qmg3WnRpZkpiVXNZYW42a2c4dndzRldYR3o3Qk5RTFhlSGY2eWdxM1NGa1RNLVgxUzhCeTlnQUplU1o2SWdFaHA3WUQ4MTVVM0t6d2pHZU9EU1VUTklwTTlmVVpHUVdrTTRGeGFOZWxuNmlIUGJnZXBjc1VlMXdMUzJZUGdhZUk1aVBkNnlfYW9USQ?oc=5"
+        "text": "旅行者公司 (TRV) 2026 年盈利日期和报告 $TRV - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tVTdGaUlUelVNRHBwVXdaUkIxSXVSS3BpLUtxV0pPa2lzOG8zWXk5bExOVVFXbVNMeTZLeGY2ZXZya2o0d1FiLWpCeHl1ZTJ6Tm80R09WY3hzelB2RnZkS0h3?oc=5"
       },
       {
         "source": "📰 实时资讯",
