@@ -406,7 +406,7 @@
   "liquidity": {
     "lastUpdated": "2026-06-09",
     "US": {
-      "score": 45,
+      "score": 43,
       "rating": "中性偏紧",
       "trend": "🔻",
       "trendDir": "worsening",
@@ -417,21 +417,21 @@
           "name": "联邦基金利率",
           "value": "3.50-3.75%",
           "status": "bearish",
-          "weight": "20%",
+          "weight": "18%",
           "detail": "连续三次暂停降息，沃什偏鹰"
         },
         {
           "name": "RRP余额",
           "value": "~$500亿",
           "status": "bearish",
-          "weight": "10%",
+          "weight": "8%",
           "detail": "缓冲垫接近耗尽，QT直接抽准备金"
         },
         {
           "name": "银行准备金/GDP",
           "value": "~10-11%",
           "status": "neutral",
-          "weight": "12%",
+          "weight": "11%",
           "detail": "充足区间，但RRP耗尽后快速消耗"
         },
         {
@@ -468,6 +468,13 @@
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
+        },
+        {
+          "name": "超级IPO抽水",
+          "value": "SpaceX IPO募资750亿美元（6/12路演）",
+          "status": "bearish",
+          "weight": "5%",
+          "detail": "人类史上最大IPO+OpenAI/Anthropic等，合计000-3000亿资金需求，基金经理需从7巨头抽资"
         },
         {
           "name": "日本加息溢出",
@@ -569,6 +576,13 @@
           "status": "neutral",
           "weight": "3%",
           "detail": "南向资金可能阶段性衰减"
+        },
+        {
+          "name": "港股IPO吸金",
+          "value": "壁仞科技/MiniMax/智谱华章排队上市",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "港股IPO市场活跃，但规模远小于美股超级IPO"
         },
         {
           "name": "AH溢价",
