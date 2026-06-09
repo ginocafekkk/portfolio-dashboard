@@ -247,6 +247,7 @@ function renderAll() {
   // Charts (USD)
   try { renderPieChart(totalUSD, data, cashUSD); } catch(e) { console.error('Pie chart error:', e); }
   try { renderBarChart(allStocks); } catch(e) { console.error('Bar chart error:', e); }
+  try { renderLiquidity(); } catch(e) { console.error('Liquidity render error:', e); }
   } catch(e) {
     console.error('renderAll error:', e);
     document.getElementById('totalValue').textContent = '⚠️ 渲染错误: ' + e.message;
@@ -1090,3 +1091,167 @@ document.addEventListener('DOMContentLoaded', function() {
   // Refresh weather every 30 min
   setInterval(fetchWeather, 1800000);
 });
+
+// ====== 🌊 市场流动性 ======
+const DEFAULT_LIQUIDITY = {
+  "US": {
+    "score": 45, "rating": "中性偏紧", "trend": "🔻", "trendDir": "worsening",
+    "color": "#ff9800",
+    "summary": "高利率暂停+QT+沃什不确定性，RRP缓冲垫耗尽可能加速准备金消耗",
+    "factors": [
+      {"name": "联邦基金利率", "value": "3.50-3.75%", "status": "bearish", "weight": "20%", "detail": "连续三次暂停降息，沃什偏鹰"},
+      {"name": "RRP余额", "value": "~$500亿", "status": "bearish", "weight": "10%", "detail": "缓冲垫接近耗尽，QT直接抽准备金"},
+      {"name": "银行准备金/GDP", "value": "~10-11%", "status": "neutral", "weight": "12%", "detail": "充足区间，但RRP耗尽后快速消耗"},
+      {"name": "降息预期(年内)", "value": "1-2次(50bp)", "status": "neutral", "weight": "15%", "detail": "市场由鸽转鹰，6月按兵不动概率96%"},
+      {"name": "QT缩表", "value": "已放缓但未结束", "status": "bearish", "weight": "15%", "detail": "沃什支持缩表+改革，但短期难推进"},
+      {"name": "通胀(PCE)", "value": "~2.7%", "status": "bearish", "weight": "10%", "detail": "粘性仍存，不足以让美联储快速转向"},
+      {"name": "国债发行/TGA", "value": "TGA重建中", "status": "bearish", "weight": "6%", "detail": "吸收市场资金，债务上限悬而未决"},
+      {"name": "VIX", "value": "~15", "status": "neutral", "weight": "4%", "detail": "波动率可控，但日本加息可能放大"},
+      {"name": "日本加息溢出", "value": "6月16日加息概率88%", "status": "bearish", "weight": "3%", "detail": "套息平仓→风险资产波动"},
+      {"name": "信用利差", "value": "HY OAS ~320bp", "status": "neutral", "weight": "5%", "detail": "暂无压力信号"}
+    ]
+  },
+  "HK": {
+    "score": 55, "rating": "中性偏松", "trend": "→", "trendDir": "stable",
+    "color": "#00c853",
+    "summary": "南向资金2800亿+提供核心支撑，但港元在弱方徘徊、总结余创新低",
+    "factors": [
+      {"name": "港元汇率", "value": "7.80-7.85弱方", "status": "bearish", "weight": "12%", "detail": "偏弱，有资金流出压力"},
+      {"name": "金管局总结余", "value": "~537亿港元", "status": "bearish", "weight": "10%", "detail": "历史低位，干预空间有限"},
+      {"name": "HIBOR(1M)", "value": "~3.3%", "status": "neutral", "weight": "10%", "detail": "相对历史中等水平"},
+      {"name": "南向资金(年内)", "value": "+2800亿港元", "status": "bullish", "weight": "12%", "detail": "核心支撑，但5月首现单月净流出"},
+      {"name": "美元指数(DXY)", "value": "~98", "status": "bullish", "weight": "10%", "detail": "弱美元有利资金流向新兴市场"},
+      {"name": "美联储传导", "value": "降息预期推迟", "status": "neutral", "weight": "15%", "detail": "短期压力，中期利好"},
+      {"name": "IPO活跃度", "value": "持续活跃", "status": "neutral", "weight": "5%", "detail": "短期锁资，长期吸引外资"},
+      {"name": "中国基本面", "value": "增长斜率放缓", "status": "neutral", "weight": "8%", "detail": "通缩改善中但速度偏慢"},
+      {"name": "A股溢出效应", "value": "A股偏强", "status": "bullish", "weight": "6%", "detail": "A股强对港股的信心传导"},
+      {"name": "港美利差", "value": "隔夜利差4.3ppt", "status": "bearish", "weight": "6%", "detail": "套息交易压力"},
+      {"name": "半年考核效应", "value": "6月末考核", "status": "neutral", "weight": "3%", "detail": "南向资金可能阶段性衰减"},
+      {"name": "AH溢价", "value": "~128", "status": "neutral", "weight": "3%", "detail": "处于近5年低点"}
+    ]
+  },
+  "A": {
+    "score": 60, "rating": "中性偏松", "trend": "→", "trendDir": "stable",
+    "color": "#00c853",
+    "summary": "央行持续MLF投放，资金面充裕但边际回笼；PPI快速上行限制降息空间",
+    "factors": [
+      {"name": "央行政策", "value": "适度宽松", "status": "bullish", "weight": "20%", "detail": "MLF 6000亿+逆回购5000亿持续投放"},
+      {"name": "DR007", "value": "在OMO下方", "status": "bullish", "weight": "12%", "detail": "资金面宽松，但边际收敛"},
+      {"name": "十年国债", "value": "~1.70%", "status": "bullish", "weight": "8%", "detail": "低位震荡，反映资产荒"},
+      {"name": "PPI", "value": "4月2.8%，5月或4-5%", "status": "bearish", "weight": "10%", "detail": "输入性通胀，全年可能超预期"},
+      {"name": "北向资金", "value": "持仓破4万亿", "status": "bullish", "weight": "10%", "detail": "长期增配，但短期有扰动"},
+      {"name": "汇率(CNY)", "value": "偏强，升值预期", "status": "bullish", "weight": "5%", "detail": "外汇占款增加补充基础货币"},
+      {"name": "A股成交量", "value": "日成交~2.7万亿", "status": "neutral", "weight": "5%", "detail": "活跃度尚可但缩量趋势"},
+      {"name": "央行态度", "value": "关注资金空转", "status": "bearish", "weight": "8%", "detail": "从超宽松回笼至中性，不想利率过快下行"},
+      {"name": "政府债券供给", "value": "节奏偏慢", "status": "neutral", "weight": "6%", "detail": "供给压力可控，但10月底前须发完"},
+      {"name": "科创再贷款", "value": "8000亿→1.2万亿", "status": "bullish", "weight": "5%", "detail": "定向流动性支持科技"},
+      {"name": "美联储外溢", "value": "降息预期降温", "status": "neutral", "weight": "5%", "detail": "央行以我为主，影响有限"},
+      {"name": "监管干预", "value": "量化限制+退市加速", "status": "neutral", "weight": "4%", "detail": "短期抑制炒作，长期利好生态"},
+      {"name": "半年末考核", "value": "机构调仓", "status": "neutral", "weight": "2%", "detail": "从高位AI切换到防御板块"}
+    ]
+  }
+};
+
+function getLiquidityData() {
+  if (portfolio && portfolio.liquidity) return portfolio.liquidity;
+  // Fallback to defaults
+  return DEFAULT_LIQUIDITY;
+}
+
+function renderLiquidity() {
+  const grid = document.getElementById('liquidityGrid');
+  if (!grid) return;
+  
+  const data = getLiquidityData();
+  const markets = [
+    { key: 'US', flag: '🇺🇸', name: '美股' },
+    { key: 'HK', flag: '🇭🇰', name: '港股' },
+    { key: 'A', flag: '🇨🇳', name: 'A股' }
+  ];
+  
+  grid.innerHTML = markets.map(m => {
+    const mkt = data[m.key];
+    if (!mkt) return '';
+    const scoreColor = getScoreColor(mkt.score);
+    const bullishCount = mkt.factors.filter(f => f.status === 'bullish').length;
+    const bearishCount = mkt.factors.filter(f => f.status === 'bearish').length;
+    const neutralCount = mkt.factors.filter(f => f.status === 'neutral').length;
+    
+    return `<div class="liq-card" onclick="openLiqDetail('${m.key}')" style="border-color:${scoreColor}33;">
+      <div class="liq-card-header">
+        <div class="liq-mkt-name">${m.flag} ${m.name}</div>
+        <span class="liq-rating-badge" style="background:${scoreColor}22;color:${scoreColor};">${mkt.rating}</span>
+      </div>
+      <div class="liq-score" style="color:${scoreColor};">${mkt.score}<span class="liq-trend">${mkt.trend}</span></div>
+      <div class="liq-summary">${mkt.summary}</div>
+      <div class="liq-factor-hint">
+        <span class="liq-factor-dots">
+          <span class="liq-dot bullish" title="利多: ${bullishCount}"></span>×${bullishCount}
+          <span class="liq-dot neutral" style="margin-left:4px;" title="中性: ${neutralCount}"></span>×${neutralCount}
+          <span class="liq-dot bearish" style="margin-left:4px;" title="利空: ${bearishCount}"></span>×${bearishCount}
+        </span>
+        <span>点击查看详情 →</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function getScoreColor(score) {
+  if (score >= 70) return '#00c853';
+  if (score >= 55) return '#ff9800';
+  if (score >= 40) return '#ff5252';
+  return '#d50000';
+}
+
+function openLiqDetail(marketKey) {
+  const data = getLiquidityData();
+  const mkt = data[marketKey];
+  if (!mkt) return;
+  
+  const names = { US: '🇺🇸 美股', HK: '🇭🇰 港股', A: '🇨🇳 A股' };
+  document.getElementById('liqDetailTitle').textContent = `${names[marketKey]} 流动性详情`;
+  
+  const statusLabels = {
+    bullish: { icon: '✅', label: '利多', color: 'var(--green)' },
+    neutral: { icon: '➖', label: '中性', color: '#ff9800' },
+    bearish: { icon: '⚠️', label: '利空', color: 'var(--red)' }
+  };
+  
+  const factorRows = mkt.factors.map(f => {
+    const s = statusLabels[f.status];
+    return `<div class="liq-factor-row">
+      <div class="liq-f-status" style="color:${s.color};">${s.icon}</div>
+      <div class="liq-f-name">${f.name}</div>
+      <div class="liq-f-value">${f.value}</div>
+      <div class="liq-f-weight">${f.weight}</div>
+    </div>
+    <div style="font-size:0.75rem;color:var(--text-dim);padding:0 0 4px 48px;">${f.detail}</div>`;
+  }).join('');
+  
+  // Header summary
+  const scoreColor = getScoreColor(mkt.score);
+  document.getElementById('liqDetailBody').innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;margin-bottom:12px;border-bottom:1px solid var(--border);">
+      <div>
+        <span style="font-size:1.5rem;font-weight:800;color:${scoreColor};">${mkt.score}/100</span>
+        <span class="liq-rating-badge" style="background:${scoreColor}22;color:${scoreColor};margin-left:8px;">${mkt.rating}</span>
+      </div>
+      <span style="font-size:1.2rem;">${mkt.trend}</span>
+    </div>
+    <div style="font-size:0.82rem;color:var(--text-dim);margin-bottom:12px;">${mkt.summary}</div>
+    <div style="display:flex;gap:16px;margin-bottom:12px;font-size:0.78rem;color:var(--text-dim);">
+      <span>✅ 利多: ${mkt.factors.filter(f=>f.status==='bullish').length}</span>
+      <span>➖ 中性: ${mkt.factors.filter(f=>f.status==='neutral').length}</span>
+      <span>⚠️ 利空: ${mkt.factors.filter(f=>f.status==='bearish').length}</span>
+    </div>
+    <div style="font-size:0.85rem;font-weight:600;margin:12px 0 8px;">各因子明细</div>
+    ${factorRows}
+  `;
+  
+  document.getElementById('liqUpdated').textContent = portfolio.liquidity ? (portfolio.liquidity.lastUpdated || '--') : '默认数据';
+  document.getElementById('liqDetailOverlay').style.display = 'flex';
+}
+
+function closeLiqDetail() {
+  document.getElementById('liqDetailOverlay').style.display = 'none';
+}
