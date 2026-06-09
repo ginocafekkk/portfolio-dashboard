@@ -406,7 +406,7 @@
   "liquidity": {
     "lastUpdated": "2026-06-09",
     "US": {
-      "score": 43,
+      "score": 41,
       "rating": "中性偏紧",
       "trend": "🔻",
       "trendDir": "worsening",
@@ -417,7 +417,7 @@
           "name": "联邦基金利率",
           "value": "3.50-3.75%",
           "status": "bearish",
-          "weight": "18%",
+          "weight": "16%",
           "detail": "连续三次暂停降息，沃什偏鹰"
         },
         {
@@ -438,14 +438,14 @@
           "name": "降息预期(年内)",
           "value": "1-2次(50bp)",
           "status": "neutral",
-          "weight": "15%",
+          "weight": "13%",
           "detail": "市场由鸽转鹰，6月按兵不动96%"
         },
         {
           "name": "QT缩表",
           "value": "已放缓但未结束",
           "status": "bearish",
-          "weight": "15%",
+          "weight": "13%",
           "detail": "沃什支持缩表+改革，但短期难推进"
         },
         {
@@ -482,6 +482,13 @@
           "status": "bearish",
           "weight": "3%",
           "detail": "套息平仓→风险资产波动"
+        },
+        {
+          "name": "科技巨头AI融资",
+          "value": "GOOG股权$800亿+发债; META债务$360亿->$840亿",
+          "status": "bearish",
+          "weight": "6%",
+          "detail": "5巨头2026 Capex $7150亿+，AI发债占IG市场49%。GOOG发完$1750亿债后还要$800亿股权，Barron's: 连最富公司都向股市伸手了"
         },
         {
           "name": "信用利差",
