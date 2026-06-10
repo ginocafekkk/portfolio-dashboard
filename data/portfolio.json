@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 453.2,
+          "lastPrice": 465.6,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 400,
           "avgCost": 137.25,
-          "lastPrice": 117.1,
+          "lastPrice": 113.5,
           "ytdStartPrice": 160
         },
         {
@@ -108,7 +108,7 @@
           "name": "群核科技",
           "shares": 500,
           "avgCost": -3.56,
-          "lastPrice": 15.67,
+          "lastPrice": 14.92,
           "ytdStartPrice": 20.7
         }
       ]
@@ -509,7 +509,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8362",
+          "value": "~7.8361",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -645,14 +645,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7717",
+          "value": "~6.7765",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 0.7亿股",
+          "value": "CSI300 1.6亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
