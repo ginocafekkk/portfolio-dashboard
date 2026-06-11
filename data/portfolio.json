@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 145.31,
-          "lastPrice": 200.42,
+          "lastPrice": 204.87,
           "ytdStartPrice": 186.49
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 210,
           "avgCost": 379.4,
-          "lastPrice": 397.36,
+          "lastPrice": 390.34,
           "ytdStartPrice": 481.48
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 140,
           "avgCost": 615.16,
-          "lastPrice": 570.98,
+          "lastPrice": 568.43,
           "ytdStartPrice": 659.53
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 353.32,
+          "lastPrice": 356.56,
           "ytdStartPrice": 312.78
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 238.0,
+          "lastPrice": 241.51,
           "ytdStartPrice": 230.82
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 229.2,
-          "lastPrice": 381.59,
+          "lastPrice": 399.15,
           "ytdStartPrice": 449.72
         },
         {
@@ -62,7 +62,7 @@
           "name": "Intuit",
           "shares": 50,
           "avgCost": 463.54,
-          "lastPrice": 284.22,
+          "lastPrice": 276.91,
           "ytdStartPrice": 662.42
         },
         {
@@ -70,7 +70,7 @@
           "name": "Travelers",
           "shares": 130,
           "avgCost": 217.9,
-          "lastPrice": 303.36,
+          "lastPrice": 303.9,
           "ytdStartPrice": 289.01
         },
         {
@@ -78,7 +78,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.6,
-          "lastPrice": 120.59,
+          "lastPrice": 120.5,
           "ytdStartPrice": 111.41
         }
       ]
@@ -404,7 +404,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-06-11",
+    "lastUpdated": "2026-06-12",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -457,14 +457,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.54%",
+          "value": "10Y 4.46%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~21",
+          "value": "~19",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -492,7 +492,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $79.47",
+          "value": "HYG $79.94",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -509,7 +509,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8358",
+          "value": "~7.8359",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -537,7 +537,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.0",
+          "value": "~99.7",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -645,7 +645,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7766",
+          "value": "~6.7751",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
