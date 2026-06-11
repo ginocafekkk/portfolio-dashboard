@@ -20,16 +20,16 @@
         {
           "ticker": "MSFT",
           "name": "Microsoft",
-          "shares": 210,
-          "avgCost": 379.4,
+          "shares": 230,
+          "avgCost": 380.15,
           "lastPrice": 390.34,
           "ytdStartPrice": 481.48
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
-          "shares": 140,
-          "avgCost": 615.16,
+          "shares": 155,
+          "avgCost": 609.92,
           "lastPrice": 568.43,
           "ytdStartPrice": 659.53
         },
@@ -56,14 +56,6 @@
           "avgCost": 229.2,
           "lastPrice": 399.15,
           "ytdStartPrice": 449.72
-        },
-        {
-          "ticker": "INTU",
-          "name": "Intuit",
-          "shares": 50,
-          "avgCost": 463.54,
-          "lastPrice": 276.91,
-          "ytdStartPrice": 662.42
         },
         {
           "ticker": "TRV",
@@ -328,18 +320,6 @@
         "ticker": "TSLA",
         "text": "SpaceX合并会对特斯拉股价产生多大影响？ - 雅虎财经英国",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXFCNUdNdXNBT01wU1FfVHJQQUdBcWdJUll6Wkx5V3dMVS1JN2ZkVUF5ekE3Z2ctMUtqelE5Um9BcjlMUkVXUFVMaVJIdGN1bEpySkdZZ2dFUHBvcXdRa3RKeFlrakFYM0RtQWhXdUNsX0VxelcyRkUybGNLdGZXSFRUSFI1VHM?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "INTU",
-        "text": "INTU 股价大跌：因定价问题导致​​股价暴跌 20%，Intuit 因证券欺诈接受调查 - 美通社PR-Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcHlaS2JZUVg2eU56MkdteUg1UHBCVy1KaUNlbUxTSWNGWUowVWRESzhQVGd3d2RiWWx4eW4ydUttM05fMExENHVTdUhudF85WjE5dEJSOVR6ZEoxNDVaV3ZUNFhJNjYwZVdkalhmbVlTMUYwUXo4Qm1wQnRVWlllODd1THRBUjZ6WG1NS1pza0pwdjZqaHBwSlo2dURId2VuYlhVdTF1dExTZ0RpblB5dmhyRmtZVTJLQ0JkV0dVYkZLX3ZOZkR5aXNXdG5BWnY1cmxmVmRWTEJ3SGF3Q3ZiZjZ1eHIzb083WVE?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "INTU",
-        "text": "随着人类人工智能恐惧的缓解，INTU 股票引领软件卷土重来，创下 25 年来最好的一周 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbUN3TXp2emNOQlVCTVV1ajJOalhEa090eXpGbGhuT2tXemI1VE5Dbi02MGl0Rk9zWVZzTXVWSTBqV1BfMmxhcUVkX1JPUG5YeHNrcFhIZS1NUlY2OURSRlZOTEVmX1pGNUc0RW9RUkF3WDc0cTl3cEhGdlRvTVB0XzlTbExIdTFyb1p2NWNnQzNMb2JudzBPdUZ2M3FsRGtTdV9iY0FiWHA1Zlh3NkxoMnd5Y0tqYnE0eWFNOUR2Z0NiZEFTSzRJVUJIX3ppbmVqVEV3bHpvMFNWS3NNLWVtTWxnRHRPTnM?oc=5"
       },
       {
         "source": "📰 实时资讯",
