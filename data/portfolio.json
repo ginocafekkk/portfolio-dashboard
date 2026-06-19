@@ -444,7 +444,7 @@
         },
         {
           "name": "VIX",
-          "value": "~16",
+          "value": "~17",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -489,7 +489,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8366",
+          "value": "~7.8379",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -625,7 +625,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7681",
+          "value": "~6.7675",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
