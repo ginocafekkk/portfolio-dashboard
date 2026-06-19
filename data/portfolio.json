@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -384,7 +384,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-06-19",
+    "lastUpdated": "2026-06-20",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -489,7 +489,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8379",
+          "value": "~7.8368",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -625,7 +625,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7675",
+          "value": "~6.7681",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
