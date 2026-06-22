@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-22",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 440.2,
+          "lastPrice": 433.0,
           "ytdStartPrice": 599
         },
         {
@@ -92,7 +92,7 @@
           "name": "阿里巴巴",
           "shares": 400,
           "avgCost": 137.25,
-          "lastPrice": 104.9,
+          "lastPrice": 102.9,
           "ytdStartPrice": 160
         },
         {
@@ -100,7 +100,7 @@
           "name": "群核科技",
           "shares": 500,
           "avgCost": -3.56,
-          "lastPrice": 14.2,
+          "lastPrice": 13.26,
           "ytdStartPrice": 20.7
         }
       ]
@@ -384,7 +384,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-06-20",
+    "lastUpdated": "2026-06-22",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -444,7 +444,7 @@
         },
         {
           "name": "VIX",
-          "value": "~17",
+          "value": "~18",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -489,7 +489,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8368",
+          "value": "~7.8388",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -517,7 +517,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.8",
+          "value": "~101.0",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -625,14 +625,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7681",
+          "value": "~6.7753",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 33.8亿股",
+          "value": "CSI300 31.5亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
