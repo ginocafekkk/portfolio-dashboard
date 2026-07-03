@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "fx": {
     "USD_HKD": 7.8351,
     "USD_CNY": 6.7858
@@ -384,7 +384,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-07-03",
+    "lastUpdated": "2026-07-04",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -437,7 +437,7 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.49%",
+          "value": "10Y 4.48%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
@@ -489,7 +489,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8429",
+          "value": "~7.8430",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -517,7 +517,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.7",
+          "value": "~100.9",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -625,7 +625,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7798",
+          "value": "~6.7702",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
