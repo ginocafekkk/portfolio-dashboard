@@ -49,6 +49,21 @@ def fetch_price(ticker, retries=4):
         time.sleep(2)
     return None
 
+def fetch_a_fund_price(ticker):
+    """Fetch A-share fund NAV from Sina Finance"""
+    try:
+        headers = {'Referer': 'https://finance.sina.com.cn', 'User-Agent': UA_LIST[0]}
+        r = requests.get(f'https://hq.sinajs.cn/list=of{ticker}', headers=headers, timeout=10)
+        if r.status_code == 200 and r.text.strip():
+            parts = r.text.split(',')
+            if len(parts) >= 5 and parts[1]:
+                nav = float(parts[1])
+                change_pct = float(parts[4]) if parts[4] else 0
+                return {'nav': nav, 'change_pct': change_pct}
+    except:
+        pass
+    return None
+
 def main():
     print(f"=== 自动更新持仓数据 ===", datetime.now())
     data = load_data()
@@ -77,7 +92,33 @@ def main():
             hk_fail += 1
             print(f"  ❌ {s['ticker']}: 失败")
     
-    print(f"\n📊 结果: 美股 {us_ok}✓/{us_fail}✗ | 港股 {hk_ok}✓/{hk_fail}✗")
+    print("\n--- A股个股 ---")
+    a_ok, a_fail = 0, 0
+    for s in data['markets']['a']['stocks']:
+        # 基金用新浪净值
+        if s.get('benchmark') or s['ticker'][0] == '0' and len(s['ticker']) == 6:
+            fund = fetch_a_fund_price(s['ticker'])
+            if fund:
+                # shares=1, lastPrice=总市值；用净值变化%更新市值
+                change_ratio = 1 + fund['change_pct'] / 100.0
+                s['lastPrice'] = round(s['lastPrice'] * change_ratio, 2)
+                a_ok += 1
+                print(f"  ✅ {s['ticker']} {s['name']}: ¥{s['lastPrice']}")
+            else:
+                a_fail += 1
+                print(f"  ❌ {s['ticker']} {s['name']}: 获取净值失败")
+        else:
+            # 个股用Yahoo Finance
+            p = fetch_price(s['ticker'])
+            if p:
+                s['lastPrice'] = p
+                a_ok += 1
+                print(f"  ✅ {s['ticker']} {s['name']}: ¥{p}")
+            else:
+                a_fail += 1
+                print(f"  ❌ {s['ticker']} {s['name']}: 失败")
+    
+    print(f"\n📊 结果: 美股 {us_ok}✓/{us_fail}✗ | 港股 {hk_ok}✓/{hk_fail}✗ | A股 {a_ok}✓/{a_fail}✗")
     
     data['lastUpdated'] = datetime.now().strftime('%Y-%m-%d')
     save_data(data)
