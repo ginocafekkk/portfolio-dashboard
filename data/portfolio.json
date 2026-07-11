@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 144.28,
+          "lastPrice": 210.96,
           "ytdStartPrice": 186.49
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 409.63,
+          "lastPrice": 385.1,
           "ytdStartPrice": 481.48
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 610.59,
+          "lastPrice": 669.21,
           "ytdStartPrice": 659.53
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 193.37,
+          "lastPrice": 355.03,
           "ytdStartPrice": 312.78
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 210.56,
+          "lastPrice": 245.34,
           "ytdStartPrice": 230.82
         },
         {
@@ -62,7 +62,7 @@
           "name": "Travelers",
           "shares": 100,
           "avgCost": 273.28,
-          "lastPrice": 273.28,
+          "lastPrice": 338.92,
           "ytdStartPrice": 289.01
         },
         {
@@ -70,7 +70,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 117.59,
+          "lastPrice": 113.9,
           "ytdStartPrice": 111.41
         },
         {
@@ -78,7 +78,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 74.59,
+          "lastPrice": 73.37,
           "ytdStartPrice": 74.59
         }
       ]
@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 500.0,
+          "lastPrice": 460.2,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 124.822,
+          "lastPrice": 110.2,
           "ytdStartPrice": 160
         }
       ]
@@ -138,21 +138,21 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 26.913
+          "lastPrice": 28.03
         },
         {
           "ticker": "600036.SS",
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 36.592
+          "lastPrice": 36.88
         },
         {
           "ticker": "000651.SZ",
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 38.51
+          "lastPrice": 38.25
         }
       ]
     },
