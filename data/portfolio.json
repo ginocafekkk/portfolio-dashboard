@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 145.31,
-          "lastPrice": 210.96,
+          "lastPrice": 144.28,
           "ytdStartPrice": 186.49
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 380.15,
-          "lastPrice": 385.1,
+          "lastPrice": 409.63,
           "ytdStartPrice": 481.48
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 609.92,
-          "lastPrice": 669.21,
+          "lastPrice": 610.59,
           "ytdStartPrice": 659.53
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": -82.6,
-          "lastPrice": 355.03,
+          "lastPrice": 193.37,
           "ytdStartPrice": 312.78
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 168.8,
-          "lastPrice": 245.34,
+          "lastPrice": 210.56,
           "ytdStartPrice": 230.82
         },
         {
@@ -60,9 +60,9 @@
         {
           "ticker": "TRV",
           "name": "Travelers",
-          "shares": 130,
+          "shares": 100,
           "avgCost": 217.9,
-          "lastPrice": 338.92,
+          "lastPrice": 273.28,
           "ytdStartPrice": 289.01
         },
         {
@@ -70,8 +70,16 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.6,
-          "lastPrice": 113.9,
+          "lastPrice": 117.59,
           "ytdStartPrice": 111.41
+        },
+        {
+          "ticker": "NFLX",
+          "name": "Netflix",
+          "shares": 100,
+          "avgCost": 74.59,
+          "lastPrice": 74.59,
+          "ytdStartPrice": 74.59
         }
       ]
     },
@@ -84,24 +92,16 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 460.2,
+          "lastPrice": 500.0,
           "ytdStartPrice": 599
         },
         {
           "ticker": "9988.HK",
           "name": "阿里巴巴",
-          "shares": 400,
-          "avgCost": 137.25,
-          "lastPrice": 110.2,
+          "shares": 900,
+          "avgCost": 124.822,
+          "lastPrice": 124.822,
           "ytdStartPrice": 160
-        },
-        {
-          "ticker": "0068.HK",
-          "name": "群核科技",
-          "shares": 500,
-          "avgCost": -3.56,
-          "lastPrice": 10.08,
-          "ytdStartPrice": 20.7
         }
       ]
     },
@@ -114,24 +114,45 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 190787.91,
+          "lastPrice": 173845,
           "benchmark": "hshylv"
+        },
+        {
+          "ticker": "022438",
+          "name": "华泰柏瑞中证A500ETF联接A",
+          "shares": 1,
+          "avgCost": 150000,
+          "lastPrice": 148378,
+          "benchmark": "a500"
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 99339.63,
+          "lastPrice": 94317,
           "benchmark": "csi-lowvol"
         },
         {
-          "ticker": "022438",
-          "name": "华泰柏瑞中证A500ETF联接A",
-          "shares": 1,
-          "avgCost": 100000.0,
-          "lastPrice": 90628.3,
-          "benchmark": "a500"
+          "ticker": "600900.SS",
+          "name": "长江电力",
+          "shares": 3000,
+          "avgCost": 26.913,
+          "lastPrice": 26.913
+        },
+        {
+          "ticker": "600036.SS",
+          "name": "招商银行",
+          "shares": 2000,
+          "avgCost": 36.592,
+          "lastPrice": 36.592
+        },
+        {
+          "ticker": "000651.SZ",
+          "name": "格力电器",
+          "shares": 800,
+          "avgCost": 38.51,
+          "lastPrice": 38.51
         }
       ]
     },
@@ -141,12 +162,12 @@
       "items": [
         {
           "name": "美股货基",
-          "amount": 82898,
+          "amount": 86662,
           "currency": "USD"
         },
         {
           "name": "港股货基",
-          "amount": 503475,
+          "amount": 432451,
           "currency": "HKD"
         }
       ]
@@ -211,8 +232,8 @@
       }
     ],
     "fx": {
-      "USD_HKD": 7.83,
-      "USD_CNY": 7.2
+      "USD_HKD": 7.8393,
+      "USD_CNY": 6.7667
     },
     "news": [
       {
