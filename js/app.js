@@ -404,6 +404,7 @@ function renderTableA(stocks, totalUSD) {
       <td>${formatCurrency(mvCNY,'CNY')}</td>
       <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatCurrency(pnlCNY,'CNY') : '待更新'}</td>
       <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatPct(pnlPct) : '—'}</td>
+      <td class="${getYtdPct(s)>=0?'positive':'negative'}">${s.ytdStartPrice ? formatPct(getYtdPct(s)) : '—'}</td>
       <td>${pct.toFixed(1)}%</td></tr>`;
   });
   const totalMVCNY = stocks.reduce((s,st) => s + (st.lastPrice || 0) * (st.shares || 1), 0);
@@ -411,12 +412,17 @@ function renderTableA(stocks, totalUSD) {
   const hasAnyCost = stocks.some(s => (s.avgCost || 0) * (s.shares || 1) !== 0);
   const totalPnlCNY = hasAnyCost ? totalMVCNY - totalCostCNY : 0;
   const totalMVUSD = totalMVCNY / fx.USD_CNY;
+  // Weighted blended YTD
+  let wYTD = 0, wYTDmv = 0;
+  stocks.forEach(st => { const m = (st.lastPrice || 0) * (st.shares || 1); wYTD += (getYtdPct(st)) * m; wYTDmv += m; });
+  const bYTD = wYTDmv > 0 ? wYTD / wYTDmv : 0;
   tbody.innerHTML += `<tr style="font-weight:700">
     <td colspan="2">📊 合计</td><td></td>
     <td>${hasAnyCost ? formatCurrency(totalCostCNY,'CNY') : '—'}</td>
     <td>${formatCurrency(totalMVCNY,'CNY')}</td>
     <td class="${!hasAnyCost ? '' : (totalPnlCNY>=0?'positive':'negative')}">${hasAnyCost ? formatCurrency(totalPnlCNY,'CNY') : '待更新'}</td>
     <td class="${!hasAnyCost ? '' : (totalPnlCNY>=0?'positive':'negative')}">${hasAnyCost ? formatPct(totalPnlCNY/totalCostCNY*100) : '—'}</td>
+    <td class="${bYTD>=0?'positive':'negative'}">${stocks.some(s=>s.ytdStartPrice) ? formatPct(bYTD) : '—'}</td>
     <td>${(totalMVUSD/totalUSD*100).toFixed(1)}%</td></tr>`;
 }
 
