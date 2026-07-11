@@ -115,7 +115,8 @@
           "shares": 1,
           "avgCost": 200000,
           "lastPrice": 173845,
-          "benchmark": "hshylv"
+          "benchmark": "hshylv",
+          "ytdStartPrice": 200000
         },
         {
           "ticker": "022438",
@@ -123,7 +124,8 @@
           "shares": 1,
           "avgCost": 150000,
           "lastPrice": 148378,
-          "benchmark": "a500"
+          "benchmark": "a500",
+          "ytdStartPrice": 150000
         },
         {
           "ticker": "007466",
@@ -131,28 +133,32 @@
           "shares": 1,
           "avgCost": 100000,
           "lastPrice": 94317,
-          "benchmark": "csi-lowvol"
+          "benchmark": "csi-lowvol",
+          "ytdStartPrice": 100000
         },
         {
           "ticker": "600900.SS",
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.03
+          "lastPrice": 28.03,
+          "ytdStartPrice": 26.913
         },
         {
           "ticker": "600036.SS",
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 36.88
+          "lastPrice": 36.88,
+          "ytdStartPrice": 36.592
         },
         {
           "ticker": "000651.SZ",
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 38.25
+          "lastPrice": 38.25,
+          "ytdStartPrice": 38.51
         }
       ]
     },

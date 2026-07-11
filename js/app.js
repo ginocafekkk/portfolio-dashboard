@@ -223,6 +223,35 @@ function renderAll() {
   document.getElementById('cashValue').textContent = formatCurrency(cashUSD, 'USD');
   document.getElementById('cashPct').textContent = (cashUSD / totalUSD * 100).toFixed(1) + '%';
   
+  // Weighted YTD for each market
+  function calcWeightedYtd(stocks) {
+    let wYTD = 0, wMv = 0;
+    stocks.forEach(st => {
+      const ysp = st.ytdStartPrice;
+      if (ysp && ysp > 0 && !isNaN(ysp)) {
+        const pct = (st.lastPrice - ysp) / ysp * 100;
+        const mv = st.lastPrice * (st.shares || 1);
+        wYTD += pct * mv;
+        wMv += mv;
+      }
+    });
+    return wMv > 0 ? wYTD / wMv : null;
+  }
+  function showYtd(elId, pct) {
+    const el = document.getElementById(elId);
+    if (el) {
+      if (pct !== null) {
+        const cls = pct >= 0 ? 'positive' : 'negative';
+        el.innerHTML = `📈 YTD: <span class="${cls}">${formatPct(pct)}</span>`;
+      } else {
+        el.textContent = '📈 YTD: --';
+      }
+    }
+  }
+  showYtd('usYtd', calcWeightedYtd(data.us.stocks));
+  showYtd('hkYtd', calcWeightedYtd(data.hk.stocks));
+  showYtd('aYtd', calcWeightedYtd(data.a.stocks));
+  
   // Show just the day number from lastUpdated (e.g., "2026-05-22" → "📅 22")
   const day = portfolio.lastUpdated ? portfolio.lastUpdated.split('-').pop() : '';
   const badge = document.getElementById('updateBadge');

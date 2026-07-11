@@ -175,6 +175,7 @@ body.light-theme {
 .card-value { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
 .card-change { font-size: 0.85rem; }
 .card-sub { font-size: 0.75rem; color: var(--text-dim); }
+.card-ytd { font-size: 0.7rem; margin-top: 4px; font-weight: 600; }
 .positive { color: var(--green); }
 .negative { color: var(--red); }
 
