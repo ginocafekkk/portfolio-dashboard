@@ -1,8 +1,8 @@
 {
   "lastUpdated": "2026-07-11",
   "fx": {
-    "USD_HKD": 7.8351,
-    "USD_CNY": 6.7858
+    "USD_HKD": 7.8393,
+    "USD_CNY": 6.7667
   },
   "markets": {
     "us": {
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 189952.12,
+          "lastPrice": 190787.91,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 99012.89,
+          "lastPrice": 99339.63,
           "benchmark": "csi-lowvol"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 100000.0,
-          "lastPrice": 92195.63,
+          "lastPrice": 90628.3,
           "benchmark": "a500"
         }
       ]
@@ -152,91 +152,62 @@
       ]
     }
   },
-  "options": [
-    {
-      "ticker": "NVDA",
-      "type": "Short Put",
-      "strike": 195,
-      "expiry": "2026-06-26",
-      "premium": 267,
-      "willingToAssign": true,
-      "currentPrice": null
-    },
-    {
-      "ticker": "AMZN",
-      "type": "Short Put",
-      "strike": 245,
-      "expiry": "2026-06-18",
-      "premium": 410,
-      "willingToAssign": true,
-      "currentPrice": null
-    },
-    {
-      "ticker": "9988.HK",
-      "type": "Short Put",
-      "strike": 115,
-      "expiry": "2026-06-29",
-      "premium": 200,
-      "currency": "HKD",
-      "willingToAssign": true,
-      "currentPrice": null
-    }
-  ],
+  "options": [],
   "marketData": {
     "indices": [
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4584.67,
-        "change": -0.3,
-        "date": "06/08",
+        "value": 4157.32,
+        "change": 0.44,
+        "date": "07/11",
         "pe": 8.5
       },
       {
         "key": "sp500",
         "name": "标普500",
-        "value": 7383.74,
-        "change": -2.59,
-        "date": "06/08",
+        "value": 7575.39,
+        "change": 1.23,
+        "date": "07/11",
         "pe": 26.0
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
-        "value": 25709.43,
-        "change": -4.68,
-        "date": "06/08",
+        "value": 26281.61,
+        "change": 1.74,
+        "date": "07/11",
         "pe": 35.0
       },
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5855.89,
-        "change": -2.55,
-        "date": "06/08",
+        "value": 6005.87,
+        "change": -1.88,
+        "date": "07/11",
         "pe": 15.0
       }
     ],
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.9",
-        "change": 0.37
+        "value": "100.97",
+        "change": 0.11
       },
       {
         "name": "黄金",
-        "value": "4353.0",
-        "change": -1.89
+        "value": "4128.9",
+        "change": -0.63
       },
       {
         "name": "原油",
-        "value": "92.19",
-        "change": -3.99
+        "value": "71.51",
+        "change": 4.32
       },
       {
         "name": "10Y美债",
-        "value": "4.54",
-        "change": 1.36
+        "value": "4.57",
+        "change": 0.88
       }
     ],
     "fx": {
@@ -252,134 +223,134 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达股价下跌，因担心向中国出售人工智能芯片 - 投资者商业日报",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeVJwd292MU1RQmlaa1dvYWdpeVJVSS1ZOVA4WVpDdmVFSFhVRjBLNUZfTTUyOVJEcjdQT2FzOWJfb0NmTjQyLWF4YzBjUl9xQTZwNkJnUU15a04taWhfcm5sS21vd0wzWl9odmJKcjI3YTBEZzI4MjFVV3NlRVQyLWpmVW0xV0diMTVkUA?oc=5"
+        "text": "英伟达股价上涨，不受 Meta 新人工智能芯片影响 - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4b0VELXhJSzVnNEpoLVFvQUgweXBSdzJhRW9QZkl4MHFZSmpOS0pNX2lQRjBiWVdiQkFMUm5vYk5rOEpFbjJSSGRKZUtMMkVPSEFGaXlLT3pPQXpDTWhHRTNYa3JNQUs2eEJOLVlOOVpUdzQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "美国银行在首席财务官会议后重置英伟达股票预测 - thestreet.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTFdNdGVqSDNWUWdDZEctdVgwSy1sSVlWVElFYzFiTmdpb0J0NmxReUx5R0tmWHN5Nk9DemdkeFUwTWZFN2w0Uk1jOFlQSm53SVVfc0dJZGdJZ3FaTnZRVGhVOXVid2tnTVpyUzB1RmNjb2pGUldkZ2tPRUtQNDJmd0N3LXJGOGZyLWdjVXZXTGVlTVR4elRGbXZWQmJraVNNVFE2YmV1akxadw?oc=5"
+        "text": "英伟达近 1 万亿美元的损失可能会引发这种看涨行动 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUzhwMG5aSUlnb2VWMnNEaVREYTRXckpKZ0ZyRUxWRGdLR1lNMTlURFhhOENRbnVENUJNcE9fZVpRaGU4Z0huM3p4ZVcwZnlpS2FyYzBUbXF3NHVKUm92QmVid1pzTUlJekZGZFdIZC1PZnRuazdQc3V6WG9tZFZONng2dW5UZFN2YU5mRDF5aHJtUmt4WGtrN2lUZmtsVm53Wm5GYXZKb3A4M2NJSVU5eWVURWFIQlVsMmhudFJZY1NKSE9aaWQtUUtB?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "分析师表示，Build 2026 之后购买微软股票 (MSFT) 将强化人工智能的增长故事 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcVlfcmUtX1JudTZfMlZ0RHNZcVBUM04tUDRiTllqSy04dGhEZ2o5aDlSazV0Nm1RRkZBRmdNcUx2OWtiYjhOYWh3WUl3NEo4QmtNeEpINDNRMFdSN09qak5OcXJaS3UxZkEwdVVRUnhOMEYtRWRSR3djMFRqbm9UQU5JNXBTT2Z5S2gtcGhyMjhqSU9fVjdhaDRuUklpZ01QVjlsOUN3bXlBVVA4UHAtVg?oc=5"
+        "text": "“正在发生的变化”：纳德拉揭示如何赢得信任，微软股票（纳斯达克股票代码：MSFT）上涨 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcGtkRWR6S3pFMXh0WXVPMlZWOFIyYlFkajNOLUl4cTh1c1pvMzZfWFM4S0tVbWVwNTBaYUczbWZOQXhkMnRvS3pCS01veTQyRzlOdV9FbWxscmQ4bDRuakFRSGV3MDdZc2tSdmxKYmhMRnNhZVN4bHdCUlNpNVFCcEdWTi1GM3Q5R3lCZklQM2FQV0VGdkgzcFJWN2ZEZUhrdHViZnQzTGl2QjBoU1pVSmdESTF3cXZlQVl4Ul91dDRKNzRaWTBMTg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软（MSFT）是亿万富翁肯·费舍尔投资组合中的顶级人工智能股票 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZm9DUS1vbFhOWXlxSFZRaVAydFFQdE5FemVDclJTNWNmNEFpX050ZURsRG1EbzNxd0ZrYzZ1Rl92Y1FfUDBscGZZOVRRN3Y1cXN1NW1lZlI5ZDBWeFZLaUZQTXNzT1ltSzljU0VXYVJmaFdYTTFDWGZCbC0xMDE2dy04SnBnNmpGNVRVNC1pa3NiaS0xOUl0bVl2b08?oc=5"
+        "text": "微软因报告显示公司正在用内部人工智能取代 Anthropic、OpenAI 而成为众人瞩目的焦点 - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVUxLTi04eVdrc0w4bUNVNEo3aVNDd05MUUY4Rm42ZUphb3prV3BlSnNHZVN6VnRLYTRPRUZLdFJZYW1lUjBKNjdCbDdJcDJHblZQNGxoNFV4VkhNaEtlT202T19mU0tnT24tTlZoQkxVeWw0ZjEtRXNxVUt3X1VhQnVtc0ItTS1QNUl5MFlxeGZldjVTNzh6MW51N1o3MGRBRndWcEFWNURhekk2NFZEa2U1TzlGTElzdmhmV0xpSUJaUVFta1FrSDM1cWtjUk9sdUF1UjhzVEs4NU1TVG91aEpITlNXaVNvQ0dzeWR3eUYxOXhfNXc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "据 CNBC 报道，Meta 公司可能筹集数百亿美元资金推动人工智能发展，股价应声下跌",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5"
+        "text": "隐性人工智能成本突破震惊华尔街，Meta 股价飙升 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa2Y3Q3RnOTl1RERwRml2bVN6NHM2eEdBdEVja2NYejFvYlh3S014SUNVQ3oycnN6aGFlNjhHTVd1dVVwbW5DR1o4VEo4WWp5TFZOQnJXX0NVQ1luX2NwalNtdFYtM0xsX2NMSnJvUHV6WlczN0h3aEFxZU1ERkZOV0M5ZUhWYmpYeDBuZTZBOXBkajZiM3c?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Constant Guidance Financial LLC 增持 Meta Platforms, Inc. $META 股票 - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc2xicC1HeWptNFAzVnJjVThRU1VXS0ZSZ0JlZExuTDRZc0VnSmNWT2FJM1Q1SW1NcDNlS1JHS004WmVFM1ItODVuNTBhZWhoY0ZYbmF0SWt2aDBleFJiZjJPNTlUTlNEd2o0THZVMEM5ZlNkMzZUZXlzdml4Ym0weENIX3FGSFhZVUpUN1NBeTlqUzlaMG9UQmRuZ3ZWSVJRMV93VTExZWFNR0JNZC02NmptUTU5VUN5YVVpYlpMVDIwZGxGZnNkNVVDRF80VE5RWGhfYjBFQ1c?oc=5"
+        "text": "吉姆·克莱默 (Jim Cramer) 表示，Meta 股票在云新闻上上涨了 18%。接下来怎么办？ - 美国全国广播公司财经频道",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYUpoZEZOTU9LcVdhMm02UDRQWi1pT1l0ZlUyVXVJM09adXQ1ZkRmeFZBRjdHQy1XMG51alAzdHExSE5QQ1ZGWVFQSlBmMGU2N0JmcHJMb1NYM1FGTnNINFZyc2VjRzB6SmtNX25VNTB6aUh4Z2JEajdxeEZCNUI4bkhnM3ZhbF94dXF4VG5jUjk5UVJyTGN6VzVrb2xkZlNWaG1qaE5RQVQzUURPLW1PZw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "预测：Google 股价当天将触及 600 美元 - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDhwRnpjeFBhcUt1bXJ5UTNOWGh4Tkk1YWhhMTJ4WWV5Rll1UVlUb1Q2QVZWVkJ0TDUzbFhCZXNxZkxkd2NqQjhkM3J2XzVBaldvTGhJWkdxZXFNckZJcFpKenB4T0dlZE0wOHJPQ1pXS2VBbUlTeE5JeTIyMFpXSVowc2ctcXNiLV9qWEpMLWVFdVVJdGttXw?oc=5"
+        "text": "价格预测：Alphabet 股票将在 2030 年按此价格交易 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcG54RDZnYjEybXpGY2kxd3B2YnhTZ1lMMDZXN3lxMkpYaHFpTFV6RXBhRkVMWnMzYzZLYUJDZnlNZjFzT21fZFJxUWlPR0p5dU5oa25fM0k4R1k2TEI2MVJ4eWp0ZF9tazNPNEtEY3ZhcmlzMXJ0SG1ib29ZREdrRnFHTHo1NnBOSjZyWldUbzg1dWRlazV4TUxtVnNmSzYxZk1HODEtMmFDY2tN?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "为什么 Alphabet 股票今天暴涨 - 96配资",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9saDlVSEdEVWRJZXdfU20zRjJTMFdqaTFKcW9mSmpVQ1k3RHc5X2c3bDFoNTNYQW9kVW96Wm9vR1JNRGp6ZTRTeDZrOUxXUGFPTzlRNGJkM01xN25yNWIzajVRSGcxQkhPOVdFTXVjQlZfb3lsRGpXZWtTdGhXYjg?oc=5"
+        "text": "Alphabet (GOOG) 飙升，投资者信心因持久执行而提振 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnhuREJhWGNXS0dmcDlJRWxVdm1Oc1M0eVkwV3ZmTlFXSi1jTUlKYzItRkt1aHFfeV9vb0lNTi1lWlFUSEQxVVJUTDZncV9UWWwwUERobFF3YmcybmxwbEdqT3BFYnhDcVQwSEVuMFdiaV8xdmpTbEkzOGoyajZiaUxjNncyckNlRmlTQzJFalpXeXVqQ3Rra1RQU1pKX1pGbDc3RGJIOFB2UQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊公司 (AMZN)：国会议员拥有的十大股票 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1lZNy1ZZE9BaDA0OVA0WC1jRHNKRE9KVjlrYW9MOFZyYzV4VmlpWWpiY1FSdTRMY0N6cEU2MzRjSUc1bkticm96Z09nc0hTb2pwcWVPcE9US1JIMkVHOWJhaGg5cGJEZVU0VmdkUlNhcXkzSW1hSmRUU3NFb0tPcWl2dG82cG9MckpqYlBacUlzdw?oc=5"
+        "text": "价格预测：亚马逊股票年底将以这个价格 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVFFfUVpIVGlyVmJ6VjA2RWJNTkxnVkZlaHRhcElyWnh6TFdUaW1hNnBpSW81N0FITzhSOHZIWXRkXzl5STJtWU5SdEJscXJwcjQ3TTByZFZrUXh0bEdZMnYxUVZJQTRobncxNS1jcm9XRVlwZkRFN3F6N1NkTTdaNEVNRkU3M1ZMRlNta2R6SGdyblJ3Vk9xQUxwN1RPYks5M29yeURTbGQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "为什么亚马逊股票今天上涨 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYnlLNHgwSi1mZVgySHpQZkl0QzhFb05sQUpqSFROeGNtQmoxQzFKT09PbHBTRy1fdFBZRUJNeTBaa04xZ2d2YWJEYUNZSk8zT2FfbUVDandRaE4weVZtTjQ3M3NTTWdLalFXRnpfRi1rdTFNNnpQVEZSV01VbzRtajlnTTR5RmxZLWdZd2RrQzFNYXJKeTRBUDNIUjIzT1pDMHFGYVcwZDBqTDBJZ3BuNm5SNENEdw?oc=5"
+        "text": "美国银行提高亚马逊 (AMZN) 的目标价格 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTZsWExPbWxmam15b1d4RGVJSUtDSXFKMnF1LUNBZzk1THpza09pWnZTcjBwUlk5N2NPelRyQlVaMmw5cUpGTDBHeklSZVVDYzhLd0RQdTJvNjRwOTQ5WGpiRHJhMV9KWHozRXpoSHJUVF9YaTlfU1l4YWxRU1lMejNQZEk3WllNQlYxMHIxRS1mV21XVEoxVzhTVU0?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "售空：特斯拉股票（纳斯达克股票代码：TSLA）暴跌，因为二手赛博卡车在几小时内售罄 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ0o5ZFJLRWdsWTlodDloalJpT2lkV2FLU1VPOHQwSTd0TDcyWnhnQms3MTk2aVc3LUNUQkJSLWZGckhmMFl4U1I5NVVOclRPSGFYUC04bFlDeHk3aU9YY29OQlRhZkdUZEZqZ1RQZTF1R3J2dXdfaHE1dFZzdnJKN1ZvNWpyYzJKcDQzWXNWOXRRUEE2eWtZT1YwajBLemJtWU1zUFdKZHl6UWlON3RDOA?oc=5"
+        "text": "特斯拉迈阿密机器人出租车的推出和第二季度的数据是否只是改变了特斯拉“自动驾驶第一”的叙事？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1pMSkVUcGNLS1B1bEswTFlfdkNHd1UteTBGaldyRm84LW9aZzJVQ0xzSG5zNFFwbEJyeDRYaGlvel9Dbk9oSGQ3Zk9teWt4WVEzN2F0V2w0QTlvdUo4SFlpaWprNnNQYVZMcW9uNnZVWnBhTzlmZXZlODMzSERLQjc5NEtQUklac3JTRHdTckVPVVdSR1QyVDVDREE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "SpaceX合并会对特斯拉股价产生多大影响？ - 雅虎财经英国",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXFCNUdNdXNBT01wU1FfVHJQQUdBcWdJUll6Wkx5V3dMVS1JN2ZkVUF5ekE3Z2ctMUtqelE5Um9BcjlMUkVXUFVMaVJIdGN1bEpySkdZZ2dFUHBvcXdRa3RKeFlrakFYM0RtQWhXdUNsX0VxelcyRkUybGNLdGZXSFRUSFI1VHM?oc=5"
+        "text": "为什么特斯拉在人工智能领域的“巨大”机会会让投资者失望……目前 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ00tYzlfZS1HQ1Nxbm94XzlzVXhVX3NNWGFSOXNuYmNwUGROUUNTUk1mdlBxV3YyVFpRUGU2LVhnRGlUU3JDZmJSQzl3bXBYRzZLLW82NnE4RDZSdnFFODRrWEUzem50Q29jYml6cnd6TnVocTFjb2pxR1A2dXdzR0dtSmZEZkhDUGpnMThtNHctZ2duVWFCbWZBSEsxdE0?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TRV",
-        "text": "与其他财产和意外伤害保险股票相比，旅行者公司的股票表现如何？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd0pua3RxR0I0cDlONV9hXzJzVWQ0NzhZbFdaaWJUdEhTODVQcDFpcF9ITks1S2dsb2pRN05YSFljd0pvMERZN24tbzlGZXlBMGxVVlhQX2VaWmFGRmpnaVlmRDZNdzNZZ0RiQmFLbW9uemlYN1VUR1Mtc2dRWTlWNW13WTY1eDI2UXVKSDBveGI5YVRUZWVHa1lNRzZFcjZucS13cnUtOW4tVnVmb01TTQ?oc=5"
+        "text": "Jim Cramer 无法理解 Travelers (TRV) 股票为何下跌 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUV9vLXRNZzhMWUFUcDNrMlkwYnozX3B3NXZ6eWZqa28zek4wYmJLTF9QczFuQWxkQXROeFRFdmJpM1k3dVVEYmpYdGQ0bUY1dEJwbE9OSklTTmowTGMyMW9HM1RkbzViX0JVMzVyd1IxajBNSTZTa3pNaGlVODFoNUhMQmhVUlRUc3pnakNYeEJRUG9rdndZMm9YZw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TRV",
-        "text": "旅行者公司 (TRV) 2026 年盈利日期和报告 $TRV - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tVTdGaUlUelVNRHBwVXdaUkIxSXVSS3BpLUtxV0pPa2lzOG8zWXk5bExOVVFXbVNMeTZLeGY2ZXZya2o0d1FiLWpCeHl1ZTJ6Tm80R09WY3hzelB2RnZkS0h3?oc=5"
+        "text": "TRV 由 Truist Securities 发起报道——价格目标 Anno - GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUDVCRkwxbnpYamZYT2lfQTE2WFVaaWdJSUtoSnBxYmEyNnY2cGJDaExhRnQyN0FFNnJXNTNnNDBGdUlQZnBEYmFTYkNoOE9oWnF0bkYwOW9mZjlEVUlVOUZtQUNnV21Qc2gxTjNXRHRpMFJEdnVVT2htWWpqYlRZT19XZ05hMnZhM0V1VkZWWkZEMEZaRkwzOWNFY292ZndYemlSU0lZR2F5NE80YnExNXN3?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛公司（WMT）股票五月份回调。分析师认为未来有上行空间 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdmhPYlNfRHNqMVBGcmpjRFJzVENHc055dlg1ai1BY3BYYUZZcFhOVEFTQzBLTUVSWWlHc1JjVkx2SmhaNzJ0WDY1MEFOeTdCRmVzUkgtUVZFdkQ4LUc0VVY1V0xJbkZkVWFHUVhMQUt0ZVNJa1NYY1dSaWtHU2RmOVNxYWpkbHdxMzRzcV9TbkNqMV83UC1paQ?oc=5"
+        "text": "沃尔玛（WMT）股票随着市场上涨而下跌：原因如下 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZmZPdHpHRHp2T1NUdEZaOXlQdlVGSzd2WHZQalpCRzd2Zk9aNkFwSjhPWUljVk43b2VYNnFXWTRRVDVHWm9SRGRFeUVwcDg4d1NlWlMzaHdpZV9VOF9wYUhIYmhGRmRWYUZVMVA3bTVzUGg5OXBaNVIxZ2taWElMYTAwWVlabVEyQTllRF9COEV4LUtOWXNWeFlPcw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛（纽约证券交易所股票代码：WMT）股价从高点回落 10%，为耐心投资者提供了一个令人信服的切入点 -foreignpolicyjournal.com",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUzVobjZFcHh5TGo0WURZUk9Xa3hUQzdtMlpOV01DOGMwY09md005VThCd2tRcHM4V1Jia3djVU9DWmJNdHRMMUNKQ0NjeGhKbmVaWDA4RHVxR2JJcmJjbmdUU2dyTW1vbU9hTDZRNllId2RWT1ZTZnVjQlNRTGx4ZGJIZ3BGcFc4V3dJQk16QmhReXlWRU5sMU1kZ3Fld1o1YjlrclpaZXdzZmlHS3dZX1hwMEdMS2pXeE5PSkRQUEJUamF6MGhwaDY4ODAtbG1xVXBvbjJxbUJLanJEbzNUOGphc2FJRUUxUVE?oc=5"
+        "text": "吉姆·克莱默 (Jim Cramer) 对沃尔玛股票的意外一句话反应 - thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUxxTHZhMmYxYlA1SUV3aWhwelRLSDItaVhKWmlhb0xOZUtpNDVQM3VnMGw2SEJvOHJHVGF4SVVuV3NkalVHNy1fZk1TN2tMay1HSWczR2dQay1yQTVCQkZsS044ZTdtLXd6bDEtdk4yZWUybjZ1MGJqelV5bjlENmYtX2VhY1QtZFE1Ym5ucndHT21LWVNUZXlNSUU3cWlr?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0700.HK",
+        "text": "腾讯控股（SEHK：700）近期股价疲软后定价是否是一个长期机会？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
         "text": "中金公司：维持腾讯（0700.HK）“跑赢大市”评级，目标价666港元 - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZzF5Q05Vb1dBOThiTVNXNWpCVTdXUEc4NTBmU0plRC1JaVBGaDJWMDUtY2xVZG5rZTRBOXU5WGtMbGNnblg5MnRFY3RWeVdBVmVKRzV3NjRuNlpxZTJsQWNzb1VfYzRNSEpTOVRUUlQyMWZkVEJpc0pub1ZhTUdRZklhQlhFakwwaXhYRERZUDdfMTB1bTg1VFRrTm1KOEF0V0E?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "0700.HK",
-        "text": "腾讯控股（SEHK：700）近期股价波动后的估值检查 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMG9tQkE0ZHNvSVJ3UHZTZHdfbnl5cGNGVHFiYUY3TDRDWjd6dHp1a3hEMnotanNqUzUtbFE0bEJHMkJVSThrdEYyQW1VaURzWm1xekRaQjVCU1l4VHFUSzYxc1BkQUJsOUs0eVM2V2pwMjA1TWNaV2xma3lHQXRYdVNuejBLaWt0S2ZnVXg2Y2J6Sm5Wc2p1QWVXRDFOUWZvQUE?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbmRMUlJyT0lnLXFDSU9VeUFvd1Y1MzRpM09jendaU1JqejIybmI0Z2tHcDJDYTZyYjl0MW5ITXdBWVRwSkRESk1RTTFJb3l5LVdDQWxmXzZKNEM4OGlLaGhDMVZzZ2NaSXljanNiNHB3UnNuQ2RBQjc0VEtBWU1RMlYzS29YOGtfbkdySzFIajVUUDlSdVB3Ni1NZEV1RFdsbVE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "阿里巴巴股价因调查而飙升，花旗将裁员1,000人 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFNyRk8zLXNYdUtObXNEYUpsTnVrekFneExRTThWV1VPSUlVUjdNanMzT3ZqSUU0UzhQaS1JcjNVYXB4cnU5M3pmRDBVUFV6eVJiWmV3Z0dtRWVaem5tOFhyakJFNkltcFZGZ1llNHR1c2lhR0hxbFphZEpXVG4yT2hXWXI?oc=5"
+        "text": "香港股市动态 |阿里宣布钉钉管理层重组，阿里巴巴-W(09988)再挫逾4%；陈航辞去D首席执行官职务",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGl2Q05TSWwzOGl6TG5GNFFqdTRubnNqYm94U1BtZnlqVWhiS25GS1JIdXc3T2R1Vk9mUk5fNldQZzNMNEhVQVIwbHMyZXcyaUZ0dTlsMU5sWU1QUXdzejVlMEFvblVxakhXVy0wbzdsUVc3bW9NLVM4bzdIb3hKSzJDc0lmdUJMSTNLLTBDb04xS09jVmE1Sw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "Hong Kong stocks moved as Alibaba surged nearly 8%, with the mysterious AI model 'Happy Horse' topping global rankings. - 富途牛牛",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0JfemJLU09ZeV9maGFPcG56NzJPNXQxNFhFR05JVWZCa0NObnVmb21HLWhIT3Z6eU5JZTZfZjJOY3BjNVJDSFFZWGptdS1COW85bm5ETmNhS2xGc0tHUjdYNHN4ejJDYWFRdGR1RnpSMzdkZjQ4NnNHeUV3UWhfd3cybk9ncEIyU3V0eTAzc2d0TzhpVlc0UURRQQ?oc=5"
+        "text": "阿里巴巴因股价下跌而推迟美国处罚 - TheStreet Pro",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVWpDNS1ZZHR6LVZnTW4tbjRWUVR5N1h3MUc3VzVsMWxFZEsyMGptYUVsWm1IV2FQX3F2ODI2OVhIS3VkeXh5Zm1MY2ZlRnFFMFJpcW8zZjUweFpHZVBZdnNFZUdTbDFYSm43aDgzMEVEMWtwR05teTZqTnpmdzlPakJYZlhKTVZsRTlRXzVrZFc2aXdLUzVXSHZaRQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0068.HK",
+        "text": "众芯科技 (68) - 股票价格，报价，历史 - hkex.com.hk",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm03NXUzOTBRTzJ5dnc0LUh1QzlkbENvUWJaNkRxUkNKUkxuRWxiaUtta1JteGthLVo2OGJyT3J1RDNsbGVRRlhDbWxQSDl5ZnEtellRQjJIZy1oUVh6azZWdWxIZ1kyM1l6SW9JZHV4MlBNdHRBUXd2bWhjVlVvMmc4SURaQWx4eU9ZU3NfbjBJM2JrMzdVSldwQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "0068.HK",
         "text": "Manycore股价在香港IPO首日翻倍后延续涨势 - Investing.com",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOVIyVV8xU0RKb0xVd1pOS3ZBbFIzd1dlVW85S2V2MWhWRXVmSlpKWVk1QVI1RjJwXzdabUVMbWdsVl81WVE5Sm94YW5hYTdac3MtRjJmWG5DT1FvdGpCR1ZhdjBNUEZha1lPcnNTU3FWTGJpMWlGOVVFMzdUcm16MXNQbUhHdGNHelZFcDd3Z3dGSVVoSmRPSVZ3d1FqWWRKT3g0Mjh2clVGQXpsWTBGcmNxbE9xTjVkWER4VVlUakY?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "0068.HK",
-        "text": "Manycore Tech Inc. (0068) 获得摩根大通持有的股份 - 环球邮报",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmNicU8yTk9aODBhVG02RGlZOHplVzFySVlDQzY4VDg5eXVKUng1ZUtBbUJyT0VsUlp1dW1JRVZrX1gwUTJiOW83V3BuYjRxTkRtVHpDSXg4azh2RWxYemJEQjRva3dleUVhWmpZVjdpeDFFWG9td3UtSFpobVlRcEhrTEtaUDd5d2RRbVl1cDBWdGZCN0c1ckZoTnVJQ0h2T0psUW1DMnRYd1NreUVNVUNBT0FpbU1oNjNzZ1dwUmRNc0lFM0ZFdkpOUW9FUU15?oc=5"
       }
     ]
   },
