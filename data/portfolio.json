@@ -13,7 +13,7 @@
           "ticker": "NVDA",
           "name": "NVIDIA",
           "shares": 400,
-          "avgCost": 145.31,
+          "avgCost": 144.28,
           "lastPrice": 144.28,
           "ytdStartPrice": 186.49
         },
@@ -21,7 +21,7 @@
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 230,
-          "avgCost": 380.15,
+          "avgCost": 409.63,
           "lastPrice": 409.63,
           "ytdStartPrice": 481.48
         },
@@ -29,7 +29,7 @@
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 155,
-          "avgCost": 609.92,
+          "avgCost": 610.59,
           "lastPrice": 610.59,
           "ytdStartPrice": 659.53
         },
@@ -37,7 +37,7 @@
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
-          "avgCost": -82.6,
+          "avgCost": 193.37,
           "lastPrice": 193.37,
           "ytdStartPrice": 312.78
         },
@@ -45,7 +45,7 @@
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
-          "avgCost": 168.8,
+          "avgCost": 210.56,
           "lastPrice": 210.56,
           "ytdStartPrice": 230.82
         },
@@ -53,7 +53,7 @@
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
-          "avgCost": 229.2,
+          "avgCost": 407.76,
           "lastPrice": 407.76,
           "ytdStartPrice": 449.72
         },
@@ -61,7 +61,7 @@
           "ticker": "TRV",
           "name": "Travelers",
           "shares": 100,
-          "avgCost": 217.9,
+          "avgCost": 273.28,
           "lastPrice": 273.28,
           "ytdStartPrice": 289.01
         },
@@ -69,7 +69,7 @@
           "ticker": "WMT",
           "name": "Walmart",
           "shares": 150,
-          "avgCost": 117.6,
+          "avgCost": 117.59,
           "lastPrice": 117.59,
           "ytdStartPrice": 111.41
         },

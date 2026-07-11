@@ -195,7 +195,7 @@ function renderAll() {
   // Market totals (in USD)
   const usTotalUSD = data.us.stocks.reduce((s, st) => s + (st.avgCost < 0 ? st.lastPrice * st.shares : st.lastPrice * st.shares), 0);
   const hkTotalUSD = data.hk.stocks.reduce((s, st) => s + (st.lastPrice * st.shares) / fx.USD_HKD, 0);
-  const aTotalUSD  = data.a.stocks.reduce((s, st) => s + st.lastPrice / fx.USD_CNY, 0);
+  const aTotalUSD  = data.a.stocks.reduce((s, st) => s + (st.lastPrice * (st.shares || 1)) / fx.USD_CNY, 0);
   
   // Convert total to display currency
   const totalDisp = fromUSD(totalUSD, cur);
@@ -212,7 +212,7 @@ function renderAll() {
   // Market cards always show local currency
   const usTotalLocal = usTotalUSD; // US is already USD
   const hkTotalLocal = data.hk.stocks.reduce((s, st) => s + st.lastPrice * st.shares, 0); // HKD
-  const aTotalLocal  = data.a.stocks.reduce((s, st) => s + st.lastPrice, 0); // CNY
+  const aTotalLocal  = data.a.stocks.reduce((s, st) => s + (st.lastPrice * (st.shares || 1)), 0); // CNY
   
   document.getElementById('usValue').textContent = formatCurrency(usTotalLocal, 'USD');
   document.getElementById('usPct').textContent = (usTotalUSD / totalUSD * 100).toFixed(1) + '%';
@@ -352,8 +352,9 @@ function renderTableA(stocks, totalUSD) {
   tbody.innerHTML = '';
   const fx = portfolio.fx;
   stocks.forEach((s, i) => {
-    const mvCNY = s.lastPrice || 0;
-    const costCNY = s.avgCost;
+    const shares = s.shares || 1;
+    const mvCNY = (s.lastPrice || 0) * shares;
+    const costCNY = (s.avgCost || 0) * shares;
     const hasCost = costCNY !== null && !isNaN(costCNY) && costCNY !== 0;
     const pnlCNY = hasCost ? mvCNY - costCNY : 0;
     const pnlPct = hasCost ? (mvCNY - costCNY) / costCNY * 100 : 0;
@@ -365,21 +366,24 @@ function renderTableA(stocks, totalUSD) {
       const bmIdx = portfolio.marketData.indices.find(idx => idx.key === s.benchmark);
       if (bmIdx) bmNote = '<br><span style="font-size:0.65rem;color:var(--text-dim);">📊 跟踪: ' + bmIdx.name + '</span>';
     }
+    // For funds (shares=1, lastPrice=total), show '基金', for stocks show actual shares
+    const sharesDisplay = (shares === 1 && (s.benchmark || s.ticker.match(/^0\d{5}$/))) ? '基金' : shares.toLocaleString();
     tbody.innerHTML += `<tr>
       <td>${s.ticker}</td><td>${s.name}${bmNote}</td>
+      <td>${sharesDisplay}</td>
       <td>${hasCost ? formatCurrency(costCNY,'CNY') : '—'}</td>
       <td>${formatCurrency(mvCNY,'CNY')}</td>
       <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatCurrency(pnlCNY,'CNY') : '待更新'}</td>
       <td class="${!hasCost ? '' : (pnlCNY>=0?'positive':'negative')}">${hasCost ? formatPct(pnlPct) : '—'}</td>
       <td>${pct.toFixed(1)}%</td></tr>`;
   });
-  const totalMVCNY = stocks.reduce((s,st) => s + (st.lastPrice || 0), 0);
-  const totalCostCNY = stocks.reduce((s,st) => s + (st.avgCost || 0), 0);
-  const hasAnyCost = stocks.some(s => s.avgCost !== null && !isNaN(s.avgCost) && s.avgCost !== 0);
+  const totalMVCNY = stocks.reduce((s,st) => s + (st.lastPrice || 0) * (st.shares || 1), 0);
+  const totalCostCNY = stocks.reduce((s,st) => s + (st.avgCost || 0) * (st.shares || 1), 0);
+  const hasAnyCost = stocks.some(s => (s.avgCost || 0) * (s.shares || 1) !== 0);
   const totalPnlCNY = hasAnyCost ? totalMVCNY - totalCostCNY : 0;
   const totalMVUSD = totalMVCNY / fx.USD_CNY;
   tbody.innerHTML += `<tr style="font-weight:700">
-    <td colspan="2">📊 合计</td>
+    <td colspan="2">📊 合计</td><td></td>
     <td>${hasAnyCost ? formatCurrency(totalCostCNY,'CNY') : '—'}</td>
     <td>${formatCurrency(totalMVCNY,'CNY')}</td>
     <td class="${!hasAnyCost ? '' : (totalPnlCNY>=0?'positive':'negative')}">${hasAnyCost ? formatCurrency(totalPnlCNY,'CNY') : '待更新'}</td>
