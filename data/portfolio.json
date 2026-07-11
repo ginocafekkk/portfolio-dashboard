@@ -79,7 +79,7 @@
           "shares": 100,
           "avgCost": 74.59,
           "lastPrice": 73.37,
-          "ytdStartPrice": 74.59
+          "ytdStartPrice": 89.31
         }
       ]
     },
@@ -115,8 +115,7 @@
           "shares": 1,
           "avgCost": 200000,
           "lastPrice": 173845,
-          "benchmark": "hshylv",
-          "ytdStartPrice": 200000
+          "benchmark": "hshylv"
         },
         {
           "ticker": "022438",
@@ -124,8 +123,7 @@
           "shares": 1,
           "avgCost": 150000,
           "lastPrice": 148378,
-          "benchmark": "a500",
-          "ytdStartPrice": 150000
+          "benchmark": "a500"
         },
         {
           "ticker": "007466",
@@ -133,8 +131,7 @@
           "shares": 1,
           "avgCost": 100000,
           "lastPrice": 94317,
-          "benchmark": "csi-lowvol",
-          "ytdStartPrice": 100000
+          "benchmark": "csi-lowvol"
         },
         {
           "ticker": "600900.SS",
@@ -142,7 +139,7 @@
           "shares": 3000,
           "avgCost": 26.913,
           "lastPrice": 28.03,
-          "ytdStartPrice": 26.913
+          "ytdStartPrice": 29.21
         },
         {
           "ticker": "600036.SS",
@@ -150,7 +147,7 @@
           "shares": 2000,
           "avgCost": 36.592,
           "lastPrice": 36.88,
-          "ytdStartPrice": 36.592
+          "ytdStartPrice": 38.6
         },
         {
           "ticker": "000651.SZ",
@@ -158,7 +155,7 @@
           "shares": 800,
           "avgCost": 38.51,
           "lastPrice": 38.25,
-          "ytdStartPrice": 38.51
+          "ytdStartPrice": 46.38
         }
       ]
     },
