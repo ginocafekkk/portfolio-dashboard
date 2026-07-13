@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11",
+  "lastUpdated": "2026-07-13",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 460.2,
+          "lastPrice": 457.6,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 110.2,
+          "lastPrice": 110.7,
           "ytdStartPrice": 160
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 173845,
+          "lastPrice": 174609.92,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 148378,
+          "lastPrice": 145855.57,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 94317,
+          "lastPrice": 94628.25,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,7 +138,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.03,
+          "lastPrice": 28.42,
           "ytdStartPrice": 29.21
         },
         {
@@ -146,7 +146,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 36.88,
+          "lastPrice": 37.25,
           "ytdStartPrice": 38.6
         },
         {
@@ -154,7 +154,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 38.25,
+          "lastPrice": 38.71,
           "ytdStartPrice": 46.38
         }
       ]
@@ -379,7 +379,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-07-11",
+    "lastUpdated": "2026-07-13",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -439,7 +439,7 @@
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~16",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -484,7 +484,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8393",
+          "value": "~7.8392",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -512,7 +512,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.0",
+          "value": "~100.8",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -620,14 +620,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7761",
+          "value": "~6.7806",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 3.5亿股",
+          "value": "CSI300 20.9亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
