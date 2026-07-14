@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 178625.2,
+          "lastPrice": 179643.36,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 132403.75,
+          "lastPrice": 129239.3,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 100752.0,
+          "lastPrice": 102343.88,
           "benchmark": "csi-lowvol"
         },
         {
@@ -215,18 +215,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.15",
-        "change": 0.21
+        "value": "101.07",
+        "change": 0.13
       },
       {
         "name": "黄金",
-        "value": "4026.9",
-        "change": -2.51
+        "value": "4026.3",
+        "change": -2.53
       },
       {
         "name": "原油",
-        "value": "80.3",
-        "change": 11.4
+        "value": "80.66",
+        "change": 11.9
       },
       {
         "name": "10Y美债",
@@ -307,8 +307,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "预测：特斯拉股票 7 月 22 日后走势将如此 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDlpVEczRHVDNWwtSk1sdXhfaUxYa0ljUnNFMlJ0YXF2d0NMMEkteXZENFBSRlBHYzRzQzFnXzB4Q0NZRUxpSk5XbjNBWTNLaWVHbnF5REhpMEJCbWI1Vzcta0hYaXJWQVlldTA3b0JSOHpjWVUwemNqTGo1TVd4cUd6UFhOdVZPZU1tdkdZS0hBcGlNVFZ3UGZuNA?oc=5"
+        "text": "TSLA 股价重回 400 美元？杰富瑞 (Jefferies) 提出看涨理由，称 SpaceX 合并可为股东带来溢价 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFhmcms3eUxzT0tqc2REMXYyTVFYMHdsOXRnU2dUbUN1TW5KeHNYY2xrQzktcU1fRkxJT19Da09lT0JMOUx6WjF6b0xlc2lzS0tDSXNvenVQeEUxTXliQWdvVWk2aU8wZUhRY201Q2tFaDlZMzBzRmlQdUVoTGp2NDRMSXNaNDBtQ1JXU0N3d0NNa2RCd2E0WjlR?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -338,7 +338,7 @@
         "source": "📰 实时资讯",
         "ticker": "WMT",
         "text": "沃尔玛 (WMT) 分析师评级、股票预测和价格目标 - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOZGJHeEkyMWRia2t2cDF1S2tsWnJZMXZLYWw3clREdUlGTk1aNFJGVU9SUXZIOE5IRnJEYXd3NTZwTy02NUdCOHNxSlRSNHVBbVVjdVJLd0hPaUtXMS1YeTNhY1g3WklybEhtUDVNcFpMZDZLRGlFNXB6RHllZmt5V0VlWURBU1MyemIzLVNSSnJyTnNVNTJhcXg3bGg5VTVrN3I1bE1ONzl0dk5nYVRaMFB2OGNjUDFtY1hYU2pWdDNGb01VNFU0d3NRclJFWkNDeWllaFNKRmJUQXFQMC0yWWZ6cFI3Wm9lU0xJSVhsZ3h0THFfN255em0zeVMxbktYc243V0k5MTBnc193YVNTX2hjUWVTcGpOd0l5TEtDbTluQ2EweTE4dHJocl9nNHdRNXhzNjlUc0dXdw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNc2JrVVN6Mk56VFZVNG0xdVJ0dGR5MUhmajRDNWpKNXItdDZTaEY0REl5V2JwWGdoQzZDQl9tWlhIWlVzRVNnRGU2ekVSRFpmV0RnMElNd2N5a01ZYlZiZm1MdWpmVHNNcWhpdThvbUpOaDJZQXp1a0JEQTBMOTRrc1NLczRRenBRcHV2SEtMS1dPVVlSWEF1VnNxeU93Z2xMYnBOejhnbXhoblNlOTlLMnhoYWdPM1NIcWNRQm1GMkoySWl1b0pyQ01ZX0VjRTl6N1Z1UnRBY0Q5aGNmQ1ZlVUxibXYxbFVCR0R3WHBWbXplNm9oRFp2WnlMMjk1ZDJoR3pFQ182b3E1cGE5XzFkRUk0V0pxWjdPRml3V0RiSnJkOEsyVlNCaEJ5RkJrdkFvaURfVnRMbDdnWkt2ZWlNYXNETEhXZ1ZqMm1Z?oc=5"
       },
       {
         "source": "📰 实时资讯",
