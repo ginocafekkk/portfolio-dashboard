@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 454.8,
+          "lastPrice": 456.2,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 110.3,
+          "lastPrice": 110.8,
           "ytdStartPrice": 160
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 176606.15,
+          "lastPrice": 177612.81,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 138966.99,
+          "lastPrice": 135645.68,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 97642.13,
+          "lastPrice": 99184.88,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,7 +138,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.3,
+          "lastPrice": 28.55,
           "ytdStartPrice": 29.21
         },
         {
@@ -146,7 +146,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 36.89,
+          "lastPrice": 37.18,
           "ytdStartPrice": 38.6
         },
         {
@@ -154,7 +154,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 38.85,
+          "lastPrice": 39.18,
           "ytdStartPrice": 46.38
         }
       ]
@@ -206,8 +206,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5936.31,
-        "change": 1.44,
+        "value": 5984.37,
+        "change": 2.27,
         "date": "07/14",
         "pe": 15.0
       }
@@ -215,18 +215,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.17",
-        "change": 0.22
+        "value": "101.15",
+        "change": 0.21
       },
       {
         "name": "黄金",
-        "value": "4038.4",
-        "change": -2.23
+        "value": "4026.9",
+        "change": -2.51
       },
       {
         "name": "原油",
-        "value": "78.87",
-        "change": 9.42
+        "value": "80.3",
+        "change": 11.4
       },
       {
         "name": "10Y美债",
@@ -259,14 +259,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "MSFT 股票之前曾从该价格反弹。现在什么？ - 特雷菲斯",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT2d4ZlJOci1mYmN6c0xkak1naWJxanBwOHU5cW10M3FScExmQ3lpM2U2a0VEMXVYM1Z2RDBjOTU3b2x3dWFyS0N6MzM1RWlmcF9Qd0F1N2MxeDFmUlNvMWlyaHNobm5ObkVNZmV2SXhXQnY2V19oa2RvX3R0YVEydTBJQVNrdTJUNHlZQVJNblY1Nl8zZndxNDlpTlZvWU9NbkZwNF9KOVN4UzdKUmJrb0VPZ0pvdw?oc=5"
+        "text": "您应该购买微软公司（MSFT）的股票吗？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2c5cF9jQXJQbjdWbUgtYlB6NWwtaHdBREpnb1Q3SXFCb3ZfYnZIOWVUQ3NiZF9ibmVINl9SZ3p2YkZLUlRfM0dMUVNTVmFaYXZ5dS1hcUQ4ejZldEtEbzdIVGpEemxOSTVuTWpHSWNmcTNWdjZyMlBxRjFaVmVKZjBNc2FkUDc1N1VRaGVSb21VdXFKLVNqYXNsTjBaVmpnby14MQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "您应该在 7 月 29 日之前购买微软股票吗？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkN3NzA2a01zXzlUc0pRclBVVm1ZX3ZpTXhMRjZia3hrWHB6WXc1c2tCZHB6NVZrWGp3enFQcjRrMkJVSmZ4Q3F2WHE3Y3p2UVVnbjRLYmVzZ2JxaUo3U3k2NlJsQU1obWRzb2dTRWZnQlh4MXRqei1iSlJyazNybTFtSkJnMmRUdWVFSkpHVlhlZ1U4RDEw?oc=5"
+        "text": "MSFT 股票之前曾从该价格反弹。现在什么？ - 特雷菲斯",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT2d4ZlJOci1mYmN6c0xkak1naWJxanBwOHU5cW10M3FScExmQ3lpM2U2a0VEMXVYM1Z2RDBjOTU3b2x3dWFyS0N6MzM1RWlmcF9Qd0F1N2MxeDFmUlNvMWlyaHNobm5ObkVNZmV2SXhXQnY2V19oa2RvX3R0YVEydTBJQVNrdTJUNHlZQVJNblY1Nl8zZndxNDlpTlZvWU9NbkZwNF9KOVN4UzdKUmJrb0VPZ0pvdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -325,8 +325,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TRV",
-        "text": "AI 推出后 Travelers (TRV) 股票可能比公允价值低 50% - Simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWmp0cFZ3b2dCUkE3aVppenZxQjhsQ05TajFvQlJoaW5jQlprWGFoS05IMGlKVnM0VlE5LU81Z3p5bVRndmM2T25yemNVNlVrRF9WOEFSVzBndjVRVXBudnhKdUFvdHJEWDk0UGlGZENkNUN3c0RJXy00S2FSSHhuMHVYNy1fdmtuMDJjWEs4UkpuRmFxZk5TUWZ6b0VHaldOdS12ZXRObm5WUEJsSmdKcWdxNlc5VlN3d21JUHlKa3pxdHlfRng0dVpmaHlSbmNrZlE0eUFyQdIB1wFBVV95cUxOWmp0cFZ3b2dCUkE3aVppenZxQjhsQ05TajFvQlJoaW5jQlprWGFoS05IMGlKVnM0VlE5LU81Z3p5bVRndmM2T25yemNVNlVrRF9WOEFSVzBndjVRVXBudnhKdUFvdHJEWDk0UGlGZENkNUN3c0RJXy00S2FSSHhuMHVYNy1fdmtuMDJjWEs4UkpuRmFxZk5TUWZ6b0VHaldOdS12ZXRObm5WUEJsSmdKcWdxNlc5VlN3d21JUHlKa3pxdHlfRng0dVpmaHlSbmNrZlE0eUFyQQ?oc=5"
+        "text": "Diversify Wealth Management LLC 增持 The Travelers Companies, Inc. 的 $TRV 股票持有量 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOWtaVVdTejg2QU1sU0lvS1FIQXdCdFJvUmo4OUctWXNZOGg2ZWIwams2cWRrR3VHUlRsV09PdVdYeERnaHViY0c2bGh6TWNqckRfZHJlR1l3aHBjZERPdGN2ZGNPcU4wS1RCQldPT1F0TFltY1B4dU9qWFBzNmxTekhtVE52STlndGpiRW1EOW91SVJpeUx6Y2tYd2txWDNhZE52VjBYa0dDOWtETGhLd0R4RkN2Wm1PV0M1MFc5QVV3ekU5WllkVjh6dE5oUVkzOGxERHpJS3hUVE9YRE5IWldJOA?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -337,14 +337,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "WMT 股票跌至近八个月低点——克利夫兰研究表明销售放缓 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzJlR2Vhd0ExcjZuVTczNDlPc3BOdzdXaC1aM1p3V2UzOUxmVm5UNTJBTkZxeGdWTmZDa3BPVG1NbjE5bENHejBMR2NfalZCZW5hZWNLaENHa0dSZ252WmRQYWpZemxDNUxMM2dJMDZOcE1UZ2ZsWG9qNTZESUFpdU1OSEtSVDZtenJLZHhjMHhqQng5UGR6bmlNUHFWZnZoLXFQSEs3emNwdWdUbmR6OEZsN1B2VmoyXzNjaHk3aGlGRzlEOHJ4MWczZnhrZmZqWTNtQTBzNFRyQQ?oc=5"
+        "text": "沃尔玛 (WMT) 分析师评级、股票预测和价格目标 - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOZGJHeEkyMWRia2t2cDF1S2tsWnJZMXZLYWw3clREdUlGTk1aNFJGVU9SUXZIOE5IRnJEYXd3NTZwTy02NUdCOHNxSlRSNHVBbVVjdVJLd0hPaUtXMS1YeTNhY1g3WklybEhtUDVNcFpMZDZLRGlFNXB6RHllZmt5V0VlWURBU1MyemIzLVNSSnJyTnNVNTJhcXg3bGg5VTVrN3I1bE1ONzl0dk5nYVRaMFB2OGNjUDFtY1hYU2pWdDNGb01VNFU0d3NRclJFWkNDeWllaFNKRmJUQXFQMC0yWWZ6cFI3Wm9lU0xJSVhsZ3h0THFfN255em0zeVMxbktYc243V0k5MTBnc193YVNTX2hjUWVTcGpOd0l5TEtDbTluQ2EweTE4dHJocl9nNHdRNXhzNjlUc0dXdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "KeyBanc 在第二季度收益公布前下调 Netflix 股票 (NFLX) 价格目标，预计“季度业绩基本符合预期” - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU3NZT1l4UEVjSm9LV2Z1MDlqY1kyRm1wc0dOcENUS2tZSnAzNlQ5T3lTQ1ZJelNZWkg0ejAxekNoZnVQVWNsYTBBak4za29RcnNlcXRmOU11aGtVSTVvR0Ewbkx3TG5fdzJaRXdpUEgtZ3VzQkt1MEw4X1ZpWFB1NW5peTlkdElseDRxbWtlMld4Tkh4Z1dVWUl2a193am9vZ0RDMjBjRU1CMmc1VTdQb2c2d3hsZE0zSHhEdGtPeGtadFFvRHpXb0FWWQ?oc=5"
+        "text": "财报公布前，所有人都在关注 Netflix 股票；这是 Benchmark 的预期 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd2tKeXA4b3Vhb1VpYnV1VHY2OVQtTjVtMndOX3hNZlg5RGVScGNxU0FRMzV2VlU1aGF0dzI4ai1lcDR2a2xlRWVaVTdXemw2Z2pqc2hWVlJoZ2NKb2tYd1FjX205X0lPNmN0WDVoU1FkQU5Yb2JMNW9qV21GMkRZRHpqRzBPbVFNOXVXd1ZiWVVxZWMtZ3JIZklaY1pjT3NFc0gwbw?oc=5"
       },
       {
         "source": "📰 实时资讯",
