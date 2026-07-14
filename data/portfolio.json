@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 177612.81,
+          "lastPrice": 178625.2,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 135645.68,
+          "lastPrice": 132403.75,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 99184.88,
+          "lastPrice": 100752.0,
           "benchmark": "csi-lowvol"
         },
         {
@@ -484,7 +484,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8373",
+          "value": "~7.8382",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -512,7 +512,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.3",
+          "value": "~101.1",
           "status": "bearish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -620,14 +620,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7709",
+          "value": "~6.7769",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 20.9亿股",
+          "value": "CSI300 25.6亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
