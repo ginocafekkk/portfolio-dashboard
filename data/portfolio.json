@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 203.53,
+          "lastPrice": 211.8,
           "ytdStartPrice": 186.49
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 390.99,
+          "lastPrice": 384.93,
           "ytdStartPrice": 481.48
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 656.73,
+          "lastPrice": 661.04,
           "ytdStartPrice": 659.53
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 350.67,
+          "lastPrice": 357.33,
           "ytdStartPrice": 312.78
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 247.31,
+          "lastPrice": 247.49,
           "ytdStartPrice": 230.82
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 394.76,
+          "lastPrice": 396.18,
           "ytdStartPrice": 449.72
         },
         {
@@ -62,7 +62,7 @@
           "name": "Travelers",
           "shares": 100,
           "avgCost": 273.28,
-          "lastPrice": 341.51,
+          "lastPrice": 336.83,
           "ytdStartPrice": 289.01
         },
         {
@@ -70,7 +70,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 114.78,
+          "lastPrice": 113.7,
           "ytdStartPrice": 111.41
         },
         {
@@ -78,7 +78,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 73.83,
+          "lastPrice": 73.53,
           "ytdStartPrice": 89.31
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 179643.36,
+          "lastPrice": 181493.69,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 129239.3,
+          "lastPrice": 131992.1,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 102343.88,
+          "lastPrice": 103152.4,
           "benchmark": "csi-lowvol"
         },
         {
@@ -379,7 +379,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-07-14",
+    "lastUpdated": "2026-07-15",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -432,14 +432,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.61%",
+          "value": "10Y 4.58%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~17",
+          "value": "~16",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -467,7 +467,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $79.52",
+          "value": "HYG $79.68",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -484,7 +484,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8382",
+          "value": "~7.8368",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -512,8 +512,8 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.1",
-          "status": "bearish",
+          "value": "~100.9",
+          "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
         },
@@ -620,7 +620,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7769",
+          "value": "~6.7695",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
