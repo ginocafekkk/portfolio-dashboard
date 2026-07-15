@@ -114,7 +114,7 @@
                     "name": "易方达恒生红利低波A",
                     "shares": 1,
                     "avgCost": 200000,
-                    "lastPrice": 193002.82,
+                    "lastPrice": 194990.75,
                     "benchmark": "hshylv"
                 },
                 {
@@ -122,7 +122,7 @@
                     "name": "华泰柏瑞中证A500ETF联接A",
                     "shares": 1,
                     "avgCost": 150000,
-                    "lastPrice": 149784.87,
+                    "lastPrice": 152975.29,
                     "benchmark": "a500"
                 },
                 {
@@ -130,7 +130,7 @@
                     "name": "华泰柏瑞中证红利低波A",
                     "shares": 1,
                     "avgCost": 100000,
-                    "lastPrice": 108139.41,
+                    "lastPrice": 108993.71,
                     "benchmark": "csi-lowvol"
                 },
                 {
@@ -219,17 +219,17 @@
             {
                 "name": "美元指数",
                 "value": "100.97",
-                "change": -0.0
+                "change": 0.0
             },
             {
                 "name": "黄金",
-                "value": "4035.6",
-                "change": -1.67
+                "value": "4034.9",
+                "change": -1.69
             },
             {
                 "name": "原油",
-                "value": "80.13",
-                "change": 12.21
+                "value": "79.78",
+                "change": 11.72
             },
             {
                 "name": "10Y美债",
@@ -268,8 +268,8 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "MSFT",
-                "text": "您应该购买微软公司（MSFT）的股票吗？ - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2c5cF9jQXJQbjdWbUgtYlB6NWwtaHdBREpnb1Q3SXFCb3ZfYnZIOWVUQ3NiZF9ibmVINl9SZ3p2YkZLUlRfM0dMUVNTVmFaYXZ5dS1hcUQ4ejZldEtEbzdIVGpEemxOSTVuTWpHSWNmcTNWdjZyMlBxRjFaVmVKZjBNc2FkUDc1N1VRaGVSb21VdXFKLVNqYXNsTjBaVmpnby14MQ?oc=5"
+                "text": "微软公司 (MSFT) 将裁员 4,800 人 - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMks1cUdIYlBpd0lNNEd6MWI3UkhsNnVVXzY1SW5hYnhVUnd4ZWd1d3lRVzEzZy1nbW81U3Q1Z1VCX3FEc3A5MkF3OXFTS09ITzM4U21TZHZrSnp5YllxWkVodGNkN2dvMmxiUkVvVFdPTDlkZ0YzV2plRFFmUEJYTjBmQ2d3Y1FZRGhvaG94aDRHXzdRMmR0X3VnSGJLdw?oc=5"
             },
             {
                 "source": "📰 实时资讯",
@@ -298,14 +298,14 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "AMZN",
-                "text": "富国银行 (Wells Fargo) 取消 PT 的亚马逊 (AMZN) 股票 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWVMdFVNRno3OGpnNHNoNFduNDdzQ0VLbW1XY09VNEctYzNHdVB3M2NfbHBiWWdlOGNTWUtfdG1EXy11QUZoYURKek1jYWJBR2lvb2F4OERfR1pqTVJaSi05OE8yYmxzZGFvSUpZbHpYUVZNU0xnOHo5M09WNks5ZVJaTGxaTFAtUG11WnlaclJrdjV1NlU4?oc=5"
+                "text": "Jim Cramer 分享对 Amazon.com, Inc. (AMZN) 和人工智能的挑战 - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWRBSEIwcEpTODN5blhFZjY4d05BQUdzN2dsaHpXRzN1M2ZFSGJ0eVRVUk1qdjgwUzgyS01oaHRvZ3d0X0pLZnpzeXM3VFNidG1wRnhGSkoxQ2Y1WEotdDNTUndSSWY1bzczX2NLQlc1T3JFSmY0UndXUUdVNHpuX2l4a1lfMzlVYXU4OE5ndW5tYklzdVZubw?oc=5"
             },
             {
                 "source": "📰 实时资讯",
                 "ticker": "AMZN",
-                "text": "债券市场刚刚向亚马逊发出了投资者不应忽视的信息 - MarketBeat",
-                "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnZ3M2NmVEFkTk5aMlNnYl9SNlhJVHNTSXk0Ym1NVm13ejlSUG5UUFpyZUoxdVNEZGlNb1Vsd2FxZUNnbUlzTkJMaEhzeU9KUXRMcGZKcXF1enhDSTRyLXFTeGZTRm1KS09GbWVkcFhXQVhQY3lvTXZWWnRVTFZ1d3JaY291WllIcTBrUFdobV9oUHg4ODVVOVRNTEpWTGlDeXZtajlhNko?oc=5"
+                "text": "亚马逊进入第二季度，重复其 AWS 赌注 - 历史告诉我们接下来会发生什么 (NASDAQ: AMZN) - 美股指南 - 美股开户 - 港股开户",
+                "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGRzb2pNNG5jbmRUMjhrUlNIVjQzQm5BNkwxZGRzdl83MmZILU52akhvVWdPbkpuMFBzS0p0NjhUT0ZPdnBNZzJPTzdIek5iTzdnMUJqTTNGZmJrRE5hOGpnaDJjSlZDSzI0TDBPZDNTNnZhY3BmYzJqYlVQYzI3d21tTXNpM3hxX3dSazB5ZVhXc2FDNFVWM3cxcURqV0RSQ1hWZldMbTRHWWN2ZjV3YTNvN2c?oc=5"
             },
             {
                 "source": "📰 实时资讯",
@@ -328,8 +328,8 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "TRV",
-                "text": "Calamos Advisors LLC 增加了 The Travelers Companies, Inc. $TRV 的地位 - MarketBeat",
-                "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbnBzMHJsS05xSnpkSnJOUlY5UDE1RTNHZGxFS3VjWTJYMG5odWtLWWhaYjh2VmFfcmtuVnh4SWRjaDU2anZSbTdhTzlzX0dqWG1IM0FnZU0wT1FBYXJpOE5ZVWQwS1R5ZTFTRGE3R1JOQjljRFU4MGV0Y2d4WGl0dHo5YU1oQWthRTZVeVpPdmR1NWQtTG1SREFTOGFsRDl3VTh3YmVMdlVOYnZhczZJeXp1VnBwMmlQNnNyTkJNRVdNd0NXcUc1QU04cw?oc=5"
+                "text": "The Travelers Companies, Inc. 股票 12 个月目标价下调至 329.79 美元，意味着下跌 2% - TradingView",
+                "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZ0dkb2NmZU1TSHpHUno3V3N4TVFWbHpIOTN4OGJoamVzdjNQdU1LTGVwVUtETnZveTlYS2dJY0NlTXFHSUw4TmR1UGxTV1BhUzZQams5SVBJNmFINzhFWlo2Zy14QlBmdkFSRlMyOWVsNklnc19KQXFUdHBURkczWkdBemJCb0VKWlB3Z0ZZd0lvYjJoVWVRYmJxbTIzR3h4d1NMR0xhbGx5Um4yeTVzc0NvVHdHVk9Oa0pOWVo2YXZ3ME0wbC1oSFF5ekpSc081T24xLTRlNll4WWtVNWRtMVpBQlU?oc=5"
             },
             {
                 "source": "📰 实时资讯",
@@ -340,8 +340,8 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "WMT",
-                "text": "AMG 国家信托银行增加了沃尔玛公司的股票持有量 $WMT - MarketBeat",
-                "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd18tZkxLeUdWdXc4dExVX2ZocEJwM2l0Vk92Y01KdS1KaW52WkEyYWVsSFp0OFZ5bHRjX3pOcVlsNENXeVZDU2VxQjZhMk5vRXFfd29tMHdBV3l2bDNEQUJsQTFRQ0t0R0IyRW82d0xkcGVVZldfbkt1SWk2OElkVVNLSl9DRFZYdFpfSk42VkRzUk1wVUJaVVVNZnFBWXlpMlpuT1p3TUlXbV90SlFBMWtoRUZqdTBSbk5WVGtPVl94bDA?oc=5"
+                "text": "Legacy Capital Group California Inc. 出售沃尔玛公司 $WMT 股票 - MarketBeat",
+                "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYWRmX21DS3JEU1ptRC1ZbG1MVEwzWGpmTkI4OThuUmNMZy0xMm5yeFhGS2VjVVMzVzZkYkRCMFRqRzN4bTlOX1JnWjVDa1loWFNLQ0RIaWFOSHdOalFzMzJfNG45dGZtU1F6MENwVGF2bWN0OEhzUUxNYUNzWFdfS3E2OFQ4RktFLXk3ZlBkWmJOTEg4endxZXU5N1RCM2N0ZGF2WWZWTmF3MmVPdTBoaF9TVGdMSldUbzc5S3psV3N4QUFzdkE?oc=5"
             },
             {
                 "source": "📰 实时资讯",
@@ -358,8 +358,8 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "0700.HK",
-                "text": "腾讯控股（SEHK：700）近期股价疲软后定价是否是一个长期机会？ - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
+                "text": "腾讯控股（SEHK：700）近期股价波动后的估值检查 - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMG9tQkE0ZHNvSVJ3UHZTZHdfbnl5cGNGVHFiYUY3TDRDWjd6dHp1a3hEMnotanNqUzUtbFE0bEJHMkJVSThrdEYyQW1VaURzWm1xekRaQjVCU1l4VHFUSzYxc1BkQUJsOUs0eVM2V2pwMjA1TWNaV2xma3lHQXRYdVNuejBLaWt0S2ZnVXg2Y2J6Sm5Wc2p1QWVXRDFOUWZvQUE?oc=5"
             },
             {
                 "source": "📰 实时资讯",
