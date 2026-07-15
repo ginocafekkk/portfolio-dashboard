@@ -114,7 +114,7 @@
                     "name": "易方达恒生红利低波A",
                     "shares": 1,
                     "avgCost": 200000,
-                    "lastPrice": 189087.56,
+                    "lastPrice": 191035.16,
                     "benchmark": "hshylv"
                 },
                 {
@@ -122,7 +122,7 @@
                     "name": "华泰柏瑞中证A500ETF联接A",
                     "shares": 1,
                     "avgCost": 150000,
-                    "lastPrice": 143602.26,
+                    "lastPrice": 146660.99,
                     "benchmark": "a500"
                 },
                 {
@@ -130,7 +130,7 @@
                     "name": "华泰柏瑞中证红利低波A",
                     "shares": 1,
                     "avgCost": 100000,
-                    "lastPrice": 106450.84,
+                    "lastPrice": 107291.8,
                     "benchmark": "csi-lowvol"
                 },
                 {
@@ -218,18 +218,18 @@
         "assets": [
             {
                 "name": "美元指数",
-                "value": "100.9",
-                "change": -0.07
+                "value": "100.92",
+                "change": -0.05
             },
             {
                 "name": "黄金",
-                "value": "4030.0",
-                "change": -1.81
+                "value": "4038.4",
+                "change": -1.6
             },
             {
                 "name": "原油",
-                "value": "80.43",
-                "change": 12.63
+                "value": "79.49",
+                "change": 11.31
             },
             {
                 "name": "10Y美债",
@@ -310,14 +310,14 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "TSLA",
-                "text": "特斯拉股票在第二季度收益公布前仍波动：分析师谨慎乐观地提高价格目标 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZjItZk5VNDhQeFJZNGVWRl9VcmlsQnpXRkF4RWw5SHdwaHJhS1dJbmNlZTRkN2RwZ0tVY01Ka2libEg3REpwek01TElONDRaNDEtQ0RNaURRcm1MVi01djh1b3ZzaTJPYWRJaFhnVzAyYm9CRW4zNkxPVHFRWnN0a2hqemZoN1Fxck1McGUyckpKTlZMR1hNRjhzbkpyZm8?oc=5"
+                "text": "特斯拉 (TSLA) 五年涨幅达 81%，股价看起来昂贵 - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY05KOS0zWWpLSFFaYjNjNTl2dzE2V0ZGeVV2RDZzeUZxVXFqTVM5RXdHOHFEdzNhd2VhS3E3bmxXeTdwNURuNVRzcUdTakdGU2hyT1JPN0dEYjZNVUJ4S3Zmdkd6TXdsNk5MTXRlaUZNWUdrdDZhVXZSVUF3UmdkR2pLaUpBYzB4czNZdEp3elFoMjJEMUExdi1PanpIdw?oc=5"
             },
             {
                 "source": "📰 实时资讯",
                 "ticker": "TSLA",
-                "text": "特斯拉股票的真实价格还需要三年时间 - Trefis",
-                "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbnJCRWxyOHUwd0FVZ0M5QnpzTVpnTVZrWlBaYWhLWDc5ZmRlSmpURFpPRF9tN25LVEFLRXZob2xvV1dFTDloeFQ4N2NGdS1jcTQ0NURiZDhpRkZ5TFgxRHU0ZjU4YjRYOG1MM2xIS3JWSVdRczk4eng4YmRIbnpTLUtudVUwSWQzeU9jZ21Zblhaa3BOWTBBcmcxZ1pQNy1NWklBQkJ5Wl9jR0NucnNZ?oc=5"
+                "text": "特斯拉股价一夜之间攀升：“SPAC之王”查马斯·帕里哈皮蒂亚（Chamath Palihapitiya）在特斯拉与SpaceX的合并中看到了“明显”的逻辑 - Stocktwits",
+                "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUlhUdUJfMDZuY2lxSEtVX3JhYWxLbFg5TGctQndDR0R0T0tJalNiMkdtS0lvZUNsTHozOWxJQzdfOEFlWFZTRnAyWVR3cnoyVVFIdzR5NzFfNHZJSUFiTnE1SF9aOXBKZFV3Q0hneFpYREozTTV6NDZIaGpDZFBCV2JLYUhiNE5INHp4TmVXMmlIY0FqQlB2UEExTXR0UnFYSDlydXJhQlRpdmVDWVE?oc=5"
             },
             {
                 "source": "📰 实时资讯",
@@ -358,8 +358,8 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "0700.HK",
-                "text": "腾讯控股（SEHK：700）近期股价波动后的估值检查 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMG9tQkE0ZHNvSVJ3UHZTZHdfbnl5cGNGVHFiYUY3TDRDWjd6dHp1a3hEMnotanNqUzUtbFE0bEJHMkJVSThrdEYyQW1VaURzWm1xekRaQjVCU1l4VHFUSzYxc1BkQUJsOUs0eVM2V2pwMjA1TWNaV2xma3lHQXRYdVNuejBLaWt0S2ZnVXg2Y2J6Sm5Wc2p1QWVXRDFOUWZvQUE?oc=5"
+                "text": "腾讯控股（SEHK：700）近期股价疲软后定价是否是一个长期机会？ - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
             },
             {
                 "source": "📰 实时资讯",
