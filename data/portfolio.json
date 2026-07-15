@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 196999.15,
+          "lastPrice": 199028.24,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 156233.66,
+          "lastPrice": 159561.44,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 109854.76,
+          "lastPrice": 110722.61,
           "benchmark": "csi-lowvol"
         },
         {
@@ -218,18 +218,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.98",
-        "change": 0.01
+        "value": "100.97",
+        "change": -0.0
       },
       {
         "name": "黄金",
-        "value": "4036.6",
-        "change": -1.64
+        "value": "4038.1",
+        "change": -1.61
       },
       {
         "name": "原油",
-        "value": "79.81",
-        "change": 11.76
+        "value": "79.87",
+        "change": 11.85
       },
       {
         "name": "10Y美债",
@@ -304,8 +304,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊进入第二季度，重复其 AWS 赌注 - 历史告诉我们接下来会发生什么 (NASDAQ: AMZN) - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGRzb2pNNG5jbmRUMjhrUlNIVjQzQm5BNkwxZGRzdl83MmZILU52akhvVWdPbkpuMFBzS0p0NjhUT0ZPdnBNZzJPTzdIek5iTzdnMUJqTTNGZmJrRE5hOGpnaDJjSlZDSzI0TDBPZDNTNnZhY3BmYzJqYlVQYzI3d21tTXNpM3hxX3dSazB5ZVhXc2FDNFVWM3cxcURqV0RSQ1hWZldMbTRHWWN2ZjV3YTNvN2c?oc=5"
+        "text": "债券市场刚刚向亚马逊发出了投资者不应忽视的信息 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnZ3M2NmVEFkTk5aMlNnYl9SNlhJVHNTSXk0Ym1NVm13ejlSUG5UUFpyZUoxdVNEZGlNb1Vsd2FxZUNnbUlzTkJMaEhzeU9KUXRMcGZKcXF1enhDSTRyLXFTeGZTRm1KS09GbWVkcFhXQVhQY3lvTXZWWnRVTFZ1d3JaY291WllIcTBrUFdobV9oUHg4ODVVOVRNTEpWTGlDeXZtajlhNko?oc=5"
       },
       {
         "source": "📰 实时资讯",
