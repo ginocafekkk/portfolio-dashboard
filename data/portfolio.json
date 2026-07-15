@@ -114,7 +114,7 @@
                     "name": "易方达恒生红利低波A",
                     "shares": 1,
                     "avgCost": 200000,
-                    "lastPrice": 191035.16,
+                    "lastPrice": 193002.82,
                     "benchmark": "hshylv"
                 },
                 {
@@ -122,7 +122,7 @@
                     "name": "华泰柏瑞中证A500ETF联接A",
                     "shares": 1,
                     "avgCost": 150000,
-                    "lastPrice": 146660.99,
+                    "lastPrice": 149784.87,
                     "benchmark": "a500"
                 },
                 {
@@ -130,7 +130,7 @@
                     "name": "华泰柏瑞中证红利低波A",
                     "shares": 1,
                     "avgCost": 100000,
-                    "lastPrice": 107291.8,
+                    "lastPrice": 108139.41,
                     "benchmark": "csi-lowvol"
                 },
                 {
@@ -218,18 +218,18 @@
         "assets": [
             {
                 "name": "美元指数",
-                "value": "100.92",
-                "change": -0.05
+                "value": "100.97",
+                "change": -0.0
             },
             {
                 "name": "黄金",
-                "value": "4038.4",
-                "change": -1.6
+                "value": "4035.6",
+                "change": -1.67
             },
             {
                 "name": "原油",
-                "value": "79.49",
-                "change": 11.31
+                "value": "80.13",
+                "change": 12.21
             },
             {
                 "name": "10Y美债",
@@ -268,14 +268,14 @@
             {
                 "source": "📰 实时资讯",
                 "ticker": "MSFT",
-                "text": "微软：忽略噪音，买入基本面（纳斯达克股票代码：MSFT） - Seeking Alpha",
-                "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaktiU0ZMQk1mcWNMWk50Q3VGUS1lU0lsOWhvdGhRbmJHeVpKSUJDQXVYaGdFcHNmZ290eTdoOFZlRHlzemNkRkl0WHZDdlM4UFQ0d2xnLVhRX3ZkdExoUElqU1RabDRMOFBNWDViY1R5VGs5VjN2dGlDT1RQUWpfRXNsSmJ5cHpucmpXUHd3OGc2Zw?oc=5"
+                "text": "您应该购买微软公司（MSFT）的股票吗？ - 雅虎财经",
+                "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2c5cF9jQXJQbjdWbUgtYlB6NWwtaHdBREpnb1Q3SXFCb3ZfYnZIOWVUQ3NiZF9ibmVINl9SZ3p2YkZLUlRfM0dMUVNTVmFaYXZ5dS1hcUQ4ejZldEtEbzdIVGpEemxOSTVuTWpHSWNmcTNWdjZyMlBxRjFaVmVKZjBNc2FkUDc1N1VRaGVSb21VdXFKLVNqYXNsTjBaVmpnby14MQ?oc=5"
             },
             {
                 "source": "📰 实时资讯",
                 "ticker": "META",
                 "text": "是什么推动 META 股票的下一次反弹 - Trefis",
-                "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1QyanloWHY4aVBZSmhwcnUxM2xMX1NwY2RXYzhZTFJQamhXRE9Ic1RsaFdqVWtFbjVDSWxBVk9NcmwxVXZsMGFaZndndk5uVlJKTEdsNjNLZXFtMmlFQV9DM2U4ODdkdVlCLW9hcmtNSUc0R3JKSVA3YWFUMlVUei1URWRabXRtZzI1Z0hqaF84YTJscDEtWEJqS1VBQlEwUk4tZXB2Wml5UQ?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdjJncTVQdlFzcmpkenEwS2ZrRnJHVEZTWFJaRi1uS0VwSENiMjVzWkVKZF9wNGR6cXkzRE00U18wRDh5bGR3Rk5KbVQ5Tlk0dk1nazNsakpLYTR1NVloclZDWWg2ZDZzQlR6X2lMc0w4OHJGc3psX1VkdkMxTWdvaFoxempaU2R5M2tFYVVEdFpFVDR5eFd0ZWxWbw?oc=5"
             },
             {
                 "source": "📰 实时资讯",
