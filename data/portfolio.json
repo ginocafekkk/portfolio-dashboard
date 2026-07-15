@@ -1,683 +1,683 @@
 {
-    "lastUpdated": "2026-07-15",
-    "fx": {
-        "USD_HKD": 7.8393,
-        "USD_CNY": 6.7667
-    },
-    "markets": {
-        "us": {
-            "name": "美股持股",
-            "currency": "USD",
-            "stocks": [
-                {
-                    "ticker": "NVDA",
-                    "name": "NVIDIA",
-                    "shares": 400,
-                    "avgCost": 144.28,
-                    "lastPrice": 211.8,
-                    "ytdStartPrice": 186.49
-                },
-                {
-                    "ticker": "MSFT",
-                    "name": "Microsoft",
-                    "shares": 230,
-                    "avgCost": 409.63,
-                    "lastPrice": 384.93,
-                    "ytdStartPrice": 481.48
-                },
-                {
-                    "ticker": "META",
-                    "name": "Meta Platforms",
-                    "shares": 155,
-                    "avgCost": 610.59,
-                    "lastPrice": 661.04,
-                    "ytdStartPrice": 659.53
-                },
-                {
-                    "ticker": "GOOG",
-                    "name": "Alphabet (GOOG)",
-                    "shares": 100,
-                    "avgCost": 193.37,
-                    "lastPrice": 357.33,
-                    "ytdStartPrice": 312.78
-                },
-                {
-                    "ticker": "AMZN",
-                    "name": "Amazon",
-                    "shares": 100,
-                    "avgCost": 210.56,
-                    "lastPrice": 247.49,
-                    "ytdStartPrice": 230.82
-                },
-                {
-                    "ticker": "TSLA",
-                    "name": "Tesla",
-                    "shares": 80,
-                    "avgCost": 407.76,
-                    "lastPrice": 396.18,
-                    "ytdStartPrice": 449.72
-                },
-                {
-                    "ticker": "TRV",
-                    "name": "Travelers",
-                    "shares": 100,
-                    "avgCost": 273.28,
-                    "lastPrice": 336.83,
-                    "ytdStartPrice": 289.01
-                },
-                {
-                    "ticker": "WMT",
-                    "name": "Walmart",
-                    "shares": 150,
-                    "avgCost": 117.59,
-                    "lastPrice": 113.7,
-                    "ytdStartPrice": 111.41
-                },
-                {
-                    "ticker": "NFLX",
-                    "name": "Netflix",
-                    "shares": 100,
-                    "avgCost": 74.59,
-                    "lastPrice": 73.53,
-                    "ytdStartPrice": 89.31
-                }
-            ]
+  "lastUpdated": "2026-07-15",
+  "fx": {
+    "USD_HKD": 7.8393,
+    "USD_CNY": 6.7667
+  },
+  "markets": {
+    "us": {
+      "name": "美股持股",
+      "currency": "USD",
+      "stocks": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "shares": 400,
+          "avgCost": 144.28,
+          "lastPrice": 211.8,
+          "ytdStartPrice": 186.49
         },
-        "hk": {
-            "name": "港股持股",
-            "currency": "HKD",
-            "stocks": [
-                {
-                    "ticker": "0700.HK",
-                    "name": "腾讯控股",
-                    "shares": 500,
-                    "avgCost": 500.0,
-                    "lastPrice": 456.2,
-                    "ytdStartPrice": 599
-                },
-                {
-                    "ticker": "9988.HK",
-                    "name": "阿里巴巴",
-                    "shares": 900,
-                    "avgCost": 124.822,
-                    "lastPrice": 110.8,
-                    "ytdStartPrice": 160
-                }
-            ]
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "shares": 230,
+          "avgCost": 409.63,
+          "lastPrice": 384.93,
+          "ytdStartPrice": 481.48
         },
-        "a": {
-            "name": "A股 ETF",
-            "currency": "CNY",
-            "stocks": [
-                {
-                    "ticker": "021457",
-                    "name": "易方达恒生红利低波A",
-                    "shares": 1,
-                    "avgCost": 200000,
-                    "lastPrice": 183363.08,
-                    "benchmark": "hshylv"
-                },
-                {
-                    "ticker": "022438",
-                    "name": "华泰柏瑞中证A500ETF联接A",
-                    "shares": 1,
-                    "avgCost": 150000,
-                    "lastPrice": 134803.53,
-                    "benchmark": "a500"
-                },
-                {
-                    "ticker": "007466",
-                    "name": "华泰柏瑞中证红利低波A",
-                    "shares": 1,
-                    "avgCost": 100000,
-                    "lastPrice": 103967.3,
-                    "benchmark": "csi-lowvol"
-                },
-                {
-                    "ticker": "600900.SS",
-                    "name": "长江电力",
-                    "shares": 3000,
-                    "avgCost": 26.913,
-                    "lastPrice": 28.55,
-                    "ytdStartPrice": 29.21,
-                    "lastUpdated": "2026-07-15"
-                },
-                {
-                    "ticker": "600036.SS",
-                    "name": "招商银行",
-                    "shares": 2000,
-                    "avgCost": 36.592,
-                    "lastPrice": 37.18,
-                    "ytdStartPrice": 38.6,
-                    "lastUpdated": "2026-07-15"
-                },
-                {
-                    "ticker": "000651.SZ",
-                    "name": "格力电器",
-                    "shares": 800,
-                    "avgCost": 38.51,
-                    "lastPrice": 39.18,
-                    "ytdStartPrice": 46.38,
-                    "lastUpdated": "2026-07-15"
-                }
-            ]
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "shares": 155,
+          "avgCost": 610.59,
+          "lastPrice": 661.04,
+          "ytdStartPrice": 659.53
         },
-        "cash": {
-            "name": "现金（货币基金）",
-            "currency": "mixed",
-            "items": [
-                {
-                    "name": "美股货基",
-                    "amount": 86662,
-                    "currency": "USD"
-                },
-                {
-                    "name": "港股货基",
-                    "amount": 432451,
-                    "currency": "HKD"
-                }
-            ]
+        {
+          "ticker": "GOOG",
+          "name": "Alphabet (GOOG)",
+          "shares": 100,
+          "avgCost": 193.37,
+          "lastPrice": 357.33,
+          "ytdStartPrice": 312.78
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "shares": 100,
+          "avgCost": 210.56,
+          "lastPrice": 247.49,
+          "ytdStartPrice": 230.82
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "shares": 80,
+          "avgCost": 407.76,
+          "lastPrice": 396.18,
+          "ytdStartPrice": 449.72
+        },
+        {
+          "ticker": "TRV",
+          "name": "Travelers",
+          "shares": 100,
+          "avgCost": 273.28,
+          "lastPrice": 336.83,
+          "ytdStartPrice": 289.01
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "shares": 150,
+          "avgCost": 117.59,
+          "lastPrice": 113.7,
+          "ytdStartPrice": 111.41
+        },
+        {
+          "ticker": "NFLX",
+          "name": "Netflix",
+          "shares": 100,
+          "avgCost": 74.59,
+          "lastPrice": 73.53,
+          "ytdStartPrice": 89.31
         }
+      ]
     },
-    "options": [],
-    "marketData": {
-        "indices": [
-            {
-                "key": "hshylv",
-                "name": "恒生红利低波",
-                "value": 4223.92,
-                "change": 1.03,
-                "date": "07/15",
-                "pe": 8.5
-            },
-            {
-                "key": "sp500",
-                "name": "标普500",
-                "value": 7543.59,
-                "change": 0.53,
-                "date": "07/15",
-                "pe": 26.0
-            },
-            {
-                "key": "nasdaq",
-                "name": "纳斯达克",
-                "value": 26107.01,
-                "change": 1.12,
-                "date": "07/15",
-                "pe": 35.0
-            },
-            {
-                "key": "a500",
-                "name": "中证A500",
-                "value": 5984.37,
-                "change": 2.27,
-                "date": "07/15",
-                "pe": 15.0
-            }
-        ],
-        "assets": [
-            {
-                "name": "美元指数",
-                "value": "100.94",
-                "change": 0.0
-            },
-            {
-                "name": "黄金",
-                "value": "4057.6",
-                "change": -1.77
-            },
-            {
-                "name": "原油",
-                "value": "79.95",
-                "change": 10.92
-            },
-            {
-                "name": "10Y美债",
-                "value": "4.58",
-                "change": 0.35
-            }
-        ],
-        "fx": {
-            "USD_HKD": 7.8393,
-            "USD_CNY": 6.7667
+    "hk": {
+      "name": "港股持股",
+      "currency": "HKD",
+      "stocks": [
+        {
+          "ticker": "0700.HK",
+          "name": "腾讯控股",
+          "shares": 500,
+          "avgCost": 500.0,
+          "lastPrice": 474.0,
+          "ytdStartPrice": 599
         },
-        "news": [
-            {
-                "ticker": "WMT",
-                "source": "🧸 操作记录",
-                "text": "WMT 建仓 150 股 @ 均价 $117.60。Put $119 行权指派 100 股 + 直接买入 50 股 @ $114.80。防守底仓到位。"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "NVDA",
-                "text": "英伟达 (NVDA) 股票交易上涨，原因如下 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQm0xbkhwYk9faEwwMVhzMkozcThNTXRPc1Rxb3NjaWdKM1BtOFk5VkhZQVJ6RU5ETXgxVTNWYWdoZUxJc0JFY2RfRE5YODNMcmFRVFJrNXlKb2ZXeGxwN29nZVRoRXo2X1ZwbndaSWI4UlVyZGtJQ2VaZHA5bVJlWnVlRW0xeWJ3M25vQ1dFX0dhX2hqdVI1Nw?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "NVDA",
-                "text": "标准普尔 500 指数和纳斯达克指数在芯片制造商、网络安全股票和软通胀数据的支持下收高 — NVDA、GS、SKHY、VZ、LCID 成为焦点 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFZjM29scENFcElQMjJvWEp0d1oxRWhNVVhpdmZfTlNiSWNuYnpDMjh5Y052Q3FQQ1dMN2Q2TGNWeGZFZVJlUDBoMnVrZktCd1hkeW5ycjN0V196bEpZZTJfVHR0X0ZjUTNMMFFkOXo4S3pVZDlEWk5DMUVabGN0MGFjRk16aWF2ZUZsenVycVF4QQ?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "MSFT",
-                "text": "您应该购买微软公司（MSFT）的股票吗？ - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2c5cF9jQXJQbjdWbUgtYlB6NWwtaHdBREpnb1Q3SXFCb3ZfYnZIOWVUQ3NiZF9ibmVINl9SZ3p2YkZLUlRfM0dMUVNTVmFaYXZ5dS1hcUQ4ejZldEtEbzdIVGpEemxOSTVuTWpHSWNmcTNWdjZyMlBxRjFaVmVKZjBNc2FkUDc1N1VRaGVSb21VdXFKLVNqYXNsTjBaVmpnby14MQ?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "MSFT",
-                "text": "预测：微软股票 7 月 29 日后可能呈抛物线走势。原因如下。 - 杂七杂八的傻瓜",
-                "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUhNeUpEcGNEUUx5VFp1OHlnOGwwYU9zRWFLTFU1YmJ5b21OMjhGamlQUzNVcUdYTV9wMVhQOFV0UUhIekh6U21Ucm1DN1FrZDJMLVJHdWZqeVRHbGVZN1ZYWFZ3RXB4c1FINDNrdjB4SEswU2JUeFFRaEIzeFI2dnZjdFBJQUMwU1N4aVFwdTdRcHdTeVo2aA?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "META",
-                "text": "为什么Meta股票在长期下滑后突然爆发 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORU9ybi12cnZFcW1VMjNra0N0V2poRnIwaFM2bG4wczJGUmZZMTBQY2ltVDJMTHM0Nndod2x6UVFSSzZES2lIbGhkV3BORG9zLWUzeFMzdVJabnRhTDdZb2k0OGlaV2dlTUZINl9zRW5ZVTRjclFKRGpkOXlFa2xZcHFUeXFFMlhQUE1yVmkwMW9WVkhPd3lsQTdtb1lHY0JQM3g5NzJMTXZPc0wtemxBZThtWFhtTXc?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "META",
-                "text": "是什么推动 META 股票的下一次反弹 - Trefis",
-                "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1QyanloWHY4aVBZSmhwcnUxM2xMX1NwY2RXYzhZTFJQamhXRE9Ic1RsaFdqVWtFbjVDSWxBVk9NcmwxVXZsMGFaZndndk5uVlJKTEdsNjNLZXFtMmlFQV9DM2U4ODdkdVlCLW9hcmtNSUc0R3JKSVA3YWFUMlVUei1URWRabXRtZzI1Z0hqaF84YTJscDEtWEJqS1VBQlEwUk4tZXB2Wml5UQ?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "GOOG",
-                "text": "谷歌股票即将公布的第二季度收益：这就是看涨者乐观的原因 - Barchart.com",
-                "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUFCWjBveU9teG9DdEVsWWtUdlZkTmNJcm11YVZ6YUIzTlRLZ2xJTS1aUndhN0ttOUJSYndrU1ZXa291Ums1UkktMGNveElGa3BFRngzN2hpOEtWbTlYbVpONTNsSUE4M2QzLTFNdTBPY2pCeFBOWUMzVmhVZy16dVJSMkNDbFdaRUYwNlhSWmd0cXJPT2wyY3pCSF9rbmVZUFlVdThST2djQUlpWlBv?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "GOOG",
-                "text": "谷歌股价上涨近 4% — 谷歌通过新数据中心和能源中心扩大德克萨斯州的足迹 - Stocktwits",
-                "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWnZIUHd5eUphOUk0YTJTZ3Q4VTRGYmVGQjRJcFdMT3pVZUVDOE12bGYwVWN4emtKZ0U2YzhINklGc1VnYUd4XzRFOVlteTFCVkxoSFBrYUpzWFhGX3oxMkZZSlFDd28wZGZHOFl5UWxnY1Q4cUxNQUJfWGU5eDZrcVk4bHBENU9xUG9qdXZ1WnkyOVBpYUxuWm5FdGs2YUotemFMN0IyQUF4UjJqdTBWZ0xnNWg4NkRlSW1pQmNEdlZsMVlpRE5sUW8zWTgwMV9SUExLWkln?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "AMZN",
-                "text": "富国银行 (Wells Fargo) 取消 PT 的亚马逊 (AMZN) 股票 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWVMdFVNRno3OGpnNHNoNFduNDdzQ0VLbW1XY09VNEctYzNHdVB3M2NfbHBiWWdlOGNTWUtfdG1EXy11QUZoYURKek1jYWJBR2lvb2F4OERfR1pqTVJaSi05OE8yYmxzZGFvSUpZbHpYUVZNU0xnOHo5M09WNks5ZVJaTGxaTFAtUG11WnlaclJrdjV1NlU4?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "AMZN",
-                "text": "债券市场刚刚向亚马逊发出了投资者不应忽视的信息 - MarketBeat",
-                "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnZ3M2NmVEFkTk5aMlNnYl9SNlhJVHNTSXk0Ym1NVm13ejlSUG5UUFpyZUoxdVNEZGlNb1Vsd2FxZUNnbUlzTkJMaEhzeU9KUXRMcGZKcXF1enhDSTRyLXFTeGZTRm1KS09GbWVkcFhXQVhQY3lvTXZWWnRVTFZ1d3JaY291WllIcTBrUFdobV9oUHg4ODVVOVRNTEpWTGlDeXZtajlhNko?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "TSLA",
-                "text": "特斯拉股票在第二季度收益公布之前仍然波动：分析师谨慎乐观地提高了价格目标 - Stocktwits",
-                "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUkNyaWoxTFNoNmtjUU9BR3JXcnRLRFUtX256YVVVVXhYOWxRdnVId3NVU0JoTUgwSlVQRDIxVkxNNVVLRURTME9wQkg0RUJ5bUNsZzR6SHN1THR0MmtKbkV5dGZSMHFHb1kzYmlPaFR0SmFsRHB2VFY3Vzk2NVhFVFg2ak5jS2RKdGl1cVV4a2FJWDRyLXJUM3BwencwcXRkR181OGUwSE9pck5mZzd1RUNhb0ZOQmJIMmlzSHp0ckNybUZvSVNUUncxUTBIbG1QUzNpbU1xRzFFV2VKZm9OZlp6QzZUOWF4cW4xVUJGR2tYS3oyeWVF?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "TSLA",
-                "text": "预测：特斯拉股票 7 月 22 日后走势将如此 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDlpVEczRHVDNWwtSk1sdXhfaUxYa0ljUnNFMlJ0YXF2d0NMMEkteXZENFBSRlBHYzRzQzFnXzB4Q0NZRUxpSk5XbjNBWTNLaWVHbnF5REhpMEJCbWI1Vzcta0hYaXJWQVlldTA3b0JSOHpjWVUwemNqTGo1TVd4cUd6UFhOdVZPZU1tdkdZS0hBcGlNVFZ3UGZuNA?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "TRV",
-                "text": "Travelers (TRV) 股票公允价值因利润率前景略有改善而走高 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNGhRSnp5a2FXcDZ1T1ppUXd6ZTFyOUxDdUd4TUNBOWRRc2dHRTBRMUFKOHhsVWhjRkV1UWVLUThEMlR3dzQ0ckYtMWdXQlRmemwxb1dOaTdnX2NkTWFwa3JtTlBJWlJJR1czLUtvczE0ZnM2OFpqeDdXc3dKbWhnSkNpSzBWUEtNazVBdkJ0ZDRoQll4MnVlWnRxbw?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "TRV",
-                "text": "Diversify Wealth Management LLC 增持 The Travelers Companies, Inc. 的 $TRV 股票持有量 - MarketBeat",
-                "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOWtaVVdTejg2QU1sU0lvS1FIQXdCdFJvUmo4OUctWXNZOGg2ZWIwams2cWRrR3VHUlRsV09PdVdYeERnaHViY0c2bGh6TWNqckRfZHJlR1l3aHBjZERPdGN2ZGNPcU4wS1RCQldPT1F0TFltY1B4dU9qWFBzNmxTekhtVE52STlndGpiRW1EOW91SVJpeUx6Y2tYd2txWDNhZE52VjBYa0dDOWtETGhLd0R4RkN2Wm1PV0M1MFc5QVV3ekU5WllkVjh6dE5oUVkzOGxERHpJS3hUVE9YRE5IWldJOA?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "WMT",
-                "text": "沃尔玛 (WMT) 股票在股息上涨后可能被高估 16% - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVPZ0JNaFZLSGtYY0h5SmpTYkRKZ3NVM2NURzhOX1h4OE1sTGNaWUhOTlpaWEdhUzlFbGFqMXJYbnlibWtacVBPV3hsWEYyb2doc3d3QXlOSHphSm9xUjBfRmRGbG1YVmdzUk1kN1gyZi1OaTFzZ05FcnhuNkZibG9tOG9lYXdzNkNYc0NVNmZmZEcyVFE?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "WMT",
-                "text": "沃尔玛（WMT）将 SimpliSafe 添加到货架上，该股票是否已完全定价？ - simplewall.st",
-                "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbG1qNVNqU1M2ZTZzZzZnQUFMd054bzZqVm9oSzUyVU5wRUhQUDRWNTUxYkotWVVfS0hZVko4aXBsdTViLXFRaFRWSjlwdUI1TG5ZZTdRUl93UlpJdmpta0F6OHVKWUpfcVc0Q29WeUxnUGUtaENsMVVTcTlKMjJBZ3ZrUlBxOXBKUHZvamg2dGZxeGpfZ0RYa0c1Vldta3p4bzFXMmdJRFo2ZTJpYmRFeWZOTzRYU3NoTUFCVTNobkJULTV1LWJuZ25NUnlDaU0x0gHWAUFVX3lxTE5KQUhnQ3FrM3l0NjdjelRLV01oVDRqYmJvd2NsbzdhajcwZnpyb1RnUGYwck1ZNHU5Tld3SXU0Q1FvMVBmMFJtX1NMOWUwSGpXNS1MUVRJSEhGdi1YYmE5ejVlaUlFRzF1MnVNMjhGV29PX3hyS3Bsak13UERFSXNuWFNFcVVtbWY5c0ZnUC1WbEtRLUlBaFBabFlLSmQzSnJnYWJYb0dSb1ljYVlwcjh3b2Voc0h1RUwyOWM2TTljS2Z0Sjl3c19UY3FLNG9VYnhhY19HTUE?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "NFLX",
-                "text": "NFLX 股价盘前下滑：分析师警告称，如果盈利令人失望，Netflix 可能跌至 70 美元以下 - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWThOaDJVTHE1REl4bWxBUlRZQUtNNU1tYXhWZlgtMnYtWkFfRUU0SXlINmgwN2xadGNSU2NWNTFLSjUwcmZxTWIzS21tS2R0azYwTEZHWTkzTnRMVXJGZWlRUjZWRWhfSEpDcll4cFBibmdwSWVtX3QzUUt0aTM1d0Jwd0RTQ1hWTVo0aHdOazZCSmpKQzBBRVNZc2Z1TjA5?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "NFLX",
-                "text": "谈到收益，Netflix 股票是买入、卖出还是估值合理？ - 晨星",
-                "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWE9qbjQ1WHQtbWNwUmZDNWZ2N3g3YVduS0VzaUt4akVnMHdoOVpsZzhMNEhLRFJITkwtelF1THFjbWUyM0M5TWNCT05CeVdMUkpOT2pyUDJJMnpxVGNDVWVLeVNPd1NDSmVKNktQakdqZVhISlBiU0R5eU12RG1KcVhfeS1lNG1ZdzJER0VCeDl2Q0JZQnFGMEtFU2ZSX0tlaHNTQloxS1VCVnBW?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "0700.HK",
-                "text": "腾讯控股（SEHK：700）近期股价疲软后定价是否是一个长期机会？ - 雅虎财经",
-                "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "0700.HK",
-                "text": "Tencent (0700.HK): Increasing AI investments; Mixuan 3 and WORKBUDDY exceed expectations - 富途牛牛",
-                "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM0RQTnlkN3JRNTdTeEc3SGdhUGUzMUNwRnB0cXBQWGJVM05hUlJzd2o0d0RfZkRpMnh0dEJsd0dack54NkZZNEZRcVBGRDhPMXU1b1Q1a0c1WE1ySkhKZXZmUmNoM242N3lZN283VW9Tc0NNXzdOZEMwRmp6aUd6R241NGNzX1dRSE82Rm9yTEVvSjJVRHNhWmtFR1BuMC1CS3pMRjF1SQ?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "9988.HK",
-                "text": "港股下跌 阿里巴巴(09988)跌4.47% - GuruFocus",
-                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaGV2ZGlZX2RGWmp4a3ZnS0tHbzFWN2NRUnk5MnJpM0tRSDhtR0FPOG4xTHo5Z2pONzdWTDFaZXh4eDBLbThBSlVSNmgzUUthWHhzM0RTWU9rQkwzY2R4MGlJX0JLMG8xbmthQ0QtQUVTdElPZXFwSVRLcUx6Nl9ZVzFXRlJYaUFKMHBaQ0RsSlVjZ21BYlM3RFlwV2p0Q0Rp?oc=5"
-            },
-            {
-                "source": "📰 实时资讯",
-                "ticker": "9988.HK",
-                "text": "港股近期走弱的原因㊙️更新今日反弹原因‼️ - Moomoo",
-                "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVmpfQ2VHYThSdjAzUDNrOE1ENnc5bkpZeHlKdVRhNHBtclRUYmZyelJ3N1hvN0lQcjJQUzFmUjVvUTJnanV2cDZMc3FaV1JUWkx5NTFiODkxLWNJTHczNE5BU01ENC1lS2FMeWN3TGhuZXF1TFMzOTRmbzIxbnBKSGQwNUc3V1NHNmlrYkpKeWFfYVdqSC1hb2thWS1QS2VBeFk1V0N3cFdzTXRrX0ozLXVn?oc=5"
-            }
-        ]
-    },
-    "liquidity": {
-        "lastUpdated": "2026-07-15",
-        "US": {
-            "score": 41,
-            "rating": "中性偏紧",
-            "trend": "🔻",
-            "trendDir": "worsening",
-            "color": "#ff9800",
-            "summary": "高利率暂停+QT+沃什不确定性，RRP缓冲垫耗尽可能加速准备金消耗",
-            "factors": [
-                {
-                    "name": "联邦基金利率",
-                    "value": "3.50-3.75%",
-                    "status": "bearish",
-                    "weight": "16%",
-                    "detail": "连续三次暂停降息，沃什偏鹰"
-                },
-                {
-                    "name": "RRP余额",
-                    "value": "~$500亿",
-                    "status": "bearish",
-                    "weight": "8%",
-                    "detail": "缓冲垫接近耗尽，QT直接抽准备金"
-                },
-                {
-                    "name": "银行准备金/GDP",
-                    "value": "~10-11%",
-                    "status": "neutral",
-                    "weight": "11%",
-                    "detail": "充足区间，但RRP耗尽后快速消耗"
-                },
-                {
-                    "name": "降息预期(年内)",
-                    "value": "1-2次(50bp)",
-                    "status": "neutral",
-                    "weight": "13%",
-                    "detail": "市场由鸽转鹰，6月按兵不动96%"
-                },
-                {
-                    "name": "QT缩表",
-                    "value": "已放缓但未结束",
-                    "status": "bearish",
-                    "weight": "13%",
-                    "detail": "沃什支持缩表+改革，但短期难推进"
-                },
-                {
-                    "name": "通胀(PCE)",
-                    "value": "~2.7%",
-                    "status": "bearish",
-                    "weight": "10%",
-                    "detail": "粘性仍存，不足以让美联储快速转向"
-                },
-                {
-                    "name": "国债发行/TGA",
-                    "value": "10Y 4.58%",
-                    "status": "bearish",
-                    "weight": "6%",
-                    "detail": "吸收市场资金，债务上限悬而未决"
-                },
-                {
-                    "name": "VIX",
-                    "value": "~16",
-                    "status": "neutral",
-                    "weight": "4%",
-                    "detail": "波动率可控，但日本加息可能放大"
-                },
-                {
-                    "name": "超级IPO抽水",
-                    "value": "SpaceX IPO募资750亿美元（6/12路演）",
-                    "status": "bearish",
-                    "weight": "5%",
-                    "detail": "人类史上最大IPO+OpenAI/Anthropic等，合计000-3000亿资金需求，基金经理需从7巨头抽资"
-                },
-                {
-                    "name": "日本加息溢出",
-                    "value": "6月16日加息88%",
-                    "status": "bearish",
-                    "weight": "3%",
-                    "detail": "套息平仓→风险资产波动"
-                },
-                {
-                    "name": "科技巨头AI融资",
-                    "value": "GOOG股权$800亿+发债; META债务$360亿->$840亿",
-                    "status": "bearish",
-                    "weight": "6%",
-                    "detail": "5巨头2026 Capex $7150亿+，AI发债占IG市场49%。GOOG发完$1750亿债后还要$800亿股权，Barron's: 连最富公司都向股市伸手了"
-                },
-                {
-                    "name": "信用利差",
-                    "value": "HYG $79.68",
-                    "status": "neutral",
-                    "weight": "5%",
-                    "detail": "暂无压力信号"
-                }
-            ]
-        },
-        "HK": {
-            "score": 55,
-            "rating": "中性偏松",
-            "trend": "→",
-            "trendDir": "stable",
-            "color": "#00c853",
-            "summary": "南向资金2800亿+提供核心支撑，但港元在弱方徘徊、总结余创新低",
-            "factors": [
-                {
-                    "name": "港元汇率",
-                    "value": "~7.8368",
-                    "status": "bearish",
-                    "weight": "12%",
-                    "detail": "偏弱，有资金流出压力"
-                },
-                {
-                    "name": "金管局总结余",
-                    "value": "~537亿港元",
-                    "status": "bearish",
-                    "weight": "10%",
-                    "detail": "历史低位，干预空间有限"
-                },
-                {
-                    "name": "HIBOR(1M)",
-                    "value": "~3.3%",
-                    "status": "neutral",
-                    "weight": "10%",
-                    "detail": "相对历史中等水平"
-                },
-                {
-                    "name": "南向资金(年内)",
-                    "value": "+2800亿港元",
-                    "status": "bullish",
-                    "weight": "12%",
-                    "detail": "核心支撑，但5月首现单月净流出"
-                },
-                {
-                    "name": "美元指数(DXY)",
-                    "value": "~100.9",
-                    "status": "neutral",
-                    "weight": "10%",
-                    "detail": "弱美元有利资金流向新兴市场"
-                },
-                {
-                    "name": "美联储传导",
-                    "value": "降息预期推迟",
-                    "status": "neutral",
-                    "weight": "15%",
-                    "detail": "短期压力，中期利好"
-                },
-                {
-                    "name": "IPO活跃度",
-                    "value": "持续活跃",
-                    "status": "neutral",
-                    "weight": "5%",
-                    "detail": "短期锁资，长期吸引外资"
-                },
-                {
-                    "name": "中国基本面",
-                    "value": "增长斜率放缓",
-                    "status": "neutral",
-                    "weight": "8%",
-                    "detail": "通缩改善中但速度偏慢"
-                },
-                {
-                    "name": "A股溢出效应",
-                    "value": "A股偏强",
-                    "status": "bullish",
-                    "weight": "6%",
-                    "detail": "A股强对港股的信心传导"
-                },
-                {
-                    "name": "港美利差",
-                    "value": "隔夜利差4.3ppt",
-                    "status": "bearish",
-                    "weight": "6%",
-                    "detail": "套息交易压力"
-                },
-                {
-                    "name": "半年考核效应",
-                    "value": "6月末考核",
-                    "status": "neutral",
-                    "weight": "3%",
-                    "detail": "南向资金可能阶段性衰减"
-                },
-                {
-                    "name": "港股IPO吸金",
-                    "value": "壁仞科技/MiniMax/智谱华章排队上市",
-                    "status": "neutral",
-                    "weight": "5%",
-                    "detail": "港股IPO市场活跃，但规模远小于美股超级IPO"
-                },
-                {
-                    "name": "AH溢价",
-                    "value": "~128",
-                    "status": "neutral",
-                    "weight": "3%",
-                    "detail": "处于近5年低点"
-                }
-            ]
-        },
-        "A": {
-            "score": 60,
-            "rating": "中性偏松",
-            "trend": "→",
-            "trendDir": "stable",
-            "color": "#00c853",
-            "summary": "央行持续MLF投放，资金面充裕但边际回笼；PPI快速上行限制降息空间",
-            "factors": [
-                {
-                    "name": "央行货币政策",
-                    "value": "适度宽松",
-                    "status": "bullish",
-                    "weight": "20%",
-                    "detail": "MLF 6000亿+逆回购5000亿持续投放"
-                },
-                {
-                    "name": "DR007",
-                    "value": "在OMO下方",
-                    "status": "bullish",
-                    "weight": "12%",
-                    "detail": "资金面宽松，但边际收敛"
-                },
-                {
-                    "name": "十年国债",
-                    "value": "~1.70%",
-                    "status": "bullish",
-                    "weight": "8%",
-                    "detail": "低位震荡，反映资产荒"
-                },
-                {
-                    "name": "PPI",
-                    "value": "4月2.8%→5月或4-5%",
-                    "status": "bearish",
-                    "weight": "10%",
-                    "detail": "输入性通胀，全年可能超预期"
-                },
-                {
-                    "name": "北向资金",
-                    "value": "持仓破4万亿",
-                    "status": "bullish",
-                    "weight": "10%",
-                    "detail": "长期增配，但短期有扰动"
-                },
-                {
-                    "name": "人民币汇率",
-                    "value": "~6.7695",
-                    "status": "bullish",
-                    "weight": "5%",
-                    "detail": "外汇占款增加补充基础货币"
-                },
-                {
-                    "name": "A股成交量",
-                    "value": "CSI300 25.6亿股",
-                    "status": "neutral",
-                    "weight": "5%",
-                    "detail": "活跃度尚可但缩量趋势"
-                },
-                {
-                    "name": "央行态度",
-                    "value": "关注资金空转",
-                    "status": "bearish",
-                    "weight": "8%",
-                    "detail": "从超宽松回笼至中性"
-                },
-                {
-                    "name": "政府债券供给",
-                    "value": "节奏偏慢",
-                    "status": "neutral",
-                    "weight": "6%",
-                    "detail": "供给可控但10月底前须发完"
-                },
-                {
-                    "name": "科创再贷款",
-                    "value": "8000亿→1.2万亿",
-                    "status": "bullish",
-                    "weight": "5%",
-                    "detail": "定向流动性支持科技硬核"
-                },
-                {
-                    "name": "美联储外溢",
-                    "value": "降息预期降温",
-                    "status": "neutral",
-                    "weight": "5%",
-                    "detail": "央行以我为主，影响有限"
-                },
-                {
-                    "name": "监管干预",
-                    "value": "量化限制+退市加速",
-                    "status": "neutral",
-                    "weight": "4%",
-                    "detail": "短期抑制炒作，长期利好生态"
-                },
-                {
-                    "name": "半年末考核",
-                    "value": "机构调仓",
-                    "status": "neutral",
-                    "weight": "2%",
-                    "detail": "从高位AI切换到防御板块"
-                }
-            ]
+        {
+          "ticker": "9988.HK",
+          "name": "阿里巴巴",
+          "shares": 900,
+          "avgCost": 124.822,
+          "lastPrice": 113.4,
+          "ytdStartPrice": 160
         }
+      ]
+    },
+    "a": {
+      "name": "A股 ETF",
+      "currency": "CNY",
+      "stocks": [
+        {
+          "ticker": "021457",
+          "name": "易方达恒生红利低波A",
+          "shares": 1,
+          "avgCost": 200000,
+          "lastPrice": 185251.72,
+          "benchmark": "hshylv"
+        },
+        {
+          "ticker": "022438",
+          "name": "华泰柏瑞中证A500ETF联接A",
+          "shares": 1,
+          "avgCost": 150000,
+          "lastPrice": 137674.85,
+          "benchmark": "a500"
+        },
+        {
+          "ticker": "007466",
+          "name": "华泰柏瑞中证红利低波A",
+          "shares": 1,
+          "avgCost": 100000,
+          "lastPrice": 104788.64,
+          "benchmark": "csi-lowvol"
+        },
+        {
+          "ticker": "600900.SS",
+          "name": "长江电力",
+          "shares": 3000,
+          "avgCost": 26.913,
+          "lastPrice": 28.68,
+          "ytdStartPrice": 29.21,
+          "lastUpdated": "2026-07-15"
+        },
+        {
+          "ticker": "600036.SS",
+          "name": "招商银行",
+          "shares": 2000,
+          "avgCost": 36.592,
+          "lastPrice": 37.76,
+          "ytdStartPrice": 38.6,
+          "lastUpdated": "2026-07-15"
+        },
+        {
+          "ticker": "000651.SZ",
+          "name": "格力电器",
+          "shares": 800,
+          "avgCost": 38.51,
+          "lastPrice": 39.83,
+          "ytdStartPrice": 46.38,
+          "lastUpdated": "2026-07-15"
+        }
+      ]
+    },
+    "cash": {
+      "name": "现金（货币基金）",
+      "currency": "mixed",
+      "items": [
+        {
+          "name": "美股货基",
+          "amount": 86662,
+          "currency": "USD"
+        },
+        {
+          "name": "港股货基",
+          "amount": 432451,
+          "currency": "HKD"
+        }
+      ]
     }
+  },
+  "options": [],
+  "marketData": {
+    "indices": [
+      {
+        "key": "hshylv",
+        "name": "恒生红利低波",
+        "value": 4223.92,
+        "change": 1.03,
+        "date": "07/15",
+        "pe": 8.5
+      },
+      {
+        "key": "sp500",
+        "name": "标普500",
+        "value": 7543.59,
+        "change": 0.53,
+        "date": "07/15",
+        "pe": 26.0
+      },
+      {
+        "key": "nasdaq",
+        "name": "纳斯达克",
+        "value": 26107.01,
+        "change": 1.12,
+        "date": "07/15",
+        "pe": 35.0
+      },
+      {
+        "key": "a500",
+        "name": "中证A500",
+        "value": 5984.37,
+        "change": 2.27,
+        "date": "07/15",
+        "pe": 15.0
+      }
+    ],
+    "assets": [
+      {
+        "name": "美元指数",
+        "value": "100.94",
+        "change": 0.0
+      },
+      {
+        "name": "黄金",
+        "value": "4057.6",
+        "change": -1.77
+      },
+      {
+        "name": "原油",
+        "value": "79.95",
+        "change": 10.92
+      },
+      {
+        "name": "10Y美债",
+        "value": "4.58",
+        "change": 0.35
+      }
+    ],
+    "fx": {
+      "USD_HKD": 7.8393,
+      "USD_CNY": 6.7667
+    },
+    "news": [
+      {
+        "ticker": "WMT",
+        "source": "🧸 操作记录",
+        "text": "WMT 建仓 150 股 @ 均价 $117.60。Put $119 行权指派 100 股 + 直接买入 50 股 @ $114.80。防守底仓到位。"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "NVDA",
+        "text": "英伟达 (NVDA) 股票交易上涨，原因如下 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQm0xbkhwYk9faEwwMVhzMkozcThNTXRPc1Rxb3NjaWdKM1BtOFk5VkhZQVJ6RU5ETXgxVTNWYWdoZUxJc0JFY2RfRE5YODNMcmFRVFJrNXlKb2ZXeGxwN29nZVRoRXo2X1ZwbndaSWI4UlVyZGtJQ2VaZHA5bVJlWnVlRW0xeWJ3M25vQ1dFX0dhX2hqdVI1Nw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "NVDA",
+        "text": "标准普尔 500 指数和纳斯达克指数在芯片制造商、网络安全股票和软通胀数据的支持下收高 — NVDA、GS、SKHY、VZ、LCID 成为焦点 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFZjM29scENFcElQMjJvWEp0d1oxRWhNVVhpdmZfTlNiSWNuYnpDMjh5Y052Q3FQQ1dMN2Q2TGNWeGZFZVJlUDBoMnVrZktCd1hkeW5ycjN0V196bEpZZTJfVHR0X0ZjUTNMMFFkOXo4S3pVZDlEWk5DMUVabGN0MGFjRk16aWF2ZUZsenVycVF4QQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "MSFT",
+        "text": "您应该购买微软公司（MSFT）的股票吗？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2c5cF9jQXJQbjdWbUgtYlB6NWwtaHdBREpnb1Q3SXFCb3ZfYnZIOWVUQ3NiZF9ibmVINl9SZ3p2YkZLUlRfM0dMUVNTVmFaYXZ5dS1hcUQ4ejZldEtEbzdIVGpEemxOSTVuTWpHSWNmcTNWdjZyMlBxRjFaVmVKZjBNc2FkUDc1N1VRaGVSb21VdXFKLVNqYXNsTjBaVmpnby14MQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "MSFT",
+        "text": "预测：微软股票 7 月 29 日后可能呈抛物线走势。原因如下。 - 杂七杂八的傻瓜",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUhNeUpEcGNEUUx5VFp1OHlnOGwwYU9zRWFLTFU1YmJ5b21OMjhGamlQUzNVcUdYTV9wMVhQOFV0UUhIekh6U21Ucm1DN1FrZDJMLVJHdWZqeVRHbGVZN1ZYWFZ3RXB4c1FINDNrdjB4SEswU2JUeFFRaEIzeFI2dnZjdFBJQUMwU1N4aVFwdTdRcHdTeVo2aA?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "META",
+        "text": "为什么Meta股票在长期下滑后突然爆发 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORU9ybi12cnZFcW1VMjNra0N0V2poRnIwaFM2bG4wczJGUmZZMTBQY2ltVDJMTHM0Nndod2x6UVFSSzZES2lIbGhkV3BORG9zLWUzeFMzdVJabnRhTDdZb2k0OGlaV2dlTUZINl9zRW5ZVTRjclFKRGpkOXlFa2xZcHFUeXFFMlhQUE1yVmkwMW9WVkhPd3lsQTdtb1lHY0JQM3g5NzJMTXZPc0wtemxBZThtWFhtTXc?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "META",
+        "text": "是什么推动 META 股票的下一次反弹 - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1QyanloWHY4aVBZSmhwcnUxM2xMX1NwY2RXYzhZTFJQamhXRE9Ic1RsaFdqVWtFbjVDSWxBVk9NcmwxVXZsMGFaZndndk5uVlJKTEdsNjNLZXFtMmlFQV9DM2U4ODdkdVlCLW9hcmtNSUc0R3JKSVA3YWFUMlVUei1URWRabXRtZzI1Z0hqaF84YTJscDEtWEJqS1VBQlEwUk4tZXB2Wml5UQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "GOOG",
+        "text": "谷歌股票即将公布的第二季度收益：这就是看涨者乐观的原因 - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUFCWjBveU9teG9DdEVsWWtUdlZkTmNJcm11YVZ6YUIzTlRLZ2xJTS1aUndhN0ttOUJSYndrU1ZXa291Ums1UkktMGNveElGa3BFRngzN2hpOEtWbTlYbVpONTNsSUE4M2QzLTFNdTBPY2pCeFBOWUMzVmhVZy16dVJSMkNDbFdaRUYwNlhSWmd0cXJPT2wyY3pCSF9rbmVZUFlVdThST2djQUlpWlBv?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "GOOG",
+        "text": "谷歌股价上涨近 4% — 谷歌通过新数据中心和能源中心扩大德克萨斯州的足迹 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWnZIUHd5eUphOUk0YTJTZ3Q4VTRGYmVGQjRJcFdMT3pVZUVDOE12bGYwVWN4emtKZ0U2YzhINklGc1VnYUd4XzRFOVlteTFCVkxoSFBrYUpzWFhGX3oxMkZZSlFDd28wZGZHOFl5UWxnY1Q4cUxNQUJfWGU5eDZrcVk4bHBENU9xUG9qdXZ1WnkyOVBpYUxuWm5FdGs2YUotemFMN0IyQUF4UjJqdTBWZ0xnNWg4NkRlSW1pQmNEdlZsMVlpRE5sUW8zWTgwMV9SUExLWkln?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "富国银行 (Wells Fargo) 取消 PT 的亚马逊 (AMZN) 股票 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWVMdFVNRno3OGpnNHNoNFduNDdzQ0VLbW1XY09VNEctYzNHdVB3M2NfbHBiWWdlOGNTWUtfdG1EXy11QUZoYURKek1jYWJBR2lvb2F4OERfR1pqTVJaSi05OE8yYmxzZGFvSUpZbHpYUVZNU0xnOHo5M09WNks5ZVJaTGxaTFAtUG11WnlaclJrdjV1NlU4?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "债券市场刚刚向亚马逊发出了投资者不应忽视的信息 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdnZ3M2NmVEFkTk5aMlNnYl9SNlhJVHNTSXk0Ym1NVm13ejlSUG5UUFpyZUoxdVNEZGlNb1Vsd2FxZUNnbUlzTkJMaEhzeU9KUXRMcGZKcXF1enhDSTRyLXFTeGZTRm1KS09GbWVkcFhXQVhQY3lvTXZWWnRVTFZ1d3JaY291WllIcTBrUFdobV9oUHg4ODVVOVRNTEpWTGlDeXZtajlhNko?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "特斯拉股票在第二季度收益公布之前仍然波动：分析师谨慎乐观地提高了价格目标 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUkNyaWoxTFNoNmtjUU9BR3JXcnRLRFUtX256YVVVVXhYOWxRdnVId3NVU0JoTUgwSlVQRDIxVkxNNVVLRURTME9wQkg0RUJ5bUNsZzR6SHN1THR0MmtKbkV5dGZSMHFHb1kzYmlPaFR0SmFsRHB2VFY3Vzk2NVhFVFg2ak5jS2RKdGl1cVV4a2FJWDRyLXJUM3BwencwcXRkR181OGUwSE9pck5mZzd1RUNhb0ZOQmJIMmlzSHp0ckNybUZvSVNUUncxUTBIbG1QUzNpbU1xRzFFV2VKZm9OZlp6QzZUOWF4cW4xVUJGR2tYS3oyeWVF?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "预测：特斯拉股票 7 月 22 日后走势将如此 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDlpVEczRHVDNWwtSk1sdXhfaUxYa0ljUnNFMlJ0YXF2d0NMMEkteXZENFBSRlBHYzRzQzFnXzB4Q0NZRUxpSk5XbjNBWTNLaWVHbnF5REhpMEJCbWI1Vzcta0hYaXJWQVlldTA3b0JSOHpjWVUwemNqTGo1TVd4cUd6UFhOdVZPZU1tdkdZS0hBcGlNVFZ3UGZuNA?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TRV",
+        "text": "Travelers (TRV) 股票公允价值因利润率前景略有改善而走高 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNGhRSnp5a2FXcDZ1T1ppUXd6ZTFyOUxDdUd4TUNBOWRRc2dHRTBRMUFKOHhsVWhjRkV1UWVLUThEMlR3dzQ0ckYtMWdXQlRmemwxb1dOaTdnX2NkTWFwa3JtTlBJWlJJR1czLUtvczE0ZnM2OFpqeDdXc3dKbWhnSkNpSzBWUEtNazVBdkJ0ZDRoQll4MnVlWnRxbw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TRV",
+        "text": "Diversify Wealth Management LLC 增持 The Travelers Companies, Inc. 的 $TRV 股票持有量 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOWtaVVdTejg2QU1sU0lvS1FIQXdCdFJvUmo4OUctWXNZOGg2ZWIwams2cWRrR3VHUlRsV09PdVdYeERnaHViY0c2bGh6TWNqckRfZHJlR1l3aHBjZERPdGN2ZGNPcU4wS1RCQldPT1F0TFltY1B4dU9qWFBzNmxTekhtVE52STlndGpiRW1EOW91SVJpeUx6Y2tYd2txWDNhZE52VjBYa0dDOWtETGhLd0R4RkN2Wm1PV0M1MFc5QVV3ekU5WllkVjh6dE5oUVkzOGxERHpJS3hUVE9YRE5IWldJOA?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "WMT",
+        "text": "沃尔玛 (WMT) 股票在股息上涨后可能被高估 16% - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVPZ0JNaFZLSGtYY0h5SmpTYkRKZ3NVM2NURzhOX1h4OE1sTGNaWUhOTlpaWEdhUzlFbGFqMXJYbnlibWtacVBPV3hsWEYyb2doc3d3QXlOSHphSm9xUjBfRmRGbG1YVmdzUk1kN1gyZi1OaTFzZ05FcnhuNkZibG9tOG9lYXdzNkNYc0NVNmZmZEcyVFE?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "WMT",
+        "text": "沃尔玛（WMT）将 SimpliSafe 添加到货架上，该股票是否已完全定价？ - simplewall.st",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbG1qNVNqU1M2ZTZzZzZnQUFMd054bzZqVm9oSzUyVU5wRUhQUDRWNTUxYkotWVVfS0hZVko4aXBsdTViLXFRaFRWSjlwdUI1TG5ZZTdRUl93UlpJdmpta0F6OHVKWUpfcVc0Q29WeUxnUGUtaENsMVVTcTlKMjJBZ3ZrUlBxOXBKUHZvamg2dGZxeGpfZ0RYa0c1Vldta3p4bzFXMmdJRFo2ZTJpYmRFeWZOTzRYU3NoTUFCVTNobkJULTV1LWJuZ25NUnlDaU0x0gHWAUFVX3lxTE5KQUhnQ3FrM3l0NjdjelRLV01oVDRqYmJvd2NsbzdhajcwZnpyb1RnUGYwck1ZNHU5Tld3SXU0Q1FvMVBmMFJtX1NMOWUwSGpXNS1MUVRJSEhGdi1YYmE5ejVlaUlFRzF1MnVNMjhGV29PX3hyS3Bsak13UERFSXNuWFNFcVVtbWY5c0ZnUC1WbEtRLUlBaFBabFlLSmQzSnJnYWJYb0dSb1ljYVlwcjh3b2Voc0h1RUwyOWM2TTljS2Z0Sjl3c19UY3FLNG9VYnhhY19HTUE?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "NFLX",
+        "text": "NFLX 股价盘前下滑：分析师警告称，如果盈利令人失望，Netflix 可能跌至 70 美元以下 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWThOaDJVTHE1REl4bWxBUlRZQUtNNU1tYXhWZlgtMnYtWkFfRUU0SXlINmgwN2xadGNSU2NWNTFLSjUwcmZxTWIzS21tS2R0azYwTEZHWTkzTnRMVXJGZWlRUjZWRWhfSEpDcll4cFBibmdwSWVtX3QzUUt0aTM1d0Jwd0RTQ1hWTVo0aHdOazZCSmpKQzBBRVNZc2Z1TjA5?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "NFLX",
+        "text": "谈到收益，Netflix 股票是买入、卖出还是估值合理？ - 晨星",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWE9qbjQ1WHQtbWNwUmZDNWZ2N3g3YVduS0VzaUt4akVnMHdoOVpsZzhMNEhLRFJITkwtelF1THFjbWUyM0M5TWNCT05CeVdMUkpOT2pyUDJJMnpxVGNDVWVLeVNPd1NDSmVKNktQakdqZVhISlBiU0R5eU12RG1KcVhfeS1lNG1ZdzJER0VCeDl2Q0JZQnFGMEtFU2ZSX0tlaHNTQloxS1VCVnBW?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0700.HK",
+        "text": "腾讯控股（SEHK：700）近期股价疲软后定价是否是一个长期机会？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0700.HK",
+        "text": "Tencent (0700.HK): Increasing AI investments; Mixuan 3 and WORKBUDDY exceed expectations - 富途牛牛",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM0RQTnlkN3JRNTdTeEc3SGdhUGUzMUNwRnB0cXBQWGJVM05hUlJzd2o0d0RfZkRpMnh0dEJsd0dack54NkZZNEZRcVBGRDhPMXU1b1Q1a0c1WE1ySkhKZXZmUmNoM242N3lZN283VW9Tc0NNXzdOZEMwRmp6aUd6R241NGNzX1dRSE82Rm9yTEVvSjJVRHNhWmtFR1BuMC1CS3pMRjF1SQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "9988.HK",
+        "text": "港股下跌 阿里巴巴(09988)跌4.47% - GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaGV2ZGlZX2RGWmp4a3ZnS0tHbzFWN2NRUnk5MnJpM0tRSDhtR0FPOG4xTHo5Z2pONzdWTDFaZXh4eDBLbThBSlVSNmgzUUthWHhzM0RTWU9rQkwzY2R4MGlJX0JLMG8xbmthQ0QtQUVTdElPZXFwSVRLcUx6Nl9ZVzFXRlJYaUFKMHBaQ0RsSlVjZ21BYlM3RFlwV2p0Q0Rp?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "9988.HK",
+        "text": "港股近期走弱的原因㊙️更新今日反弹原因‼️ - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVmpfQ2VHYThSdjAzUDNrOE1ENnc5bkpZeHlKdVRhNHBtclRUYmZyelJ3N1hvN0lQcjJQUzFmUjVvUTJnanV2cDZMc3FaV1JUWkx5NTFiODkxLWNJTHczNE5BU01ENC1lS2FMeWN3TGhuZXF1TFMzOTRmbzIxbnBKSGQwNUc3V1NHNmlrYkpKeWFfYVdqSC1hb2thWS1QS2VBeFk1V0N3cFdzTXRrX0ozLXVn?oc=5"
+      }
+    ]
+  },
+  "liquidity": {
+    "lastUpdated": "2026-07-15",
+    "US": {
+      "score": 41,
+      "rating": "中性偏紧",
+      "trend": "🔻",
+      "trendDir": "worsening",
+      "color": "#ff9800",
+      "summary": "高利率暂停+QT+沃什不确定性，RRP缓冲垫耗尽可能加速准备金消耗",
+      "factors": [
+        {
+          "name": "联邦基金利率",
+          "value": "3.50-3.75%",
+          "status": "bearish",
+          "weight": "16%",
+          "detail": "连续三次暂停降息，沃什偏鹰"
+        },
+        {
+          "name": "RRP余额",
+          "value": "~$500亿",
+          "status": "bearish",
+          "weight": "8%",
+          "detail": "缓冲垫接近耗尽，QT直接抽准备金"
+        },
+        {
+          "name": "银行准备金/GDP",
+          "value": "~10-11%",
+          "status": "neutral",
+          "weight": "11%",
+          "detail": "充足区间，但RRP耗尽后快速消耗"
+        },
+        {
+          "name": "降息预期(年内)",
+          "value": "1-2次(50bp)",
+          "status": "neutral",
+          "weight": "13%",
+          "detail": "市场由鸽转鹰，6月按兵不动96%"
+        },
+        {
+          "name": "QT缩表",
+          "value": "已放缓但未结束",
+          "status": "bearish",
+          "weight": "13%",
+          "detail": "沃什支持缩表+改革，但短期难推进"
+        },
+        {
+          "name": "通胀(PCE)",
+          "value": "~2.7%",
+          "status": "bearish",
+          "weight": "10%",
+          "detail": "粘性仍存，不足以让美联储快速转向"
+        },
+        {
+          "name": "国债发行/TGA",
+          "value": "10Y 4.58%",
+          "status": "bearish",
+          "weight": "6%",
+          "detail": "吸收市场资金，债务上限悬而未决"
+        },
+        {
+          "name": "VIX",
+          "value": "~16",
+          "status": "neutral",
+          "weight": "4%",
+          "detail": "波动率可控，但日本加息可能放大"
+        },
+        {
+          "name": "超级IPO抽水",
+          "value": "SpaceX IPO募资750亿美元（6/12路演）",
+          "status": "bearish",
+          "weight": "5%",
+          "detail": "人类史上最大IPO+OpenAI/Anthropic等，合计000-3000亿资金需求，基金经理需从7巨头抽资"
+        },
+        {
+          "name": "日本加息溢出",
+          "value": "6月16日加息88%",
+          "status": "bearish",
+          "weight": "3%",
+          "detail": "套息平仓→风险资产波动"
+        },
+        {
+          "name": "科技巨头AI融资",
+          "value": "GOOG股权$800亿+发债; META债务$360亿->$840亿",
+          "status": "bearish",
+          "weight": "6%",
+          "detail": "5巨头2026 Capex $7150亿+，AI发债占IG市场49%。GOOG发完$1750亿债后还要$800亿股权，Barron's: 连最富公司都向股市伸手了"
+        },
+        {
+          "name": "信用利差",
+          "value": "HYG $79.68",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "暂无压力信号"
+        }
+      ]
+    },
+    "HK": {
+      "score": 55,
+      "rating": "中性偏松",
+      "trend": "→",
+      "trendDir": "stable",
+      "color": "#00c853",
+      "summary": "南向资金2800亿+提供核心支撑，但港元在弱方徘徊、总结余创新低",
+      "factors": [
+        {
+          "name": "港元汇率",
+          "value": "~7.8387",
+          "status": "bearish",
+          "weight": "12%",
+          "detail": "偏弱，有资金流出压力"
+        },
+        {
+          "name": "金管局总结余",
+          "value": "~537亿港元",
+          "status": "bearish",
+          "weight": "10%",
+          "detail": "历史低位，干预空间有限"
+        },
+        {
+          "name": "HIBOR(1M)",
+          "value": "~3.3%",
+          "status": "neutral",
+          "weight": "10%",
+          "detail": "相对历史中等水平"
+        },
+        {
+          "name": "南向资金(年内)",
+          "value": "+2800亿港元",
+          "status": "bullish",
+          "weight": "12%",
+          "detail": "核心支撑，但5月首现单月净流出"
+        },
+        {
+          "name": "美元指数(DXY)",
+          "value": "~100.9",
+          "status": "neutral",
+          "weight": "10%",
+          "detail": "弱美元有利资金流向新兴市场"
+        },
+        {
+          "name": "美联储传导",
+          "value": "降息预期推迟",
+          "status": "neutral",
+          "weight": "15%",
+          "detail": "短期压力，中期利好"
+        },
+        {
+          "name": "IPO活跃度",
+          "value": "持续活跃",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "短期锁资，长期吸引外资"
+        },
+        {
+          "name": "中国基本面",
+          "value": "增长斜率放缓",
+          "status": "neutral",
+          "weight": "8%",
+          "detail": "通缩改善中但速度偏慢"
+        },
+        {
+          "name": "A股溢出效应",
+          "value": "A股偏强",
+          "status": "bullish",
+          "weight": "6%",
+          "detail": "A股强对港股的信心传导"
+        },
+        {
+          "name": "港美利差",
+          "value": "隔夜利差4.3ppt",
+          "status": "bearish",
+          "weight": "6%",
+          "detail": "套息交易压力"
+        },
+        {
+          "name": "半年考核效应",
+          "value": "6月末考核",
+          "status": "neutral",
+          "weight": "3%",
+          "detail": "南向资金可能阶段性衰减"
+        },
+        {
+          "name": "港股IPO吸金",
+          "value": "壁仞科技/MiniMax/智谱华章排队上市",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "港股IPO市场活跃，但规模远小于美股超级IPO"
+        },
+        {
+          "name": "AH溢价",
+          "value": "~128",
+          "status": "neutral",
+          "weight": "3%",
+          "detail": "处于近5年低点"
+        }
+      ]
+    },
+    "A": {
+      "score": 60,
+      "rating": "中性偏松",
+      "trend": "→",
+      "trendDir": "stable",
+      "color": "#00c853",
+      "summary": "央行持续MLF投放，资金面充裕但边际回笼；PPI快速上行限制降息空间",
+      "factors": [
+        {
+          "name": "央行货币政策",
+          "value": "适度宽松",
+          "status": "bullish",
+          "weight": "20%",
+          "detail": "MLF 6000亿+逆回购5000亿持续投放"
+        },
+        {
+          "name": "DR007",
+          "value": "在OMO下方",
+          "status": "bullish",
+          "weight": "12%",
+          "detail": "资金面宽松，但边际收敛"
+        },
+        {
+          "name": "十年国债",
+          "value": "~1.70%",
+          "status": "bullish",
+          "weight": "8%",
+          "detail": "低位震荡，反映资产荒"
+        },
+        {
+          "name": "PPI",
+          "value": "4月2.8%→5月或4-5%",
+          "status": "bearish",
+          "weight": "10%",
+          "detail": "输入性通胀，全年可能超预期"
+        },
+        {
+          "name": "北向资金",
+          "value": "持仓破4万亿",
+          "status": "bullish",
+          "weight": "10%",
+          "detail": "长期增配，但短期有扰动"
+        },
+        {
+          "name": "人民币汇率",
+          "value": "~6.7593",
+          "status": "bullish",
+          "weight": "5%",
+          "detail": "外汇占款增加补充基础货币"
+        },
+        {
+          "name": "A股成交量",
+          "value": "CSI300 21.0亿股",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "活跃度尚可但缩量趋势"
+        },
+        {
+          "name": "央行态度",
+          "value": "关注资金空转",
+          "status": "bearish",
+          "weight": "8%",
+          "detail": "从超宽松回笼至中性"
+        },
+        {
+          "name": "政府债券供给",
+          "value": "节奏偏慢",
+          "status": "neutral",
+          "weight": "6%",
+          "detail": "供给可控但10月底前须发完"
+        },
+        {
+          "name": "科创再贷款",
+          "value": "8000亿→1.2万亿",
+          "status": "bullish",
+          "weight": "5%",
+          "detail": "定向流动性支持科技硬核"
+        },
+        {
+          "name": "美联储外溢",
+          "value": "降息预期降温",
+          "status": "neutral",
+          "weight": "5%",
+          "detail": "央行以我为主，影响有限"
+        },
+        {
+          "name": "监管干预",
+          "value": "量化限制+退市加速",
+          "status": "neutral",
+          "weight": "4%",
+          "detail": "短期抑制炒作，长期利好生态"
+        },
+        {
+          "name": "半年末考核",
+          "value": "机构调仓",
+          "status": "neutral",
+          "weight": "2%",
+          "detail": "从高位AI切换到防御板块"
+        }
+      ]
+    }
+  }
 }
