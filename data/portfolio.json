@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 209922.17,
+          "lastPrice": 210824.84,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 155049.09,
+          "lastPrice": 152258.21,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 117357.97,
+          "lastPrice": 116419.11,
           "benchmark": "csi-lowvol"
         },
         {
@@ -223,8 +223,8 @@
       },
       {
         "name": "黄金",
-        "value": "3981.3",
-        "change": -0.39
+        "value": "3983.1",
+        "change": -0.35
       },
       {
         "name": "原油",
@@ -250,8 +250,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "预测：这将是英伟达明年的股价（提示：现在是买入时机） - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVkJkeGVmcXB6N0p3Uy1QVE01SFlYT0NJblJfbmRKZHBHbGhFeWoyeUEtdUVUMF95clFSTzJCR1FMSXMzLXFZNmpuVWZPbjJXUndYRFpUUU9QN2M5T3l1ai1rMEdvTjctN2FMOHM5XzhqaFhqQm4ydldKWndxdFFySG9UbGp0UUdENnVnVzZyX3FaMUxSR2F6XzgwNlYtcEMyRVE?oc=5"
+        "text": "2030 年 Nvidia 股票会走向何方？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWdJajhZM1NpOFFvV2daaDRyR1lSbk12cXRrSk9sM3RYdWdQQnBuVm5VQmQ0M3RFV1dxV29lLUhXU21zSzNtZWpFYUdhWUJqakYtV1lVaG5ZWk1QOUstMnVwb0NPWVVjMXJfZHgzZ2ZjejF2VF80VmpLYVhqRHBidWRSMkpMYzNJTFpYQ2Qta0hhUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -286,14 +286,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "亲爱的 Google 股票粉丝，请在您的日历上标记 7 月 13 日 - Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN1FuRnU4Q1Fwc1dvQ3F0TFdKcE5IWHM1V21yUVl3SV9qM3RjVmxJbXlSVHFOUV9UdEJxQzBOM3c1eTNXMHRTTlRWUllDUEJHcVltNGh3TlBzMjYzNnFyRndyZW8xcFZmVnJkZDBKbXhvVXNCNUZ2SnBFNl8ydXllVkZlclUydE0xNVNocWp4RVo3Y2ZGbWJHNEJKTFFhcUU?oc=5"
+        "text": "Alphabet 股价下跌，因报道称其最强大的人工智能模型 Gemini 3.5 Pro 被推迟 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 股价下跌，因报道称其最强大的人工智能模型 Gemini 3.5 Pro 被推迟 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5"
+        "text": "周二盘后值得关注的股票：GOOG、AEHR 和 PXED - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRzNfQU8xT05YdG91ZlppdnZjMlhTZ3M0ZE1GNjdyUVJMRlpwMHpraEllczl3cGZZTGFTZXBtcng3QVpPOExlNzVvSm92cFJ3bXJJYXZFZC1BZWpyZS1XNnNyak5FYWlKLXg1MVhHUWVDSjA0dUhrX0kxc3pzeF9LNlFWZUMzdTBxY3E0ZmxjcjBuR0d1LXBSZVRZQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -346,8 +346,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 盘后公布财报时，我们可以期待以下内容 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDTjQ2OUU0bnVvS29IVXdoVTFnR3R2TzN5WktIODMwcWU2QndfSnVXd3llZHN1NGo1RGlYZUsyd21RcVdxSU9wOHBhZ0RiM1dLYjl0WXM2ajJWSEk1QjZBal9DNk9MQll6VlZNb0FZS2ZIUWVE0gF6QVVfeXFMTUtCY0xLS3g4NndzeHJMNm42d0lqS1B6OUtKQTdsMmw5WWFQRlFMTGdwNHU4bnFTeUdjQ1VkM181dHdfYnlOMy0wUng1ak9jamhoLTNXUWZLcE5FcWhHbENNZXlKdEZudW02cFUxOGFPZEs5X2RvVXVndFE?oc=5"
+        "text": "Netflix 第二季度每股收益好于营收，但营收不及预期 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU284QjRnbS05MEcxOVRzaXROeEJpYUhTbGx2N1pSSzZQckZBRnJUZ25EQU9ndUtfWER3VnY2Nk1ES29WOXFjcGtBSU00MmF1ZEZlX2RobjAxd1oyZ21jU0pOU0pYZDlUR3FOTzRyY2ZUTi1OdDU4X3RkZGNSQXZIY1FJLTF4dmFudVRUX2NJb25PMGlsZlFSa0RZbWZuanVUTXZmeVpJdmpDeEVhOVZGNS1VUWFRdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -370,14 +370,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "Alibaba's Hong Kong-listed shares rose as Q1 earnings guidance exceeded expectations and Ant Group's investment in Mint Health boosted sentiment. - 富途",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb0RvOExuTU9CMy14STVKWkp4QmtqSHRra3VLNjJQZjk0MXNWeUhrb0l2S18zUlo0dldqQS1RSGUxNUI0UVpGR2dUdGlzelNKcHZsTzlzVlR6ekJyeDcwWUk0WWR6UG5wVDZaWERCV01xNk1qYnEydHJQZWZ0N1lYb3c4N1VaNURvTjNkelozY2JCdlg0UmtBbEFR?oc=5"
+        "text": "阿里巴巴股价人工智能上涨 15%，迎接云计算 70% 的关键障碍 - TechStock²",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZVZVN0hKeDJDbTNUOHRWWjRQS2tKU2tta0NhX3JxendFMHFoVUhVdHNCdW9IQUZxUUIzUldrZmtpS0VDMTN3TmdjV0lFZHBkYk1hOVlOUUd4UU15TENmYWtpdk9FbVB2QmxGU2RGcjV4R3U3Wjh3VGdOYUFGd01OMg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "Apple AI 获准后，阿里巴巴收益约 17B 美元，营收仍有待到来 - TechStock²",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVU96d3BXNzFNeHhva2RuYXZ1V1R4cTdjUDlRVTdCb2NmQ214MXc2QXVCVVZxVlVhdkFjT1FVYkRubnFZa00tWVZWNTBVbTl3UGlQWXQ3a2VTcFg0eXI2dTlCWmgxSE5UTWRodktwSUZ0VjdmWHZwb3RGbzVhYVNoZ3pXcW9UQTFGNTM2MkxlRVFQTUZZS0E?oc=5"
+        "text": "Alibaba's Hong Kong-listed shares rose as Q1 earnings guidance exceeded expectations and Ant Group's investment in Mint Health boosted sentiment. - 富途",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb0RvOExuTU9CMy14STVKWkp4QmtqSHRra3VLNjJQZjk0MXNWeUhrb0l2S18zUlo0dldqQS1RSGUxNUI0UVpGR2dUdGlzelNKcHZsTzlzVlR6ekJyeDcwWUk0WWR6UG5wVDZaWERCV01xNk1qYnEydHJQZWZ0N1lYb3c4N1VaNURvTjNkelozY2JCdlg0UmtBbEFR?oc=5"
       }
     ]
   },
