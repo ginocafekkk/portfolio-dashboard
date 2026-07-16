@@ -218,18 +218,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.51",
-        "change": -0.76
+        "value": "100.53",
+        "change": -0.74
       },
       {
         "name": "黄金",
-        "value": "4034.5",
-        "change": 0.94
+        "value": "4038.8",
+        "change": 1.05
       },
       {
         "name": "原油",
-        "value": "79.47",
-        "change": 1.7
+        "value": "79.59",
+        "change": 1.86
       },
       {
         "name": "10Y美债",
@@ -268,8 +268,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "预测：微软股票 7 月 29 日后可能呈抛物线走势。原因如下。 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOXRkdUVjR1pXMERxbjBETUJjblMyQi1OWi1hSV9tMFBGMkVDV2pPcHNqNFp2ZW9pOTRiaWhPSTY3aTR3dGdSM3VITmxOVjBhbkJlajBsQUdZSC1vTXFwX203WkZsR3VqM3BpOS16NHVYTFlFengwOXVYUTR6ZjZ6Y2hnUnp1WFFvcjhoRXM0cnlwRWY5NjdraEFqb244b0RhakRfcnF6dHBTSVk?oc=5"
+        "text": "微软金融时报 (MSFT) 在季度报告发布前几天下调了新的价格目标 – 花旗预计第四季度表现强劲，但预计第一季度资本支出更高 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3JtUWloajNKTENJLUNzV2xQY25tMDlyLXBsNVZQeS00a0xSUzFmSzFKZktJNF9VRG9JUjBvaS1DUGI3RW5MUWlmOWhNX1djQkVfTzBLRVVOTlFmUmMzN05vZlplTWl1ekJ4aUotMTBsQVVxNUNEWUlvTWdldDdQVHRDdU5kOGpnemJ3VExKWGd4U2hBNjFucA?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -310,14 +310,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉 (TSLA) 五年涨幅达 81%，股价看起来昂贵 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY05KOS0zWWpLSFFaYjNjNTl2dzE2V0ZGeVV2RDZzeUZxVXFqTVM5RXdHOHFEdzNhd2VhS3E3bmxXeTdwNURuNVRzcUdTakdGU2hyT1JPN0dEYjZNVUJ4S3Zmdkd6TXdsNk5MTXRlaUZNWUdrdDZhVXZSVUF3UmdkR2pLaUpBYzB4czNZdEp3elFoMjJEMUExdi1PanpIdw?oc=5"
+        "text": "特斯拉股票面临每周亏损：散户投资者在第二季度收益公布前就未能实现机器人出租车目标而拷问马斯克 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2VqM1JQbmZfbWdMR2gzRDc3QUo0MUhJaUtBVFQ4TjBvR1dja1lnekNnakVnVmJmb2k5M0JJeGdSVGFPdDBodDZTa3JjOHB1TXR5Mm1PQzZLQXczdGl1TUEwV2V0dnRCaXc3Q2FGQ1BRMkd1MkFaUlM4SlcxVW9KT081TG1xTjdHa2NsN0VaOUh5QVQ2dGZ3X0cteE1YYS1OTHlsck5ldHlycl8zRVE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "TSLA 股价盘前下跌：特斯拉影响者警告称，为 SpaceX IPO 出售特斯拉可能会是“双输”交易 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVlUeVFKemVVWHE4enAzNmk2VG1qRFpSa2U3UFQxTTZDbVpPdVhhNEpzb3poUmZwVXlQZi1vLTlUUTJ1UExldmFWM05xbnRCRHVtS3AxSmNWRVdxVjlmc05jQ00zaUZDOVZoMzRLUmIzY3VKRGYzazVxaTBjNGNFQnBBSU9Fd2c0blVocjBqczdhLXQ2aVFJMEVKQmVrUDZtaF9EWmJOZGtHNUpfcnc?oc=5"
+        "text": "特斯拉 (TSLA) 五年涨幅达 81%，股价看起来昂贵 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY05KOS0zWWpLSFFaYjNjNTl2dzE2V0ZGeVV2RDZzeUZxVXFqTVM5RXdHOHFEdzNhd2VhS3E3bmxXeTdwNURuNVRzcUdTakdGU2hyT1JPN0dEYjZNVUJ4S3Zmdkd6TXdsNk5MTXRlaUZNWUdrdDZhVXZSVUF3UmdkR2pLaUpBYzB4czNZdEp3elFoMjJEMUExdi1PanpIdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -364,8 +364,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "政策驱动买盘中国消费股，香港恒生指数连续第四天上涨，收报24,681点 - Finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Oc2JWQUFQeFpCOVVSa2drbGU2UUZKdzRZeTZiVWcxRGxsdVJvNVBnRVBSUmJmSXBKUkJyZ0Y3OUpSYU9hSXpzMGdaV0s1Zi1fRjc1ekxCUmJ0U0hjRVI4NGpXVFJ3a3pVVzdxdGVDRHlZam5neEE?oc=5"
+        "text": "Hong Kong Stock Market Alert | Tencent (0700.HK) Surges Over 6% in Early Trading Amid Reports It Is Close to Launching a WeChat AI Assistant - 富途牛牛",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYi05THF3N2VlTmx0U0JxU2RDdmFpekJMeWNhU2NORTZtTmpyR0dqR0NiQi1yUDJUNW1hekdyVVdMeXAyWU1zMnVYcEY5VGJKaU9HYWNZd1E0emxwbWFFOUpDVk02ZUJQNVdHb1BtY2NwY3YxXy1HaWpGY0E0T2NaNDZid05SRFZMVTBFSWU1ZlNMQTNKV25xaFA5Mzcxdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
