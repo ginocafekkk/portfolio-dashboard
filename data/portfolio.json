@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 483.8,
+          "lastPrice": 484.0,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 117.0,
+          "lastPrice": 116.9,
           "ytdStartPrice": 160
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 207323.32,
+          "lastPrice": 209023.37,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 158892.15,
+          "lastPrice": 157891.13,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 117005.65,
+          "lastPrice": 118304.41,
           "benchmark": "csi-lowvol"
         },
         {
@@ -487,7 +487,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8381",
+          "value": "~7.8396",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -623,14 +623,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7579",
+          "value": "~6.7673",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 21.0亿股",
+          "value": "CSI300 36.8亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
