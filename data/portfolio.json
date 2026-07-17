@@ -15,7 +15,7 @@
           "shares": 400,
           "avgCost": 144.28,
           "lastPrice": 207.4,
-          "ytdStartPrice": 186.49
+          "ytdStartPrice": 188.62
         },
         {
           "ticker": "MSFT",
@@ -23,7 +23,7 @@
           "shares": 230,
           "avgCost": 409.63,
           "lastPrice": 401.1,
-          "ytdStartPrice": 481.48
+          "ytdStartPrice": 470.84
         },
         {
           "ticker": "META",
@@ -31,7 +31,7 @@
           "shares": 155,
           "avgCost": 610.59,
           "lastPrice": 664.54,
-          "ytdStartPrice": 659.53
+          "ytdStartPrice": 649.25
         },
         {
           "ticker": "GOOG",
@@ -39,7 +39,7 @@
           "shares": 100,
           "avgCost": 193.37,
           "lastPrice": 353.81,
-          "ytdStartPrice": 312.78
+          "ytdStartPrice": 314.91
         },
         {
           "ticker": "AMZN",
@@ -47,7 +47,7 @@
           "shares": 100,
           "avgCost": 210.56,
           "lastPrice": 249.89,
-          "ytdStartPrice": 230.82
+          "ytdStartPrice": 226.5
         },
         {
           "ticker": "TSLA",
@@ -55,7 +55,7 @@
           "shares": 80,
           "avgCost": 407.76,
           "lastPrice": 391.06,
-          "ytdStartPrice": 449.72
+          "ytdStartPrice": 438.07
         },
         {
           "ticker": "TRV",
@@ -63,7 +63,7 @@
           "shares": 100,
           "avgCost": 273.28,
           "lastPrice": 337.82,
-          "ytdStartPrice": 289.01
+          "ytdStartPrice": 282.97
         },
         {
           "ticker": "WMT",
@@ -71,7 +71,7 @@
           "shares": 150,
           "avgCost": 117.59,
           "lastPrice": 114.95,
-          "ytdStartPrice": 111.41
+          "ytdStartPrice": 112.31
         },
         {
           "ticker": "NFLX",
@@ -79,7 +79,7 @@
           "shares": 100,
           "avgCost": 74.59,
           "lastPrice": 74.35,
-          "ytdStartPrice": 89.31
+          "ytdStartPrice": 90.99
         }
       ]
     },
@@ -92,8 +92,8 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 465.2,
-          "ytdStartPrice": 599
+          "lastPrice": 466.8,
+          "ytdStartPrice": 615.83
         },
         {
           "ticker": "9988.HK",
@@ -101,7 +101,7 @@
           "shares": 900,
           "avgCost": 124.822,
           "lastPrice": 113.4,
-          "ytdStartPrice": 160
+          "ytdStartPrice": 148.83
         }
       ]
     },
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 186900.23,
+          "lastPrice": 186100,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 141733.04,
+          "lastPrice": 144331,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 96075.2,
+          "lastPrice": 96850,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,27 +138,27 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.24,
-          "ytdStartPrice": 29.21,
-          "lastUpdated": "2026-07-16"
+          "lastPrice": 28.15,
+          "ytdStartPrice": 26.22,
+          "lastUpdated": "2026-07-17"
         },
         {
           "ticker": "600036.SS",
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 37.67,
-          "ytdStartPrice": 38.6,
-          "lastUpdated": "2026-07-16"
+          "lastPrice": 38.04,
+          "ytdStartPrice": 39.94,
+          "lastUpdated": "2026-07-17"
         },
         {
           "ticker": "000651.SZ",
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 39.83,
-          "ytdStartPrice": 46.38,
-          "lastUpdated": "2026-07-16"
+          "lastPrice": 39.94,
+          "ytdStartPrice": 39.24,
+          "lastUpdated": "2026-07-17"
         }
       ]
     },
@@ -209,8 +209,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5680.03,
-        "change": -2.51,
+        "value": 5667.86,
+        "change": -2.71,
         "date": "07/17",
         "pe": 15.0
       }
@@ -219,17 +219,17 @@
       {
         "name": "美元指数",
         "value": "100.76",
-        "change": -0.51
+        "change": -0.52
       },
       {
         "name": "黄金",
-        "value": "3993.8",
-        "change": -0.08
+        "value": "4007.3",
+        "change": 0.26
       },
       {
         "name": "原油",
-        "value": "79.06",
-        "change": 1.18
+        "value": "78.92",
+        "change": 1.0
       },
       {
         "name": "10Y美债",
@@ -256,8 +256,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "美国银行预计 Nvidia 的下一个 200 亿美元业务。 NVDA 股票可能走向何方 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUNUOUZWWjI4OEY1aWhDeG9hdHk5aDVncC03dTNiM0YtU1g3ZklLZmtuOGIzZ1pQM2VBSi1ncC1BTjdNMksyTEJVUTFBaGY3NkMzOGFISjRrQndHS1JxZ1czUl9YMnpVT29sT1g0YkxNLXBYTUtZS3JURHpjYlVBb3BIN3psUVBfV1JjWi1ZSUc1RW9MaXBZUUN3?oc=5"
+        "text": "因这些积极迹象，英伟达股价接近买入点 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQckZIX181NTRrdE1LYlM1MmpmcVM0bEtPaWdOeDdYcUxuQjlHb3VyWEdoYUtqa09nN0JuUlN6alNwb3VORzFhNzlwNDdRWTc4VTFKTUNpSTlMWHZoNE01amJNSGNac3VBY01GNnpQWmJ6cmxmdzRZdV8zbE9oODhvOE9Rd096S3F5ZWdzUEQ4b3pXR2ZrZHY5UkdMSQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -316,8 +316,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉 (TSLA) 五年涨幅达 81%，股价看起来昂贵 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY05KOS0zWWpLSFFaYjNjNTl2dzE2V0ZGeVV2RDZzeUZxVXFqTVM5RXdHOHFEdzNhd2VhS3E3bmxXeTdwNURuNVRzcUdTakdGU2hyT1JPN0dEYjZNVUJ4S3Zmdkd6TXdsNk5MTXRlaUZNWUdrdDZhVXZSVUF3UmdkR2pLaUpBYzB4czNZdEp3elFoMjJEMUExdi1PanpIdw?oc=5"
+        "text": "特斯拉股票面临每周亏损：散户投资者在第二季度收益公布前就未能实现机器人出租车目标而拷问马斯克 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYlU4S24zNkl4NmZ0WmRNa0FSZHJxTmpFVXdLMVJDNzdNYlNmVlZMVGlYNmJlaUcwZnk5d1B3dGZFT0JOWmJTMjdjT09SbjNtc3hQSmZDZWV5czRxV1VXQXp0ajRldnBQYzVqbUZJQl94ekFRek03ZjlPcnhmVGFCbU5HWnlNbE9FcDZ4VnVQc3oxeDB5ZVdz?oc=5"
       },
       {
         "source": "📰 实时资讯",
