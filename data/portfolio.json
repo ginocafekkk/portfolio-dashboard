@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 466.8,
+          "lastPrice": 460.0,
           "ytdStartPrice": 615.83
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 113.4,
+          "lastPrice": 112.2,
           "ytdStartPrice": 148.83
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 186100,
+          "lastPrice": 186100.0,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 144331,
+          "lastPrice": 144331.0,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 96850,
+          "lastPrice": 96850.0,
           "benchmark": "csi-lowvol"
         },
         {
@@ -138,7 +138,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.15,
+          "lastPrice": 27.99,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-07-17"
         },
@@ -147,7 +147,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 38.04,
+          "lastPrice": 38.02,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-07-17"
         },
@@ -156,7 +156,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 39.94,
+          "lastPrice": 39.95,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-07-17"
         }
@@ -209,8 +209,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5667.86,
-        "change": -2.71,
+        "value": 5577.7,
+        "change": -4.26,
         "date": "07/17",
         "pe": 15.0
       }
@@ -218,18 +218,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.76",
-        "change": -0.52
+        "value": "100.7",
+        "change": -0.57
       },
       {
         "name": "黄金",
-        "value": "4007.3",
-        "change": 0.26
+        "value": "3997.0",
+        "change": 0.0
       },
       {
         "name": "原油",
-        "value": "78.92",
-        "change": 1.0
+        "value": "78.76",
+        "change": 0.79
       },
       {
         "name": "10Y美债",
@@ -286,14 +286,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "亲爱的 Google 股票粉丝，请在您的日历上标记 7 月 13 日 - Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN1FuRnU4Q1Fwc1dvQ3F0TFdKcE5IWHM1V21yUVl3SV9qM3RjVmxJbXlSVHFOUV9UdEJxQzBOM3c1eTNXMHRTTlRWUllDUEJHcVltNGh3TlBzMjYzNnFyRndyZW8xcFZmVnJkZDBKbXhvVXNCNUZ2SnBFNl8ydXllVkZlclUydE0xNVNocWp4RVo3Y2ZGbWJHNEJKTFFhcUU?oc=5"
+        "text": "Alphabet 股价下跌，因报道称其最强大的人工智能模型 Gemini 3.5 Pro 被推迟 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 股价下跌，因报道称其最强大的人工智能模型 Gemini 3.5 Pro 被推迟 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5"
+        "text": "为什么 Alphabet (GOOGL) 股票今天下跌 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHd0UHkwSGtwZXJGTnl1QW5teE5fT1BjRzhGSGgybElUdDl2dzhrTEN2YTE3NE1uT19RazZNcVJsQlBrZ0dCMTNFVE1fWkpTcjZuVllmWG00cElHV2xhWVhwQ0hpMW55WHF0WTAyM25tSExzb01TZ0FOUHRzVjFsRmZCVFQ2eHRHNEZHN1RpVlQ5UjVKU3ktM014ZDFPUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -304,8 +304,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊进入第二季度，重复其 AWS 赌注 - 历史告诉我们接下来会发生什么 (NASDAQ: AMZN) - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGRzb2pNNG5jbmRUMjhrUlNIVjQzQm5BNkwxZGRzdl83MmZILU52akhvVWdPbkpuMFBzS0p0NjhUT0ZPdnBNZzJPTzdIek5iTzdnMUJqTTNGZmJrRE5hOGpnaDJjSlZDSzI0TDBPZDNTNnZhY3BmYzJqYlVQYzI3d21tTXNpM3hxX3dSazB5ZVhXc2FDNFVWM3cxcURqV0RSQ1hWZldMbTRHWWN2ZjV3YTNvN2c?oc=5"
+        "text": "分析师提供对周期性消费品公司的见解：亚马逊 (AMZN)、小鹏汽车 ADR (XPEV) 和 Capri Holdings (CPRI) - 环球邮报",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQSG94cEVVV2liemdUd3hVLW1wMkRRclg3TGVzRkhmQVlKT1pvbnlUMkhGRmJiaTZYQWJIRllCbVMxVkxYZnJYQ0JrdVJDWnoyaEUya3kydkgyUzFUMkpoVWJISWpwN3FtVVYxRl9hTk9rTjlvYUY3cVZla0tnNkxXYlRFWEdKUEM0dUJ3NnpOT1BwcVVrLXNRbXAzdVpJdkJqcXB4ZUZVNjNYRUF5STJsZnpuX1owSWJ5d2hwM1l3cHBrVUVLVXV2X0VGREtReE1Pdzd3V3dNZHh0OG1yWFN0MTBleTBJeEFTOGRGN1dJV2hJZFBjZG5OMlZYTzlHZXlZdE54MTZnaVpMa3owbUlGZS01SGUzWmFYR3JXZVlQZw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -316,8 +316,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉股票面临每周亏损：散户投资者在第二季度收益公布前就未能实现机器人出租车目标而拷问马斯克 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYlU4S24zNkl4NmZ0WmRNa0FSZHJxTmpFVXdLMVJDNzdNYlNmVlZMVGlYNmJlaUcwZnk5d1B3dGZFT0JOWmJTMjdjT09SbjNtc3hQSmZDZWV5czRxV1VXQXp0ajRldnBQYzVqbUZJQl94ekFRek03ZjlPcnhmVGFCbU5HWnlNbE9FcDZ4VnVQc3oxeDB5ZVdz?oc=5"
+        "text": "TSLA 股价一夜暴跌：加里·布莱克 (Gary Black) 表示 SpaceX 买不起特斯拉——“数学不会通过要求” - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGNwWnNoeTNhNmdTUDhDZUgtMVB0WjNhM3loUy1uUjhoT1hzb2llYndjZ3BNRnNpazdRektjNHZTUHJfZnpwUU9hRDRZVGpPQ1lIY01hNGswV2M3VWZaYUU1enNrVXpqbDdpamNoUUNncHJhWjFSeGFzSld3dTBMQmY3bUkwakcyWjBGV09VZXc2Sm1ISTBoR0RtRWl0ek5vbGVBSFd0elFxX0V4MUZVcFh4WGM?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -328,8 +328,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TRV",
-        "text": "旅行者公司 (TRV) 在市场下滑的情况下发布 Horizo​​n 盈利报告 - GuruFocus",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObDgxaUFNX2k2R3cycGxJa1ZNdFdpR0Q0UG5QVFB6bmZrRFIyenhkN3JJa0RFNTJCYWIxYVNGZ29DdWdfdWpSaDlMSnNSUjBEWDFOVDJpaXY0WHZYcUxNMkpnRUJld2JuNUw2V0ppTzdLMTBGVWx4cU5NNXRjaXBGMXIxaWlxSnpuVG9xaWltWXZJNE5oNlJHSVlOa25WNTVwZlhKN1R5VWxpWDNZOFE?oc=5"
+        "text": "纽约梅隆银行削减 The Travelers Companies, Inc. $TRV 的股票头寸 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSmh0bXNfOTN3TXJRaVJ1ZURXb3RuLWViY3BqN2dOUFhZMTVzOWVDOGVEdGRoNV9aVnZUaWhEWHB6Q01oeFp5ZkJoTkF2bWpEcE5aR3FqU1laX1lsdTdYUEVZaE50eEVQMlU2RzU2ZnZtZ2pUckNkd3NteFRQT2o3anp6VVdtN1ZCMFRBOWJNLWFHR2hIdmlhY2NYLWdRemtfbzV0dnNiWVVGQXQySFloLXJTMk9kd3NOTk5WUHc4MVdIeGRsWHVsT0ViUEVtUGx5UzU1ZU03WlFKQzltWWc?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -352,8 +352,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 第二季度每股收益好于营收，但营收不及预期 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTEhYcS1kZzhkTmNPS0FfTGRXbk9jTkVjUWxMQ0dJajUtcTNHYllackZrTDZMQk51ZmNIaDVRa3hJQ0VYOFB6NW10bDJBWWFWWGw0TzRUV1JsREVPV3dwTEdsYVh3Z3h0bmFtMlZ5cmpabXhSelBmdUtYTzlPdThCUURFQm5iUm05M1ZWVkZrWkdxVDRKREllSVMzT0lCMVFOR3lQY2ZzQnpTVmMzcXpQWmNkdnp4cTdva3hwZ2E5YWh5bEtwRmFWUjNpMndZWGVB?oc=5"
+        "text": "第三季度收入不足后 Netflix 股价下跌，联合首席执行官表示并非所有观点都“生而平等” - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUnRaaEt1N0k1QUZ5RFdaWWdKVFVjeng3blN6SDdZV3g1c0FDTXVvTl9YSmRwQnF0NWlvRDBISW9Gb01uN1ljMjVFWkhwc0lTN0o5RFlGSTQwcFF4Z0xGZGVtaXotWWNzS1lZNzVWWnBzV1A4UURPdVNJd1RGVzdsQjNkQVBsdWp2VGszUGxKVjJabGowRUtiUy1iT0xlSHhiVWdiUFp4UXR6MHZqdExNUW44bnpqdGVmdVRtN2R6XzV2SUR4RmhpTUJ2a05SVm5mR0czVWpjOXlJampQUEphQ0FqZHVBWEFCSWRJRw?oc=5"
       },
       {
         "source": "📰 实时资讯",
