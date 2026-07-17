@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 484.0,
+          "lastPrice": 465.2,
           "ytdStartPrice": 599
         },
         {
@@ -100,7 +100,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 116.9,
+          "lastPrice": 113.4,
           "ytdStartPrice": 160
         }
       ]
@@ -114,7 +114,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 210824.84,
+          "lastPrice": 186900.23,
           "benchmark": "hshylv"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 152258.21,
+          "lastPrice": 141733.04,
           "benchmark": "a500"
         },
         {
@@ -130,7 +130,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 116419.11,
+          "lastPrice": 96075.2,
           "benchmark": "csi-lowvol"
         },
         {
@@ -209,8 +209,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5825.99,
-        "change": -1.98,
+        "value": 5680.03,
+        "change": -2.51,
         "date": "07/17",
         "pe": 15.0
       }
@@ -218,18 +218,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.71",
-        "change": -0.56
+        "value": "100.76",
+        "change": -0.51
       },
       {
         "name": "黄金",
-        "value": "3983.1",
-        "change": -0.35
+        "value": "3993.8",
+        "change": -0.08
       },
       {
         "name": "原油",
-        "value": "78.99",
-        "change": 1.09
+        "value": "79.06",
+        "change": 1.18
       },
       {
         "name": "10Y美债",
@@ -250,20 +250,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "2030 年 Nvidia 股票会走向何方？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWdJajhZM1NpOFFvV2daaDRyR1lSbk12cXRrSk9sM3RYdWdQQnBuVm5VQmQ0M3RFV1dxV29lLUhXU21zSzNtZWpFYUdhWUJqakYtV1lVaG5ZWk1QOUstMnVwb0NPWVVjMXJfZHgzZ2ZjejF2VF80VmpLYVhqRHBidWRSMkpMYzNJTFpYQ2Qta0hhUQ?oc=5"
+        "text": "英伟达进军新的人工智能大市场，其股价可能会上涨 - 《巴伦周刊》",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pMXNiYVJiWGdEOXdJRFkzZ3RNVXN6M0E0ZDgxUjBnWVFwR2o3RVJUcW9wZWZFNmJXU0ZHeHI4Rnh1a3lHUmVENVdPcEE2eGlqMHgwTnpzYWdKNGMxa3U1azF0LWlpM19mNk53aERsWWYwTEhIemc3SA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "投资者不断询问有关 NVDA 的哪些问题 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFZiMnFtNExSclN6cEUzT3c0TzJXb01CN2VieHdHTVlRMUk1THFpcndQdzNnT25WNS1rd3VoSC1ub3JoaDVUajdNTjN3bElvZ3BNcjFNc29tZWF6cDZiX2ZYZDlNdjFXR0hCc3dmaVRCbTN4WnhFeVVyM3FxaXVFOUlBdWRjb1Q4cm5mYnc0ZHFIbl9NM2JsYi1XWDZIRUU?oc=5"
+        "text": "美国银行预计 Nvidia 的下一个 200 亿美元业务。 NVDA 股票可能走向何方 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUNUOUZWWjI4OEY1aWhDeG9hdHk5aDVncC03dTNiM0YtU1g3ZklLZmtuOGIzZ1pQM2VBSi1ncC1BTjdNMksyTEJVUTFBaGY3NkMzOGFISjRrQndHS1JxZ1czUl9YMnpVT29sT1g0YkxNLXBYTUtZS3JURHpjYlVBb3BIN3psUVBfV1JjWi1ZSUc1RW9MaXBZUUN3?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "MSFT 股票之前曾从该价格反弹。现在什么？ - 特雷菲斯",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT2d4ZlJOci1mYmN6c0xkak1naWJxanBwOHU5cW10M3FScExmQ3lpM2U2a0VEMXVYM1Z2RDBjOTU3b2x3dWFyS0N6MzM1RWlmcF9Qd0F1N2MxeDFmUlNvMWlyaHNobm5ObkVNZmV2SXhXQnY2V19oa2RvX3R0YVEydTBJQVNrdTJUNHlZQVJNblY1Nl8zZndxNDlpTlZvWU9NbkZwNF9KOVN4UzdKUmJrb0VPZ0pvdw?oc=5"
+        "text": "如何以 30% 的折扣购买 Microsoft 股票并获得报酬 - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTFfakowTHZEcmZtM1pnNUdKaGhEMVlUc1RrczJKaDJLdXhhRWR2VnlOdzJYZUVkZkJWZ3VWWHZCLUZFVkdIQUNEZ0otUGtLbk40bFJ4QV9rLXJ3cVFWanhTMmYyVExXdzk1d2NLcWVXbzVFMEp2Zk9POEl0dm9tNVhnem43NHREQkcya2tIVDBydXRSQWhDWkdGRzl1b00tazVKVkNjTmdhT0FqTGtVcWhVdXV2U00?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -274,26 +274,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
+        "text": "Meta：我的担忧终于减轻（评级升级）（纳斯达克：META） - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbjRvZUdTZ0NHRTk5ZlZXY3pmdi1fb1ZOVUdyeHp4c2hEb2NxbDFQbVZFQWJHX3dDcVhjUzNJUGhwdkhrdjkwQXJtd1lYNGxhalJRdFFsZ3hGRlZQTF9RZWVLRVhXQnBoM1VMejhBZk1QNWZWM3U5VXpETUNVS1lwRXRyZldXSUlOdmZmX1lCdw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "META",
         "text": "为什么Meta股票在长期下滑后突然爆发 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORU9ybi12cnZFcW1VMjNra0N0V2poRnIwaFM2bG4wczJGUmZZMTBQY2ltVDJMTHM0Nndod2x6UVFSSzZES2lIbGhkV3BORG9zLWUzeFMzdVJabnRhTDdZb2k0OGlaV2dlTUZINl9zRW5ZVTRjclFKRGpkOXlFa2xZcHFUeXFFMlhQUE1yVmkwMW9WVkhPd3lsQTdtb1lHY0JQM3g5NzJMTXZPc0wtemxBZThtWFhtTXc?oc=5"
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "META",
-        "text": "是什么推动 META 股票的下一次反弹 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1QyanloWHY4aVBZSmhwcnUxM2xMX1NwY2RXYzhZTFJQamhXRE9Ic1RsaFdqVWtFbjVDSWxBVk9NcmwxVXZsMGFaZndndk5uVlJKTEdsNjNLZXFtMmlFQV9DM2U4ODdkdVlCLW9hcmtNSUc0R3JKSVA3YWFUMlVUei1URWRabXRtZzI1Z0hqaF84YTJscDEtWEJqS1VBQlEwUk4tZXB2Wml5UQ?oc=5"
+        "ticker": "GOOG",
+        "text": "亲爱的 Google 股票粉丝，请在您的日历上标记 7 月 13 日 - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN1FuRnU4Q1Fwc1dvQ3F0TFdKcE5IWHM1V21yUVl3SV9qM3RjVmxJbXlSVHFOUV9UdEJxQzBOM3c1eTNXMHRTTlRWUllDUEJHcVltNGh3TlBzMjYzNnFyRndyZW8xcFZmVnJkZDBKbXhvVXNCNUZ2SnBFNl8ydXllVkZlclUydE0xNVNocWp4RVo3Y2ZGbWJHNEJKTFFhcUU?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
         "text": "Alphabet 股价下跌，因报道称其最强大的人工智能模型 Gemini 3.5 Pro 被推迟 - CNBC",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "GOOG",
-        "text": "周二盘后值得关注的股票：GOOG、AEHR 和 PXED - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRzNfQU8xT05YdG91ZlppdnZjMlhTZ3M0ZE1GNjdyUVJMRlpwMHpraEllczl3cGZZTGFTZXBtcng3QVpPOExlNzVvSm92cFJ3bXJJYXZFZC1BZWpyZS1XNnNyak5FYWlKLXg1MVhHUWVDSjA0dUhrX0kxc3pzeF9LNlFWZUMzdTBxY3E0ZmxjcjBuR0d1LXBSZVRZQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -346,14 +346,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 第二季度每股收益好于营收，但营收不及预期 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU284QjRnbS05MEcxOVRzaXROeEJpYUhTbGx2N1pSSzZQckZBRnJUZ25EQU9ndUtfWER3VnY2Nk1ES29WOXFjcGtBSU00MmF1ZEZlX2RobjAxd1oyZ21jU0pOU0pYZDlUR3FOTzRyY2ZUTi1OdDU4X3RkZGNSQXZIY1FJLTF4dmFudVRUX2NJb25PMGlsZlFSa0RZbWZuanVUTXZmeVpJdmpDeEVhOVZGNS1VUWFRdw?oc=5"
+        "text": "Netflix 股价因盈利预测令人失望而下跌，该公司表示将减少参与度更新 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDTjQ2OUU0bnVvS29IVXdoVTFnR3R2TzN5WktIODMwcWU2QndfSnVXd3llZHN1NGo1RGlYZUsyd21RcVdxSU9wOHBhZ0RiM1dLYjl0WXM2ajJWSEk1QjZBal9DNk9MQll6VlZNb0FZS2ZIUWVE0gF6QVVfeXFMTUtCY0xLS3g4NndzeHJMNm42d0lqS1B6OUtKQTdsMmw5WWFQRlFMTGdwNHU4bnFTeUdjQ1VkM181dHdfYnlOMy0wUng1ak9jamhoLTNXUWZLcE5FcWhHbENNZXlKdEZudW02cFUxOGFPZEs5X2RvVXVndFE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 7 月 16 日公布盈利报告前夕，出现了一个危险信号——这对股价意味着什么 - 96配资",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYThYeWEybU8yNmp1Y1JUZVl1TWZZSVdEYTI4RFBQbEhUQWpWdUFmaThVZE1ZVVRNZURBRkRUQ0VzNWR4eTViX3VzV05EU2x5TmZwUnpxQ2pMSFRxd1NLaGx5c3Y4UmdkbE1EWUNBbVpvdUVKaGp3YnNhejRrT3VHdVdqZzI4M1k4dVk5VE9zYnEzalkwT2M4?oc=5"
+        "text": "Netflix 第二季度每股收益好于营收，但营收不及预期 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTEhYcS1kZzhkTmNPS0FfTGRXbk9jTkVjUWxMQ0dJajUtcTNHYllackZrTDZMQk51ZmNIaDVRa3hJQ0VYOFB6NW10bDJBWWFWWGw0TzRUV1JsREVPV3dwTEdsYVh3Z3h0bmFtMlZ5cmpabXhSelBmdUtYTzlPdThCUURFQm5iUm05M1ZWVkZrWkdxVDRKREllSVMzT0lCMVFOR3lQY2ZzQnpTVmMzcXpQWmNkdnp4cTdva3hwZ2E5YWh5bEtwRmFWUjNpMndZWGVB?oc=5"
       },
       {
         "source": "📰 实时资讯",
