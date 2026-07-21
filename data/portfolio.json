@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 477.8,
+          "lastPrice": 474.8,
           "ytdStartPrice": 615.83
         },
         {
@@ -92,7 +92,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 116.8,
+          "lastPrice": 117.3,
           "ytdStartPrice": 148.83
         }
       ]
@@ -106,7 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 200210.57,
+          "lastPrice": 204615.2,
           "benchmark": "hshylv"
         },
         {
@@ -114,7 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 130968.28,
+          "lastPrice": 131963.64,
           "benchmark": "a500"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 105216.37,
+          "lastPrice": 107804.69,
           "benchmark": "csi-lowvol"
         },
         {
@@ -130,7 +130,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.98,
+          "lastPrice": 28.73,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-07-20"
         },
@@ -139,7 +139,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 38.91,
+          "lastPrice": 37.99,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-07-20"
         },
@@ -148,7 +148,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 40.58,
+          "lastPrice": 40.59,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-07-20"
         }
@@ -201,8 +201,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5622.82,
-        "change": 0.81,
+        "value": 5839.91,
+        "change": 3.86,
         "date": "07/21",
         "pe": 15.0
       }
@@ -210,18 +210,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.0",
-        "change": 0.5
+        "value": "100.91",
+        "change": 0.18
       },
       {
         "name": "黄金",
-        "value": "4011.1",
-        "change": -0.81
+        "value": "4074.5",
+        "change": 2.23
       },
       {
         "name": "原油",
-        "value": "82.63",
-        "change": 3.81
+        "value": "81.94",
+        "change": 3.79
       },
       {
         "name": "10Y美债",
@@ -248,8 +248,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "周一 NVIDIA 股票怎么样？ - 本辛加",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa050MS1yZEVCcWpUWi1WOTJuLUl0MUtxSWZWdDRzaXJ6aElMX05zUGFVa3VWcUV2VnpnS0k2QjM3MUhEU29NZ1dCdkFjazBWSjVoSEdXRG5zejhlaGxtaEo1NEc2d3ZsWDVSdl90SktSak9Lbmhqb2ZEWm9LeHFEUDBWY29IUXJua1YzTVVLY2lhOXNUQU43WUlR?oc=5"
+        "text": "英伟达股价稳定，但需要帮助才能实现真正的收益 - 《巴伦周刊》",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNMWFMRzBHVEpyUGI4aklRRHlmXzJYWFU5ZFFxNk9Xa0ZwUzFwQWdBMXRQS1lpT3RzNlg3Y2FFWm5FYmpwUVNNM2Q5WnRlbDF4NzdhRXhIeDNvU2lzSWRLRWxvcWJjOTN4OVBrRkxHNkNWR1A0R3B4MGJTUFRVeXc?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "MSFT",
+        "text": "在第二季度财报公布之前，特斯拉股票落后于微软，成为 Mag 7 表现最差的股票——但零售业押注马斯克的惊喜 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOczRqNnZSU3ZFRmNuVXl2Yms3V0J5enVzelFnYV9CVzdpZWRYdC1JeXpDWkprdlhsc1BlXy1FRlNUVW12RzR3MmM4TlpCeGEwSnJfdUs3cGhsencyUWhxeEp3VmR4MGJtd2tKOS01SDdYc0lPWWJaeWxBMUZFR0RlaWliWkVndk9reUFZa25NUzBrd0lFX1huMw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -259,21 +265,15 @@
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "MSFT",
-        "text": "随着盈利临近，微软投资者准备迎接人工智能现实检验 - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZ2F2bURoeVF2dzJEVl9SRDVYOUFMU05LcU5RLVduc2hmVWRfUEk5aDVyQnk5Rjl5dl9QRWZWYkkzSjNSTlplbWsweTBMSXJMdHRFeGdYTXJEWExsTnVWaFYyY2FSbTdfdWtoS0NVMk5GX0NuNEpkNTd2MW96ODJHMGJfRFcyd0ZYQkdmazZrNHgwdVRRbVNnMEx3bXlrZDF5TFIyUDFZc204eXJUXzFnTXlEeXJKbGtVQW5ZTlRiejNNMGExOUpac3VQX19kRHh3S2VB?oc=5"
+        "ticker": "META",
+        "text": "Meta 股票的反弹使马克·扎克伯格以 2220 亿美元成为世界第五大富豪 - 91配资",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkNTTURuZUttQU1VbVV3U0RiUEsxNkZ2NUxDa0JJZF9RY29DU1JRWTNCN3hqTkRnM3NrcmhUZVdvYmFjejJNQjVQV0VhOXo1UWs3WHNmWmw3eHM0bXlydUVsZ0pjX0RZMXlNb2E3OHZ4ejl4NTUzWUpWak5hRU1EQU1aNjA1dFkyWWVvcUJ2MFRsdTR4bjZHSw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta 的人工智能野心不断扩大。 META 股票跟得上吗？ - 24/7 华尔街",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV0ZPMEN0bV8yaUlqUUxwb3hDOC1aeGlGRlZWNUNlemRuMVFXMzlZTThPODdzTWx2SElONV8zR3NONGV0ZnpyNWZaUEpKZ1pCSGFTVDNyN05wX2VFNVVVNEZEZEdudHZIYmNDM1l5MXF0NWQycTlldF9CMDRqZE9MMXpHZmoxVFpXMlpoUnJoM3BOLU9FUDF2Y3hrUXhpanNWeHJYMw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "META",
-        "text": "Hedgeye (META: NASDAQ) 增加元平台作为新的长期想法 - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFhOZ1VWU0w0TEZOeUxldnhhY2EtRVBkZjNPQ3BHdDdneC1HTzRGa0NXN21JOWdoSEpZamthcU9IWUR0TU0xX0xQbUdwc2g0ck9tRTBtRGtWelR3MlA5dTFDOTZfMkhubEJZT0V0U2xYbzlrYXhYOUo4Skd4U1NQbnFZY3ozeWdOVHh2V2xHbw?oc=5"
+        "text": "田纳西州启动 Instagram 上瘾设计试验，Meta 股票保持稳定 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeVJmUWE5T0pMd0V6V2pLVVJiSTh2X2lfUXI0dlV1Q2tYejBRMl93RHdFblM4SU5DVm5uWTBBOEs0Tjd2UzFOYlc3NWJGbG5ZYUlqS05CQlYwMGk3aWNYR1VmZ3pFWkJMUFZsNkJPZDRoWGhJSFVCTUY3d0YyWENWaGd6cXljc0t6cUdRN2hHOUxBZFVxT0F4TDg1c2hTNG1pSVo2SVVWSUpZY0dQX0E?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -290,26 +290,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊（纳斯达克股票代码：AMZN）股价在 7 月 30 日公布盈利报告前显示 30% 的上涨潜力 -foreignpolicyjournal.com",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWVdDQzV2U0FQb1hCVk9TRV9DaURzS2xIeDg2cHVHcXpMZDc3eEFCSmo1RkF1WWtvYW94NXR0ZEVWTkNnTlNPM1lneGtwNzQwMEVxcVRUd1lMeGppVjNLVUx6b1BRUW5iR29hZ2VKMHNhdVlwMUxZZW1IWG1hWmMtaGZqNktsNjA5Q2ItZVYxUkRoR19uc0dhSTlBeXJHMXd6Rm5Ea3ZaTmJNVWVjVXV5YkZIcF80X3FfVWRVM2VLV2kzN25sTFliUzZWU1pVNGtHb3E0aA?oc=5"
+        "text": "亚马逊 (AMZN) 推出 200 亿美元人工智能基础设施后，其估值是否被低估？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazdibWNkUDZvWGlHbnZEMUtrREZLTnZ6U0N6b20teXlKbmtONTlWcEZBeWJ0dVhhdUJ5RDNyaDR3ZTFwY2JXLUZyQnJMNjVjWjVqQldQaWJWclE5YnNpMHhxREU5RWc4aGVRNjhNbUUzNWFYb1R3WklaMTB0d0NxZzAyZk50TXJScWZpeWZzVlc4TUtneFN6M05zMm1vNlV4d3h2Vg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "周一亚马逊股票发生了什么？ - 本辛加",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLUt3bVJUR01vRGxiZlBuSFNaRVE2ZFRZOURjdU5jdVBLU082R2Z2Mk42bWV4RXc5cjRzMDI0YnVua3c0LXFUY00xaEJud21wT3hnM21UOWctdzZJbWRCR0NTSFQ3Sl9lRE5rM2RZRDliYURQNDI0d1loZmV6QXhjZGRoYlVMVDNPM0Z4Vy1NNWJZVXhjSGFwS1A0MVBMdw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "TSLA",
-        "text": "特斯拉的盈利门槛非常高。以下是期权交易者可以利用的原因和方式 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXVGbVh1NDc5TFIzeVRseUZRVTVBV1ZpWFJ3cXdIaWFXSFZOaXJkckF2dEg2Z0h3Z0x2OVNWeExMejVBU1hPdU4tcUQ3Y2tzOUY5TWl0dzBEOFRzb1czdzR2eTd5NnZKdk4zX1BmTHFkZURsb1hra1ZHSHppV1FsYWd0TkswTGJOMDR6eUx2clZDakZzMmRGUEI0ZDRFSV9WM2pMZ2V4VzloaGpRNll0bnotRTBRdnVCYW1pYWs5UXRXQdIBxwFBVV95cUxNbGdKTFJBWm41VThEZzhRUmJGWFFJQ1VEX3dSc2h2bURCSTVZeW13aDk2WnJidTZwc0x5YjZ6dkxkSVEwdk1NOHBCTTNXcWFvZWFVQTVwLXZNWFY4NEdwQkUybGxTRUxhTGFEZEFNTjRnSXRhZ2l6czJwWUctRzB6VHFUTXBEQzZSN1NrLVhZUFJycXBTQm41aVRmR2o2WXdUQ1NSQnN5NWFjX3VPMXJ0U1lTbDZrdUsyVDRYTkE4NDM5QjRtVW53?oc=5"
+        "text": "Anthropic 潜在的 1.2 万亿美元 IPO 可能使该股成为主要受益者 - 96配资",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZzBDMTNHQ1VocjJEenI4RTJSMUNmLUJQc3dHQ1NSU25vUnJ6MnRLRjExVFIydXNoZnhCR0MyUlowYnk3U1YwNFJkT3dsV0IzTVNmOHhxa085eWxNd2VPenlLTFU5SlNRRkVqOWpHbUlHYXgwamU0cTU1TlpOenNZYXcxSy1kRnJxU2pzT1E4bUZFeHlUUVc4SQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
         "text": "特斯拉到 2026 年仍下跌 17%。周三的财报活动能让特斯拉股票重回正轨吗？ - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcS1GR25va3QzUlZmcTNDZ0RBa1hjWHVxNzZDVURmR253WDE0ZWp4am43aHlpa0U3MFNmdTZ3NV9tWDFkb2d5cVFLOTFudURIbHNEdUFkMzFvZVFneEhvVGZBaFhsSExqSC1yNXhuVnExRE82bFp4d29OTlc4eXVpVlFKcFFSOGUtcXRkejZDVDM0YUU?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "特斯拉的盈利门槛非常高。以下是期权交易者可以利用的原因和方式 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVXVGbVh1NDc5TFIzeVRseUZRVTVBV1ZpWFJ3cXdIaWFXSFZOaXJkckF2dEg2Z0h3Z0x2OVNWeExMejVBU1hPdU4tcUQ3Y2tzOUY5TWl0dzBEOFRzb1czdzR2eTd5NnZKdk4zX1BmTHFkZURsb1hra1ZHSHppV1FsYWd0TkswTGJOMDR6eUx2clZDakZzMmRGUEI0ZDRFSV9WM2pMZ2V4VzloaGpRNll0bnotRTBRdnVCYW1pYWs5UXRXQdIBxwFBVV95cUxNbGdKTFJBWm41VThEZzhRUmJGWFFJQ1VEX3dSc2h2bURCSTVZeW13aDk2WnJidTZwc0x5YjZ6dkxkSVEwdk1NOHBCTTNXcWFvZWFVQTVwLXZNWFY4NEdwQkUybGxTRUxhTGFEZEFNTjRnSXRhZ2l6czJwWUctRzB6VHFUTXBEQzZSN1NrLVhZUFJycXBTQm41aVRmR2o2WXdUQ1NSQnN5NWFjX3VPMXJ0U1lTbDZrdUsyVDRYTkE4NDM5QjRtVW53?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -320,8 +320,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛股票和另外 2 只受关税影响的股票面临利润率压力 - Simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU3NkY1drck1uSHp2UmRORkVYNXZQam1CVkc5NUdrUGNpaU9NalNjQ1FmRlJsejg5SlJvelJvOUlydUh0SWxYbnVSb21Jd3pYMGh1SElGZW94Q0dPVm9SUFhTcW1iSGdmTlVuT1Q5MGN6bVBBN3IteEcxbzFJOHRyRmxUT2p4RDJnN1pDUjM1R1MyZEVmbVBvVk1NUjZJNGI2S0JIWFVCNElkZjRfS1BRdHdkMUpuMXRVRkpTQ1V0SFBNcWs1U25qQ1FRRVZWV1lqblRnd9IB2gFBVV95cUxQVjdqOEZPUTdraDk5NFp4Z1doRzhXcHU0TWRqTkM4VjBudmd1LUZMbExrNkpNSjlNbTg0M3FxZF9iWE9IaUpHODY5blQ0NGZWdnRtbGE0M1dtN2xVaERIYVNfaWs5ZmROamF1M0tsanBDblc2QU9FWkdZT0tnWC1CRUlyYy01QnRfblFWNjNLbDB1YWNjM2N6bV9aSG1PTTQzVE9sanhaMFVRaDdBUjdCWWZKVHFvZnZDTkdTbExVZWhWdTN3WW81SXZWTjViQ3R1djEybW80bUR1Zw?oc=5"
+        "text": "Andra AP fonten 购买 382,​​540 股沃尔玛公司股票。$WMT - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZTdVVmphX0hQOFZfdzB1RVVabTJxRDhZWUYyNm8zamNOVmlxRmhlRG8tWU5tWDl0aTBhWElOcVo2eGxVYnZkTDF4SnhCejVvYmVDM2tER0xYZEJDOHYwNE9iQ2N4N2pZaTFSVmd6dWxvcEhHOVV5M0JTVWFXTWtGdUJ1V1FZNjkyQ2t1elZZU09lS2plUGUycThpQm5jLXk2ckJwd3hNQ3REeE5lNmhVR3hIa0g?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -332,8 +332,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "为什么 NFLX、ORCL、SPCX 股票上周跌至 52 周低点？ - 股票推特",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLUxtWVZTWUk2T3djX0U5dmFQT1ZMWWhhaXVpbGhSTWdVS3V2NWo5TFk5UXFjNWh4cTU1T0czWm9ZN0hERHFBWDNJX3ZGN1RsSGpBYVNMelBvMlQzSmtfemh1dmRkeHAxNWhpSHk1eVRYclJiNE1lbWdRVWlPNDgyLWQ5VDA5NTYtNlplOGo2dDR4akMtUnkwUTFENVFqUElZc2s4TkZWRmdRSWVjaUNoclZVcUIwbFdscEZpdTNneHBKUW8?oc=5"
+        "text": "是时候购买 Netflix 了吗？这是吉姆·克莱默 (Jim Cramer) 对苦苦挣扎的流媒体股票的看法 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mZEVaMUJ1Q0RPN19ISDRoSy1yOTk1TXNReUV3Z2Vnbm1kRDdmYi1qNXhadTd3VlVnZ3RNbjlNUEY4cUdENGtic0xWcUZmMVNjOVpicWFBcGZZWVBNT3Y4Vy1KZnkzMWRmV1Z5dDhxT3FRSTRMWXc?oc=5"
       },
       {
         "source": "📰 实时资讯",
