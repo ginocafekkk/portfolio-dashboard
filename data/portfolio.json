@@ -106,7 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 207049.99,
+          "lastPrice": 208294.15,
           "benchmark": "hshylv"
         },
         {
@@ -114,7 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 146922.25,
+          "lastPrice": 145252.11,
           "benchmark": "a500"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 107210.15,
+          "lastPrice": 108522.1,
           "benchmark": "csi-lowvol"
         },
         {
@@ -215,13 +215,13 @@
       },
       {
         "name": "黄金",
-        "value": "4120.8",
-        "change": 2.69
+        "value": "4129.3",
+        "change": 2.91
       },
       {
         "name": "原油",
-        "value": "87.83",
-        "change": 6.47
+        "value": "88.22",
+        "change": 6.95
       },
       {
         "name": "10Y美债",
@@ -254,8 +254,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "宏利扩大人工智能投资未能提振市场情绪，微软股价下跌 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmZVUW1vS2VEWmdUSkZaaEl2Yl9WM3dMRDNXcGVUYXp4eXdQc1h4a3dnWFFuU3dJMzRjN1VvYy1DTFZJZlU5QUg5RmNFUklKNWN5R1lpWnZ3NzdzVXlNaktYNXFCVFI4RXVodjduMlk3WEQxZWpvSWZDT200ZVJxMEVPZURlYWRiQURGVURtcS1vRGhNU3ZIcXU3NlF2YUhEcUdBdGhBQ25ON0hK?oc=5"
+        "text": "随着 Copilot 失去免费功能，微软股票 (NASDAQ:MSFT) 下滑，担忧加剧 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnZhQVBoaDNXeGtHZzZtYVdoYUlCS3FiNVVXYW1mc1pzQlprZnNEQXZ3bTM2ZFVqZ1RqTFNOQnA0RGplR0R1Q2xYUTVxWDU1RVBOdlBGN1d0eld6WmN5T25UOVh5YWNNU18yVUdsLWRfQldESUdQcXZHYXprNVpPVzZvNkJ2VjV6VTFYaFQzaHpVbjFpUG9FM0tZY3FYMFFxMGJ6QXZXUEhjZ244?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -278,14 +278,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "谷歌财报实时更新：Alphabet 的人工智能前景、云计算增长成为焦点 - CNBC",
+        "text": "Alphabet 财报更新：由于公司提高 2026 年资本支出，分析师电话会议期间股价下跌 - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhQmgwTmR1aXpDTm5sVklCWk9RSjQ2UTNqTlhkNGJINlJIcGE2bFk0UDdOb2h2WDFfUnZLTm9PQ3ZuRm9oYWRjMHJmNTFTVkxaTkhneUEzVmF5WDNQd1ZXazY0SVNEYjJHdXB6Q3hObkk0ZDI1VldDZGktM1k0d9IBgwFBVV95cUxNWlVxN1dqdkE2QnNzMGlYOUF4MmFNMUpVaFhUN01tVHZUX29pT3E3RzBzSXdCNGlXU3lnSTVGbkROUm9Ka0VDVVVCeHNocDIzdHJQNTBmSEpkakxwOGw5aEhyTlFfY2d1S0hJSF95dmoyYkdDMWZEMUVjNmd6V2xqSFdfSQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 的财报已经出炉，股价正在下跌。以下是需要了解的内容。 - 市场观察",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdkNQdjJETGJ6RENUQ2t6RDRpSzUyUFZEN1hNWkR5TklFclJQODZ4NkxqcnktQnhIWkVKa05zVXVhVzlPSlpQekVxckREQ3E1UXFJZmJCOTJickE5OU1USUZ2ODlYV1ZHUTFuZDdGRU9LSU5EQmFCeHUzejk2alhBUVJTZU5VX3BWTFE?oc=5"
+        "text": "谷歌第二季度盈利超出预期，云收入增长82%，但资本支出增长导致股价下跌 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYlRtemtjVEd6dkxkdjUwTi0yd0xhYVZ0WGk3cnJ0TDlYVEJENVF1b3dNNmNxTDJxS0VPdFFVQVBRdVpmSWZhZmRGQ3NRZzFxSHNGUjU3VnRmajEwVHF6dmtZRHdyb1Y4X3dqRWhNTVFrX1V5NUpMSV96VzdMNjdEV3BSYXc1Z3ZPb1lCQUJyM2tGMTFBeG5JTWl6dm9vSk9iQ25STC1YazhRdWxjaHY4OEtzM09vb05HanpaVmIxaTF6NnpGbTNfMG9GTng1MTFhZFNUemt6eU1wNUZxWUdnb0ozb2Q?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -302,8 +302,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉第二季度财报：埃隆·马斯克的汽车制造商营收超出预期，但利润未达预期，股价下跌 2% - Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbDdab1JFUWZsa3ZxZnctVnc4MWNZRGtId3BNQmZLcVF1YU5YY2R5Vng0UHBnREYySlFweTM3Nm9fNGprVUdMYXNHLUlIQXNvMTVWaVZCOU1CTGFPNUNHbG4xMVg3bU8tOWFpUWtWUWpqNWY0VDdxVHZZRHF4V0hYMkxKdUkycmI4MGh3bWpzdjJvbldfZ25B?oc=5"
+        "text": "由于自由现金流转负且利润率下滑，特斯拉盈利未达标 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01YUI4bnRzTWNFcFNkV0t4aXZpV1NiSkpkb2RDa0FPaE10cHd2anViVTY1azdqQVNPN2N1eWJoalhZSjd6MmxCSTVmNHpUZTRjZ2ozSG5DR0o4Wkc0VzdhcDhFeEtCbTc1bUU3UnE1em9CNURubDFpQkJfONIBgAFBVV95cUxNWG5oWG9wRWpjZERicThsN1dIQUZTSlo2bE5qQlZMcXpLY2VZNXRRWmhDdnFObm5RdmF3c2hRN1lmUmlSWFF6WnFHWW9sc1VoM3lfcUJwWjNIaU55RU9ycy1iTm9zWmtIUTZEY0dpT1pkLTVEMnhrUWpGQ1I5NkZHXw?oc=5"
       },
       {
         "source": "📰 实时资讯",
