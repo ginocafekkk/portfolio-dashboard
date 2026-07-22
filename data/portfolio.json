@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 474.0,
+          "lastPrice": 440.6,
           "ytdStartPrice": 615.83
         },
         {
@@ -92,7 +92,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 117.0,
+          "lastPrice": 113.6,
           "ytdStartPrice": 148.83
         }
       ]
@@ -106,7 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 207322.19,
+          "lastPrice": 206430.7,
           "benchmark": "hshylv"
         },
         {
@@ -114,7 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 142657.38,
+          "lastPrice": 147764.51,
           "benchmark": "a500"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 107843.47,
+          "lastPrice": 106560.13,
           "benchmark": "csi-lowvol"
         },
         {
@@ -130,7 +130,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.73,
+          "lastPrice": 29.09,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-07-20"
         },
@@ -139,7 +139,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 37.99,
+          "lastPrice": 38.71,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-07-20"
         },
@@ -148,7 +148,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 40.59,
+          "lastPrice": 40.86,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-07-20"
         }
@@ -422,7 +422,7 @@
         },
         {
           "name": "VIX",
-          "value": "~17",
+          "value": "~18",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -467,7 +467,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8410",
+          "value": "~7.8405",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -603,14 +603,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7651",
+          "value": "~6.7622",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 1.8亿股",
+          "value": "CSI300 27.9亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
