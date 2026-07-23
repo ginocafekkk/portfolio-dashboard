@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 212.06,
+          "lastPrice": 208.76,
           "ytdStartPrice": 188.62
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 390.34,
+          "lastPrice": 381.58,
           "ytdStartPrice": 470.84
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 627.17,
+          "lastPrice": 606.1,
           "ytdStartPrice": 649.25
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 341.91,
+          "lastPrice": 318.34,
           "ytdStartPrice": 314.91
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 244.85,
+          "lastPrice": 233.66,
           "ytdStartPrice": 226.5
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 374.01,
+          "lastPrice": 319.69,
           "ytdStartPrice": 438.07
         },
         {
@@ -62,7 +62,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 109.33,
+          "lastPrice": 108.4,
           "ytdStartPrice": 112.31
         },
         {
@@ -70,7 +70,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 68.53,
+          "lastPrice": 68.89,
           "ytdStartPrice": 90.99
         }
       ]
@@ -107,6 +107,8 @@
           "shares": 1,
           "avgCost": 200000,
           "lastPrice": 209545.79,
+          "lastPrice": 211258.92,
+
           "benchmark": "hshylv"
         },
         {
@@ -115,6 +117,8 @@
           "shares": 1,
           "avgCost": 150000,
           "lastPrice": 143600.95,
+          "lastPrice": 144684.13,
+
           "benchmark": "a500"
         },
         {
@@ -123,6 +127,8 @@
           "shares": 1,
           "avgCost": 100000,
           "lastPrice": 109850.1,
+          "lastPrice": 109588.06,
+
           "benchmark": "csi-lowvol"
         },
         {
@@ -132,7 +138,7 @@
           "avgCost": 26.913,
           "lastPrice": 28.94,
           "ytdStartPrice": 26.22,
-          "lastUpdated": "2026-07-22"
+          "lastUpdated": "2026-07-23"
         },
         {
           "ticker": "600036.SS",
@@ -141,7 +147,7 @@
           "avgCost": 36.592,
           "lastPrice": 38.91,
           "ytdStartPrice": 39.94,
-          "lastUpdated": "2026-07-22"
+          "lastUpdated": "2026-07-23"
         },
         {
           "ticker": "000651.SZ",
@@ -150,7 +156,7 @@
           "avgCost": 38.51,
           "lastPrice": 40.57,
           "ytdStartPrice": 39.24,
-          "lastUpdated": "2026-07-22"
+          "lastUpdated": "2026-07-23"
         }
       ]
     },
@@ -177,24 +183,24 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4377.1,
-        "change": 0.3,
+        "value": 4425.94,
+        "change": 1.12,
         "date": "07/23",
         "pe": 8.5
       },
       {
         "key": "sp500",
         "name": "标普500",
-        "value": 7498.96,
-        "change": -0.97,
+        "value": 7408.3,
+        "change": -1.67,
         "date": "07/23",
         "pe": 26.0
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
-        "value": 25690.9,
-        "change": -2.2,
+        "value": 25137.69,
+        "change": -2.88,
         "date": "07/23",
         "pe": 35.0
       },
@@ -210,23 +216,23 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.07",
-        "change": 0.08
+        "value": "101.43",
+        "change": 0.44
       },
       {
         "name": "黄金",
-        "value": "4098.9",
-        "change": 2.21
+        "value": "4051.8",
+        "change": 1.03
       },
       {
         "name": "原油",
-        "value": "88.95",
-        "change": 6.87
+        "value": "91.64",
+        "change": 10.1
       },
       {
         "name": "10Y美债",
-        "value": "4.66",
-        "change": 1.93
+        "value": "4.7",
+        "change": 3.57
       }
     ],
     "fx": {
@@ -242,26 +248,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "NVIDIA 正在美国各地收购“Dark Fiber”。这就是为什么这很重要。 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNajNjcmFuNFhQYk80SVl4b1BXVDY5b3g5Y3VIeWcwLWZHaXFfQkg1TTVrLVBQWGhLLW0wMnJwSDNxd0Q5OGpWdlZ0MFVNRzhpdVBwSUd5VHBlM3pBSW01X1lJWVhXVXBVTE9LelpoQldMbnIxbVBYVWxHVUtIeElVUTJkak1kSlI5dURlTlBPRUI4Y1N4VU41YjBZWQ?oc=5"
+        "text": "为什么英伟达股票在 Alphabet 财报公布后没有像应有的那样上涨 - 《巴伦周刊》",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeW8xUU5xOWFXYWRkNzcwalBIRUtRUkN4Q1JlbkpveXlMaE1aLVNNdlR1REJDNFZHUUtna1RJanpYUTk3YXk0TU1PRWVrZG9PYjZHQVRqUU9WY29yMnBYeTVWaUptQlpuWndoNE5iUlAxLVRMZlpRYlljNDRObXYwWlU5RlhuaEU?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达股票：与谷歌在机器人风险投资方面的合作未能提振股价 - 《巴伦周刊》",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSWZJZW9YcXRiRmM3MWpsb2pTbWlqUmNsNnJwUkFUTF9rZW9JbHZ2bFlyYkhmem40UEpFay1IS1lOVDhCeDhOODU3clk5cE1idTdfaS1ERVg3YkwxUDFkVm1QSGpZcmJzSGJOVWR5RGlndDNnVVBnSlVBMXJ3UQ?oc=5"
+        "text": "Nvidia 与 Intel：未来 3 年更值得拥有哪只 AI 芯片股？ - 杂七杂八的傻瓜",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOFVKRTRYbWdrV09HQ2gzLVhCZ1pUWHVOWS1rWndJM2hqaDl6TXdWN1g0TUQxSHpOYUdYLXZ0Q01hOWpud2VLVUh1bkZFeXFBZ3ZTMTV2ZGxJd0JWZi1aVExDdkRrczREcXZKWGtYZEdWbXYycXR0Wnh6dUhoZmt6VV8yalFEd2xZcFpXNjN1eWd5V0wxbUtn?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软：如何应对 2.5 年的死钱（纳斯达克股票代码：MSFT） - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY1hlX2x0b2R3SEY3UnoybTl4dzd1bkVENm5tQkhMMVQ1TXVuWGJLVTZwSDdvdHdCRWM0dFVaMmVzODl5OU5Qb010a1NGbVQ5eUppWlVFREVvaVdHQzVKcVF5c0lQOFlOanNLSV9Qa1N3dV9ZaGRVdmpnd2xfZzZyX1lxN3R1NzF0SzZsTkRsMnJ0ZEdvemc?oc=5"
+        "text": "微软：在盈利之前有一个更好的切入点（纳斯达克股票代码：MSFT） - 美股指南 - 美股开户 - 港股开户",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOHp6SkJvaUNkc1RSSnVJVThMZklpUWNjZlJaa0U0TzdHVXpSaHlxQUVqWUVLektTaTBlUklBSDEtTVY0LTJMai10QkFxQUdndnJDZnFab3R4ams0dzBmZ0d2eTUzVmJRVGE0NlJ0S21jcmJXSWV1aVVLZWpPQlAyU25hOFFLVVFxZTJMUFVjX0tyT1l6RUNPUmxn?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "随着 Copilot 失去免费功能，微软股票 (NASDAQ:MSFT) 下滑，担忧加剧 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnZhQVBoaDNXeGtHZzZtYVdoYUlCS3FiNVVXYW1mc1pzQlprZnNEQXZ3bTM2ZFVqZ1RqTFNOQnA0RGplR0R1Q2xYUTVxWDU1RVBOdlBGN1d0eld6WmN5T25UOVh5YWNNU18yVUdsLWRfQldESUdQcXZHYXprNVpPVzZvNkJ2VjV6VTFYaFQzaHpVbjFpUG9FM0tZY3FYMFFxMGJ6QXZXUEhjZ244?oc=5"
+        "text": "谈到盈利，微软股票是买入、卖出还是估值合理？ - 晨星",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUzNBTkhXakNuQnR3aHhOd3NWbWhRZnlkVEcwc2lEQm0ybFJ4U0NQaS1wMG9JODBtbi1XdEw4T0VlRF9oTEcwYzJIMlBCTW0zV0FMdTQwQWVXbTF6QzJQS043UXNTWTVzTm5sejA4S2dZTnBQNnVKOVNSOFBHZUl5REhwMWZIWm1CR0RfTFEyZ3U2Vlh4ZTdEcWtaaHAxSTVEbExpZnJxMkJzTWNyZml3?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -272,20 +278,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "在盈利之前，Meta 股票是买入、卖出还是估值合理？ - 晨星",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeTZ0bmFSWHdSWjg1TzVXcjA1M1RFbFp6aVNydGVZdTdtOGpsanppMFJBUHE5Sm05NFJiNnJmRDJkVzlZMWJ5VnpiWEc0anJ6VVRfdHN6dXE1M2FXREdYX2tkNjhkUm55U01adVMwMHMxN2lvSlNoTWpiRTlQOVhjanRxZWRZb2U4aEl4c19WNkJSbllLeXc?oc=5"
+        "text": "马克·扎克伯格 (Mark Zuckerberg) 的 Meta 正在就一项 100 亿美元的 Anthropic 交易进行谈判，这将使 Meta 成为第四大云提供商。 Meta 股票报告第二季度收益",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2dLa0dKZGYwU3I5N2VpZU1ucTUtZ2tka2drMEg2anZzWktHUy1INGwyOFRhMElIVENUeUpqNUlWQXVWRzQ4dk04OTBJUnFIbzhBZXVtSDhHTHE5MVlxVjRpZHl5RjgwanZGUndsRWVTN2xfTDFDOVp4VU1hZFRKRDI5UnpzM2hqR0hUWkE1OUU3SXk5ZjhVYw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "谷歌第二季度盈利超出预期，云收入增长82%，但资本支出增长导致股价下跌 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYlRtemtjVEd6dkxkdjUwTi0yd0xhYVZ0WGk3cnJ0TDlYVEJENVF1b3dNNmNxTDJxS0VPdFFVQVBRdVpmSWZhZmRGQ3NRZzFxSHNGUjU3VnRmajEwVHF6dmtZRHdyb1Y4X3dqRWhNTVFrX1V5NUpMSV96VzdMNjdEV3BSYXc1Z3ZPb1lCQUJyM2tGMTFBeG5JTWl6dm9vSk9iQ25STC1YazhRdWxjaHY4OEtzM09vb05HanpaVmIxaTF6NnpGbTNfMG9GTng1MTFhZFNUemt6eU1wNUZxWUdnb0ozb2Q?oc=5"
+        "text": "Alphabet 财报要点：第二季度营收超预期，GOOGL 股价因 2026 年资本支出上涨而下跌 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhQmgwTmR1aXpDTm5sVklCWk9RSjQ2UTNqTlhkNGJINlJIcGE2bFk0UDdOb2h2WDFfUnZLTm9PQ3ZuRm9oYWRjMHJmNTFTVkxaTkhneUEzVmF5WDNQd1ZXazY0SVNEYjJHdXB6Q3hObkk0ZDI1VldDZGktM1k0d9IBgwFBVV95cUxNWlVxN1dqdkE2QnNzMGlYOUF4MmFNMUpVaFhUN01tVHZUX29pT3E3RzBzSXdCNGlXU3lnSTVGbkROUm9Ka0VDVVVCeHNocDIzdHJQNTBmSEpkakxwOGw5aEhyTlFfY2d1S0hJSF95dmoyYkdDMWZEMUVjNmd6V2xqSFdfSQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 的财报已经出炉，股价正在下跌。以下是需要了解的内容。 - 市场观察",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdkNQdjJETGJ6RENUQ2t6RDRpSzUyUFZEN1hNWkR5TklFclJQODZ4NkxqcnktQnhIWkVKa05zVXVhVzlPSlpQekVxckREQ3E1UXFJZmJCOTJickE5OU1USUZ2ODlYV1ZHUTFuZDdGRU9LSU5EQmFCeHUzejk2alhBUVJTZU5VX3BWTFE?oc=5"
+        "text": "谷歌极端的人工智能资本支出计划引发股价技术警告 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRTBBeUdPRF94LXpNWXVhQllDVlZWd3dyQzJkNGNUY3ptS3NDWkhWRUx1Z056a3ZwZlZGT1RkWGNXZDJSYUNhd1RiamN5WGRGMTNINEQ5My1uaXhZN25sRUZNbm1LM3RYblNJVDZ4bTYzRkNnUExqdFhPOEpHU3ktblJVbWRBRmNjVE9nc0pSV0swWWZkc3ZQVXZxUi1UdkhsUEFVUkdZUm5ZMm1NdmFSNExOTHM3LUI5QmZybk9zaHJZUG1jZGtLTkxETXV1MlNDSUlxNTBqWGdWZVZWNkRxelZVeWQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -296,20 +302,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "为什么 AMZN 的成本高于同行 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaTlKVkdyU0FLMmZXMUtqRWgyUFQ3ZjV4OWVPYWVNOXdvRDd2RGxzWkxrVThIY2lKQzd1T3o3YkNuSjNmYk5jOFA5NmtnSXU5M0RDdDU0cDBOMDB0cUhwRU95bklsVWVYM1Judll1ZWRaTDN0cGFaR1FBNXVKQS11VVg1d3dkSjJmRkkzZHhqOVZuUXdONE1hdE9HLWN2Mnc2blE?oc=5"
+        "text": "谷歌为人工智能巨额支出定下基调，亚马逊股价跌破关键水平 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3R2THRaNVhTU0NMSXdVNGxXd1FnQ0lJNXpkaEpSeUNFdE5HenB3SGtVcTJINGxNaXg1ajBCQnR1RERrcmo5ODJyVjZRM0dwQ2NkdEFVTUJoVDdnS2J3NGROOU92Tk1oV1ozWEF0ZGpYLW1jY0xJT0hvdE8tT1h0Y2xPVWRUTFZh?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉第二季度盈利回顾：利润低于预期后股价下跌 - Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbDdab1JFUWZsa3ZxZnctVnc4MWNZRGtId3BNQmZLcVF1YU5YY2R5Vng0UHBnREYySlFweTM3Nm9fNGprVUdMYXNHLUlIQXNvMTVWaVZCOU1CTGFPNUNHbG4xMVg3bU8tOWFpUWtWUWpqNWY0VDdxVHZZRHF4V0hYMkxKdUkycmI4MGh3bWpzdjJvbldfZ25B?oc=5"
+        "text": "特斯拉股价因盈利失误而下滑；雅虎财经确认全年资本支出达 250 亿美元",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdWpRYmNsaWo5eWFQV0Z6T0M3bDI4TG9ka1VEZ3luY3k5VDhZdEZrU1VGbmdtTXBnaVZrMHhDSHQ5bU5Kem5VUzdoQXBXVURGRkw5Nk9VejhiV1V1LTVtV29IaXBmcWlpTG1ndXdONVNNQmdfcl96R3RUcGRaLTRtZ2dhNWdJTWFaVFpEdmhsa0lZeDRpYlNST015djFRNWc1eExrMFJSblo1OWN1TVJjY3JQYVR6Y1d3OXNGMTdkMXN3cmx0ZkJyR25DajdFd0swT0lPQmFpNkYwU1NWTmxR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "由于特斯拉股票（纳斯达克股票代码：TSLA）下跌，特斯拉可能面临收购要约 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbzJEY005cGk1T2Z5eXM1VW9uSFljTHhtSUdLSzVHV19CRy02eG5FZS1GX2xfS1Y0N2VINDhsdjRGZ3Nwb1RZVE1KeHFLVWVVdGM0VUtWTTlYRmxLdUVOLXR5Zy1rZ0Y4emJjNzlqTW5aNUFZalp0MFFyQU5qQmk1V0w3eEx5bXNZYkhmNWUwakthb3c3WXhiUTJ2SE8?oc=5"
+        "text": "由于人工智能支出担忧吓坏了投资者，特斯拉股价下跌 14%，Alphabet 股价下跌 6% - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OYTJ6UVVqeUZ4Y041NlUtOUdGbkVlRkdCZVlVQWI5WXBqaWpITFpYcUxFNjdaWHFwbG5MU25seGtDS0M5YW42aHBUXzJhSGI2Z0UybWt4Z2o1U1JSNHpnY3BDcnNyeTVDOWNmMFRYZFdKekQyVVBVNUo3eW8wN2vSAYQBQVVfeXFMUDRiSjU2XzJhdG91Q1RDOEppaldaeXFvbGxLZkN6cEZfdFRnYW5hdEY3akpzUXg1aXNHN3F0ZFpDb21CZ0VSa21ZUjhNTGczRU02a0VWX240YU80SXhaeVZHRDJzejZKeVZ6dDJsbGtfWkowMGF1Z3VnYTFqb2dPamcyMGpp?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -332,8 +338,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix (NFLX) 股票的现金流和盈利看起来仍然便宜 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTZRTW44a09WYTlvZVhWcTQybUxBTlVmQlpvYTRQM2N6bzAzXy1BTDE2ZjY4RUVZZEtXeEw3WG45U3kyRmNHQ2xMeTlCbDc4YnFIOVRLWXJKaE1FWFNhaE9HMkZCU2RIQl9zc3p0aFA2cjkybFJMbTU3dEtucnRxX1EzeXljanlGVGRQUnpwOVNpM1pPekNhemFFWQ?oc=5"
+        "text": "Netflix 股票最近暴跌 48%，你应该购买吗？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUHhyZzRZMUdXM2pqdm5jbngtMFJ4Vm9pczBXTU9lY053UGZINUtwRjA2RDYzNzZRNzhjbTMxQUl0cTNEc0tQUW1zTmdjVW5ORUo4amU1ZmhqRDhqVUJXcUlSam9idUZjUi1xT3JqOFRFSGg2T0FxXzVwUlBHa3F3Q0dVSHpsODEwVnhUSmxobzRybGZxNXJj?oc=5"
       },
       {
         "source": "📰 实时资讯",
