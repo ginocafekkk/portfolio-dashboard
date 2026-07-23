@@ -106,9 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 209545.79,
-          "lastPrice": 211258.92,
-
+          "lastPrice": 213625.02,
           "benchmark": "hshylv"
         },
         {
@@ -116,9 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 143600.95,
-          "lastPrice": 144684.13,
-
+          "lastPrice": 144944.56,
           "benchmark": "a500"
         },
         {
@@ -126,9 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 109850.1,
-          "lastPrice": 109588.06,
-
+          "lastPrice": 109993.54,
           "benchmark": "csi-lowvol"
         },
         {
@@ -368,7 +362,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-07-23",
+    "lastUpdated": "2026-07-24",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -421,14 +415,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.66%",
+          "value": "10Y 4.70%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~18",
+          "value": "~19",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -456,7 +450,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $79.52",
+          "value": "HYG $79.23",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -473,7 +467,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8405",
+          "value": "~7.8400",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -501,7 +495,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.1",
+          "value": "~101.4",
           "status": "bearish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -609,7 +603,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7697",
+          "value": "~6.7696",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
