@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 208.76,
+          "lastPrice": 206.84,
           "ytdStartPrice": 188.62
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 381.58,
+          "lastPrice": 381.7,
           "ytdStartPrice": 470.84
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 606.1,
+          "lastPrice": 595.19,
           "ytdStartPrice": 649.25
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 318.34,
+          "lastPrice": 319.09,
           "ytdStartPrice": 314.91
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 233.66,
+          "lastPrice": 232.11,
           "ytdStartPrice": 226.5
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 319.69,
+          "lastPrice": 313.03,
           "ytdStartPrice": 438.07
         },
         {
@@ -62,7 +62,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 108.4,
+          "lastPrice": 109.47,
           "ytdStartPrice": 112.31
         },
         {
@@ -70,7 +70,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 68.89,
+          "lastPrice": 70.09,
           "ytdStartPrice": 90.99
         }
       ]
@@ -106,7 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 216017.62,
+          "lastPrice": 214440.69,
           "benchmark": "hshylv"
         },
         {
@@ -114,7 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 145205.46,
+          "lastPrice": 142620.8,
           "benchmark": "a500"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 110400.52,
+          "lastPrice": 109561.48,
           "benchmark": "csi-lowvol"
         },
         {
@@ -362,7 +362,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-07-24",
+    "lastUpdated": "2026-07-25",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -415,7 +415,7 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.70%",
+          "value": "10Y 4.68%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
@@ -467,7 +467,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8420",
+          "value": "~7.8414",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -495,7 +495,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.4",
+          "value": "~101.5",
           "status": "bearish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -603,7 +603,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7735",
+          "value": "~6.7617",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
