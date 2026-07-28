@@ -201,8 +201,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5790.92,
-        "change": 1.53,
+        "value": 5606.07,
+        "change": -3.19,
         "date": "07/28",
         "pe": 15.0
       }
@@ -210,18 +210,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.51",
-        "change": 0.37
+        "value": "101.5",
+        "change": 0.07
       },
       {
         "name": "黄金",
-        "value": "4079.9",
-        "change": -1.62
+        "value": "4043.2",
+        "change": -0.08
       },
       {
         "name": "原油",
-        "value": "82.0",
-        "change": -5.56
+        "value": "80.21",
+        "change": -12.99
       },
       {
         "name": "10Y美债",
@@ -242,14 +242,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "数据中心报告发布后，英伟达股价暴跌 - 华尔街日报",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYVFLVEUxZ3c2Rlc2MHNiRkk0YkJzZ2dIVEMzZlJhbkowbUhqNm1CaXNRUzA1XzJWUnF1cnhjVFRnSWRmTFJiXzRUU2xWajdCNHlFLUczeHZXQmpiYXg4YkVkTDRTZ1pzY0dtWW90N0ZsNHRTSlIzRnVpQy1haWZydjJSS1hjVy1Pd1N1T21WZmhFTUZ3V3VXV1hvbmtTNUNvMmd6VEx0SXJjQm9UQWpHYW1OTWZWbHBWeHZfVE9JWTZqZFhWMlJtc1dQZzRDSGRUWjh5M0NWUmlEaEpxcEhuNWltWk1TQQ?oc=5"
+        "text": "循环融资忧虑重燃，英伟达股价下跌近5%，引领芯片股走低 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaXFDbHVlcXROeDRFRXlmM1NQM3UwUUdPZ19ocmh0MjNZSzlJYjI1NTROYTVDeGoydGZKV3JoSzFXSWRSUVFaNkhkTzdHNUlmcGN0VTZUX3RjLTAtU2xYWjZ4TktnR0lscm9qbG8yN29Sd1hMbnUyZFNqbWQxWnVxZmRWRzZVLTNGNFNYZGtPbVdBcHAteGttWGVSNWI2Y3ZyUDhhUjZ0M3huQk0zYVBmdkQ4NXJjSkIzYUFpX2VDTG1tbTlqTUoyMFo4Wm4tMThINVg2YmllWnZtWS1WSENpSg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Nvidia：报道的 OpenAI 交易引发了循环交易担忧，但我们认为该股被低估 - 晨星",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT1IyeXRYc2tUMWllLS1HVUZyR1NUNlVVLTJRSjJuNFpqX0tjQWhNSVNMMDlKWVhvdkFuWlkzNWw3bGdtS0VIVS1FY0RwTTMydWZnZklJY3JfQnA0SU03ZkJpMzg5Zmo0ZFAtMExyMlF0czlqUkllYVZYWXNPSFczaEpvWElZV0V2SWx1Y0JqRlM1VnFQc0pLSEoxTXV6NEVIU1ByU3M3bzh2NUhJbUQtMHprQkUzSl9mc3l0ZWdiU2FrcmQ4aVhr?oc=5"
+        "text": "数据中心报告发布后，英伟达股价暴跌 - 华尔街日报",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYVFLVEUxZ3c2Rlc2MHNiRkk0YkJzZ2dIVEMzZlJhbkowbUhqNm1CaXNRUzA1XzJWUnF1cnhjVFRnSWRmTFJiXzRUU2xWajdCNHlFLUczeHZXQmpiYXg4YkVkTDRTZ1pzY0dtWW90N0ZsNHRTSlIzRnVpQy1haWZydjJSS1hjVy1Pd1N1T21WZmhFTUZ3V3VXV1hvbmtTNUNvMmd6VEx0SXJjQm9UQWpHYW1OTWZWbHBWeHZfVE9JWTZqZFhWMlJtc1dQZzRDSGRUWjh5M0NWUmlEaEpxcEhuNWltWk1TQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -260,8 +260,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "随着微软涉足芯片设计，微软股票（纳斯达克股票代码：MSFT）上涨 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWEtNaElvTXRXb1piT1ltZ1ZKNFJUY2N1cVU5RUo3empocGt1RzUyTWJ6elZoUHNYNTlrM1YyeXdmY3lOdzQyZWJQWkdUODRocVZLMHhCU2drYUFEczlHTXRmaU9fWk44Z1JQY0dJNE0zWlNoTVVFNmdMenNTVWZURHJiYnJmWVlvZW96d293WUE4RFc1UDJtWURmZ0xvOEJjTDlQcVdR?oc=5"
+        "text": "微软：大型科技行业的最佳买入机会之一（纳斯达克股票代码：MSFT） - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZlpMTF9aVkVQek9BS1ZVa1UzZC1WcjJLb1UzU3dNLUxrUU1TNjFoWEUyWWc0UGxVNFJqTl8zT0ctOTVEdFgwbGNxS1BNU3ROWkN1cHRaUy1GVThfaUJMUENqMW1xSFZQT0xvR3l0OFE4OUM0UWRuNVdUSlZqMnFqcmc5QkprM1QzTmFjbjRxZFQwSWh6bEE?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -272,20 +272,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Cathie Wood 刚刚向 Meta 股票注资 1800 万美元。这就是为什么。 - Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkN3Y0hNQlJUM05xU3NqZmp4bEtHLTZXY01DZ29Db0kyUW9nWTUxM0VCWGdEMHhMakhRdjRwZnN3REpudWpaWmpKRl95N3h2N1gwTjl3cmFhTklCMlRzalo2UWZOdnFQYXVjVFpxNjRkUHZNNFFLQWdlRzJwQ1JVMWtRMGdQb0txRHdIMGZBV3dJWUZRMUwxYmRpV05icUhtcTltOHFobw?oc=5"
+        "text": "元平台：贪婪的时间到了（纳斯达克股票代码：META） - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OWWxBWTZvNU1PeVkwY0I5dmJHaTBtbnY1eGh1X1hGcTdJZGQ4TmF1bjlKa2p1cWNkejlxcWlpSktodGFyUWNsWjEyMDZVUXR6N1F4bVlRTEdnTjZEYVRmTWJDNEFqNXBfczQ3Rk1FLU41MXBuUW9OY0wwZDNSUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 财报要点：第二季度营收超预期，GOOGL 股价因 2026 年资本支出上涨而下跌 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhQmgwTmR1aXpDTm5sVklCWk9RSjQ2UTNqTlhkNGJINlJIcGE2bFk0UDdOb2h2WDFfUnZLTm9PQ3ZuRm9oYWRjMHJmNTFTVkxaTkhneUEzVmF5WDNQd1ZXazY0SVNEYjJHdXB6Q3hObkk0ZDI1VldDZGktM1k0d9IBgwFBVV95cUxNWlVxN1dqdkE2QnNzMGlYOUF4MmFNMUpVaFhUN01tVHZUX29pT3E3RzBzSXdCNGlXU3lnSTVGbkROUm9Ka0VDVVVCeHNocDIzdHJQNTBmSEpkakxwOGw5aEhyTlFfY2d1S0hJSF95dmoyYkdDMWZEMUVjNmd6V2xqSFdfSQ?oc=5"
+        "text": "META_TITLE_QUOTE - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cTBUdmJTdWRuVFN1QjQxcDh1ZzMtcElOUHNJck5hcVpNSXNzbE9yYjFOakNHMzBDa3Z6ektnUEV4MkYyU1FkNzZ3TXM1S3M?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 股票周一上涨：发生了什么？ - 本辛加",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0R4YklnM1p0dXVSRUpDUF9KeGtpcy1FX29wcjZkTlluM043UnpxQjIxU0gweVRoNE1LaHJkMnl0ajZVX01QRUpLWG5fb2ljc251cm5fTnY3eWtZcG9fU3pFSnNmTDEyZ29VLVJBek9VQXB3WlYtajBWTDZiajhkLS1rQlk0V1FWWDMxQ0hKcDV2dzZpYkk0ZzQ1T3JNb0EzTUE?oc=5"
+        "text": "Alphabet（纳斯达克股票代码：GOOG）股价上涨 2.3% - 仍值得买入吗？ - 市场节奏",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWWNpenB0enRGNTEtb1JDQlNUN0dvR05NdlV0Ymc3TEJWa2ZFMjhocXhUNzF4UWFGbjY1V2VkRTdFaGZlSVdEWFJELTFHVUlSRFFhVFNjMkM4QjZianQ1bkl5X0JKR3JhNi1VRGNNQmFsT0UyTWNubl9OZ2RRVWxTb2MyXzFtcDJqaHpOVkowbHM1Rnc2UW51WHlWS2JhOW53OENqS19n?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -308,8 +308,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉遭遇汽车业最大的失败，特斯拉股票（纳斯达克股票代码：TSLA）下跌 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPblBxZXVoQnlQM3RyLTgwOHRtZDhjSVA5a1FRSFhxUU1uQnY4Z044NVk2VzRWRDZ5S05vaHJrSXFOMEYzY2Q0cGRrNldPX2xPSHlGQV9DcXRNVEdrT2wxSGlmbml4djlaemNrNURxNV9WenpTbHREaXpyaGJxdHFST01QbTA5Ml9Ld09rUnlFX2xBcWRMWE94TXVTNWRxdw?oc=5"
+        "text": "SA 分析师升级/降级：INTC、TSLA、SPCX、PLTR - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHh0N3oxUklqWmd0V1pSeTN6S1NDUDZHdlJTNnNucHdkZFFaYTZwTDdpSmhTd1B4OFlSNGMxNHcwRHlJM1pzNU1PX2RnMjN4dkpVNGg0aGVzcEU1RmZLa1VXOEtrOElmMllvYjJLMDhhNWRTNHpzR3ZlRDl0cFNnOHFnbkJybDFIQ3RpeTJWWWZqUQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "WMT",
+        "text": "沃尔玛（WMT）击败股市上涨：投资者需要了解什么 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbDJWV0EyR1dMRWNlZHFIM0Noc0RDVGVmQno4NzFRN1YwN2hyb1FRWlF1OUxaM1d3dlgydGh1VS1laXlRNUg2NUplRXlfeko3MkJjQkw3aWdDYzZyN1ZfRFJVb3VCWThMWERGN0dXSm5kZmwzYVhBTzNBMVdrTUVPdEdqQzVpSklwTGZHRFRLWXphUS04Si1lMk5oVQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -319,21 +325,15 @@
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "WMT",
-        "text": "沃尔玛（WMT）股价因市场上涨而下跌：投资者需要了解什么 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbEkyUlRONnNybjVHSThqbnVIYXctbVBNaFBmeE9makNZVWVUM0J4Mk5xQXFHZnNiaTlCdy1GUWx6WW50REI4Ny1KNmxIR1kwdjI2YmV1X0xsM0YxdkU0N2I5RF9zaGZ0c21xVmpRaC1fdFpSXzROQ0VVTE1nUmVmank4U1BPMUE2Mm01cU5PRmtBMU0tb0tGdA?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "NFLX",
-        "text": "等待 NFLX 股票上市销售即可获得 9.5% 的报酬 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc2ZLSEJWUkRlNWpwb2UxZkdVUjRmMFNMZklfMjNHNktONm1UWHEySGdLaWlhR21mVUtVT2FIT2xFUGd3bm9SZ3N1QXVRVnpIajNMNE9DbWlibm9HcDJucTNxMjRZZHRtZFNtVVlkUVZZZkJ4OGZVZEJfTGRVdDhkY2ZZVVVYQmpEQTdPazRIU1dZd3cwbm1EZFYyTzZWbnRKN3ZUcXNwa1lKaFgwTDdV?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
         "ticker": "NFLX",
         "text": "交易员 Mike Khouw 表示，Netflix 在为好莱坞结局做好准备时遇到了麻烦 - CNBC",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSG9mT1VnYURLVUdjUEk4LVZxeXlwZnZHMnp5cXlrRHhKN24wSWptc191czhKdTRHbEN4LW9nUEhDWEhvSERjWkhOWjdUUzF0RG5uME5DeGluZmtpbFJ2YnZmZGQxZG8yYTI4Q1pKYkRQc2pSeXQwNDM3a29McDR1S2ZvMTVlUThsc05LaWd1SDBBclo2R0JwLVlCdllrYWw4WVFTY1FTTmNiZ9IBrwFBVV95cUxObXcwb3NqZWszdWxaS2c2V3BHbjRFNzZINWp2NmJBNUQ3a1ZValI3NXhBNUp3ZVI1cHk4MnlrUXIwcTkzaFZ3Wnp3YVZEV1VMQk0wNVpEMTUwU3ZGM3A3U2UzajlQNFdQMzgzWEZwdlp5dzhTc2p6WkFlSnpLVjRmTTNGazVXby1sOGc3Wk13al9XV1EzeUtLNGdfXzZySkV6TldRcGUtbXVlaVFkUDUw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "NFLX",
+        "text": "我预测 Netflix 7 月 16 日后会飙升。但股价却下跌了 6%。这是我是否仍然是买家。 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVldWMnpPcGJZR2EySjktdW1oMmtoWFpadkFNOFJ2eXd6NVl1eHl5SU1Ud1J4RDVVbEM3Z2J0SUR6cHBnLUxoRWE1RklWVExWN2hjUXJrajhuT0lRR012TXNQb1lZbVpxWHlNNkVNS2VsQXRuLTdCdDJmUmtPcGh3NUdsUC1pU1RQbmliNURtdXc2VmxodVI2NTNuQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -350,14 +350,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "人工智能驱动的收益回落，阿里巴巴 (HKG:9988) 股价下跌，蒸发近 940 亿港元 - TechStock²",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWJrajRrSXktV3FDZ19mZTItYS1kNnJvbzNROXcwZW5zX191NVVkSmxXVHExdW5HemVDcHBCbndsWDV6SlVzc2hXX2ROSWlHWEdSUV9oNGNKUnoyQW5IWXU2VlVqTm9MR196WktLZnlCbjl0ZnJOVDhrVnUwQ0VGUFdQTHdHX3o2MlBaNGJxVnpVU0NfdlE1QmJzWENBRlBYZGREVjFxRWc?oc=5"
+        "text": "今天阿里巴巴港股为何下跌？ - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2hlbkotbWk3cGRnV2djcGtnM3QwVlBPYWhpeXhEbnlyNjc5ampkN0R1VERkaGhtV0d3ZEVLd05FWjhVR01pR0lzMGMxci1NMjBTZnJ0a3FhV2Q0UUhvYjc5YVhYeTlfcUx6MDlxT2tSNkh6M2RqVmVVUHJab3puODN4UWlMT3V5X2hrc0V3RGV4UGs0UTU1VnF6dzVnTzFQcmc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "今天阿里巴巴港股为何下跌？ - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2hlbkotbWk3cGRnV2djcGtnM3QwVlBPYWhpeXhEbnlyNjc5ampkN0R1VERkaGhtV0d3ZEVLd05FWjhVR01pR0lzMGMxci1NMjBTZnJ0a3FhV2Q0UUhvYjc5YVhYeTlfcUx6MDlxT2tSNkh6M2RqVmVVUHJab3puODN4UWlMT3V5X2hrc0V3RGV4UGs0UTU1VnF6dzVnTzFQcmc?oc=5"
+        "text": "人工智能驱动的收益回落，阿里巴巴 (HKG:9988) 股价下跌，蒸发近 940 亿港元 - TechStock²",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWJrajRrSXktV3FDZ19mZTItYS1kNnJvbzNROXcwZW5zX191NVVkSmxXVHExdW5HemVDcHBCbndsWDV6SlVzc2hXX2ROSWlHWEdSUV9oNGNKUnoyQW5IWXU2VlVqTm9MR196WktLZnlCbjl0ZnJOVDhrVnUwQ0VGUFdQTHdHX3o2MlBaNGJxVnpVU0NfdlE1QmJzWENBRlBYZGREVjFxRWc?oc=5"
       }
     ]
   },
