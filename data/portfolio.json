@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 453.0,
+          "lastPrice": 466.4,
           "ytdStartPrice": 615.83
         },
         {
@@ -92,7 +92,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 113.9,
+          "lastPrice": 113.6,
           "ytdStartPrice": 148.83
         }
       ]
@@ -106,7 +106,7 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "lastPrice": 214598.01,
+          "lastPrice": 216529.39,
           "benchmark": "hshylv"
         },
         {
@@ -114,7 +114,7 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 130945.62,
+          "lastPrice": 127030.35,
           "benchmark": "a500"
         },
         {
@@ -122,7 +122,7 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 109434.86,
+          "lastPrice": 110277.51,
           "benchmark": "csi-lowvol"
         },
         {
@@ -130,7 +130,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 29.5,
+          "lastPrice": 28.93,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-07-24"
         },
@@ -139,7 +139,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 39.98,
+          "lastPrice": 39.66,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-07-24"
         },
@@ -148,7 +148,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 40.79,
+          "lastPrice": 41.65,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-07-24"
         }
@@ -467,7 +467,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8403",
+          "value": "~7.8428",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -495,7 +495,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.4",
+          "value": "~101.3",
           "status": "bearish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -603,14 +603,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7710",
+          "value": "~6.7650",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 1.0亿股",
+          "value": "CSI300 33.3亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
