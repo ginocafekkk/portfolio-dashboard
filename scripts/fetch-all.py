@@ -206,7 +206,11 @@ def fetch_a_share_price_with_change(ticker):
             if len(parts) >= 5 and parts[1]:
                 net_value = float(parts[1])
                 change_pct = float(parts[4]) if parts[4] else 0
-                return {'net_value': net_value, 'change_pct': change_pct}
+                # 净值日期 (parts[5] 形如 2026-07-31";，需清理)
+                nav_date = ''
+                if len(parts) >= 6:
+                    nav_date = parts[5].strip().strip('";').strip()
+                return {'net_value': net_value, 'change_pct': change_pct, 'nav_date': nav_date}
     except:
         pass
     return None
@@ -226,10 +230,19 @@ def main():
             if market_key == 'a':
                 a_data = fetch_a_share_price_with_change(s['ticker'])
                 if a_data and s.get('lastPrice'):
+                    # 防止同一天重复应用涨跌幅：记录已应用的净值日期
+                    nav_date = a_data.get('nav_date', '')
+                    last_applied = s.get('navDate', '')
+                    if nav_date and nav_date == last_applied:
+                        # 该净值已应用过，跳过
+                        print('  \u23f3 ' + s['ticker'] + ': \u5df2\u66f4\u65b0 (' + nav_date + ') \u8df3\u8fc7')
+                        continue
                     s['lastPrice'] = round(s['lastPrice'] * (1 + a_data['change_pct'] / 100.0), 2)
+                    if nav_date:
+                        s['navDate'] = nav_date
                     p = s['lastPrice']
                     price_updates[s['ticker']] = p
-                    print('  \u2705 ' + s['ticker'] + ': \u00a5' + str(p))
+                    print('  \u2705 ' + s['ticker'] + ': \u00a5' + str(p) + ' (nav ' + (nav_date or '?') + ')')
                 else:
                     print('  \u274c ' + s['ticker'] + ': \u83b7\u53d6\u5931\u8d25')
             else:
