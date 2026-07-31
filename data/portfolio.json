@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-01",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 195.04,
+          "lastPrice": 200.75,
           "ytdStartPrice": 188.62
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 451.1,
+          "lastPrice": 464.72,
           "ytdStartPrice": 470.84
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 539.03,
+          "lastPrice": 556.71,
           "ytdStartPrice": 649.25
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 333.68,
+          "lastPrice": 356.65,
           "ytdStartPrice": 314.91
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 235.5,
+          "lastPrice": 271.58,
           "ytdStartPrice": 226.5
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 308.85,
+          "lastPrice": 311.21,
           "ytdStartPrice": 438.07
         },
         {
@@ -62,7 +62,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 111.1,
+          "lastPrice": 111.2,
           "ytdStartPrice": 112.31
         },
         {
@@ -70,7 +70,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 73.17,
+          "lastPrice": 71.71,
           "ytdStartPrice": 90.99
         }
       ]
@@ -106,7 +106,9 @@
           "name": "易方达恒生红利低波A",
           "shares": 1,
           "avgCost": 200000,
-          "benchmark": "hshylv"
+          "benchmark": "hshylv",
+          "lastPrice": 217140.59,
+          "navDate": "2026-07-31"
         },
         {
           "ticker": "022438",

@@ -56,10 +56,11 @@ def fetch_a_fund_price(ticker):
         r = requests.get(f'https://hq.sinajs.cn/list=of{ticker}', headers=headers, timeout=10)
         if r.status_code == 200 and r.text.strip():
             parts = r.text.split(',')
-            if len(parts) >= 5 and parts[1]:
+            if len(parts) >= 6 and parts[1]:
                 nav = float(parts[1])
                 change_pct = float(parts[4]) if parts[4] else 0
-                return {'nav': nav, 'change_pct': change_pct}
+                nav_date = parts[5].strip().rstrip('";\n').strip()
+                return {'nav': nav, 'change_pct': change_pct, 'nav_date': nav_date}
     except:
         pass
     return None
@@ -99,9 +100,19 @@ def main():
         if s.get('benchmark') or s['ticker'][0] == '0' and len(s['ticker']) == 6:
             fund = fetch_a_fund_price(s['ticker'])
             if fund:
+                # navDate 防重：同一净值日期不重复计算
+                if s.get('navDate') == fund['nav_date']:
+                    a_ok += 1
+                    print(f"  ⏭️ {s['ticker']} {s['name']}: 净值已更新 ({fund['nav_date']}), 跳过")
+                    continue
                 # shares=1, lastPrice=总市值；用净值变化%更新市值
                 change_ratio = 1 + fund['change_pct'] / 100.0
-                s['lastPrice'] = round(s['lastPrice'] * change_ratio, 2)
+                base = s.get('lastPrice')
+                if base is None:
+                    base = s.get('avgCost', 0)
+                    print(f"  ⚠️ {s['ticker']} {s['name']}: lastPrice缺失, 从avgCost初始化")
+                s['lastPrice'] = round(base * change_ratio, 2)
+                s['navDate'] = fund['nav_date']
                 a_ok += 1
                 print(f"  ✅ {s['ticker']} {s['name']}: ¥{s['lastPrice']}")
             else:
