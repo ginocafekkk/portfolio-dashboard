@@ -121,7 +121,7 @@
           "name": "\u534e\u6cf0\u67cf\u745e\u4e2d\u8bc1\u7ea2\u5229\u4f4e\u6ce2A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 113706.86,
+          "lastPrice": 113297.52,
           "benchmark": "csi-lowvol"
         },
         {
@@ -176,8 +176,8 @@
       {
         "key": "hshylv",
         "name": "\u6052\u751f\u7ea2\u5229\u4f4e\u6ce2",
-        "value": 4546.19,
-        "change": 0.8,
+        "value": 4492.17,
+        "change": -1.19,
         "date": "07/31",
         "pe": 8.5
       },
