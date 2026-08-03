@@ -365,7 +365,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-08-01",
+    "lastUpdated": "2026-08-03",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -470,7 +470,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8420",
+          "value": "~7.8416",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -606,14 +606,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7448",
+          "value": "~6.7538",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 21.5亿股",
+          "value": "CSI300 17.3亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
