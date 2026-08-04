@@ -180,25 +180,25 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4469.6,
-        "change": -0.5,
-        "date": "08/04",
+        "value": 4408.92,
+        "change": -1.36,
+        "date": "08/05",
         "pe": 8.5
       },
       {
         "key": "sp500",
         "name": "标普500",
-        "value": 7600.5,
-        "change": 2.53,
-        "date": "08/04",
+        "value": 7736.52,
+        "change": 4.14,
+        "date": "08/05",
         "pe": 26.0
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
-        "value": 25913.9,
-        "change": 3.94,
-        "date": "08/04",
+        "value": 26584.99,
+        "change": 6.87,
+        "date": "08/05",
         "pe": 35.0
       },
       {
@@ -206,30 +206,30 @@
         "name": "中证A500",
         "value": 5669.91,
         "change": 1.77,
-        "date": "08/04",
+        "date": "08/05",
         "pe": 15.0
       }
     ],
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.98",
-        "change": -0.03
+        "value": "99.88",
+        "change": -0.13
       },
       {
         "name": "黄金",
-        "value": "4119.5",
-        "change": 0.47
+        "value": "4133.6",
+        "change": 0.82
       },
       {
         "name": "原油",
-        "value": "80.81",
-        "change": -3.33
+        "value": "75.33",
+        "change": -9.88
       },
       {
         "name": "10Y美债",
-        "value": "4.69",
-        "change": 1.78
+        "value": "4.63",
+        "change": 0.11
       }
     ],
     "fx": {
@@ -245,50 +245,50 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达股价跌至 200 美元，大型科技公司的盈利也无济于事 - 《巴伦周刊》",
+        "text": "Nvidia 股价维持在 200 美元不变，大型科技公司的盈利也无济于事 - barrons.com",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ21hMnNpYzBPT1Jwc2JuLWdWQzdFckZEem1QV0lacDIwWGt4RXZXZzVvU0xmMDFUdjM4bXUxOG5rQ0RpRW5Pc3lxYkFfOHVEaTJmTmVDdUJYRnRHZDNDdmk3NTJxMmtKWnJSUGtLdTVOVEYxQnZ4RUp0cHZUQ0EzajhyM2s?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "“Nvidia 税”：Alphabet 比亚马逊或任何其他 Mag 7 股票更好地减轻了它的影响 - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdk14MnZyY0dVSzlwMVdreWs2VWwxWlVnMkFJSkxmU2xxUWl6Y0x2Z2R2ZE5Yc0xQX25xR0hzRWRDX2R0UjdFalpzbVJMYXBZNVlYTDhNdDVqellxcEZ6MjFmTVVDR000YWFhNnF1LV96SFRzUG92WERoeDFZWG9CaE1EWDBlZnB1SGs1bTBMMzlSUlIwZFpvbF96TzVrbFcyUTJvT0d6Z3lqWkxUaVViczduVDVVekhTdmpPdTZtSDczUQ?oc=5"
+        "text": "Nvidia：这个曾经的市场宠儿现在被惊人地低估了晨星北欧 - 晨星",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ25OeWVRT2phWnVJVWdnb1ZjVnA4UlFWV1I3bldfU09aRHFubU9kNFY5REhvRUVFbkYxUUxuVHktazZlZWNWRDVjc3habFhuWnZnYXNtXzQzel80WDN2R0tXbUJzSjdjNU9uTHZwV29HUUh3aUUxdG0wX2E5ZUZtWURGeGhOUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软第四季度财报后股价飙升的 3 个原因 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPblByRGo3WGs4QkdfRGlVclVHbDRxVUMxbHFDSlRjYko3alJxVmhaa1hBMnQxOFZBQlNnQTFha1hnTkJ0cnk3ZUFJejZTRTV4QU5oWks0MExpYVhzZFh0Rmo5TWE4V2Z3ZFNBei16bzZmMzhRQ1JvR2Jfb01aRUtQNXFIcTFtc1Z2b1lLeWxFU242TXFmRjhwT2xxTkQ2Zw?oc=5"
+        "text": "微软：涨势太过分了（纳斯达克股票代码：MSFT） - 美股指南 - 美股开户 - 港股开户",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMnRlVVN5QmRzQ182cHBPamY0c0Z1aTJCdjFPN0lRVHdSRDRNOVBCajhtbE42eml3ekZDQU1laDlQZXlEbmFna2dJUHNzZ0hReHhQWVlmTjJNQWNvT0pZLVl3WENBaXBCVUxiTm1admlaaXRBTXYwZEZFQXlIbE8waGlGYw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软股票（纳斯达克股票代码：MSFT）飙升，因为它为 Windows 11 设定了 RAM 数字 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVN5SzY4SjI1OG1GaHdqSVpUeXRYTVZGZGFqVWFhMHJjUjJvUmdOaklRY1VCVlZYSnF4d1pHdXRpU3RoTU9GdXRqYl9BUW9zRzh0Vk4yZnAwc3ZLVUdsTkZualUtTkZLdlh0YnBhdzNweFJLcklKbTdXV0UyRjBWSk9kSDlTQUJVWll6QllNSlk2cHFwSUMxeG1hbE82dkZpOVFGR1N2LUg?oc=5"
+        "text": "投资者大量买入微软长期看涨期权 - 看好微软股票 - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLU5TbW04RUFQZVRWNW5jMXl4d2g1S0dkZ1ItTzdVWE1FRlZPbmRKem91dkJKVHM5ZWsxWmFZc0pDTFZDdDRWTlZRTERXTGlTNWI1NUZJSG14ZEotNVJsRExOSzZQdUVLb1lnUjNxX0EyNU51aS1CWnBtSEU2NUxjX2tjZHc5eEJmN2NZM2dfanY2V3kyOEp3Rjk5WFlDcVczMjdkczNheV9QU0lEb2FEcFRkclNGd3dmeFJmXzRuSkVhdThYdFJ2c25qNmpfWWlDR0JN?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta Q2 盈利回顾：利润低于华尔街预期后股价暴跌近 10% - Businessinsider.com",
+        "text": "Meta Q2 盈利回顾：利润低于华尔街预期后股价暴跌近 10% - Business Insider",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQczQ3akxPV3lFcU9XRVByWWp0NVF5Qkl3eFo0MkNRTjVYNlhvQW5Kdkk1NWhmWnItYVBxRmVZRUsxMkVHX3QxR202UlpGRkwyZmpfaEJDTmpSWVFpb1p3bFBYcjBkem9qS0lOTm5BWFFING14YjRFM0pGRHlnZWNHTEF3bVk2WWJSVVJDanUzNA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "为什么元平台股票今天暴涨 -傻瓜.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWMzM1ZITFFCUnQzNW9VdkJTR0ROT0t2SmtfWlY0VHluY1lwS2tQRDBwNjdoNkpnUEp1WjllVVVjUFlUdW1QUTFMT0tEN1lMaG12aElqX3hselVuSE9fQjJJY0lTQ2gyQ2RHSHZXQTc0Smg1ckpINV9XVWVFOFNFakpnMjI4YUE?oc=5"
+        "text": "Rowan Street Capital：Meta Platforms (META) 基本面超过其股价上涨 - Finance.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObDV3S05NWVNYSl9zV1FaR0RmcWZia0pjbGRjamJtWmo1MFB3R1hjMTQyOVJkbTJSVjYzUEtDOVhSUGJHRmVxbm90US1fczFEM1kxbmdSZGtpR1BSS0k2OFNHS2NnVml5U2tDb1Z1ZTM1TDdnRWcwcEV6WUg1clhDUXVfcjNUakZWdHFleGZSdUpVanoyNUhwQVBEUUlyVTFjVGc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "为什么 Alphabet 股票今天暴涨 -傻瓜.com",
+        "text": "公布盈利后，Alphabet 股票是买入、卖出还是估值合理？ - 晨星",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "GOOG",
+        "text": "为什么 Alphabet 股票今天暴涨 - 96配资",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hWlUyOE5GRU1WSjF2Z01TQ250Ry1tQm05dzUzUGNCM1FfMWx3YzdwTGFYQ2VVdlQ5UUlDUU0zcG9YVzdMc3N1dlZfeVVnSk02NGtsa0VrMVVrQlQwWE1FRzZTdkpyS2dPOUxDNHBDU1UzXzQ5aVNLclpJRXFRUGc?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "GOOG",
-        "text": "GOOGL 股票：谷歌失去更多人工智能人才，据报道两名专家跳槽到 Anthropic - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObDBOMEdpR3JmR3N3TDlaNXNvTEpFOWt1WWJabUs1TlBPTjVnTUNJQ2RTaGt6TmhjLW82TUozMmRQNDNYRXliNW5HYmpXVDQzRkRYTXdmOEw5WjlDRkQ5bGcxaW0wWmJEckQtSmZrSk9tOWgya1BsWW4tUHRjd2I4Vi1fdTlkUE5QZ1JhcGMzaTZiSEdVb1pQMHFpZWxxMEE4T3Y0cXE1ZXpuRFI0MXlxTnZ4RmlnSVRVVEc0bjhDSFRqNGMtR1hIanBNT1d0dmJ3N21OSUpOVldhTFY4bG93b1h3?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -299,44 +299,44 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "周一涨幅最大的股票：AMZN、BMY、BABA 等 - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSjloczdJOThCRmd1VnlmNlpCWkFQaGd6Q3V6SFpwMDZYRU5mbnlPWmlNVTRVNWNDNWxod3hWajJGcFRnc0M2U2dwelB4R0ZTdXliT3FBaWZMcXlMVEZDellRdUpESEVqTF9TN3hlVl9pS1BGbTFacFN6LW45OUd3TWZXMGUzWlFidzNN?oc=5"
+        "text": "贝索斯计划出售 40 亿美元股票，亚马逊股价上涨后下跌 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95RW1KcURQZUZ5ek93cGhFWWJXblRUN3NiejR1MzlPd0NWeHdxa1NteFd2bE5PN0JScmtFVFBSSzlPeTBTVmxweUx3d1p2ZmNPeDNUNzNhVjJNQVBxS2NiWWNiSHNkYk10aFRMRDh0TkJEMHEtN0s0bjlDVU0?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉股价盘前下跌：FSD 延误威胁特斯拉最大工厂，马斯克加入特朗普中国之行 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVHl5OGJHalFWTEM0d0l2LXRjLVJ6QTVjV0t3a3J6YkxkMF9fT2ZGU2VkNGl2NGpEc0NxMjV0SkRHMDhQUWJVTXZUOTVFeVdfb1I4dDBzV25yNWc2UlRsaGpIb1h0dXZIcVMyUXNQZ0FUd01vMmVPQmd2NDBkMy0tV2E1TGs2emp0Xy1iMHA0Z21ISDNpSTFOQzRKRjZGSGhZQ21vY2R0dzZfbEVnOWh4VzhtRnVoWnRJRXMwblQ0VFdJRzVKWnAyOExR?oc=5"
+        "text": "随着埃隆·马斯克（Elon Musk）的擎天柱面临新的挑战者，特斯拉股票走弱 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeGwzZHM5WHFIWlIxbk0yNG9GRU9peXN6cFRJSWNnWjNGSDlkcG45MVNWSUV2Um5lU2ZyTnRyT3F4Q01YV1JHT1F1QV9FS1l2cFFnT1B1Y2Q2TFh1ZVFZWEwzeDVsN2pUOWM4NTFKU3pnbExSZUt2dWRYdHMwZ2o5RUhMb1F1emp1TlBrUEVhT19RR0llV2lKUS1LbVMxT2dZQV9lOGRlMkc2YnUxY3JjLV9UeUxnbVhUNklsRmZwWWxUNmc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉公司股票 (TSLA) 8 月 3 日上涨 3.39%：走势背后的驱动因素 - TradingKey",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTHFMVVozMzZTZ3Rrem5DZWtySXhqWF9aNE1ERFZIOW0tSm1xa0RDUmI1aGlSMEtVcmIwYjNWcDd4eTZoVmVhamtqSnBMcjFJTTVwZkRQT3BMcTVmbWotVkN4c3lYVWJEQlNnenNyT29nZHJhOXN3UVcweXlHTTlIcEVjeGROaks0TkdR?oc=5"
+        "text": "加里·布莱克表示投资者不应该“爱上”特斯拉股票，并指出攻击那些质疑埃隆·马斯克领导的公司的人的“邪教”心态",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEE0VXNLTTVLVXJBR2FDdDVfbmVrY0ltV0h6aVA0WGxZRTJUWWFXTnFWSWl3c0pHcGRaanBKVXNPQldJaExzcE1kUThaZEdKTWJBcWRIWEhUMGtQeHc1c1BrWkV1aTFjdUYzLVhRcUdablpqTUpZa2tZYXRtSW9nX2MwTE1HanZpT1g4QmJGSVh0S01GWlpCaGZWYS1MM2VG?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "WMT 股票跌至近八个月低点——克利夫兰研究表明销售放缓 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzJlR2Vhd0ExcjZuVTczNDlPc3BOdzdXaC1aM1p3V2UzOUxmVm5UNTJBTkZxeGdWTmZDa3BPVG1NbjE5bENHejBMR2NfalZCZW5hZWNLaENHa0dSZ252WmRQYWpZemxDNUxMM2dJMDZOcE1UZ2ZsWG9qNTZESUFpdU1OSEtSVDZtenJLZHhjMHhqQng5UGR6bmlNUHFWZnZoLXFQSEs3emNwdWdUbmR6OEZsN1B2VmoyXzNjaHk3aGlGRzlEOHJ4MWczZnhrZmZqWTNtQTBzNFRyQQ?oc=5"
+        "text": "为什么这些分析师放弃沃尔玛股票 - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSFpFM2xIRk40aXVORk1wTTlHa25VX19wQlpJeEtZNXlGcFNpQldZQ3cxOURQdXY2LXFOd01rYzBkdncyaHVDM2htV1Q2Rmx1X0dTdWRMQ19MU0lMWi1qZFFGUFlZVm92bG9Jd3ozaldYdnhtcHdyNFQ0a0lnYllZV004RDVmTTFfYkpHZ0FYNGVQWGdfaGhWSkM3dlJYSlJiMW1wdjlrbw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛（WMT）股价因市场上涨而下跌：投资者需要了解什么 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbEkyUlRONnNybjVHSThqbnVIYXctbVBNaFBmeE9makNZVWVUM0J4Mk5xQXFHZnNiaTlCdy1GUWx6WW50REI4Ny1KNmxIR1kwdjI2YmV1X0xsM0YxdkU0N2I5RF9zaGZ0c21xVmpRaC1fdFpSXzROQ0VVTE1nUmVmank4U1BPMUE2Mm01cU5PRmtBMU0tb0tGdA?oc=5"
+        "text": "沃尔玛股票的长期低迷可能引发反弹 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeXBETi1qcXl5SGkyVzJGWURTTGt4TWRCaG1lSldJMWJJWnFFaHNaeUVaYmdtcXhKTHZLV19WVExoMEtqSW0xb3F4YnE2bFpoZVVaUVhac1BQYWpVOEx5U1BLZlpRMnMxQy1zRmNTbG1YZklZcktVNEV2bWZWclo4WTdsbVRpcU1hMldnejNDZjNKV2xjNmNvR21JTnozcEpxenVkbg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "NFLX 股票一夜之间下跌：为什么这位分析师在财报公布后的低迷中看到了 60% 的上涨空间 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbUVic3dSalc2ZlBZeDRNWGJXWEpoVnZSYlRnaTAyZXlLNnpIemZUS2pfYTRvcWxYdnlhQTRBbUNZcS1ab2twSGZUOGlZMFJZVDJSQkdNSG1xakZtWmpDMWx1S2d5SFoydHl6SGlCMEFVSHduWHhMUWsxSUNGd2xrZ2o3QnhOOXVqSTg5QTNWTjY1dXBYcTVXemxIZE9VaUJfTUN5ejFHZ2E3U3o3OU94WUY1V3lXU0tPdDJ4WVBCMllQb3I2SmVySXU3emRTRDlLZjdCZ2ZCQkROZ0o3?oc=5"
+        "text": "NFLX 股票能否进一步走高？ - 特雷菲斯",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLW1Hc0tJeDNBREJxa2NMejJDMWRKM1RuZnFJNER6bXYwQ2RvZXJibkotRC1nVy1jUGozZjg4XzFhdFY5X3k5a2lTS0pHMUhCajJfMVI3N1NaTHVyQy1qQ1pMVlZSLU85RWpCZ3ZDYk5MdE5KX2EyQ0JHTzBBbGhYTEpPNWo3dndTR21wYXZmMktsZURyN2YzTWtvV3J5WHBo?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 股票投资者的好消息！ - 傻瓜网",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTFINmpGLXQyak15MXdMUC1RN2F3UmM5TXI5OHZsUDk2dGF0cFYyTURvREdacUlVMjVmb0kyN29OM29jdGtZWVpwbnE2WGpQcFg4aWhMd21IcW9QYzktaE16TUFTWlpuX09Wa1FGS3hxMWpxTDhUVmhRbGZjbVlMZ0RYSGs5VzRmOEdKVFRn?oc=5"
+        "text": "Netflix 股票最近暴跌 48% 后你应该购买吗？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUHhyZzRZMUdXM2pqdm5jbngtMFJ4Vm9pczBXTU9lY053UGZINUtwRjA2RDYzNzZRNzhjbTMxQUl0cTNEc0tQUW1zTmdjVW5ORUo4amU1ZmhqRDhqVUJXcUlSam9idUZjUi1xT3JqOFRFSGg2T0FxXzVwUlBHa3F3Q0dVSHpsODEwVnhUSmxobzRybGZxNXJj?oc=5"
       },
       {
         "source": "📰 实时资讯",
