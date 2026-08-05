@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 211.94,
+          "lastPrice": 219.22,
           "ytdStartPrice": 188.62
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 492.81,
+          "lastPrice": 487.46,
           "ytdStartPrice": 470.84
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 587.94,
+          "lastPrice": 588.77,
           "ytdStartPrice": 649.25
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 375.35,
+          "lastPrice": 360.13,
           "ytdStartPrice": 314.91
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 277.42,
+          "lastPrice": 272.65,
           "ytdStartPrice": 226.5
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 327.35,
+          "lastPrice": 321.55,
           "ytdStartPrice": 438.07
         },
         {
@@ -62,7 +62,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 111.55,
+          "lastPrice": 112.34,
           "ytdStartPrice": 112.31
         },
         {
@@ -70,7 +70,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 73.57,
+          "lastPrice": 74.2,
           "ytdStartPrice": 90.99
         }
       ]
@@ -365,7 +365,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-08-05",
+    "lastUpdated": "2026-08-06",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -418,7 +418,7 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.63%",
+          "value": "10Y 4.62%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
@@ -453,7 +453,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $79.55",
+          "value": "HYG $79.52",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -498,7 +498,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~99.8",
+          "value": "~99.7",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -606,7 +606,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7491",
+          "value": "~6.7492",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
