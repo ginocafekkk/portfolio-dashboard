@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 492.2,
+          "lastPrice": 479.2,
           "ytdStartPrice": 615.83
         },
         {
@@ -92,7 +92,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 128.1,
+          "lastPrice": 124.4,
           "ytdStartPrice": 148.83
         }
       ]
@@ -133,7 +133,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 27.76,
+          "lastPrice": 27.75,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-08-04"
         },
@@ -142,7 +142,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 38.94,
+          "lastPrice": 38.97,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-08-04"
         },
@@ -151,7 +151,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 40.27,
+          "lastPrice": 40.25,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-08-04"
         }
@@ -204,8 +204,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5763.71,
-        "change": 1.65,
+        "value": 5753.2,
+        "change": -0.18,
         "date": "08/06",
         "pe": 15.0
       }
@@ -213,18 +213,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.69",
-        "change": -0.11
+        "value": "99.75",
+        "change": -0.21
       },
       {
         "name": "黄金",
-        "value": "4306.7",
-        "change": 6.36
+        "value": "4327.8",
+        "change": 7.29
       },
       {
         "name": "原油",
-        "value": "75.14",
-        "change": -11.26
+        "value": "75.66",
+        "change": -5.83
       },
       {
         "name": "10Y美债",
@@ -263,14 +263,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "Michael Burry 退出 MSFT，平仓 ORCL 空头头寸——他为何改变科技交易？ - 交易视图",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTjU1RzBraGFBajVhVG1zUlUzU3BtWHNDWlhsTWkxanNNcDcweWlfcGxuVEYtZmh6b2lTckQ2Tm5MWTZTUXNmM2JlXzh6OTBJYjdTUmNqSHh1aXk2cXF1UWFTcGFUWklCTmFacEVfR3RzWG1ibl9lVl9TYUxLNUZ6Q3pyejNEODhhelZSWk8tU3FydU9ORndKWDVhYUh2Rm1CV1RXbUNkRG1vSzBuRUpIeXVSS1NVQ1RseGEwNmRvVG9NcUQ5Yk5tMFc4Z3FUQkVRNW4wdHd6Sl9zbzA?oc=5"
+        "text": "Michael Burry 退出 MSFT，平仓 ORCL 空头头寸——他为何改变科技交易？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG1wZGNwQ3VCY1JySmd5QzlVdEZTem15S09MN2J0enFQNmZscUFvX2kweGEzakM0LWR6TUswMk45MHF6NTM0dG9RMWVZM2N3azNkM0JNemdkeGFlaDUteExuNXFsVXN5bVBQbTl5b3dGQTZhekREZFdPWWlRYXpNVmlPSzZnOUFrMHlMeVVVU0IzQlB0SnAyajBEMkM?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "公布盈利后，Meta 股票是买入、卖出还是估值合理？ - 晨星",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHgtNC1tZnAyVEFxQnFYckVpMnRXYVNuTFJMRERIQlFuMF9nODg5TFhKM0lLQko3blR0TTN2UDlBNEhPUnJVeVpoek52SXZieUZHZTEySlc0eG5tQjBPVWxSSTZtam1PWHkyWDJqSHJtaTBfRy1xQ0VrbTNfWTdJM2VXNHFvVjVVTTZxRVZGYURoWWRESzBJ?oc=5"
+        "text": "28% 的收入增长被忽视：为什么恐慌性抛售元股票而非基础设施支出是一个错误 - 247wallst.com",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNalNHMnNsbW1Eb2hwSWVPbDFKRmJZQUVUcU05ZVl2X0l3OXppSGI4OFYzUUllbHBSWm9iNUgyUm53MjNnN3pTSUd4ZzlKZzllOXFlNmZjdzA5ZzBfRVdFeUhabkN5Mk1lZFY2YUY3SVI4VlJ1eTdyVDdIUGc0aFhtZ1RadjIxeW5fV3c2eTJTTnc5LUk2TmI0STNGUy1YRXVxbHM5SXg1T0lnczZ3VWtER09pcmNTRFBBSDBCSW5SYTNLYzRKTFBLSmFWRE9tZlJWVDNN?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -293,26 +293,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "安迪·贾西 (Andy Jassy) 刚刚为亚马逊股票投资者带来了令人难以置信的消息 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWERBWHVkZnlnODlXLXZ6ckk1Zk9EbVRZODBmTFZ0anJXUXFjTk1RejZlMGh4MDFFNUVFZ3ZtU3Jnb0o2RVAxTkpfMVVSQlRQcmpEM0o1dW84cXBxZmhRM1A1ZUktSmFibDBpcTlrRnJYTGljZjFKMEx5VGd4UDV0WVFiM0lERHZMdnh1cE1GSTJSOWVZdXA2SDZ0aVl1eFA3VGpj?oc=5"
+        "text": "贝索斯计划出售 40 亿美元股票，亚马逊股价上涨后下跌 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95RW1KcURQZUZ5ek93cGhFWWJXblRUN3NiejR1MzlPd0NWeHdxa1NteFd2bE5PN0JScmtFVFBSSzlPeTBTVmxweUx3d1p2ZmNPeDNUNzNhVjJNQVBxS2NiWWNiSHNkYk10aFRMRDh0TkJEMHEtN0s0bjlDVU0?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "杰夫·贝佐斯 (Jeff Bezos) 刚刚申请以 40 亿美元出售亚马逊的股份。股价正在下跌 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOE9XY19fa1dCUDZsbTlDOXF1MFI3OVpwTkNPbHc1RThHRWowTU5FTWh2cm54ZUpFR21rR3VJckVBMi1vd1k1T0RPOTh3SFZRcncxVFZiQnZqc2lybEpZX0M3T3k3V09SUUc0dVdzRU5GVHdlNUZ1Zkd3Zkc4UlFDeXNFWUlHSDZYRzR2OFZxdE4td1A5VmVYSVFtZkNYdklkTXVZX1YxMTQxUk13TGfSAbMBQVVfeXFMT2VDSmhpTDBleWdWSkluc2c0X0loSFFGRm9GZE5QT1VDbFdhZ2F6NGFPOE4zcXZicEdtc1JiMVlIakxLLXVmSi1pQ3AzMVhWS3Q2VWlxOGVWUTVKVkpqTV9PY1lpTWVRRTZ1dUQ0V0dWU3hoZEUyU0NjZ05xekt0UDVlcnRGUGcyX0lVSmdiczczSXVjcXhxWWd0cGRYUi1wNnZRa25NcHpEYUxERlRxOXhSaEk?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "TSLA",
-        "text": "特斯拉股票仍然是对未来的押注 -tipranks.com",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xWXdyN2h1aDZkYTd6ck9aTU5td3FpTUpQNkExWlZyRHppN19QRlc1NEJxN09mYnRmaGFjQXNBNi1kb1B0aV91U294aGpIMVB5WUhLOHpjc3pMVWI1dnhBSmVjbzA3emE5cWhveXdtdHpNRDZ5clFZ?oc=5"
+        "text": "安迪·贾西 (Andy Jassy) 刚刚为亚马逊股票投资者带来了令人难以置信的消息 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWERBWHVkZnlnODlXLXZ6ckk1Zk9EbVRZODBmTFZ0anJXUXFjTk1RejZlMGh4MDFFNUVFZ3ZtU3Jnb0o2RVAxTkpfMVVSQlRQcmpEM0o1dW84cXBxZmhRM1A1ZUktSmFibDBpcTlrRnJYTGljZjFKMEx5VGd4UDV0WVFiM0lERHZMdnh1cE1GSTJSOWVZdXA2SDZ0aVl1eFA3VGpj?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
         "text": "公布财报后，特斯拉股票是买入、卖出还是估值合理？ - 晨星",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOVdEaXFTSVM5MTB6anVqT1ZzN242dVZyeDdIc01GU2tRTzc4Vm1acTluTlctZXN4Q1lwRWpYeTl2Si0yOTdhbFBUSHBUdGNkMlBXcDM0NHlqX19wb3NqY2RPWVVHZ3BiaFh6ak9QVkdCRW1GMEQ1MFctSmJETmV5RmtUQnV2NDFaMkd1cEdlSHdGeVVqNW1tbW5HelUtTTk3WVhB?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "加里·布莱克表示投资者不应该“爱上”特斯拉股票，并指出攻击那些质疑埃隆·马斯克领导的公司的人的“邪教”心态",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEE0VXNLTTVLVXJBR2FDdDVfbmVrY0ltV0h6aVA0WGxZRTJUWWFXTnFWSWl3c0pHcGRaanBKVXNPQldJaExzcE1kUThaZEdKTWJBcWRIWEhUMGtQeHc1c1BrWkV1aTFjdUYzLVhRcUdablpqTUpZa2tZYXRtSW9nX2MwTE1HanZpT1g4QmJGSVh0S01GWlpCaGZWYS1MM2VG?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -329,19 +329,19 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "NFLX 股票能否进一步走高？ - 特雷菲斯.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLW1Hc0tJeDNBREJxa2NMejJDMWRKM1RuZnFJNER6bXYwQ2RvZXJibkotRC1nVy1jUGozZjg4XzFhdFY5X3k5a2lTS0pHMUhCajJfMVI3N1NaTHVyQy1qQ1pMVlZSLU85RWpCZ3ZDYk5MdE5KX2EyQ0JHTzBBbGhYTEpPNWo3dndTR21wYXZmMktsZURyN2YzTWtvV3J5WHBo?oc=5"
+        "text": "Netflix 股票的结果范围到底有多大？ - 特雷菲斯",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQakpCZ01hazI0U2pkT2JfR3k3bUZnRkMzUkpMSUVLaFNDMU91UmlrMzYwM3YzUmRxZGZiSWV6Vm5FdU9ZWFNZYkh4ai1DemNhS3NPUHJ2THRLZ0dmSk5zTHRLdlU5Y3U3UzRabkUza1kzYlRYTGY2ZGczOFdTQWdZdTR4RTlsTHJjZlhnSmpwZ0dnRU1jTUFKNHZZTDJCcEs1eWhEejMtQmgwSHBSSUJXOUphUFZqdV9R?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "尽管增长放缓，NFLX 股票看起来仍有吸引力 -tipranks.com",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeS1Ic0dZcl9ING1IWGZ1RUxCRDlXcUVjeEFIMlpoZ1o1Tm5OQXRTSmdxaUQtMzFUNlhaSEN2cl9WeHRXejVLSTdxRnd6amJVT0FqQVNtU1VDdUN2QV96a09RSEhkdzFOTjBMS2drM1VVcDVqU0t0MW9haWZ0MURta084Nkk?oc=5"
+        "text": "Netflix 股票最近暴跌 48% 后你应该购买吗？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUHhyZzRZMUdXM2pqdm5jbngtMFJ4Vm9pczBXTU9lY053UGZINUtwRjA2RDYzNzZRNzhjbTMxQUl0cTNEc0tQUW1zTmdjVW5ORUo4amU1ZmhqRDhqVUJXcUlSam9idUZjUi1xT3JqOFRFSGg2T0FxXzVwUlBHa3F3Q0dVSHpsODEwVnhUSmxobzRybGZxNXJj?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "Trading Post 2026 年 7 月 23 日 - 3 次股票购买和国际清算银行对 AI 猖獗的循环融资的影响 - michaeljburry.substack.com",
+        "text": "Trading Post 2026 年 7 月 23 日 - 3 次股票购买和国际清算银行对 AI 猖獗的循环融资的影响 - Cassandra Unchained |迈克尔·巴里",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vbTh2RlBuWnBnWk9xOWp5MUhBcW11ZTlkNHpIeEktQVJvdURPWnBrZkVBWVhZTXd2Ym8yY3hOSG16YllKalFJbnNDQ3dKMlRXQ3FUOV9pb0VlaGRHQWc1NjVaOFdqMHNOSDFzSl9BbFR0VGM5dWVTZzN3?oc=5"
       },
       {
