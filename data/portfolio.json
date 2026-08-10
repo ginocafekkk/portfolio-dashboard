@@ -124,9 +124,9 @@
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 109097.18,
+          "lastPrice": 109544.48,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-08-07"
+          "navDate": "2026-08-10"
         },
         {
           "ticker": "600900.SS",
@@ -213,18 +213,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.64",
-        "change": -0.05
+        "value": "99.72",
+        "change": 0.03
       },
       {
         "name": "黄金",
-        "value": "4407.8",
-        "change": 3.82
+        "value": "4396.7",
+        "change": 3.55
       },
       {
         "name": "原油",
-        "value": "78.81",
-        "change": 4.77
+        "value": "79.36",
+        "change": 5.5
       },
       {
         "name": "10Y美债",
@@ -251,14 +251,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Marvell (MRVL) 与 AVGO 和 NVDA：AI Interconnect 的增长能否满足其溢价估值需求？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVzROMF9uS0pJd1dCWk5HZkhxZ04yOVV5dXhiNW5ZazZ0c0lURVhXM1FhaG5IMHJUeWtSZjVTM2xTUmJ6ODlaTzBkVnZUeUFucTgwZHVMczRHUmw3WEZCRkVXNzlmbmtRTkkwREZVNUFLanZrbG1IRXVIUk5IT0NRa09nclJLTk9ibVVqU1I4V2Z3ZGht?oc=5"
+        "text": "Nvidia (NVDA) 承诺投资 50 亿美元，在人工智能基础设施领域发挥更大作用 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1VTM1AwMDl3LTJ5Vnhwb0w2UXlBT2pOaUtmck4tVGEzWEFSR0E3YTNkRTBXQkFaTlktNmhSQUs0VXFmaTlIdlZCZE5lXzZqNEpVVEZlM2pJdDZ3d09WNlNhd0x6SjZEcHBRUDhFbGhmeHJzeElsc2EtV0tlYWFSZkR0UVk?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软 (MSFT) 扩大其在数字孪生医疗保健领域的足迹 - simplewall.st",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQUtEWHpETnVQYzU2N1dmdXRSOVNDZE5TQ3ZEWTlSb3ZXZmpGSlJDRm14NkZHam1WUjEyeXlIZnlXeERRRmRLaExueGNvUlE3cG9fUTNXUEZHMzlLS0JCY3E4RlQzV3FUNExoeGhFUjRjNzNzQi1uS1JzNEpwM2Q3N1FTalhsU1h6d2MwMG5pWUQ3MW04RjNtVmNPWTNvWmFkWWRrRW44LTN5bXZWZG9tMDJ4MWxWZ1VXRWw0RFZ4aURKaVhxV3JF0gHMAUFVX3lxTE1Rc19tREUtWlNKcXVnaXZPb0hvUnpKZTR0OW5maEo0UC1iSVFRVjZ4T085aHY1MDRUamQ2LS16WXRwNU8xb1ZYNUxzVzdPQXJwcXU5c1M4VW0zNVhuWEZidWRNeHk1alJiM2hRczVXeElsX2h0WWotdnV4MGd5WmVTWlBhRFFMM296ZWladEhMUTF3aTZEaS1MWnRXeGZ5NGhqZjJ5TEVJeVp5RzN5T3Q5My1DaFhPRUd3c2EwWnRyM0hLMkpkcUtCQmdUYw?oc=5"
+        "text": "吉姆·克莱默 (Jim Cramer) 被微软公司（纳斯达克股票代码：MSFT）的财务状况“震惊” - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNC1HbnFHZ1A5UWc3Z3J2V21nZUotZ254ek4tNDRUQTYybkQyak9TZ2psTkNkRWduREhJM3BhSW1mcVB4UVNfYnlmUFZjdWdjZS1ScUNfUHVvX0I1R3NlWjV1LXA0MGFKbXE3R0xqSzhGLWtKTUZRSFFnQ3BHdzZJZFhBaWhGWXB6N3RHcVF5YkFuZEtnT1FibXp3bFY?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -269,14 +269,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "公布盈利后，Meta 股票是买入、卖出还是估值合理？ - 晨星",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDNMOXlVblg3Rl93amZGRmUtV0xCbWtrSXVvdGhRby0wX2RxS2dzcS1MbmpzRkNqQlRBZ0J4ejRDWmJYcUFuaVV0VDJ3ejVKM2M0MXlwbnFWMk84NGotbHYyd1VaRzQzd1dIZm4tTWYxZ1E2RmprVDJ4VjlWbGU5TmRsNkF6T3hGd2hzRVRLVzk3b2FHZEpNcDMzN0RqUkx3NFE?oc=5"
+        "text": "Meta：FCF 崩盘令人担忧，但我预计更高的支出会带来回报 (NASDAQ:META) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSnJmOG9PbmtrdmdXWUhNVVJTVC1GS1JtMDNJWHJLTlkwSF9pekJaTHF0aGRlQ25QeGJSMjVmdlQ0VXZrYnRGQmxfaGszSE9XSTEtRFhqY1poRGpQZ29vVVpmSWRKN1IyXzhBRWxrZGVIWEIwTEp5T0w3ek85NmdVVjdzdTJQU3RlYmdmYVY2djk0d29YTFFnMlJ0RFRPRkdDcm1Xc1YtVjZGdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta 与 Alphabet：第二季度后哪只股票值得在您的投资组合中占有一席之地？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdzNvYkJzckJTOUt5b3FJeGl4bHZ4QUJGdlFFRHltb2dsdHJ5STJxYi1wWXhuUEhsN2FNamNBVHdWRVNMZ2VHZnIwTGtfVko5TnNtY0tLWE1hMzNLeWI2SzdDSzFNM1RsZWp5V3JYQzhCWllSRGM2aFFVMDZuMkIzdUxMQzREeGwwWlRuaXhmclRtbkRwamdJVkJVQ08?oc=5"
+        "text": "尽管儿童安全判决达 9.42 亿美元，Meta 股价仍上涨 1.2% - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWENzZmtIcUYtV2xDN1Y0T0RqRUhFOEZndXpyTHNQSGllejduS25HVDVLU3BaUTdaOG9rRTBFMk5KT19kVWZmSnc4RWJaZGw2T2VGcGJDdzZ4THJhc0lhRi0wVHJNT0lOckIzOXdDczctam5lVWVvVnp3U2txSDFTUm9VUU9MZnRzdVRsVVJn?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -287,14 +287,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "谷歌失去另一位关键人工智能高管，Alphabet 股价下跌 - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0txLURmUlNJTEFkcy1fazlwNzNwblR0eFBXTnpjUUVvY3B0VUhjazFFNHA2NU9xdUYwaHFhSlpFRmFhd09VdThrVXFvUUVGLUtZZFkzVGMtTXplV05iN2Zqc19kczZzWFBCNDBSZzBjVWloQzRzZGxvVVRnclhYRHFJUmdNQkJ3WnppcTdoVEFyZFRxN0xPRWtlNUJ0dzJsTVpIMnYtSV8?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "AMZN",
-        "text": "Evelyn Partners Investment Management Services Ltd 解除了 Amazon.com, Inc. $AMZN 股票头寸 - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMDlHaTlwcWFmX292Y25zV2IwN09XQmRFZzVMRU5EcF9uNk1hbk0wdnJBWXM2TlNsQVdtaGI2T2NtSWJHVzJObkJXNlBUMjNkdjBMaXloLWloTWVUX3QzRVp0emFQNnBtaVFlOGxZYl95cEd5amV2bEhWcy0tZG9SMV8yeUNzQ0FZd0pZYWl1djI5ekRQcXh6WE1hRjlYQlpDamZNV1F0TTNzSzlUVkV5eFVlTnROdjh0bXBiSmpKU0dPRnJUU3VBdTltMEdlUjhwTDNZYVlSd0FxT2Z5LTRLalpGcVBvUGl1S1g4?oc=5"
+        "text": "Next Level Private LLC 削减 Alphabet Inc. $GOOG 的股票头寸 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR2kwQl9wZDRyTl9JeU5ieTFZQlY3N2JxYW8wZ0VEeDZKenRPVWhiOW5fMjVNTC00WnZmbGtyUVg1RWZHLXpUYVNqb2ppbE1ZUkw4dXRoWG1uaDFkQi1rb0loTGxEWWlaNFRjOVFRZVRSOGRqVkNxM1F6cjgwd0RPNGV2TFZCUThZM1hsUndOczhKLVF4Tm11LWpMeHN1UVFiWlhfSWZUNUxmbTFqNFMwWElNVXVJY2sxeEEyckZwQjE0OU0?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -304,8 +298,14 @@
       },
       {
         "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "Evelyn Partners Investment Management Services Ltd 解除了 Amazon.com, Inc. $AMZN 股票头寸 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMDlHaTlwcWFmX292Y25zV2IwN09XQmRFZzVMRU5EcF9uNk1hbk0wdnJBWXM2TlNsQVdtaGI2T2NtSWJHVzJObkJXNlBUMjNkdjBMaXloLWloTWVUX3QzRVp0emFQNnBtaVFlOGxZYl95cEd5amV2bEhWcy0tZG9SMV8yeUNzQ0FZd0pZYWl1djI5ekRQcXh6WE1hRjlYQlpDamZNV1F0TTNzSzlUVkV5eFVlTnROdjh0bXBiSmpKU0dPRnJUU3VBdTltMEdlUjhwTDNZYVlSd0FxT2Z5LTRLalpGcVBvUGl1S1g4?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "NVDA、TSLA、AMD 等选项现已可在上市前交易！ 21 种美国单一股票期权的延长交易时间 - Moomoo",
+        "text": "NVDA、TSLA、AMD 等选项现已可在上市前交易！ 21 种美国单一股票期权的延长交易时间 - moomoo.com",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUI0dXItMk9zdG5TU2pZZElRSC1pcFh5OEFsZXh0YVRZOThBcC1KZXRDZC1adm9mR1lVUnZvazBHaFZCejVKeW9KMm9qbzdXdE0zMUg3dElQMjFSNTI2aWNsMTAzbVE5SW9aOU9IdEZOYklzMi13djJXTlVjaFhNQVYzbkxid2tILVB1TUNwRldQVDJhb1FpT041OUl6VmdZYVNZVi1RVQ?oc=5"
       },
       {
@@ -317,14 +317,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不这样做的 1 个理由 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWHhSM2FDeXBzZ0c1dThIdFRTdDNNWXhCVlVrX21zR29qZk9pbUkwNzNpUWx3V0RacEZDOVZ2NXNaUmp5aFZKS2dpYlFLRDlEVUQ2ZlhULVMtdzhxQlBJbnllekFXRzduT3hpMGZLckJfVzZnYUVMRGhQV1BLTnE0Q3RuU29GdHdsN2ZUNnpiZkRSckhtbTZ6N2JyOE8?oc=5"
+        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不购买的 1 个理由 - Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWFUZUZGeFhtbkNLM2c4Q1h4RnQ3NDhxV04yNGl5N3I5Wnh0eHBPZkNQTTlHdWJEV1hLRjU2WVlXWGxpd0NsdE5FMzBIT0tQdTRUX0FVNi1EVEt2SExPYnhsb1NRTHA5SXJLMU5ZbkpCcmRtdGZZSWFTLWx1OTZhTTVEZktKcDY1UkxOekhBV1Q3emhoSkhURA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不购买的 1 个理由 - Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWFUZUZGeFhtbkNLM2c4Q1h4RnQ3NDhxV04yNGl5N3I5Wnh0eHBPZkNQTTlHdWJEV1hLRjU2WVlXWGxpd0NsdE5FMzBIT0tQdTRUX0FVNi1EVEt2SExPYnhsb1NRTHA5SXJLMU5ZbkpCcmRtdGZZSWFTLWx1OTZhTTVEZktKcDY1UkxOekhBV1Q3emhoSkhURA?oc=5"
+        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计该股未来 12 个月的走势 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -335,8 +335,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "华尔街分析师预测 Netflix 股价会上涨还是下跌？ - Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkp1OGg3emdGWEhXczRLcTE5WDN5Ujd4OHdPVEkzM0xSVTJEam9tcDZFaGl3QVNIUndIR1FYS0oyQTRjcENBVUp6ZGVuTVduanVkaDhJN1lUeUstd3lfeFIxY2MwS2xSTm9YNENaazl3NXBzSmJKVl9pQXp0MldrNHZvTjZTRjgwSDcybFZsSmpLa0VKNi1xUWhPRWpSN3h4T1ZPcnJkckcxTEJYeV9kRQ?oc=5"
+        "text": "本周目标 1 只产生现金的股票和 2 只表现不佳的股票 - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd2lxZU0wR1RJTkJxU0NwdjA4WkJoUE9vSUQ5ZVpKZ2JYT09TWWYzSzBWOXRjQ3dQN2tzRE1kZ0NtREVDZGFQdFBXLVpkNTJPNlpLSmlYZGZmeENrZkxFbmEtQ21QYlA2UUIyTHRZTHMyRDl2ZmVMOUZzUXlkMGl0ZTBrSW5RQ0JiY2cyTHM1cHhlMlk5ZmhmXzlPTl9JTjN3bDZ3UTVUQmVJZGhqSVh1bjZfMmVWVl9KNDFjZ1hnYThTbkky?oc=5"
       },
       {
         "source": "📰 实时资讯",
