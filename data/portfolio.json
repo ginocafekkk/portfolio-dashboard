@@ -115,9 +115,9 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 132710.19,
+          "lastPrice": 132922.53,
           "benchmark": "a500",
-          "navDate": "2026-08-07"
+          "navDate": "2026-08-10"
         },
         {
           "ticker": "007466",
@@ -213,23 +213,23 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.72",
-        "change": 0.03
+        "value": "99.77",
+        "change": 0.08
       },
       {
         "name": "黄金",
-        "value": "4391.8",
-        "change": 3.44
+        "value": "4389.2",
+        "change": 3.38
       },
       {
         "name": "原油",
-        "value": "79.58",
-        "change": 5.8
+        "value": "79.74",
+        "change": 6.01
       },
       {
         "name": "10Y美债",
-        "value": "4.66",
-        "change": 0.71
+        "value": "4.67",
+        "change": 0.84
       }
     ],
     "fx": {
@@ -251,8 +251,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Nvidia (NVDA) 承诺投资 50 亿美元，在人工智能基础设施领域发挥更大作用 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1VTM1AwMDl3LTJ5Vnhwb0w2UXlBT2pOaUtmck4tVGEzWEFSR0E3YTNkRTBXQkFaTlktNmhSQUs0VXFmaTlIdlZCZE5lXzZqNEpVVEZlM2pJdDZ3d09WNlNhd0x6SjZEcHBRUDhFbGhmeHJzeElsc2EtV0tlYWFSZkR0UVk?oc=5"
+        "text": "NVIDIA 公司 (NVDA) 股票预测 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUHBlcE5ldmJCTVI5YXZiMU5NWWVrNU9GZVRzc1BQZWJNSW5JV3JqYXZFblpqOGxpc1ZMMGE0SzlCT0p3czU0VDR6YVRPX3hnWkV4ZExJek1qYnlpMjVoOFA2ZEhrUWV3bW5zVUxTY01BOGtuUDBBVGxtTmFoMU9wWmVmbm1WZVUyRnZ4bEU1YU94eEY3c1lRT0pMSzZycV9SY0ZVS0hkQ0ZiU2E2Z1ltWWFySFhhcXM1dS1zUzZSbnRtalM4YXNIZUYyU0xnNUVuNmJmUlJSdzg?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -269,14 +269,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta：FCF 崩盘令人担忧，但我预计更高的支出会带来回报 (NASDAQ:META) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSnJmOG9PbmtrdmdXWUhNVVJTVC1GS1JtMDNJWHJLTlkwSF9pekJaTHF0aGRlQ25QeGJSMjVmdlQ0VXZrYnRGQmxfaGszSE9XSTEtRFhqY1poRGpQZ29vVVpmSWRKN1IyXzhBRWxrZGVIWEIwTEp5T0w3ek85NmdVVjdzdTJQU3RlYmdmYVY2djk0d29YTFFnMlJ0RFRPRkdDcm1Xc1YtVjZGdw?oc=5"
+        "text": "对于元股票爱好者来说又一个坏消息 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWEVXTFBwYjhfc1gxR0FzNlZBRkFNWkJUZGdQYXBWT2UtYUlMclhwR01adnY3LVZDclo0LUtiT3g5ZVhkV2MwcDRBWFB1SEFYZG1nMGhIZXdXM2xXelFzVEJIZzFsREJsSjJJanJDcmJKRWRYVktBSWhXbC1zd0F2dVdpOUdUZEpndy1NNExQc2xFWkU0TXB3?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "尽管儿童安全判决达 9.42 亿美元，Meta 股价仍上涨 1.2% - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWENzZmtIcUYtV2xDN1Y0T0RqRUhFOEZndXpyTHNQSGllejduS25HVDVLU3BaUTdaOG9rRTBFMk5KT19kVWZmSnc4RWJaZGw2T2VGcGJDdzZ4THJhc0lhRi0wVHJNT0lOckIzOXdDczctam5lVWVvVnp3U2txSDFTUm9VUU9MZnRzdVRsVVJn?oc=5"
+        "text": "Meta 股价因开源模型推出而上涨；扎克伯格批评人工智能竞争对手 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSjlpUS1vQTRaMU96cGlOX0JjVjBoSDJJcnlTdlJEUzJXMzd6OGZaSGJCQUZsZlBsbzhKc3Y3SHVVNzRjT3F2Q2NtSVRMYlptR0tvdDYyWkFiaE83NG1yYXlyTlNyT01yS3U4UFVWRWNVd2VrbEphLWZRM1RDeVVLLXA5eTRsQTg?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -299,20 +299,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "Evelyn Partners Investment Management Services Ltd 解除了 Amazon.com, Inc. $AMZN 股票头寸 - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMDlHaTlwcWFmX292Y25zV2IwN09XQmRFZzVMRU5EcF9uNk1hbk0wdnJBWXM2TlNsQVdtaGI2T2NtSWJHVzJObkJXNlBUMjNkdjBMaXloLWloTWVUX3QzRVp0emFQNnBtaVFlOGxZYl95cEd5amV2bEhWcy0tZG9SMV8yeUNzQ0FZd0pZYWl1djI5ekRQcXh6WE1hRjlYQlpDamZNV1F0TTNzSzlUVkV5eFVlTnROdjh0bXBiSmpKU0dPRnJUU3VBdTltMEdlUjhwTDNZYVlSd0FxT2Z5LTRLalpGcVBvUGl1S1g4?oc=5"
+        "text": "亚马逊股价创下历史新高：仍然值得买入吗？ - 杂七杂八的傻瓜",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWpldWEwa0lzS0dMNW5pbV9SVmhMWWxvMGxpcThaSE1SM29QNFpOWEhVS0N5Sk5PRmdJTm8wSEg2akdhb3VESVZTVHRta1hJSFJJcWRTM3VReDZOOGN4bkpYeWE5T0tVMzdOajlMNXlCZDA2eGZRVExyNURkVDdaY0ZVbWhKYmFpVUVqOVBma3NOdDAydHVr?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "NVDA、TSLA、AMD 等选项现已可在上市前交易！ 21 种美国单一股票期权的延长交易时间 - moomoo.com",
+        "text": "NVDA、TSLA、AMD 等选项现已可在上市前交易！ 21 种美国单一股票期权的延长交易时间 - Moomoo",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUI0dXItMk9zdG5TU2pZZElRSC1pcFh5OEFsZXh0YVRZOThBcC1KZXRDZC1adm9mR1lVUnZvazBHaFZCejVKeW9KMm9qbzdXdE0zMUg3dElQMjFSNTI2aWNsMTAzbVE5SW9aOU9IdEZOYklzMi13djJXTlVjaFhNQVYzbkxid2tILVB1TUNwRldQVDJhb1FpT041OUl6VmdZYVNZVi1RVQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉股票预测：2030 年特斯拉股票价值多少？能达到3000美元吗？ - 交易密钥",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVFZibUlDdy02NU1WeTVUWEdZZzAtc1pOLW5HRFgyN2JQYmxIMlRhdTNFZHZUaU9zTFlSTllicUY4dlpCYTFlVXBBN00yeVpRUGVWRl93d3dQQkktRGZCc2lHVnpxUG5RbHFpcy14ZkdvRFVyWGxIajJUTHRSNDJ3c1dQeUxKS0ZaMDZtRlBHd2NEUG9CM01vS2ZhQVpubHo2WW1mYVdCRV8yUUhldWVZWE5MamY4SHBNVTdxM0FONFhqWlZvRXZkUWNZcXk0Q3p2WmRYZzY5RmxGMGI2VGFIZzlQQlE1VngxU0J5X3p5R3ptRDA?oc=5"
+        "text": "随着 SpaceX IPO 首次公开募股，特斯拉股价回升，收盘上涨近 2% - stocktwits.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdllKT3F6R3RYYjJIQ1JwejV3MlVzZnZ1OGt5THEtZTRhREtBV0VxNEUzVGVlMDkyRzBxdGd0QlFBRVVOb1BteWVvX1NFUjJEeC1uQnp5eWxtbG1VQkp5bWpmTzM4eTdKQlV0T0xZVm5YdGI5bHFfQWtDNVlGVXFrZ3VhcVVOM2R5QXg2TW5ERF9GWjBwbFNCTEtiOFBoSUZQQmRFMVIwRFJlRzJONl9iNUp1dHh6SmQybkZpWA?oc=5"
       },
       {
         "source": "📰 实时资讯",
