@@ -107,8 +107,8 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 209446.97,
-          "navDate": "2026-08-07"
+          "lastPrice": 211227.27,
+          "navDate": "2026-08-10"
         },
         {
           "ticker": "022438",
@@ -180,8 +180,8 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4333.07,
-        "change": -0.54,
+        "value": 4370.07,
+        "change": 0.85,
         "date": "08/10",
         "pe": 8.5
       },
@@ -218,18 +218,18 @@
       },
       {
         "name": "黄金",
-        "value": "4396.7",
-        "change": 3.55
+        "value": "4391.8",
+        "change": 3.44
       },
       {
         "name": "原油",
-        "value": "79.36",
-        "change": 5.5
+        "value": "79.58",
+        "change": 5.8
       },
       {
         "name": "10Y美债",
         "value": "4.66",
-        "change": -0.55
+        "change": 0.71
       }
     ],
     "fx": {
@@ -293,7 +293,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "公布财报后，亚马逊股票是买入、卖出还是估值合理？ - 晨星",
+        "text": "公布财报后，亚马逊股票是买入、卖出还是估值合理？ - 晨星网站",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelJiZkYwQjU0RnY4VVNiQUVrdWo2dGZRbUZudUcxbGs1N1BDUHVIcGRGakMxd2FyM1lYM0J4d3dra0IzbUZKZ0JHcVB1SEZzYkNPMHA2bWJuZ3kwakRmV1VOZ2JYa0NOQ3ljMUI5U2lFZmx4RFlVcTJmTVNDYjViUmh1TERBa3cySEIzc01IRFBDSU5sOGlzd1ZB?oc=5"
       },
       {
@@ -335,20 +335,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "本周目标 1 只产生现金的股票和 2 只表现不佳的股票 - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd2lxZU0wR1RJTkJxU0NwdjA4WkJoUE9vSUQ5ZVpKZ2JYT09TWWYzSzBWOXRjQ3dQN2tzRE1kZ0NtREVDZGFQdFBXLVpkNTJPNlpLSmlYZGZmeENrZkxFbmEtQ21QYlA2UUIyTHRZTHMyRDl2ZmVMOUZzUXlkMGl0ZTBrSW5RQ0JiY2cyTHM1cHhlMlk5ZmhmXzlPTl9JTjN3bDZ3UTVUQmVJZGhqSVh1bjZfMmVWVl9KNDFjZ1hnYThTbkky?oc=5"
+        "text": "华尔街分析师预测 Netflix 股价会上涨还是下跌？ - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkp1OGg3emdGWEhXczRLcTE5WDN5Ujd4OHdPVEkzM0xSVTJEam9tcDZFaGl3QVNIUndIR1FYS0oyQTRjcENBVUp6ZGVuTVduanVkaDhJN1lUeUstd3lfeFIxY2MwS2xSTm9YNENaazl3NXBzSmJKVl9pQXp0MldrNHZvTjZTRjgwSDcybFZsSmpLa0VKNi1xUWhPRWpSN3h4T1ZPcnJkckcxTEJYeV9kRQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0700.HK",
+        "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价及历史 - 雅虎！加拿大金融",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Tc1h6cWg3T3BQUHlTN1lKc2lwdENoQTJaa3dmYXA5N19OcW4xeHJkcmtsNW9Sd0hyRmJScDdsV19fTHZkNzdvbFJGaG1zeWVjZU0yekRR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
         "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJeGpJLWhWTktKeXlYRXpRa01CNU5fT3FrbXM1bXAxWFRqYlV1YlI1TXFsbl9BTDFNNlpkR01PeDlZSWJCRGZKQVZBdk01Z3JaOTliYk53?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "0700.HK",
-        "text": "百度 (9888.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90SDdKSXo5Ny1GUlBDeFE1WlExamVtcng0LS0tUkNnZlRMcVN2VFQ4LUF6Rm4tQzNlTTh2VWxxMS1JT29CNzYtOWQzN1d0b0JVc1RERGFB?oc=5"
       },
       {
         "source": "📰 实时资讯",
