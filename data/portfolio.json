@@ -213,18 +213,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.63",
-        "change": -0.06
+        "value": "99.64",
+        "change": -0.05
       },
       {
         "name": "黄金",
-        "value": "4415.0",
-        "change": 3.99
+        "value": "4407.8",
+        "change": 3.82
       },
       {
         "name": "原油",
-        "value": "78.24",
-        "change": 4.01
+        "value": "78.81",
+        "change": 4.77
       },
       {
         "name": "10Y美债",
@@ -257,8 +257,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "吉姆·克莱默 (Jim Cramer) 被微软公司（纳斯达克股票代码：MSFT）的财务状况“震惊” - Finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNC1HbnFHZ1A5UWc3Z3J2V21nZUotZ254ek4tNDRUQTYybkQyak9TZ2psTkNkRWduREhJM3BhSW1mcVB4UVNfYnlmUFZjdWdjZS1ScUNfUHVvX0I1R3NlWjV1LXA0MGFKbXE3R0xqSzhGLWtKTUZRSFFnQ3BHdzZJZFhBaWhGWXB6N3RHcVF5YkFuZEtnT1FibXp3bFY?oc=5"
+        "text": "微软 (MSFT) 扩大其在数字孪生医疗保健领域的足迹 - simplewall.st",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQUtEWHpETnVQYzU2N1dmdXRSOVNDZE5TQ3ZEWTlSb3ZXZmpGSlJDRm14NkZHam1WUjEyeXlIZnlXeERRRmRLaExueGNvUlE3cG9fUTNXUEZHMzlLS0JCY3E4RlQzV3FUNExoeGhFUjRjNzNzQi1uS1JzNEpwM2Q3N1FTalhsU1h6d2MwMG5pWUQ3MW04RjNtVmNPWTNvWmFkWWRrRW44LTN5bXZWZG9tMDJ4MWxWZ1VXRWw0RFZ4aURKaVhxV3JF0gHMAUFVX3lxTE1Rc19tREUtWlNKcXVnaXZPb0hvUnpKZTR0OW5maEo0UC1iSVFRVjZ4T085aHY1MDRUamQ2LS16WXRwNU8xb1ZYNUxzVzdPQXJwcXU5c1M4VW0zNVhuWEZidWRNeHk1alJiM2hRczVXeElsX2h0WWotdnV4MGd5WmVTWlBhRFFMM296ZWladEhMUTF3aTZEaS1MWnRXeGZ5NGhqZjJ5TEVJeVp5RzN5T3Q5My1DaFhPRUd3c2EwWnRyM0hLMkpkcUtCQmdUYw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -281,7 +281,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "DeepMind 领导层变动导致谷歌股价下跌 - Finance.yahoo.com",
+        "text": "DeepMind 领导层变动导致谷歌股价下跌 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmQzQjBOMy1CY1k5T1pURGFYT3NHa1hSSENrRjZSNTZQYzFJd1ZoaU1zUWVJRHB6MldhbHhsTHBfUi1CTzY2VEx6TWkzOFItR1FNZ2JLSGd4b0lxLXc1Q3hNbnpkeVozdjA2eVBJaG1uUUFqeTZjNk9yWlFoMjdsbHR1bmRud25lQTdPRldFT2pfTm5uTkFhSk1ZaExBTXFJYUJQU0xZellOTlZfQXFTTnNn?oc=5"
       },
       {
@@ -299,7 +299,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "公布财报后，亚马逊股票是买入、卖出还是估值合理？ - 晨星网站",
+        "text": "公布财报后，亚马逊股票是买入、卖出还是估值合理？ - 晨星",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelJiZkYwQjU0RnY4VVNiQUVrdWo2dGZRbUZudUcxbGs1N1BDUHVIcGRGakMxd2FyM1lYM0J4d3dra0IzbUZKZ0JHcVB1SEZzYkNPMHA2bWJuZ3kwakRmV1VOZ2JYa0NOQ3ljMUI5U2lFZmx4RFlVcTJmTVNDYjViUmh1TERBa3cySEIzc01IRFBDSU5sOGlzd1ZB?oc=5"
       },
       {
@@ -311,25 +311,25 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉股票预测：2030 年特斯拉股票价值多少？能达到3000美元吗？ - tradekey.com",
+        "text": "特斯拉股票预测：2030 年特斯拉股票价值多少？能达到3000美元吗？ - 交易密钥",
         "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVFZibUlDdy02NU1WeTVUWEdZZzAtc1pOLW5HRFgyN2JQYmxIMlRhdTNFZHZUaU9zTFlSTllicUY4dlpCYTFlVXBBN00yeVpRUGVWRl93d3dQQkktRGZCc2lHVnpxUG5RbHFpcy14ZkdvRFVyWGxIajJUTHRSNDJ3c1dQeUxKS0ZaMDZtRlBHd2NEUG9CM01vS2ZhQVpubHo2WW1mYVdCRV8yUUhldWVZWE5MamY4SHBNVTdxM0FONFhqWlZvRXZkUWNZcXk0Q3p2WmRYZzY5RmxGMGI2VGFIZzlQQlE1VngxU0J5X3p5R3ptRDA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计未来 12 个月的股票走势 - Finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
+        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不这样做的 1 个理由 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWHhSM2FDeXBzZ0c1dThIdFRTdDNNWXhCVlVrX21zR29qZk9pbUkwNzNpUWx3V0RacEZDOVZ2NXNaUmp5aFZKS2dpYlFLRDlEVUQ2ZlhULVMtdzhxQlBJbnllekFXRzduT3hpMGZLckJfVzZnYUVMRGhQV1BLTnE0Q3RuU29GdHdsN2ZUNnpiZkRSckhtbTZ6N2JyOE8?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛（WMT）考虑关税退款，该股仍然便宜吗？ - simplewall.st",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUUd6MDdWbVgzR1l3TUxyRlNlUjFzb2tLVEhfZkZZU3JhcDFqOVQ2QmN6aDUyZWdGQmowem1hWEEyVWQ3eVVvdUZqc2F5eTJDTC1uZ3hCdXJYYW5ja0FCYlRVU0RMcGJuQW9EWEh6Q0Z4T3EwWEl4Q2VJOEdjcDdteDRXZl90UXZiSEJBdEJrWkJSMnhEVEFlSy1vVTB0Rm5sZlU1dFZLMmF5SEo0YUdGWVN3cDJROVMzYUhsVjFLTGVVb3V4ZWtLYTdQOU41VFcw0gHWAUFVX3lxTE5DSmw3aEN4Sl9OdDEyWFlOQXEweGo0ZWtJSU96azNFZHFjbDlLOF9XcUJRY1lzWFQ5VVRZeEhpSFRDVG9aQ2FCLWdramR6TXF4eEQ5djNtblJkbHhnVWtYSkZMaVFaRXBPTUZhMTRlVlNSU1prWldDZUgyWkRDaVRCRVhUUWw1c1Q5YXJRUF9tbEJoZW1Qdnl4WFh1cDYxeTg2TGJicDBYTEZRbGdPRVo3MWZaRURyOU9vVlhxNE03RmhuZDdOR2tFNk1lWU1CX2ZPMWZybmc?oc=5"
+        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不购买的 1 个理由 - Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWFUZUZGeFhtbkNLM2c4Q1h4RnQ3NDhxV04yNGl5N3I5Wnh0eHBPZkNQTTlHdWJEV1hLRjU2WVlXWGxpd0NsdE5FMzBIT0tQdTRUX0FVNi1EVEt2SExPYnhsb1NRTHA5SXJLMU5ZbkpCcmRtdGZZSWFTLWx1OTZhTTVEZktKcDY1UkxOekhBV1Q3emhoSkhURA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "尽管获得了新的特许经营权，Netflix (NFLX) 的股价仍可能被低估 26% - Finance.yahoo.com",
+        "text": "尽管获得新的特许经营权，Netflix (NFLX) 股价仍可能被低估 26% - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNkdiSzNVSGxIbE9xTWUtc3JmOEpqTnpoSm9xbUVSWmZ6VTRxMGlIN00zbTE0RjA1OE9QMVY4bTE2UVo2LWJYX3lTYzFBblZSR1hqU1I1VGhmcXpaSzBaa0t3RTNDc21ZMHByMWdUYzcxVW4yUHdHNlJfMEk0NmZnNC1xQ2lmLUVwMHF5SXNkVmZZWGdo?oc=5"
       },
       {
