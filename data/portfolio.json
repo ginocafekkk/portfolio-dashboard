@@ -215,18 +215,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.89",
-        "change": -0.08
+        "value": "99.86",
+        "change": -0.11
       },
       {
         "name": "黄金",
-        "value": "4421.0",
-        "change": 4.22
+        "value": "4427.5",
+        "change": 4.37
       },
       {
         "name": "原油",
-        "value": "83.81",
-        "change": 8.44
+        "value": "84.53",
+        "change": 9.37
       },
       {
         "name": "10Y美债",
@@ -253,7 +253,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达 (Nvidia) 股价下跌，其人工智能投资受到新的审视 - Barron's",
+        "text": "英伟达的人工智能投资受到新的审查，股价下跌 - barrons.com",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPazlIVnY5UGhPVTFhbmJxVm4tSl9JZHpYM1pXLVJ6dUhnSktvYnpVeEd0SS1NMU0tYUJSaGtFQXRpakdkd3B0MzU1QXZoWmtobG85TFlZb1dQcFVEQ25yVnFkZTJsR1lKc0FrWEl6cS1KZWFzZnI3NVNWQ0tLb2hZZkNIOHI3OVhud1E?oc=5"
       },
       {
@@ -301,8 +301,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊：惊人的盈利证实了这一论点（纳斯达克：AMZN） - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNFNOU3pjb1Ewc29zbmphdnpDNWVleTF6RE5LOEdWMXdoOUNxS2xjMElDRFpzdGNoNndoc2FnZkpaVXdMR0RMNUJwMUViVHFST1k2dlpaOUtrV09hRzZlOW5rMExybmhFOHNtNWdhc1QtbDl0eVJOUVFJTXRKeXJya2lVSmRBZThNTmc?oc=5"
+        "text": "杰夫·贝索斯接近收购利物浦足球俱乐部：天空 (AMZN:NASDAQ) 股份的交易 - 美股指南 - 美股开户 - 港股开户",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVM5SGFJUUNtZHdNUlFuRkNrMmhWRWxVZDNMRVBvUHRFRWFLbGlSSTYwcENEaU1ZYV83Z3VhTVpFd20yakJSTnB0b1luMjIwRTJqM0tGLVpWRVdjN2NUVEgyVTctNDk3MUJOQkNzUlhfY0ZuWFJ4T2puMU5SV2tmVktXcTh0emNwSHUwenA5bVRTa0ZXSFFr?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -313,32 +313,32 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "对 TSLA 股票至关重要的争论 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUhtME9vNm9rU3dTR3pWVTRIWlR6WjluLWhKQUdlc0t2eWtOckxqNmRLM2pWTUZkTEhiZ1lPTEVkLTF4SnlBNEViRVlIMlBmdHkyZ2dnMFdzQ0xJY0JTa2Z0MmxKbmpCbjR4RVpHNnFFYlBwMG44TmlWVk5UbnZjUFB6Rjc2UFB1aVRVeTY3bS1keEpIOXZ1am02dDk5Smgw?oc=5"
+        "text": "特斯拉股价盘前下滑：晨星公司称特斯拉在盈利暴跌后“非常有吸引力”——“现在是买入的好时机” - Finance.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQenJJUjd4dmxxSTNnLS0wLW9ZYTVnSFppQ3VGaDc0dUhOMURNT0FCQ3JISjZUeDJJSEFXR1VtWTZsc08tZ29HMWYwVEdLcnlrOExVRW9TcjEyN2NVNk5NUkFqbm1tZHdaUnhEdzVpVWc0a2loTk9zampFVTgwN1RNSWVmeHg2cmVSa2NHRktVN0JKUnd2TzZQREhLNUE2VkZqLVVSVWFn?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计该股未来 12 个月的走势 - 雅虎财经",
+        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计未来 12 个月的股票走势 - Finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "在 8 月 20 日公布收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及 1 个不购买的理由 -fool.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWFUZUZGeFhtbkNLM2c4Q1h4RnQ3NDhxV04yNGl5N3I5Wnh0eHBPZkNQTTlHdWJEV1hLRjU2WVlXWGxpd0NsdE5FMzBIT0tQdTRUX0FVNi1EVEt2SExPYnhsb1NRTHA5SXJLMU5ZbkpCcmRtdGZZSWFTLWx1OTZhTTVEZktKcDY1UkxOekhBV1Q3emhoSkhURA?oc=5"
+        "text": "E. Ohman J 或 Asset Management AB 增加了沃尔玛公司 $WMT 股票持有量 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQzBoT3BfS2xfVk1LY3YzTTRMNHdvX09aQUl3RGptQjN2ZXpkZUFYTXJJSzJXUFh6ZzNDS2pwRXNwYzh6cWUzX0NxOV9vTWlpbW5naDd3VnNOTndXVzNHQ0lRSjNlbUpPbmdHUGdYXzBFcGdnem5fQXJhTk10MllGNU4zeHB0Sk5sOFJPd2xJRVZLbDhoSlR4QXM0cGJDNGZUVHJPaXdLZVJGZURqQ0JMV0s0bElOb0R6UzlCMkYzVTQ0QlBLMjBCXzlzV3o0R1lfZERn?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "今年美国广告投入翻倍，NFLX 股价触及近五周高点 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPek9NQ24tNndZWUVUOWRrclhQMktFbW1KX054ZDJwWmdGY0k0YjlZLWF5VFNQUkk3MXcyaGJ4bHNnTGNnTjNfWkx2bUZLZmlzQ0JWT3dObGQzMGVWSDhERF9oZGt0dzFGRko4eFNoRUlIckhFaDNjTnZxOEhfVlRpZlN3ejlmRzB2Z1RmdVZvSXR3ejlTbi1KOA?oc=5"
+        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOFNERzg4dGVtZE1udFJPeE5ZcmZDVzRob1VacGQxQ3BsekN4SXE2LXZaMTBKSE83OUk3S3BRbUtMSnBrTFU1aXNJV1UzSkFvSlJiRmJhOWZxN0psV0pDSENSS180ZWQwZkp4NGo4OE1XZmdHSzNGTEx0LTdvYmNCeGFhRkRSUUZ4Y3Y3ZjczbWRRMHNjb3c?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 傻瓜网",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSHZzMTVJb21nTTZQTTJ4c3lQUU5KeFZnemxVUWY1TG1XNkRhUzhFaVl3TXFFSzFzVjNLcTc0b043c1UyaEZwOFpvNS1SZjJnZDdGWmd3cmJneGZUZ2RYZ0dMODE5WmdZWVJkR19ia0NlaWlycm93NG9LbFRFNmdtS1BuTkp4eFhpMlpXMlJ0eDdrVkE?oc=5"
+        "text": "下跌但未出局：分析师认为 Netflix 股价下跌后仍有 40% 的上涨空间 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN182RjQyRTlJUnY4QXVHVC0takozSXRJa1hDRG5meFA2UWhMd1dJNDl6VmhZNHA0SC15ZFNYaFRIRTFSMzRuU0tFelZ5cDdsbFM2ajBYRmlwcUFpU19FZVoxRGxpUTBKaU9ReGloMmlPVHpTaVJmM1RrdG0xYmNDX0o4VlllNXhrSlo0T3R4T2hHaXpRcXBBSHpwRmo3NE1oLXhILWJjZ0YxdWdWMm5z?oc=5"
       },
       {
         "source": "📰 实时资讯",
