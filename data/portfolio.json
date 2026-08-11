@@ -182,8 +182,8 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4370.07,
-        "change": 0.85,
+        "value": 4363.41,
+        "change": -0.15,
         "date": "08/11",
         "pe": 8.5
       },
@@ -215,23 +215,23 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.85",
-        "change": -0.12
+        "value": "99.87",
+        "change": -0.1
       },
       {
         "name": "黄金",
-        "value": "4437.7",
-        "change": 4.61
+        "value": "4449.1",
+        "change": 4.88
       },
       {
         "name": "原油",
-        "value": "83.73",
-        "change": 8.33
+        "value": "82.59",
+        "change": 6.86
       },
       {
         "name": "10Y美债",
-        "value": "4.7",
-        "change": 1.56
+        "value": "4.69",
+        "change": 1.67
       }
     ],
     "fx": {
@@ -253,37 +253,37 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Nvidia 确认巨额人工智能融资交易。这些金融股上涨。 - 投资者商报",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSXdHaG5KeV9nc1drckdFVUx5SXBzdjlXVGpxQzh1Q28xMlhRR1dRSmhPak1QUGFjdzl5R2FZaS1YOU9xODZ1ckNxc3hrMXp3blo5Y05CTjMwN1NnenFlUmExQ2hLV0NIVE5VbXZQZ0lrcVEwMjhSUmNZemJwVDQ4NTFR?oc=5"
+        "text": "Nvidia 正在筹措 5000 亿美元融资，首席执行官黄仁勋 (Jensen Huang) 告诉 CNBC，他的芯片是“可投资资产” - cnbc.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRkc0VE5DYXlTRVNaYU1DRElZUVVwNDR3VG5aQ0pUTzlGS0c1UFNzUVA5Z3NIdFktV3hscktUVnVsS0UtR2RxZ0JQOWJZcElRZDNZRGNncXBWSTZFWFp3NWdwM054MFJ2OHVkWkpSdVJjVGFxbmNIQjdKanlZVFdmRkJvUFdzZkVlN0pCMEdqbzNCX1Yy0gGaAUFVX3lxTE90YzhwRlVTdmQ1aTNHZzl6elRlR2FJTDJTd2llX3d6Ym1yNnR1bUtRbjRjWXVkTGlZZVloanNKTDdMdmdZUFZma2hlMnYwNjNicDZUOTF6emxlaXRSbXhUejFId01ib1lyaVBnelVWRjhfTVg1ek45QjJPSlEwcWFSZm9faVB0WS1XLXlMOGR1UUNWcHVGWnBqN3c?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "Tokenmaxxing 在微软的实践：微软股票（纳斯达克股票代码：MSFT）上涨 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSG1KdjZacm5MUVhQeDd2QXp6VXhOdUhnRmNzdVNmSTl3V1oyakNuMm43YW9JaE0yYjhtUHROcnJkeDBsa1B1YnFqQ0d2NWw4R05FbERDSWVBSThRdS13UTZubnVTM0cybTlpNllsaW13UjRvVDBwRWZwN1JNdmF5ZUljRXdOc2ktaDdMOThwRkdJSEFET29qQ1hqWFBZOHJGVVVMYw?oc=5"
+        "text": "微软股票 (MSFT) 因下一代人工智能芯片生产报告而上涨 -tipranks.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUo2Y1JiejBURFRkN1U4eWY5Qy14VmhtWXlLYVBVZnVIOUJBczlXLVptcmxIcDRZcENuVjRDVWZDMEtLd2VNLWxUYW82WTZnaHpYWjBHQ3NrYkZIZU1iOWd0Q0lTZU84Z2F4cnctakg3MFM4dU5pVVVMQm1yS1hEVEVIaUVEZ094bnU3Nkc1N2Z5X1NKVlBRWDc3RVo?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软股票运行着市场上最大的现金返还机之一 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVkpBakhLcWROZy1wUWpNMWQ0b09EdkVTVmZ0MWp6bVZWN29xSGJHSUdaNldhZVRrNmNiQ1ZtRi05bUNHdTZmeEhxb3E1d3l5R1k5bC14QmcwLTZ0anhEeTQtZWIxR05SWGRldFkxSng3dTJBczJnT2hyQ01SSG83UFJuZVI4SUtCdWEzQU9tRFNJbDRxV09wRFF3dU43Rm5zbWRtNm0yeTlRbDI1TlR4SjBxM1lmYjJEUzQ2ckxLUy0xdGN2MjdTdA?oc=5"
+        "text": "微软的股票正在反弹。以下是该股再上涨 30% 的情况。 - 市场观察",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVkhzME9NRF9RLWw2cF9EblFxMExvdU5JZGRPcnpIdjJsZjc0SWxOd3NCQm5GWjRJY0RkeklEbGFCOU1ZclBNbzBaVE5ISm03UWVNaWRKVkxDWVJUMjJaNDh6bVdncHk2RkY0RnE3R2EzZ1EtWHVULTRDU2R0LXdEV3gwVm4yZGMxQzZlTGFaUE9LYUFncUJueTdQWERJU1FRVkFTUVR6YXdIQ3lwQ05kbUl6aEpjX2tzTEE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "法院为潜在的 1.4 万亿美元诉讼扫清道路，Meta 股价持平 - TipRanks",
+        "text": "法院为潜在的 1.4 万亿美元诉讼扫清道路，Meta 股价持平 -tipranks.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1dvVG1Gek9Ya0Q3WlB1Q0s5T2Y2dDlqM1J1d0tWQVBiQVNUdjBueXB0RnUzOEhNX2E4ZURfVWh0VFdQQ01JcWhOMVdVOHNUX3dqQlV5eldvNHN2SzNhZnFDVjVvRUlZYncwRS1Gd0NWOVNQRTR0Z3lQcXZyemtLaVlscTlBenRGWUQ0S1NLbEtjN3FKcnVOS0Z3dUtpUXlsRExUQlRuT3dkcE4wSEFrLTVLTHdpSTRkVmd6X2g2MGhmZEprUnc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta 开源其最强大的人工智能模型，并在 OpenAI、Anthropic 上大放异彩 - CNBC",
+        "text": "Meta 开源其最强大的人工智能模型，并在 OpenAI、Anthropic 上大放异彩 - cnbc.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94cE0tMnZmYVlZOXdtN3BtNTJPZGRNR1pHckM1OThqLUtveFBRbWhFNzZycl9ZVjJsLXZoMGUxbmQ0VC1kSFVSNk1RdkQ5NkN0bkJIaTVFX0FyVllDS2hwWlhNZ0FVLW1teW00VkMxbWx1TWpyRWNmLdIBfkFVX3lxTE1yT2pVb3pXZnpWRnVFeTliT2paa3NzNkNJX2FiS2ZMZXcxS2FtZ2wxdXhHYUlETVpocWFJTHZkZWJ6dEtzMW1rVF9sTTRkNWtDMWhEeHhYNVF6QVk3X29SU2xPQ3VxT21HX2tWaXN5Yi10OFhIUTVfUWltZ2dxZw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "价格预测：谷歌当天将达到 400 美元 - 24/7 Wall St.",
+        "text": "价格预测：谷歌当天将达到 400 美元 - 247wallst.com",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTkN0TjZRZkZuNkd6d2F6MFFfVkZiaDNkNEZ1dnZZUWZzV0pQaXVpVGlSYzRBTVdpbDdXcDB2M1NqazI5RlB6Q19nQWJyYWFjRnh4d3U5dVFUWUM0SnNDclpodEg5VlRNOUNORUgyWjF5dlRMdFNUeGxpZGZYWjlhbTJoZGxQTHlTZF93MnNoSkZ0NDJMTkJCWA?oc=5"
       },
       {
@@ -301,8 +301,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "亚马逊：惊人的盈利证实了这一论点（纳斯达克：AMZN） - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNFNOU3pjb1Ewc29zbmphdnpDNWVleTF6RE5LOEdWMXdoOUNxS2xjMElDRFpzdGNoNndoc2FnZkpaVXdMR0RMNUJwMUViVHFST1k2dlpaOUtrV09hRzZlOW5rMExybmhFOHNtNWdhc1QtbDl0eVJOUVFJTXRKeXJya2lVSmRBZThNTmc?oc=5"
+        "text": "亚马逊刚刚加入 3 万亿美元俱乐部。这就是为什么到 2029 年它可能会达到 5 万亿美元。",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR3gtdHphLXZrdHRDVEV4ZzJNYlprdjctNkRwZlRMQnBZcmhiajlER2JKc3F6Tk9zNUhKR0FWakxhVmtUbHl5U3pEN1FfeTZaenk1bGNhanhlUXc4MUtHbTJmLUs1cWpDVEVEUXI2M1Z2SHlvamhXRWlCVU9EQTU1U3VpWklVY01PR3N4WDMyWDBwbHMxTWc?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -361,8 +361,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uODJrSW00RWtzRlc1VkNid0o2ZWllNnl0dHFQY1JuVXEzSHBSN0FydXdiTlNUM01CTElybkJqQWpzWENpQmlqYnZYTjBEZEM2SkJUVXN3?oc=5"
+        "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价及历史 - 雅虎！加拿大金融",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Tc1h6cWg3T3BQUHlTN1lKc2lwdENoQTJaa3dmYXA5N19OcW4xeHJkcmtsNW9Sd0hyRmJScDdsV19fTHZkNzdvbFJGaG1zeWVjZU0yekRR?oc=5"
       }
     ]
   },
