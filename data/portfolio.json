@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 471.6,
+          "lastPrice": 470.4,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-11"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 126.5,
+          "lastPrice": 126.7,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-11"
         }
@@ -215,8 +215,8 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.84",
-        "change": -0.13
+        "value": "99.89",
+        "change": -0.08
       },
       {
         "name": "黄金",
@@ -225,8 +225,8 @@
       },
       {
         "name": "原油",
-        "value": "83.84",
-        "change": 8.47
+        "value": "83.81",
+        "change": 8.44
       },
       {
         "name": "10Y美债",
@@ -271,7 +271,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta Stock Flat as Court Clears Path for Potential $1.4 Trillion Lawsuit - TipRanks",
+        "text": "法院为潜在的 1.4 万亿美元诉讼扫清道路，Meta 股价持平 - TipRanks",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1dvVG1Gek9Ya0Q3WlB1Q0s5T2Y2dDlqM1J1d0tWQVBiQVNUdjBueXB0RnUzOEhNX2E4ZURfVWh0VFdQQ01JcWhOMVdVOHNUX3dqQlV5eldvNHN2SzNhZnFDVjVvRUlZYncwRS1Gd0NWOVNQRTR0Z3lQcXZyemtLaVlscTlBenRGWUQ0S1NLbEtjN3FKcnVOS0Z3dUtpUXlsRExUQlRuT3dkcE4wSEFrLTVLTHdpSTRkVmd6X2g2MGhmZEprUnc?oc=5"
       },
       {
@@ -307,14 +307,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "对 TSLA 股票至关重要的争论 - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUhtME9vNm9rU3dTR3pWVTRIWlR6WjluLWhKQUdlc0t2eWtOckxqNmRLM2pWTUZkTEhiZ1lPTEVkLTF4SnlBNEViRVlIMlBmdHkyZ2dnMFdzQ0xJY0JTa2Z0MmxKbmpCbjR4RVpHNnFFYlBwMG44TmlWVk5UbnZjUFB6Rjc2UFB1aVRVeTY3bS1keEpIOXZ1am02dDk5Smgw?oc=5"
+        "text": "随着 SpaceX IPO 首次公开募股，特斯拉股价回升，收盘上涨近 2% - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdllKT3F6R3RYYjJIQ1JwejV3MlVzZnZ1OGt5THEtZTRhREtBV0VxNEUzVGVlMDkyRzBxdGd0QlFBRVVOb1BteWVvX1NFUjJEeC1uQnp5eWxtbG1VQkp5bWpmTzM4eTdKQlV0T0xZVm5YdGI5bHFfQWtDNVlGVXFrZ3VhcVVOM2R5QXg2TW5ERF9GWjBwbFNCTEtiOFBoSUZQQmRFMVIwRFJlRzJONl9iNUp1dHh6SmQybkZpWA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "随着 SpaceX IPO 首次公开募股，特斯拉股价回升，收盘上涨近 2% - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdllKT3F6R3RYYjJIQ1JwejV3MlVzZnZ1OGt5THEtZTRhREtBV0VxNEUzVGVlMDkyRzBxdGd0QlFBRVVOb1BteWVvX1NFUjJEeC1uQnp5eWxtbG1VQkp5bWpmTzM4eTdKQlV0T0xZVm5YdGI5bHFfQWtDNVlGVXFrZ3VhcVVOM2R5QXg2TW5ERF9GWjBwbFNCTEtiOFBoSUZQQmRFMVIwRFJlRzJONl9iNUp1dHh6SmQybkZpWA?oc=5"
+        "text": "对 TSLA 股票至关重要的争论 - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUhtME9vNm9rU3dTR3pWVTRIWlR6WjluLWhKQUdlc0t2eWtOckxqNmRLM2pWTUZkTEhiZ1lPTEVkLTF4SnlBNEViRVlIMlBmdHkyZ2dnMFdzQ0xJY0JTa2Z0MmxKbmpCbjR4RVpHNnFFYlBwMG44TmlWVk5UbnZjUFB6Rjc2UFB1aVRVeTY3bS1keEpIOXZ1am02dDk5Smgw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -325,7 +325,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "在 8 月 20 日报告收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及不购买的 1 个理由 - Motley Fool",
+        "text": "在 8 月 20 日公布收益之前购买沃尔玛 (WMT) 股票的 1 个令人难以置信的理由 - 以及 1 个不购买的理由 -fool.com",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOWFUZUZGeFhtbkNLM2c4Q1h4RnQ3NDhxV04yNGl5N3I5Wnh0eHBPZkNQTTlHdWJEV1hLRjU2WVlXWGxpd0NsdE5FMzBIT0tQdTRUX0FVNi1EVEt2SExPYnhsb1NRTHA5SXJLMU5ZbkpCcmRtdGZZSWFTLWx1OTZhTTVEZktKcDY1UkxOekhBV1Q3emhoSkhURA?oc=5"
       },
       {
@@ -337,7 +337,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 杂七杂八的傻瓜",
+        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 傻瓜网",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSHZzMTVJb21nTTZQTTJ4c3lQUU5KeFZnemxVUWY1TG1XNkRhUzhFaVl3TXFFSzFzVjNLcTc0b043c1UyaEZwOFpvNS1SZjJnZDdGWmd3cmJneGZUZ2RYZ0dMODE5WmdZWVJkR19ia0NlaWlycm93NG9LbFRFNmdtS1BuTkp4eFhpMlpXMlJ0eDdrVkE?oc=5"
       },
       {
