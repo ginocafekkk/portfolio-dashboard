@@ -215,18 +215,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.86",
-        "change": -0.11
+        "value": "99.85",
+        "change": -0.12
       },
       {
         "name": "黄金",
-        "value": "4427.5",
-        "change": 4.37
+        "value": "4431.8",
+        "change": 4.47
       },
       {
         "name": "原油",
-        "value": "84.53",
-        "change": 9.37
+        "value": "84.15",
+        "change": 8.88
       },
       {
         "name": "10Y美债",
@@ -253,14 +253,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达的人工智能投资受到新的审查，股价下跌 - barrons.com",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPazlIVnY5UGhPVTFhbmJxVm4tSl9JZHpYM1pXLVJ6dUhnSktvYnpVeEd0SS1NMU0tYUJSaGtFQXRpakdkd3B0MzU1QXZoWmtobG85TFlZb1dQcFVEQ25yVnFkZTJsR1lKc0FrWEl6cS1KZWFzZnI3NVNWQ0tLb2hZZkNIOHI3OVhud1E?oc=5"
+        "text": "Nvidia 确认巨额人工智能融资交易。这些金融股上涨。 - 投资者商报",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSXdHaG5KeV9nc1drckdFVUx5SXBzdjlXVGpxQzh1Q28xMlhRR1dRSmhPak1QUGFjdzl5R2FZaS1YOU9xODZ1ckNxc3hrMXp3blo5Y05CTjMwN1NnenFlUmExQ2hLV0NIVE5VbXZQZ0lrcVEwMjhSUmNZemJwVDQ4NTFR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "微软股票 (MSFT) 因下一代人工智能芯片生产报告而上涨 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUo2Y1JiejBURFRkN1U4eWY5Qy14VmhtWXlLYVBVZnVIOUJBczlXLVptcmxIcDRZcENuVjRDVWZDMEtLd2VNLWxUYW82WTZnaHpYWjBHQ3NrYkZIZU1iOWd0Q0lTZU84Z2F4cnctakg3MFM4dU5pVVVMQm1yS1hEVEVIaUVEZ094bnU3Nkc1N2Z5X1NKVlBRWDc3RVo?oc=5"
+        "text": "Tokenmaxxing 在微软的实践：微软股票（纳斯达克股票代码：MSFT）上涨 -tipranks.com",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSG1KdjZacm5MUVhQeDd2QXp6VXhOdUhnRmNzdVNmSTl3V1oyakNuMm43YW9JaE0yYjhtUHROcnJkeDBsa1B1YnFqQ0d2NWw4R05FbERDSWVBSThRdS13UTZubnVTM0cybTlpNllsaW13UjRvVDBwRWZwN1JNdmF5ZUljRXdOc2ktaDdMOThwRkdJSEFET29qQ1hqWFBZOHJGVVVMYw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -271,7 +271,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "法院为潜在的 1.4 万亿美元诉讼扫清道路，Meta 股价持平 - TipRanks",
+        "text": "法院为潜在的 1.4 万亿美元诉讼扫清道路，Meta 股价持平 -tipranks.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1dvVG1Gek9Ya0Q3WlB1Q0s5T2Y2dDlqM1J1d0tWQVBiQVNUdjBueXB0RnUzOEhNX2E4ZURfVWh0VFdQQ01JcWhOMVdVOHNUX3dqQlV5eldvNHN2SzNhZnFDVjVvRUlZYncwRS1Gd0NWOVNQRTR0Z3lQcXZyemtLaVlscTlBenRGWUQ0S1NLbEtjN3FKcnVOS0Z3dUtpUXlsRExUQlRuT3dkcE4wSEFrLTVLTHdpSTRkVmd6X2g2MGhmZEprUnc?oc=5"
       },
       {
@@ -301,25 +301,25 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "杰夫·贝索斯接近收购利物浦足球俱乐部：天空 (AMZN:NASDAQ) 股份的交易 - 美股指南 - 美股开户 - 港股开户",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVM5SGFJUUNtZHdNUlFuRkNrMmhWRWxVZDNMRVBvUHRFRWFLbGlSSTYwcENEaU1ZYV83Z3VhTVpFd20yakJSTnB0b1luMjIwRTJqM0tGLVpWRVdjN2NUVEgyVTctNDk3MUJOQkNzUlhfY0ZuWFJ4T2puMU5SV2tmVktXcTh0emNwSHUwenA5bVRTa0ZXSFFr?oc=5"
+        "text": "亚马逊：惊人的盈利证实了这一论点（纳斯达克：AMZN） - 美股指南 - 美股开户 - 港股开户",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNFNOU3pjb1Ewc29zbmphdnpDNWVleTF6RE5LOEdWMXdoOUNxS2xjMElDRFpzdGNoNndoc2FnZkpaVXdMR0RMNUJwMUViVHFST1k2dlpaOUtrV09hRzZlOW5rMExybmhFOHNtNWdhc1QtbDl0eVJOUVFJTXRKeXJya2lVSmRBZThNTmc?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "随着 SpaceX IPO 首次公开募股，特斯拉股价回升，收盘上涨近 2% - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdllKT3F6R3RYYjJIQ1JwejV3MlVzZnZ1OGt5THEtZTRhREtBV0VxNEUzVGVlMDkyRzBxdGd0QlFBRVVOb1BteWVvX1NFUjJEeC1uQnp5eWxtbG1VQkp5bWpmTzM4eTdKQlV0T0xZVm5YdGI5bHFfQWtDNVlGVXFrZ3VhcVVOM2R5QXg2TW5ERF9GWjBwbFNCTEtiOFBoSUZQQmRFMVIwRFJlRzJONl9iNUp1dHh6SmQybkZpWA?oc=5"
+        "text": "特斯拉股票预测：2030 年特斯拉股票价值多少？能达到3000美元吗？ - 交易密钥",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVFZibUlDdy02NU1WeTVUWEdZZzAtc1pOLW5HRFgyN2JQYmxIMlRhdTNFZHZUaU9zTFlSTllicUY4dlpCYTFlVXBBN00yeVpRUGVWRl93d3dQQkktRGZCc2lHVnpxUG5RbHFpcy14ZkdvRFVyWGxIajJUTHRSNDJ3c1dQeUxKS0ZaMDZtRlBHd2NEUG9CM01vS2ZhQVpubHo2WW1mYVdCRV8yUUhldWVZWE5MamY4SHBNVTdxM0FONFhqWlZvRXZkUWNZcXk0Q3p2WmRYZzY5RmxGMGI2VGFIZzlQQlE1VngxU0J5X3p5R3ptRDA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉股价盘前下滑：晨星公司称特斯拉在盈利暴跌后“非常有吸引力”——“现在是买入的好时机” - Finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQenJJUjd4dmxxSTNnLS0wLW9ZYTVnSFppQ3VGaDc0dUhOMURNT0FCQ3JISjZUeDJJSEFXR1VtWTZsc08tZ29HMWYwVEdLcnlrOExVRW9TcjEyN2NVNk5NUkFqbm1tZHdaUnhEdzVpVWc0a2loTk9zampFVTgwN1RNSWVmeHg2cmVSa2NHRktVN0JKUnd2TzZQREhLNUE2VkZqLVVSVWFn?oc=5"
+        "text": "特斯拉股票成为焦点：擎天柱会成为特斯拉和 SpaceX 之间缺失的一环吗？ - 股票推特",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFRNRTlQa1FMUUhtWi12YVVXYUZJanRXZnJFVU96V2s2US04cnlBNFk1NmdhN2piNzE1M0NBczNQTEZTdDNVSVpZUXhvX2ZLOWxaSjhWWW5MRGxRTGRMSU5veE50MzFjeDBhVjZEVE5kb2l3bXljSDFFY0FJV1FLMzk5bmxlVVlQZUl2bVR2cm5EZFUtZFV2bU9xd0oyOHdCbF9JU1RrN0x1eWlSUm1JZGZON1pSMXNiNGRJd25RZkVaVDQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计未来 12 个月的股票走势 - Finance.yahoo.com",
+        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计该股未来 12 个月的走势 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
       },
       {
@@ -331,14 +331,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOFNERzg4dGVtZE1udFJPeE5ZcmZDVzRob1VacGQxQ3BsekN4SXE2LXZaMTBKSE83OUk3S3BRbUtMSnBrTFU1aXNJV1UzSkFvSlJiRmJhOWZxN0psV0pDSENSS180ZWQwZkp4NGo4OE1XZmdHSzNGTEx0LTdvYmNCeGFhRkRSUUZ4Y3Y3ZjczbWRRMHNjb3c?oc=5"
+        "text": "今年美国广告投入翻倍，NFLX 股价触及近五周高点 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPek9NQ24tNndZWUVUOWRrclhQMktFbW1KX054ZDJwWmdGY0k0YjlZLWF5VFNQUkk3MXcyaGJ4bHNnTGNnTjNfWkx2bUZLZmlzQ0JWT3dObGQzMGVWSDhERF9oZGt0dzFGRko4eFNoRUlIckhFaDNjTnZxOEhfVlRpZlN3ejlmRzB2Z1RmdVZvSXR3ejlTbi1KOA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "下跌但未出局：分析师认为 Netflix 股价下跌后仍有 40% 的上涨空间 - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN182RjQyRTlJUnY4QXVHVC0takozSXRJa1hDRG5meFA2UWhMd1dJNDl6VmhZNHA0SC15ZFNYaFRIRTFSMzRuU0tFelZ5cDdsbFM2ajBYRmlwcUFpU19FZVoxRGxpUTBKaU9ReGloMmlPVHpTaVJmM1RrdG0xYmNDX0o4VlllNXhrSlo0T3R4T2hHaXpRcXBBSHpwRmo3NE1oLXhILWJjZ0YxdWdWMm5z?oc=5"
+        "text": "Netflix 较最高点下跌 42%。这就是我购买更多的原因。 - 杂七杂八的傻瓜",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSHZzMTVJb21nTTZQTTJ4c3lQUU5KeFZnemxVUWY1TG1XNkRhUzhFaVl3TXFFSzFzVjNLcTc0b043c1UyaEZwOFpvNS1SZjJnZDdGWmd3cmJneGZUZ2RYZ0dMODE5WmdZWVJkR19ia0NlaWlycm93NG9LbFRFNmdtS1BuTkp4eFhpMlpXMlJ0eDdrVkE?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -355,14 +355,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价及历史 - 雅虎！加拿大金融",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Tc1h6cWg3T3BQUHlTN1lKc2lwdENoQTJaa3dmYXA5N19OcW4xeHJkcmtsNW9Sd0hyRmJScDdsV19fTHZkNzdvbFJGaG1zeWVjZU0yekRR?oc=5"
+        "text": "京东集团 (9618.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvNWtxbFJpRGFrMHBjd3ZfMnVVbGdIWkhPZEVlSW10UUtUZ0Q4SVphM3h4a2NsZ3VLYUZPbWdiM0JVVmZNTjNNZ2hxalRtOUhWUmdqUWtR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "京东集团 (9618.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvNWtxbFJpRGFrMHBjd3ZfMnVVbGdIWkhPZEVlSW10UUtUZ0Q4SVphM3h4a2NsZ3VLYUZPbWdiM0JVVmZNTjNNZ2hxalRtOUhWUmdqUWtR?oc=5"
+        "text": "比亚迪股份有限公司 (1211.HK) 股票价格、新闻、报价及历史 - 雅虎！加拿大金融",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Tc1h6cWg3T3BQUHlTN1lKc2lwdENoQTJaa3dmYXA5N19OcW4xeHJkcmtsNW9Sd0hyRmJScDdsV19fTHZkNzdvbFJGaG1zeWVjZU0yekRR?oc=5"
       }
     ]
   },
