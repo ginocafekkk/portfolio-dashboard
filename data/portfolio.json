@@ -109,17 +109,17 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 210172.24,
-          "navDate": "2026-08-12"
+          "lastPrice": 207482.04,
+          "navDate": "2026-08-13"
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 132822.32,
+          "lastPrice": 131866.0,
           "benchmark": "a500",
-          "navDate": "2026-08-12"
+          "navDate": "2026-08-13"
         },
         {
           "ticker": "007466",
