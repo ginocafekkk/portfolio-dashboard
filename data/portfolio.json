@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 461.6,
+          "lastPrice": 441.6,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-11"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 122.6,
+          "lastPrice": 121.7,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-11"
         }
@@ -135,7 +135,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.02,
+          "lastPrice": 28.24,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-08-11"
         },
@@ -144,7 +144,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 38.7,
+          "lastPrice": 38.77,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-08-11"
         },
@@ -153,7 +153,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 40.23,
+          "lastPrice": 40.24,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-08-11"
         }
@@ -206,8 +206,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5835.38,
-        "change": 0.74,
+        "value": 5789.89,
+        "change": -0.78,
         "date": "08/13",
         "pe": 15.0
       }
@@ -215,18 +215,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.98",
-        "change": 0.39
+        "value": "99.99",
+        "change": 0.18
       },
       {
         "name": "黄金",
-        "value": "4461.2",
-        "change": 2.78
+        "value": "4423.8",
+        "change": 1.42
       },
       {
         "name": "原油",
-        "value": "82.74",
-        "change": 5.83
+        "value": "82.24",
+        "change": 0.13
       },
       {
         "name": "10Y美债",
@@ -265,8 +265,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "公布财报后，微软股票是买入、卖出还是估值合理？ - 晨星",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObjBfRnY0TGNTZklUb01LVDl2dmNiX1ZfUDdiM0pMNldvR2F5MWhzMk41UTBTS2UtbUwxWmN0dXYyNUtLR2sxeWV6bVRRYUVvOWpOVTNYc2xZLXVkaG5zcTR6Qi13eWFBNERrM3M2WjZYdm9STldxSDFlaW9ncGloUFZFdUttLVFraERQMXNjcFN3WTYtUnpEWDRRcHRveWNsZ3VPNHY1YVM?oc=5"
+        "text": "微软股价刚刚扫清一大障碍，但仍落后于标准普尔 500 指数 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVEpDSHI2ekgwei13NHYtQk9OVTFINTJMUW5mZjJySjJQR3VDR0dTdVJkd1JucGR1dU54amFUM0ZnZ2FzLUxabzlMVXJpY3JJcG5GdVVCTjFZSkVvLWd4NzY3U3hLZjhVR2Z5T2pmYkZiaEtWMzA5X29NMGptYkxZS01vdXc5WXdpdndfbHU2UU14aTIzM0laUWJfSzg1ekt2RkM3NlN6dkJfVWxEZV80SzQ2SF9kRzd1MHFHWGNOaVktaXh4ZzI2c3RjTTR2UQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -277,7 +277,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "记录显示，众议员朱莉娅·莱特洛 (Julia Letlow) 在与 Meta 签署保密协议后购买了该公司股票",
+        "text": "记录显示，众议员朱莉娅·莱特洛 (Julia Letlow) 在与 Meta 签署保密协议后购买了该公司的股票 - wwno.org",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTTduSTZYblV1U01YekdkUDNiQnNENFhUNUF0NHhWT0gtamdoSWNEN1lueFR5eDd5RWFnd2NPUzhYVkZFT01rUXJOZUtUV25WLW9wZWVNaHVXSndCUWd3R3lSX1JQZF81bFNISVdGaWNzMHpDWDZ3eUt1RGJfLW9ackdJcHBJNHR0NVhsdGg1b3ZFbmU0bXpiZFdHbUsyMy1NX2doMmZSVFlhNDFCMDE4Mjk2NGo2U1JlNUlNdzZ4WDc0TTR3U2NLY0UxT19GemNaZXlj?oc=5"
       },
       {
@@ -289,7 +289,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "周二 Alphabet 股票发生了什么？ - Alphabet (纳斯达克股票代码：GOOGL)、Alphabet (纳斯达克股票代码：GOOG) - Benzinga",
+        "text": "周二 Alphabet 股票发生了什么？ - Alphabet（纳斯达克股票代码：GOOGL）、Alphabet（纳斯达克股票代码：GOOG）- benzinga.com",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXlaUVJIZ2FMWVdtNzY3RDM4MUdyU2FubVdTRjl1R3hwWGlEQTJRU1h4c2ZqRjlNQzc5RjY3NXFyYVV6NHZVZFNmMnRMc0dmOUNSVlFiMHh6Z01JWkdjRjVic1dXYVVLOGNCdzRtLUJySy1mTnZTT0Z3LVpSazVneG56cFZVd09TU0NReTk5aFhkZGZyNXctUVlHUVFXdXFmM2JtOHNWdTJCcjhDdHZfWEdDMGJLTWlTQWdHZzJHa3MzeW5B?oc=5"
       },
       {
@@ -307,26 +307,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "即使在最近的抛售之后，大多数分析师仍然不看好特斯拉股票。这就是为什么。 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZThQeU02QWNOQnJGWWk5Z1lWZFlxWlBYUFpBSHJFTUVPOXhlTlVpMFhLUjdCSEVXOEl4OHhxRWc2aVc0VXVuczVwd3FQNEtTZ2J5Qm5VZHpfdi1hWE9LYzVGVEhZUWg0OTdyTEZtVUpfNWZYbWx1d2cwY3VodFZSRU1KZ1lzem5VOW9fX3BYVGdZVTNlTWc?oc=5"
+        "text": "特斯拉 (TSLA) 股票销量看起来很丰厚，但 5 年回报率强劲 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRkFvc1ZzWDFncVBqZmVWYkp3VmcxWDdCN1dyaDBpUDh4VFZZcHF2WkhZQ25QM3l6OFk1MktfWjNiMFIzMFM5amNNSzlpRXVYd3I3Q3piY2RsblhpVGEza1BBNjZuQUFKWlpFYUlnM19ROU15bXFwWGlySFJGTFNHZm5LZzJfZ0tWQzAxdG1zbmFieFctSXpV?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉获得丹麦 FSD 扩张批准——但特斯拉股价下跌 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFQVWYtc0ZkVzRtaDNIV1ZqWmpfYlNBcnFqS0xNNHd5NkxLMUFsTUEtbGh0ZnNtTlB1NGFxN2E5eHFzVE0zT3RBQldSOHVLNXZNVzlyd21CNVBwZUhrdkNtMU9ENGU5ZGYtbWlzM192am0tZmdtUlJscm8yanhFbS1rMnJpRHdlT3lqY2dpZUVxb1UzaUU2clc2SzNidmhkREpiNTFqRG4tRWduODJERU1B?oc=5"
+        "text": "TSLA 股价盘前攀升：查马斯表示，随着 100 亿美元德克萨斯州太阳能计划的出现，特斯拉将“全力投入核能” - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlM2VXh4c25yTmFOcE5vWEhaWERZU001aGNheEY4WnhtTlFxVmVkZzYyZ2ZianU0RVNzNU5FdURGTVlmNnlINi1sREFSTnlkck5xTGEzcnlaR0lCcnh4QnZzeElrR19ZQTdwXzVvWTQzQTZjREtqSUdmekNMLTJuMnl1Ymd5NU81dU9Xdi1kd0tSa1k0NUxMcElYaWJVQjMxNHZNWVpSRXlUOTFLTHlQSlBn?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "WMT",
+        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计该股未来 12 个月的走势 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
         "text": "沃尔玛盈利到期。这种短期期权交易可能会带来 14% 的回报。 - 投资者商报",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSnZxNF81dHMtLXlRRGFad1Z0X1ItOTNLci1Gck0yX2xoeXhaNThTdG9MSmJhSTVUN09sRzNpLXJyRUxWLU14Yk15NEhVMndrYU9PSVRpM1l2aDgzNG05VHM3aWlId0puM0JWVV9tVmZlV0c0TURvdkdCR0s4dmtLRW5RQWtIMHR5Z2RDR1ZuWnZRdC1LeThPZzQwYUNkU3BsaXVBbEU1ZnpGdE5Belc0RTdSQy0xbGxoMWVjLXB0cw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "WMT",
-        "text": "如果增长计划满足利润压力，沃尔玛 (WMT) 的价值是否已充分体现？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMTl0a0dBRDN1cERqcWkwLXRuNlROa2E1aGllVFRfdEN1bUZMSGlVSDdCX3F0Y2RWazZ2OWpoX3pMd3NCWXlzZXJuT1RnM3c4ZlB5X1pFaFBIYXhYM0kwNTVuNGZlMllZdFhnc0Vrc25EUEQ1bUpRa3pLdk1yNXNWUnU5eDhIUWhmS1RCT2kwTjhBYU5UMExaWk9nOF8?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -337,8 +337,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix：有什么东西坏了吗？ （纳斯达克股票代码：NFLX）——寻求阿尔法",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONFZzMkg0LTg5TG9wV3h2bjhoZXNCcGs1THJwY2lGdWhKZm1fOHRTMjV5WTlFaHFSb3ZmMm52d0V4QUJTT2NReDBiVFJlNkFmU05JZUo1bmM0N2pCNXR4amoxNVg0LXZnQldmODVFRTRDN2ZqY0JZNWxrVUxodDdWZlhmcG5IazdxbENTYjhHU1ItS0IzcXBpRlVkU0gwWFo3cFE?oc=5"
+        "text": "NFLX 与同行对比：回报与排名不符 - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmZWNm5UcGpHUW8wOXlacEs0aTNjaGt3ck1iWnBHYWhOS2loelA5ZmRuSjl6ZWxWb2lMZTRZai16SF93Rk1ZVWNMbkNrOUxPTGttRFV1TTBBMVhaUjNFS0pEWkpfSFNIS2pKSm84OU1GOXdEbldmLXpCWVpya24weTR3NjVsUTBvNFgwZ0hPS3lRTC1Pa3JYbmFUQTVIbzRKYlVzVHdRUUVwdHVJbUFWemVlRQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
