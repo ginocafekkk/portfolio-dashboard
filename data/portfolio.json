@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 440.8,
+          "lastPrice": 441.0,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-14"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 119.3,
+          "lastPrice": 119.7,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-14"
         }
@@ -215,13 +215,13 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.77",
-        "change": -0.04
+        "value": "99.74",
+        "change": -0.07
       },
       {
         "name": "黄金",
-        "value": "4398.6",
-        "change": 0.84
+        "value": "4400.1",
+        "change": 0.88
       },
       {
         "name": "原油",
@@ -253,8 +253,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "超微因报告而飙升。为什么英伟达也在上涨。 - 投资者商报",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG5FSDJ2TFhyRUxFU2VTWjBFUWFKY04wZnQ0Uy1TVlAyTlBRWTI2VlB0QU90UjVyVWdILVoxTHRjSGMtazZrYS1Sa3p2OFBpVU5JQVhUbDh2RlZOaElEc01tc191dDZXYWwzS1dDcUZSRGlrdHBhSndjSm5sY2ZFdkdQbUNrVVZMZ2trVC1NN3hQaHJjVUhDdkhDa2lyNW8?oc=5"
+        "text": "数据中心报告后英伟达股价暴跌 - wsj.com",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYVFLVEUxZ3c2Rlc2MHNiRkk0YkJzZ2dIVEMzZlJhbkowbUhqNm1CaXNRUzA1XzJWUnF1cnhjVFRnSWRmTFJiXzRUU2xWajdCNHlFLUczeHZXQmpiYXg4YkVkTDRTZ1pzY0dtWW90N0ZsNHRTSlIzRnVpQy1haWZydjJSS1hjVy1Pd1N1T21WZmhFTUZ3V3VXV1hvbmtTNUNvMmd6VEx0SXJjQm9UQWpHYW1OTWZWbHBWeHZfVE9JWTZqZFhWMlJtc1dQZzRDSGRUWjh5M0NWUmlEaEpxcEhuNWltWk1TQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -265,13 +265,13 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "为什么这位分析师认为微软股票又下跌了 30% - Finance.yahoo.com",
+        "text": "为什么这位分析师认为微软股票又下跌了 30% - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVU4eEMyS3pWYU1SSnNwRzdYdjlQLU5QdUpteG9NdlBKRVpaay1mVEFzRGFuQ1BxVmYwRDhlNS1mazlZUU9mMmJZd3hUbm9TcU1fUFRiSFRzV0cxaV9WZ0VBc0MtNnpkbXJHaXNGRHZZTnNWNGVlLTBsS3V0SnFocHUwMS1yWjF5V0luLXN6bndLcU1KUkFXN251dUlubzVVQ1NhUjZucl9SYTRvUzJMZDVHaVpSelFBdXJr?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "市场在一个月内将 Meta 削减了 10%：一位分析师的目标是明年的回报率达到 87% - Finance.yahoo.com",
+        "text": "市场在一个月内将 Meta 削减 10%：一位分析师目标明年回报率达到 87% - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0Vta1dOM2JIdGZIYlVmZVl5NXZSMklIQmdDeVZQQ2t6aGxWQTVDRkk3MUJscUE1dm45T1B2NTR4NlExdmlFcVJKTVY1UHVPRkpCNWJxbTJZQlNKMU5kcWtJU3luVlJZSm82d0s5aTJSaFJhcmtELVNQM09BUExza1NXNHJ4TFhSclZaN25keERQN1RO?oc=5"
       },
       {
@@ -295,19 +295,19 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "Alphabet 和亚马逊在基础设施上花费了 4200 亿美元。这两只股票已准备好从中获利。 - 环球邮报",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNel8wMDVXbnhZbHdmVkRlQ3BlQWZwZlZUU3RPaTFpcFBqbnNRQkhoTDIxMUtlY1ZFeGFqc0gtQnVEZWxBSGNuUUJscjFTZmZTWGttdHNJRXRvVks0SW52VEFfYno5UlNIMkgtQ2hKQlM4a3gzMVZ2cWpKVGFCbkpvNmR3MmRVeVowWVdMbllHZGhGOUpKT1Bxc0R3TklGdFB2RExSR0FOb2lYWkQ2ZHZZVVJJcDdLdTB4OVMyVFZweEg2aW5fbUNQSmtkdDU3cjZmM0Y0eDF0QllmYTF1eUthUlVtMXV4ek44QUMtWWtmMmU2aUpFVnBLZDI1eExmZHdMQnNTY2YyWGVJbkJqeWdCdTgtX1lyRzVLLXc?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "AMZN",
         "text": "亚马逊 (AMZN) 正在为 OpenAI 的网络模型提供动力，那么为什么该股票如此便宜？ - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdmxRenRsUV8yMzdyd2JoQWVCQXBBcjFJSGxTSUEzM253SHBSZWJYT0l6ZjV3RXpZQmZlMnVyRzBWaFZheWR0NElOZ09SX0xSQ09jNVltZDFmdXZONzFLa1h5M3N3Qzd2U1A3Q05KWk82a2Z5amhvaExoRVJoNFk1eXdLOU9PQVp6dGtndWRfQUFQYmhPbWNJRFIyWHNTSTA?oc=5"
       },
       {
         "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "公布财报后，亚马逊股票是买入、卖出还是估值合理？ - 晨星",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUJfbTBpX1RKdW1fTE0zclVUT21KTS15TTJ3NFVJYzhOS3JCZkR6UEFyWTRVbjBNOWRrSHhYbkRnNjVKNG1NV3AwN1ZZNzlmZzVJbUNhd19NbEtBSFVBQlhteVlpWkhqXzdtbk1GYXhYckZKZG9uNk41Z0RIajZZMTBlM0h5dW9xdTFYTzV3TmNHRVp2aEVpZDR4MFFGV194TDRGRw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "瑞典工会结束特斯拉收购后近三年的罢工，特斯拉股价上涨 - Finance.yahoo.com",
+        "text": "瑞典工会结束特斯拉收购后近三年的罢工，特斯拉股价上涨 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQXNOWkdjNGREOWEwVDc4RE16UW5Cb2Ztb1ZPU2liR1NPcDU3U2tPV0J1WE1vbVowNmRQbWt3QTZvNGU0Qm9OYTQxMmx3TzZFY1loT0RDNk5DTjlIcWpXRFJ6SDAtc0o2R2w4c205S2lSZ2VzS216ZEl5Ykh5c215dVhtQ044V0V6TVVUNWJ3Tkd2d3NTcjcwZkZDSQ?oc=5"
       },
       {
@@ -319,7 +319,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计未来 12 个月的股票走势 - Finance.yahoo.com",
+        "text": "沃尔玛 (WMT) 股价预测：我们的价格目标预计该股未来 12 个月的走势 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQW15c3dNaVBvVjBEaUVCRzlYZUJJa3k4djVYbkZacjNWY2VRT3RVcWZIUmF2OGpvU3VCV1A2Ul9NbHFqck5wOERha21RaG1qTmgyTHJ4UmRFNGVCMFJrWFVzNS1IU3ZWR0paV015N2hwNzZQZUZUNXJuTHFQUGw3aGdoRUJHb2F6UzJjRHFLSnFiWnhYcVhSaklVdF9oT0xf?oc=5"
       },
       {
@@ -337,7 +337,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "比尔·阿克曼 (Bill Ackman) 在 NFLX 2022 年遭受巨大损失后再次发起进攻：“Netflix 实际上赢得了流媒体大战” - Finance.yahoo.com",
+        "text": "比尔·阿克曼 (Bill Ackman) 在 NFLX 2022 年遭受巨大损失后再次发起反击：“Netflix 实际上赢得了流媒体战争” - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUEhFa0FpaTQwZzhWeWFHaHU3cWNwZUsyNHU2VzZCTTk4aXdhOEtoX2EzN243Wnh4QXFsd3RJZ3p5dEFTdFJDNFJpVE1ScFNTSjdPWUlWaVVDanYyZGVXYktJR1JpZWNvb2tPSldYRlEwWXhzSGNRU0VqeWprbTZ6Q1pHUFNYRFZnVE0yb2VxaVhRU3lpSTJkQkdMUG0?oc=5"
       },
       {
