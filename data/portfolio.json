@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 441.0,
+          "lastPrice": 440.0,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-14"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 119.7,
+          "lastPrice": 119.9,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-14"
         }
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8467",
+          "value": "~7.8464",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -500,7 +500,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.0",
+          "value": "~99.8",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -608,14 +608,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7423",
+          "value": "~6.7412",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 0.8亿股",
+          "value": "CSI300 6.6亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
