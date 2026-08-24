@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 439.8,
+          "lastPrice": 440.0,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-14"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 112.2,
+          "lastPrice": 112.5,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-14"
         }
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8369",
+          "value": "~7.8366",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -608,7 +608,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7230",
+          "value": "~6.7231",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
