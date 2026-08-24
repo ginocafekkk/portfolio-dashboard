@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22",
+  "lastUpdated": "2026-08-24",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 457.0,
+          "lastPrice": 439.8,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-14"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 123.0,
+          "lastPrice": 112.2,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-14"
         }
@@ -135,7 +135,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 27.96,
+          "lastPrice": 28.15,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-08-17"
         },
@@ -144,7 +144,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 38.9,
+          "lastPrice": 39.58,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-08-17"
         },
@@ -153,7 +153,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 41.24,
+          "lastPrice": 41.45,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-08-17"
         }
@@ -367,7 +367,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-08-22",
+    "lastUpdated": "2026-08-24",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -427,7 +427,7 @@
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~16",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8396",
+          "value": "~7.8369",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -500,7 +500,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~98.8",
+          "value": "~99.0",
           "status": "bullish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -608,14 +608,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7205",
+          "value": "~6.7230",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 42.2亿股",
+          "value": "CSI300 34.8亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
