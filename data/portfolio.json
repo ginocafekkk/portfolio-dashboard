@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 446.2,
+          "lastPrice": 445.4,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-25"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 116.3,
+          "lastPrice": 116.6,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-25"
         }
@@ -427,7 +427,7 @@
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~16",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8376",
+          "value": "~7.8385",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -608,14 +608,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7198",
+          "value": "~6.7197",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 42.7亿股",
+          "value": "CSI300 12.8亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
