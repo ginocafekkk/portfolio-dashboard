@@ -84,7 +84,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 442.0,
+          "lastPrice": 446.2,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-08-25"
         },
@@ -93,7 +93,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 114.2,
+          "lastPrice": 116.3,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-08-25"
         }
@@ -135,7 +135,7 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 28.21,
+          "lastPrice": 28.24,
           "ytdStartPrice": 26.22,
           "lastUpdated": "2026-08-25"
         },
@@ -144,7 +144,7 @@
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 39.5,
+          "lastPrice": 39.8,
           "ytdStartPrice": 39.94,
           "lastUpdated": "2026-08-25"
         },
@@ -153,7 +153,7 @@
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 41.62,
+          "lastPrice": 41.58,
           "ytdStartPrice": 39.24,
           "lastUpdated": "2026-08-25"
         }
@@ -182,56 +182,56 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4420.76,
-        "change": -0.45,
-        "date": "08/25",
+        "value": 4396.71,
+        "change": -0.54,
+        "date": "08/26",
         "pe": 8.5
       },
       {
         "key": "sp500",
         "name": "标普500",
-        "value": 7652.86,
-        "change": -1.19,
-        "date": "08/25",
+        "value": 7677.28,
+        "change": -0.19,
+        "date": "08/26",
         "pe": 26.0
       },
       {
         "key": "nasdaq",
         "name": "纳斯达克",
-        "value": 25980.19,
-        "change": -2.49,
-        "date": "08/25",
+        "value": 26151.3,
+        "change": -0.53,
+        "date": "08/26",
         "pe": 35.0
       },
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5630.78,
-        "change": -0.13,
-        "date": "08/25",
+        "value": 5675.34,
+        "change": 0.79,
+        "date": "08/26",
         "pe": 15.0
       }
     ],
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.07",
-        "change": 0.17
+        "value": "98.95",
+        "change": 0.15
       },
       {
         "name": "黄金",
-        "value": "4681.7",
-        "change": 3.66
+        "value": "4683.5",
+        "change": 1.28
       },
       {
         "name": "原油",
-        "value": "84.6",
-        "change": -3.68
+        "value": "80.11",
+        "change": -7.98
       },
       {
         "name": "10Y美债",
-        "value": "4.7",
-        "change": -0.04
+        "value": "4.64",
+        "change": -0.3
       }
     ],
     "fx": {
@@ -247,32 +247,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN1NpRHdBSDVMeGJTSzgwUGFveG1FU3BnOVFwUk5iMi0wWlpHN1o2VUw1U1lkcU96SVBfUVBKb3k1MEJZcHRJMnl2SnJ5RkVheE1WRmhiOVJBekdoR2JyLS1wcGpIOGdTeWxuSkN5cGNTa055TTZzcnpZUDJxTW1CeTlUNFFLMlFoZ2todVVLclhWSVJMcS1NWWprMXl3WnIyS3dXRHNxQXY0X3M?oc=5"
+        "text": "Prediction: Nvidia Stock Is Entering Its Most Important Quarter Yet - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNEtVLTBxUmxaWHN6Y3NvSkdDUHBUMGdHbnZoZWpTSm8yOVd3dmluNmVCOE5GZVQ0eGl5aHFOV1IwM193aTdZZTYwNkdNNV83NzF1NkFIbGRNY3hMLUNwbERXdHhhWHNVYnpFM3k0UzdKWERiQmdVS01ZNnp5UDlmZGdBdHh0RkhYZV9od0YzcXlyUlVXZVA2Qm9JYVdCNUN6cF9YVA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Nvidia Stock (NVDA): Top-Rated KeyBanc Analyst Points to Rubin Ramp as Main Tailwind - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnk5S0ZucF8wUXZvaDNoWlI5M3RQNWpJRDBkQkVGMExtTEZzN25Jd1hJU0JSMVJUVHAydm8xV2ZPS1c5WnhWaHhvUjdwWkw2Nl85cWRMZmNHTlVKanZKLU1kdnJ2Yi1FTkpfTmNKYm9LYlhYUDd3TFktVHZPVFdKU2hXNms0bzJEbDh3cmxxZmw1anRid3dpSDFoTktCZDNXRFNLR3FaRTY1aDBEUDRZOQ?oc=5"
+        "text": "$NVIDIA (NVDA.US)$ - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBySVlPUUMxWnVGeVNCM05ZOTZpekF2ZXpjX2p0WVFqaDFMMkx2dmtJTjA3U3pyN2lUOE1feEJmU1BqTGpFRU4tQTI3TGVtdVVGOF9fTXFjWElENllLU2ZHVk1hVU9OdEZLcGdHVFhGNElQeGZnRVg4?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "Microsoft (MSFT) Stock Trades Near Fair Value Following Its 66% Run - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblhSdlEzeWxqV0RfeVZkdzlCdjdRblAtVXVlMHBYcDV5Y210RVk2VXRFSTRHaWtJNm1mcTU0N2pkQ2N3eWFibDhXclhRUlZucUtjeDhvTks0NXByRzBKdzZ5dnJ5YU9mQnRlNDZYRjg3UnNiYjl1d2VTNC1qX3dWeGlQRGRrT2xvYVhYZDNkRkt1bnBnTEh3dXRxNV9JUQ?oc=5"
+        "text": "Microsoft Just Ripped 28% in a Month. What Would It Take to Get MSFT Stock Up to $600? - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDVfQV9ZaDF1UnBrYnJtdGNXRVBORHc1bzNZSE5EdGZjVDBJbTNkVlVQZ04zeEFnOVd5clRHQmNfSG41TUZUemFfcnhEUUJTTE1wRnA4TUVOY0dLMnJucWZiR0kzanJQSlQ3Q05BcTUxSWtIcFkwbXFPd2hFN1VOZTBXWUl3QWhlRk01U1F1Mlh1ck5yTXF4RDVJMjlMQ2FZQXZsT05QU3RuMExaRjF1eTgyQ3dDWm5nb1lZZVBDQTFfRkM2?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "Microsoft (MSFT) Stock Outlook for 2026 | August Edition - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmtVQTVaakRua1c0cFJOeFNYWmxVakR4VkNPSjYtYk9tQWRmTkRjWWNYbzhfeEZuMFhqbjhXb0x6bFR0Q29XUGVVckNvcmRBVF9JeWUxbTA4ZzJKanlIakRBbVhXLWNkYTdwaVZKcXJJdmlWU1NSd21KQlVxRFVGeGREMkIyUXVCTHFkbg?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "META",
-        "text": "Meta Stock (META) Set to Underperform Until the End of $1T Tobacco-Like Litigation Case - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjFjMUVFNWEtelhsS3FOVTNCazhqa3dxUmN2cFdEaEJiMTNlZkQ0WjNJQTAxaTB3MllheU4xdFV0d2dUR0c0dXJtMUFmOGkzOC0xazNWdXgyYnBNNGREQzltdXJ3MWM2NzZZdVRjd2RmQnNEd2NMWmZGUmcydnVXcHZvYVU1Ri1OY2pCNG1vRlBKTnA5bEgteVhJQVlhaW1UNzhMc2FVYUUzSjBkalR3?oc=5"
+        "text": "Meta Platforms Is Now 1 of Microsoft’s Biggest Customers. What That Means for MSFT Stock. - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNE44Mzc4dkpraHh0VDMyRmNucGpETFFVMHJXNktBWVkzQzlaZTlxVFJWbHltVnUyZXJsOWR6cVZseW9adVU3dTFpV0lUZUtOamM3R09Hcy1qNXJ3MWJVQkdoZ3BpRUE3MG95NC04Y0dJQTY1emc1X1dYMHVjaDVaWmJPNFF3V1ltSlNGZFFQclZnSjZmQ1I3dU90NHBNWThpWTZ0bTJWLXppcmdYd3hSSFpmUUFOMG9GNDhEdmpsczZ1WkRaWS0wN0Zn?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -282,45 +276,51 @@
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "GOOG",
-        "text": "Marvell’s $120 Billion Google Deal Changes Everything Ahead of Earnings - Barron's",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0ozaWt2YmlTWEhPRUZpT0xza3QtVGhRaFEyb1RKVUlNM2lrWGVmQnc3eVpDYnBfeTBPclp6VGpMNFhuZDNTSFVPa3V4NjhVQURfM0gwdXM3N2NhNFpjY0hrZ1RLRlRjMG9oMXczdzNuU2Q3V3BLaHV0NU9HSFRQRDdlZ0lqcGYzaVE?oc=5"
+        "ticker": "META",
+        "text": "Meta Stock (META) Set to Underperform Until the End of $1T Tobacco-Like Litigation Case - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjFjMUVFNWEtelhsS3FOVTNCazhqa3dxUmN2cFdEaEJiMTNlZkQ0WjNJQTAxaTB3MllheU4xdFV0d2dUR0c0dXJtMUFmOGkzOC0xazNWdXgyYnBNNGREQzltdXJ3MWM2NzZZdVRjd2RmQnNEd2NMWmZGUmcydnVXcHZvYVU1Ri1OY2pCNG1vRlBKTnA5bEgteVhJQVlhaW1UNzhMc2FVYUUzSjBkalR3?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet Stock (GOOG) Opinions on AI Advancements and Bond Offering - Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclc1VXhpdlNUUnB4dkNsOXB3VHN1dlVnUzJzaVNUSFBjU1ZrejE1cTlia25uMG1FQ0IyTENaTy1BdDBsVGpfcjhwY05OejRiQ1M5RU9YcVpnZWRVQXhQZXpkOXdtb3gwWnRTZ2owcVlWbXhIUlExQUNyMXdNQThIRHhhMmJOOW50ckw5UmVHeEVxTUxteHh6Nzd2VXFfMXQ0czhWUHNiaw?oc=5"
+        "text": "TSLA Stock Races Past NVDA, GOOG In August Rally: Elon Musk’s TeraFab And Semi Bets Shift Into High Gear - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVkpKbEZ3QkRGRklQQm5tLWlZV2lmbjduZ0hLNmZyd0ozQkw2dS1JQXh2WDFXZ3l5Z2x2TzRZNTRlQUZmVkp6Q293TW9oTFdvYVktSVh2djBPMjBOai1PQUswaUt6RFgwMXI1cG5HX1RNa2hlRW9sazlUTE9zVnRHcHJTRW4wYkF5T3Iwd0I2c05YMklYSklZZm5LbGpRbHV2a09xc3JpLTgzNkFiUWNlWQ?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "GOOG",
+        "text": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years? - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdHhXWllPejZCcmRYcFVUbWI1RXJwUnRzSENtMl9hUjNzeTRJY0pGS2p1UVNlemF0QkRveklYdmEyVjl5Tkx4RWJIREw5ZDVmdXB4N1N3T201T19nZDBoSUdTYjFWaHFseC1hcmlOQlFwdjVuaU41YlhXckhmVTdLVUdkWEJncXVpUjFSeXRvOHdfc0FnZkRxcA?oc=5"
+        "text": "AMZN Stock Climbs As Amazon Reportedly Plans Automation Initiative To Use AI And Robotics For Delivery Stations - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX3RTaXRQVGxYNDhNZWpXZ3pzNDN4b3FTTDlfd3hVMGlCMURNekZKOURyLW45SUxJOUdqZXhtRy1mVGJ0NGhNN0lGaFJGQUdFQk9UeVdSelZqUENHenVpanBjdVViOGtmeHJvVWpqZ2dqaFhpWDAtOXJYeXNYS2l2VW1RU1M2emRmZERCSUdMQ28xWmNtWjB6aHZrMTVfV3Bw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "Huge News For Amazon Stock Fans - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXY3Z1EyNzFzUFNDa1J1bi1FT256WHRTcXUxcFV6cEFoZGJmQXdrSjBOQWloWC1yYVM2dnFrUkt5YWxGNy1lUjBCdk1nRG55bzUwbGNmcHFpRGV3WjB1YlpscGY1WHVjajVOZ0NXVGlpZFZYamkwT1QyTjBlSzFzOHIxRHlzczhvZzF1Qm9lcmlMT3NHQkE?oc=5"
+        "text": "Amazon (AMZN) Stock Could Be 39% Undervalued After Chip Push - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdFNPcmplOHpCRjRYUmZpbjR3TEdmcjRxQnhiTTRQT2ROeWRFTzJMNkVTT2twcFZtWHF3NWkxMm1SeGxacUhGWDlUa2N3VEVmd1E2ZDBkRXVtNnp0RVlFMTEzMk1MSXYyYVdCTzh2YThvT0NLYW9fdnQ1VjlfX3VtY1ZNUDdqd0lpYmJyLUtoZWR6SmRBWkZ4Y3JGeURGcWFVX09wUHpOdU92TlFJN3BwXzBxb3RwUGRhMzE4ZGFBWUzSAcYBQVVfeXFMUEJiTkhrWDh5SkRnbFdmbUdEUUNVWHBzUkpYS05BNjB1ZDZsVnRhT2RvNzBfWHFVdVlyYUV5TjBxT3hTN3B0N3hsOVM0NFZfdmc5cUZEZEo0SExXejdIamtYZzM5c2hwQnd5Yzh4X2ZLMEtNUTR0cVhUR0lCVXpKVGtUN2xYMFF1LVRjMFRlRzdrODNkYXAzSF95Mlpac1c1aTdLSHpJOWp3WE1kcFZ3SnVrR1BUMXZ0OXRXY1BxdlBaOGQyVmx3?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "Tesla Stock in 2027: Why I Think It Still Has Room to Run - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMDFUTmJFbEFXdUx2XzNMQWwzX2xEekNwY0FfOFVpZ0VINE1RdEdQWDNwN1JiaVJvWVhyNlBLMlJkSi00VkVhd3FHWmFGMlBiUzdtQjdsRjJPdnVpZkV0ME9hQlcxOEdGVkdScWpCZ1hJX3FHXzAteFBKXzljY2ZDT3NSd2QxSk1qb2pNQTZDazFISnBXSTVIZg?oc=5"
+        "text": "Great News for Tesla Stock Investors - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLWdrNXNBWG5SYmxoYUVZSEVVVzlhTnBINy02MzlNQ24yTFRjYnBuNDZXUUdiMUd3Y1U1YUlwSXpoanZZSllGQkFkYmZ0bGtoRWloaTFwNHJKbGZvZjVHZTZ4cmJvQzZ3eDYwQ3o4TmZrdUk1Uk9NLXBRN0VUekpqQjk2WEZSdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "Tesla (TSLA) Is Recalling Nearly 3 Million Vehicles In China - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORHlOSl9aYXpWbUtkTnB3SGRsd2NvR2Rqdl9WcTU1TG9qaGVBQlBaUXlPTndZSWF1X2VYZm14ZnpuYTVveGVQbXJiempJNUVmTE8xckVkU2lERXpJbGxIZ2hiNzFLXzE1TDl1VTk1eGdLOGN0VmFWcXRGTk44eFRRbWtqRTBaZG5TQm44VmRKOFlSY0NHZHhOVDRn?oc=5"
+        "text": "Tesla Stock (NASDAQ:TSLA) Gains Despite Growing Numbers of Sleepy Tesla Drivers - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZGxjVUNNRjZLdVlBTDNUamQwT3lqZ2tuQXQ0cE1pNzNVX2hXUFlmZGFJZ0RhVUx3UVVFSjYwUllmeUNmTVVySTRJWnFEaWhmc3I2ejkzaTltNXBRam96LUZRWW81ODRCSjZnZGQ2aU9mTEhULUEwWDd5bmtVR0dCd2x0VU5OZWIxMFRPdFdpWlQtNzhFV3dRMTAtcEdFMmlWRXc0QnpfVWZnQQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "Walmart stock price target reset by JPMorgan after earnings - thestreet.com",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZGFqa0l2RGpDT29vMXJJaklxWXRnNTRkM0N6YXE5WG81cENVZGtRTE1RN21yTkpXRkJ4RllhZ1BHUjdGOGJyTDVnOEdHZTVwVlQ2WHp4RmN6Y0JONlRTS0d6Nl82QldsUlJ6UldkbnEwdE1jRmUyeVhyMnhqb1J0WHFwaWpScnNYemZNd040aG4?oc=5"
+        "text": "Walmart Keeps Cratering: 45% Gains Are Expected From A Respected Wall Street Pro - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaTgzQUFYUTA0OG5WY3NxM1lkbnA2ZHRBOFEtREVETGU4NWdXRFFmZGtwY0ozUTVxdHNONm5LU2o0YUpkRWY5V3dDclg0T1pTMDJ0WjI4ZVVkanFwaWJrSXhIYVZGNUtNRDcwdHQ0SS1OVUVlWEZZelhSV2JkbmlUaTlvUXJ2bk1FMDQ3ME1laTFabkxiY2c3cm9nWGRxMUt1Q0lCMzRjUDVyYW1aOG1Bb2ZXTUJxNDR5b2doUENHcw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -331,14 +331,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "NFLX Stock Reverses Course Overnight: Retail Shrugs Off Outgoing Chairman’s Sale As ‘Routine’ - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOamJkeUJySmRCd0pfQ1RRR0ktN29SV0UzUHUwNGJ6VXg4OGU4dHI0QTZwMmZYS0kyMDBBZGt3Z0JFT3lZM3E4a2JiVjBqb0U3MTRZNThXeHlpZnBoaVc3SEN2UWZJd3QycnNFOUhuZ25Sd1pzLW1WSXUyQjVBdjVQaENiYWR3c1lKcHJhRjFSVkVXdFJsdFNOaWRFc2tfTHAwRUhPZXNWSWpOSkNyX3k5cmkxbHRkXzBOR2RuN3JEQ2ZMdDl4NHFyNUlDNk4?oc=5"
+        "text": "Get Paid 12% A Year To Hold NFLX Stock You Already Own - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGRsejZ0WmFzY2dOMUVoMG9EYkVPcVpveldCTml6b3BObWtKbW5mUVMyWUR2V0dGc1FDTUx4dnExZ3g5R3l0ZVUtRlVlZGV5R2FVbThDcFNlczFaSDlTQkJ2VmZpU2tLTmN1c3lEeEdiZHFudmN5aEJCSVI4S1hnWk04dUx0dG9abHc1SVc2V3BiRGFlNzN6TzlLQ0x0dmdIM0pyVk16R1RrUU9CM1VUTjdOWkI?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Get Paid 12% A Year To Hold NFLX Stock You Already Own - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGRsejZ0WmFzY2dOMUVoMG9EYkVPcVpveldCTml6b3BObWtKbW5mUVMyWUR2V0dGc1FDTUx4dnExZ3g5R3l0ZVUtRlVlZGV5R2FVbThDcFNlczFaSDlTQkJ2VmZpU2tLTmN1c3lEeEdiZHFudmN5aEJCSVI4S1hnWk04dUx0dG9abHc1SVc2V3BiRGFlNzN6TzlLQ0x0dmdIM0pyVk16R1RrUU9CM1VUTjdOWkI?oc=5"
+        "text": "Netflix Stock (NFLX) Rises on Report It May Sell Subscriptions to Rival Streaming Services - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX3ZOQWVMcU5jVU1xRGlWNXllSzhaSGJ6dHV4aXdhblNrZ0ZxT3pIOFpLZk9RUFprMnZOcDJNRE9DV2swS1ZpYm53VF9qTXNoeXlVYU9pNUp0eTlJR0hYcmd4Ymw2RGRnbXpGbThIZ2RPRHZMMl9qM0VSV2ZPMXdXMGdCelR6V2x4QlBiTjlHOHoxR0dJWjdzNGRpX3hfaURUOUZqbDdhU19mU2NjOUdNZ0RKZ2JNVEIzYnc?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "0700.HK",
+        "text": "Nongfu Spring Co., Ltd. | 9633.HK Stock Price & Real-time Quotes - finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9sT1lMbFFKemtmbUJkRzVVWFBMcEZLODdyTU01Q0JUUGFsNWsxTXdTd2JFSVNtVHRiRl9uQTJVR2JNM1RBOTZBRGJFWTZ0NTE2?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -348,21 +354,15 @@
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "0700.HK",
-        "text": "Is Tencent Holdings (SEHK:700) Pricing A Long Term Opportunity After Recent Share Price Weakness? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYkhreFNCdDJ3NGlha0M0eVpjQUpYOXB1TG1oYnFuTUVHX2g5VXo2RV9zbDRWMWM3NENCVEVmNFNXRExwdUpuSm9kN0ppTUw3WU5LZV9FdENERWNrejhEQWRvbDRBYjVHak1LV2l5anBObUxJSk42S21COXZ4X3hjd2VnU2plVEV1Tlp6aUw0b212X3lxOEoxaVJ6VWdDZjQ?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "9988.HK",
-        "text": "Alibaba shares slide after $10.2 billion AI share sale offered at sharp discount - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbmJDLXh4Z1Q1TU1xaFVKallDYkY5TmdpYUlUTkpxZ1BGS09ReGNfSlJTd0F4OGNKYndTUndKRmRVaU9DUUNfWVc0b1FyV211dFQwRTdHZS1CNExRd3owLU93WEUtcWZ6YkQyOThYMmZlNDFJM01RbjhOenhvaFptLW44S2tmR2pPSjJOWlhnUHNhUy02Wm1Td0gyY3F1QzhyQk42YWhnNl9UUXBxY0Z3bzhUSm1tRjhTZ3YyM3dVU21ibERiRzMtQ3B6eTlfZw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
         "ticker": "9988.HK",
         "text": "Hong Kong Stocks Fall for First Time in 6 Sessions; Alibaba Plunges 8.5% on Dilution Concerns from Massive Capital Raise - finance.biggo.com",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02YVpOX19RbXB3Q3A2bm1VUGRUM1p1MVZlVkNGVkV4STNzUlQ0WDBzTGg5X0VXTnZWYWJYWFZnTzh2eTNUYmlDTzI5STUydWZJd3VMejVYY1RsQmQwaGRMUDNpVlotelpIaGM2WFNaU3J1OUR0TkE?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "9988.HK",
+        "text": "Why is Alibaba’s HK stock sliding today? - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2hlbkotbWk3cGRnV2djcGtnM3QwVlBPYWhpeXhEbnlyNjc5ampkN0R1VERkaGhtV0d3ZEVLd05FWjhVR01pR0lzMGMxci1NMjBTZnJ0a3FhV2Q0UUhvYjc5YVhYeTlfcUx6MDlxT2tSNkh6M2RqVmVVUHJab3puODN4UWlMT3V5X2hrc0V3RGV4UGs0UTU1VnF6dzVnTzFQcmc?oc=5"
       }
     ]
   },
