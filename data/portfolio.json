@@ -14,7 +14,7 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 225.73,
+          "lastPrice": 225.36,
           "ytdStartPrice": 188.62
         },
         {
@@ -22,7 +22,7 @@
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 503.87,
+          "lastPrice": 501.82,
           "ytdStartPrice": 470.84
         },
         {
@@ -30,7 +30,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 570.93,
+          "lastPrice": 571.71,
           "ytdStartPrice": 649.25
         },
         {
@@ -38,7 +38,7 @@
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 337.46,
+          "lastPrice": 338.19,
           "ytdStartPrice": 314.91
         },
         {
@@ -46,7 +46,7 @@
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 256.74,
+          "lastPrice": 257.09,
           "ytdStartPrice": 226.5
         },
         {
@@ -54,7 +54,7 @@
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 351.92,
+          "lastPrice": 352.96,
           "ytdStartPrice": 438.07
         },
         {
@@ -62,7 +62,7 @@
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 102.55,
+          "lastPrice": 102.85,
           "ytdStartPrice": 112.31
         },
         {
@@ -70,7 +70,7 @@
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 79.42,
+          "lastPrice": 79.83,
           "ytdStartPrice": 90.99
         }
       ]
@@ -427,7 +427,7 @@
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~14",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -455,7 +455,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $79.97",
+          "value": "HYG $79.94",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8384",
+          "value": "~7.8386",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -608,7 +608,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7193",
+          "value": "~6.7089",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
