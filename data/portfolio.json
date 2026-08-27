@@ -117,18 +117,18 @@
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 131764.48,
+          "lastPrice": 133227.07,
           "benchmark": "a500",
-          "navDate": "2026-08-26"
+          "navDate": "2026-08-27"
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 112144.91,
+          "lastPrice": 111528.11,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-08-26"
+          "navDate": "2026-08-27"
         },
         {
           "ticker": "600900.SS",
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8386",
+          "value": "~7.8387",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -608,7 +608,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7090",
+          "value": "~6.7089",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
