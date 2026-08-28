@@ -109,8 +109,8 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 214044.24,
-          "navDate": "2026-08-27"
+          "lastPrice": 214301.09,
+          "navDate": "2026-08-28"
         },
         {
           "ticker": "022438",
@@ -420,14 +420,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.67%",
+          "value": "10Y 4.69%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~14",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -472,7 +472,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8392",
+          "value": "~7.8395",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -608,7 +608,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7196",
+          "value": "~6.7097",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
