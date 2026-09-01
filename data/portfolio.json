@@ -16,7 +16,7 @@
           "avgCost": 144.28,
           "lastPrice": 217.44,
           "ytdStartPrice": 188.62,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "MSFT",
@@ -25,7 +25,7 @@
           "avgCost": 409.63,
           "lastPrice": 501.02,
           "ytdStartPrice": 470.84,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "META",
@@ -34,7 +34,7 @@
           "avgCost": 610.59,
           "lastPrice": 578.54,
           "ytdStartPrice": 649.25,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "GOOG",
@@ -43,7 +43,7 @@
           "avgCost": 193.37,
           "lastPrice": 332.03,
           "ytdStartPrice": 314.91,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "AMZN",
@@ -52,7 +52,7 @@
           "avgCost": 210.56,
           "lastPrice": 254.92,
           "ytdStartPrice": 226.5,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "TSLA",
@@ -61,7 +61,7 @@
           "avgCost": 407.76,
           "lastPrice": 356.09,
           "ytdStartPrice": 438.07,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "WMT",
@@ -70,7 +70,7 @@
           "avgCost": 117.59,
           "lastPrice": 105.92,
           "ytdStartPrice": 112.31,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         },
         {
           "ticker": "NFLX",
@@ -79,7 +79,7 @@
           "avgCost": 74.59,
           "lastPrice": 80.81,
           "ytdStartPrice": 90.99,
-          "lastUpdated": "2026-08-31"
+          "lastUpdated": "2026-09-01"
         }
       ]
     },
