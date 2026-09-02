@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 439.2,
+          "lastPrice": 438.2,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-09-02"
         },
@@ -480,7 +480,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8402",
+          "value": "~7.8426",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -616,14 +616,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7197",
+          "value": "~6.7213",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 0.1亿股",
+          "value": "CSI300 15.2亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
