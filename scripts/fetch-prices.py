@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch latest stock prices and update portfolio.json — v2 with retry"""
 import json, os, sys, time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 try:
     import requests
 except ImportError:
@@ -25,25 +25,31 @@ UA_LIST = [
 ]
 
 def fetch_price(ticker, retries=4):
-    """Fetch stock price from Yahoo Finance with retry"""
+    """Fetch stock price from Yahoo Finance with retry.
+
+    Returns (price, trade_date): price rounded to 2dp, trade_date is the
+    exchange-local trading date (YYYY-MM-DD) of that price. None on failure.
+    """
     for attempt in range(retries):
         try:
             ua = UA_LIST[attempt % len(UA_LIST)]
             headers = {'User-Agent': ua, 'Accept': 'application/json'}
-            # Try primary endpoint
-            url = f'https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d'
-            r = requests.get(url, headers=headers, timeout=12)
-            if r.status_code == 200:
-                data = r.json()
-                price = data['chart']['result'][0]['meta']['regularMarketPrice']
-                return round(price, 2)
-            # Try backup endpoint
-            url2 = f'https://query2.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d'
-            r = requests.get(url2, headers=headers, timeout=12)
-            if r.status_code == 200:
-                data = r.json()
-                price = data['chart']['result'][0]['meta']['regularMarketPrice']
-                return round(price, 2)
+            for url in (
+                f'https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d',
+                f'https://query2.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d',
+            ):
+                try:
+                    r = requests.get(url, headers=headers, timeout=12)
+                    if r.status_code == 200:
+                        meta = r.json()['chart']['result'][0]['meta']
+                        price = round(meta['regularMarketPrice'], 2)
+                        # 交易所本地交易日: regularMarketTime + gmtoffset(秒, EDT=-14400/HKT=28800)
+                        local = datetime.fromtimestamp(
+                            meta['regularMarketTime'], tz=timezone.utc
+                        ) + timedelta(seconds=meta.get('gmtoffset', 0))
+                        return (price, local.strftime('%Y-%m-%d'))
+                except Exception:
+                    continue
         except:
             pass
         time.sleep(2)
@@ -74,9 +80,10 @@ def main():
     for s in data['markets']['us']['stocks']:
         p = fetch_price(s['ticker'])
         if p:
-            s['lastPrice'] = p
+            s['lastPrice'] = p[0]
+            s['lastUpdated'] = p[1]
             us_ok += 1
-            print(f"  ✅ {s['ticker']}: ${p}")
+            print(f"  ✅ {s['ticker']}: ${p[0]} @ {p[1]}")
         else:
             us_fail += 1
             print(f"  ❌ {s['ticker']}: 失败")
@@ -86,9 +93,10 @@ def main():
     for s in data['markets']['hk']['stocks']:
         p = fetch_price(s['ticker'])
         if p:
-            s['lastPrice'] = p
+            s['lastPrice'] = p[0]
+            s['lastUpdated'] = p[1]
             hk_ok += 1
-            print(f"  ✅ {s['ticker']}: HK${p}")
+            print(f"  ✅ {s['ticker']}: HK${p[0]} @ {p[1]}")
         else:
             hk_fail += 1
             print(f"  ❌ {s['ticker']}: 失败")
@@ -122,9 +130,10 @@ def main():
             # 个股用Yahoo Finance
             p = fetch_price(s['ticker'])
             if p:
-                s['lastPrice'] = p
+                s['lastPrice'] = p[0]
+                s['lastUpdated'] = p[1]
                 a_ok += 1
-                print(f"  ✅ {s['ticker']} {s['name']}: ¥{p}")
+                print(f"  ✅ {s['ticker']} {s['name']}: ¥{p[0]} @ {p[1]}")
             else:
                 a_fail += 1
                 print(f"  ❌ {s['ticker']} {s['name']}: 失败")
