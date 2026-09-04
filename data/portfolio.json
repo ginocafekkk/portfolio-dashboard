@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 433.2,
+          "lastPrice": 433.0,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-09-03"
         },
@@ -101,7 +101,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 107.2,
+          "lastPrice": 107.5,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-09-03"
         }
