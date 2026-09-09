@@ -92,18 +92,18 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 435.4,
+          "lastPrice": 434.0,
           "ytdStartPrice": 615.83,
-          "lastUpdated": "2026-09-08"
+          "lastUpdated": "2026-09-09"
         },
         {
           "ticker": "9988.HK",
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 109.5,
+          "lastPrice": 109.8,
           "ytdStartPrice": 148.83,
-          "lastUpdated": "2026-09-08"
+          "lastUpdated": "2026-09-09"
         }
       ]
     },
@@ -143,27 +143,27 @@
           "name": "长江电力",
           "shares": 3000,
           "avgCost": 26.913,
-          "lastPrice": 27.87,
+          "lastPrice": 28.05,
           "ytdStartPrice": 26.22,
-          "lastUpdated": "2026-09-08"
+          "lastUpdated": "2026-09-09"
         },
         {
           "ticker": "600036.SS",
           "name": "招商银行",
           "shares": 2000,
           "avgCost": 36.592,
-          "lastPrice": 40.9,
+          "lastPrice": 41.0,
           "ytdStartPrice": 39.94,
-          "lastUpdated": "2026-09-08"
+          "lastUpdated": "2026-09-09"
         },
         {
           "ticker": "000651.SZ",
           "name": "格力电器",
           "shares": 800,
           "avgCost": 38.51,
-          "lastPrice": 38.29,
+          "lastPrice": 38.87,
           "ytdStartPrice": 39.24,
-          "lastUpdated": "2026-09-08"
+          "lastUpdated": "2026-09-09"
         }
       ]
     },
@@ -480,7 +480,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8408",
+          "value": "~7.8421",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -508,7 +508,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~98.9",
+          "value": "~98.7",
           "status": "bullish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -616,14 +616,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.6992",
+          "value": "~6.7074",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 1.8亿股",
+          "value": "CSI300 29.2亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
