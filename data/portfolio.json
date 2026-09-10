@@ -117,26 +117,26 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 215008.57,
-          "navDate": "2026-09-09"
+          "lastPrice": 214107.75,
+          "navDate": "2026-09-10"
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 131183.59,
+          "lastPrice": 130419.08,
           "benchmark": "a500",
-          "navDate": "2026-09-09"
+          "navDate": "2026-09-10"
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 113534.83,
+          "lastPrice": 113925.17,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-09-09"
+          "navDate": "2026-09-10"
         },
         {
           "ticker": "600900.SS",
