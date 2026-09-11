@@ -44,7 +44,14 @@ def fetch_index_with_change(ticker):
                 result = r.json()['chart']['result'][0]
                 meta = result['meta']
                 price = meta.get('regularMarketPrice')
-                prev_close = meta.get('chartPreviousClose')
+                # 优先用「最近两个交易日收盘」计算当日涨跌幅；
+                # chartPreviousClose 是 5d 区间前一天的收盘（约一周前），用它算出来是周涨幅，会误导
+                try:
+                    _q = result.get('indicators', {}).get('quote', [{}])[0]
+                    _closes = [c for c in (_q.get('close') or []) if c is not None]
+                except Exception:
+                    _closes = []
+                prev_close = _closes[-2] if len(_closes) >= 2 else meta.get('chartPreviousClose')
                 if price and prev_close and prev_close > 0:
                     change_pct = (price - prev_close) / prev_close * 100
                     return {'price': price, 'change_pct': change_pct}
