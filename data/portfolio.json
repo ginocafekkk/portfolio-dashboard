@@ -217,8 +217,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5515.85,
-        "change": -0.57,
+        "value": 5485.45,
+        "change": -0.55,
         "date": "09/15",
         "pe": 15.0
       }
@@ -226,18 +226,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.45",
-        "change": 0.33
+        "value": "99.65",
+        "change": 0.19
       },
       {
         "name": "黄金",
-        "value": "4340.0",
-        "change": -1.56
+        "value": "4307.6",
+        "change": -1.02
       },
       {
         "name": "原油",
-        "value": "101.89",
-        "change": 1.84
+        "value": "103.6",
+        "change": 2.18
       },
       {
         "name": "10Y美债",
@@ -264,8 +264,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "Jim Cramer 试图根据 Anthropic 首席执行官的讲话预测 NVIDIA 公司（纳斯达克股票代码：NVDA）的股价走势 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWVhZM0FqUkQ1dEpUQU5ZNzBkbHZuYWJpaWxIendUTDNDQjhNb20wVGEtampJcHNPYlhtRENrY002VXhrZ1VnV3BLVFdSa3dJOW9nZmxyRFBIbnUzd2NrelJteXpKbFFwcXpSa0llbk1mQXJGdVRDVDZUNUdPbmFCWnZCUkdJUE9ZaUpzaHNaa3A2X3d6LUpNQTFOb3c?oc=5"
+        "text": "随着人工智能警告的增加，Nvidia 触发了关键信号； Nvidia 现在可以卖出吗？ - 投资者商报",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTXFQY0xaRFA1bjdFZU11a1RBLUo1YVFrNzBLazA5LUhYVUEzWDZMVlE0WHdmYWdvTHBudUtudVktQUFtdHJhN0Z1dEZWSW12QnJ2LVp6c0g4WWh1TUd2TWUwcVFIei1jQUozb2RMVHRlZFNleEJHMkRJTG1WVV9YbFduTFZtVGhOd2ZJSmZ1N25uWnZGRmxxOHVhV2ltQWM?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -276,8 +276,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "MSFT 股价上涨 2%——微软推出“人文主义人工智能”行为准则以遏制自主人工智能风险 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWJFMFVaekZjNFdoSXF2X0lHY0NyUUxhM1FEWDdjdENHYVNaMExGc3BTX2V0dWtMUXh6SGNmYmNFQWZRUEkyb180MnNWWlBabHNKZG92TFBTNi1Fa0owSks3QWwxV0xkWHJKQWVabHhxdzVtcXpwN094QjF2N0NkZnphZWkxcG9ScTZYa2E1RjJISjlkZVdF?oc=5"
+        "text": "为什么市场下跌但微软（MSFT）今天上涨 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlJwNTFNeFNiNUJJQXlucHdabXJFU05xQ2xTd1ktdm10MVNfOWVCUFRHZ2I1eGdWU08xdzFxUmFJUUFaZ0xrM0gxM1Y0cmhWVm5sV1ZSQmFvNVVHWDA3MEJ4OXF0THhqUU9hUFQyQTR5WXdfYXpPOTJmcGIxMUNKSmhxS3J0TFNXTUdEZGNVR05nRHFNeGJTSmtSZEFlZw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -288,8 +288,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "预测：Meta 股票的上涨空间比其估值显示的更大 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSVF5bW9zeFN1RGpUd1BJWXZERG40aGdGcHg4bUp1dkNNbk9NUjFGdTB6M1NyUnZ5dzc4NFVSaG1zdmRsNXhaUkhmTmJZT205aFVKVXFzb3lNTEE1MTVmelVpeDIzVEEzLVRFanh4cG4zbkxiRjFvMHZJZVM2Ymx5bnpSbHhRX3VHVjlXOHBhQWhyWVdEM2VBVURfb3dUZjg?oc=5"
+        "text": "Meta 股票将于今天（9 月 14 日）盘前下跌——原因如下 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSVYzTzZDa1o1QVVFZWhiVk5jM2FvYkdwMk5vZ2g5UW44Q29JWEtQUlBoZUJfZGRNb2dONTgtbVo2OTN5emNvR0U5U2YwRjE5ZkxGMkxLODlNVjMwcUJQSnM3N2VUaE9FQnFKSGYyUWp4Zk84UlFma1EtWlF6UzJGRHdNSEdKYXdlMFZMcTJBMml3cTZBY3hN?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -300,8 +300,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "2026 年下半年值得关注的一只 Mag 7 股票将获得稳健收益 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVjFBSThuQUkza0xRNnhzU3dVWjg1LU50MHMtVlFSQldRbWFwdURuTndzd1dwRzZGaW4zY2s0TDVQSVNnNjRYTkFlSmJNUUtXRjBwLXBNNlBmOG9VQjdLRERUTFZuZnJvemVUVTFfSHhUdzVTUEhUd2Q4S0d2R19BajZMa05KYkpQVjJXTWV5bw?oc=5"
+        "text": "GOOG 股票：根据 Motley Fool 报道，Alphabet 的人工智能业务目前约为 50B 美元 - eciks.org",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bjZEU1pNMnRCT3BFZld1R3lTZktESUVwYzlWRjlBVXdaS00wTEtDQ1N5MlRqTlNRX0owa1FHQ1dqYTdWdE01MWlWM3VkeWlBeVNKdFJ2dGtmcV9yZldV?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "亚马逊：困难的部分现在开始 (NASDAQ:AMZN) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiRjk3MmJ1U0ZDdkFQRExEd1ZGSVM5N1F6STVVdzNyOUpUcjFITDgxZHloM3pUWC1lMThJb0NadjdTR2hVMXZBZ0RiejFHSnpETlBHQ21tSHVfVVRjdHE4bTRJa3pweTNLd1d4NnlwNnd6dUVNa0pIb1BoVEY?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -311,27 +317,21 @@
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "AMZN",
-        "text": "亚马逊的运营现金流可能推动 AMZN 突破 314 美元 - AMZN 最好的策略是什么？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3NWSUt1T1FuaUEwT3JGLWdicVFTeTk5UFlpTHZELW5XVy14VVFCdUxSRzVGVGRBSUJqQnVLTHNYbVlpeGpjQTNaOGhNNGh5OHI4RVZsLW8tZlBxbExQR3ZKUS1wQnMtek1KVkg4SzE3anJON2U5a0RhcnAwV192QXJBU19raXduNFJOQkdxa2VhTXZFdnB6RlJWellMUGJq?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "TSLA",
-        "text": "特斯拉网络已死：摩根大通的爆炸性报告显示，几乎所有机器人出租车数十亿美元都流向了特斯拉，而不是你 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ2RaSnlBYjl3b0l1VHJuc2hDVWppOTloQm90WndrM2VzMU1fcmNCaUJsTmVVWVhBRjlwb1MyMS1WMlVqTHloR1VyVlZJRmRvUkQwdEQ1M1lENnp2T3J2cmRnd2tyZmNfNkE2U01EN1c2X2RfWmVWMHh1U0JtTTBKdFQ4VDNQdlZpVllIOXBjNEw2U1dVZVRLZE81dGNTRWFmWFdLeA?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
         "ticker": "TSLA",
         "text": "随着马斯克加入对人工智能的关注，特斯拉股价下跌 - 《巴伦周刊》",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Xanh5YmpPYm5GQVJHNDY1ZjFxWkE4b2NmUkw3WlVFNklrWHJHZk5UY0k5M1dBV2YwVGpRbldHZ1NaS0d5d1pBcHhHWDRiTkRRRzUwZGlPMXJWNGp2WE8yRmY4TnFpNjMySEZuTGhtcEs3cDg0OW85b1hkckE?oc=5"
       },
       {
         "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "特斯拉股票因 Roadster 日期披露而没有受到任何影响——“大空头”迈克尔·伯里 (Michael Burry) 转而参与中国电动汽车竞争对手 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNVF5SDRVQWFoN2FuVG83d2VzcUNNMUpvTF9XY0o5dkphMVg4bktQbzF3YV9LOFdLSXk2aVkzU3JGak1sVkxxV3pGeEhQTXNXdkFxN01Ed1pBd0JoN0lYaFM0cTY3a0JYUWNGOEJ1YnVUdVA1RDNwV0V6elVaYnV3WGJFdVl0MnN6UmViRWdXRld5UXA4?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "沃尔玛下跌 24%。它最终是终极股息王股票吗？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVdZNTNQWjZ6TmF1Smoyd1JtazhaX18xcXpBSjg0SElfb29Jb3oxOGptN3R5LVRtQ0pFTDZjOVZqc0ppQkVIdXlOMHZxaFNLNHJhVnM2ZmltY0VmNGV0X2NxbHdZSXlOUVl6OF9EQnVTUjlRTUJWVWNWMGd4cHloeWZQVExlekxCaTFSZ1FCcGZUd1dDR19DSVVubnJMdw?oc=5"
+        "text": "吉姆·克莱默 (Jim Cramer) 建议在盈利后放弃沃尔玛公司 (NASDAQ:WMT) - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc3pkMEdKQ3o0MzBlQ0pyRUI4ZFF2VkVFWmRoZXZMNzlRX3FRaGx4alFUN3A4amRPSjNCbTBRbkpGOTd0QXI5Tk1qVHZkT21lUWI1dEtRZWc5UnA4OF83VUdZdGxYSEFhLUVfSDNIRklvN3B1dEpJcGpUN2pfd3hPc0hGSzMtVTNLZTcxZjl0UmMybXVfUTVkcXJ4eURrYzEt?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -342,14 +342,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 股价 (NFLX) 攀升，加入亚马逊和谷歌，成立新的流媒体联盟 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOHBCLThubmdKV2NCZGNGTEZlejFVZ09aWV9wanJITGo5TkVySy0tQ3A4VEtfRlUxTzlRTDVfY0RaSTF4Zm0yQXlNamFyNjJ3ZEtsRDZHRzdQVXZhT2VmWU1LNnNWdkZIMnZLREJaUUN2WnhnS0plNXRGbzlxQjF4RWtzamFkNm5pZ0w5cTMxQXNGSk8tS203bnRrXzhUZkN4MTRLUk5fVkcxM1RRa1NJQzMwb3JrTkN2dXd3?oc=5"
+        "text": "为什么 Netflix 股价今天上涨 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT01WZ2ZRWHQwRjY5aUJvNW4xUE8wSVpsZkhnZ25PNHFQamJWT0RJZ3IxR3M5c2w3eE44Y3AwZGVLZnZsTnhvRkpZV3BjOS1MUUJ3aUR5UXRJRWhzcWRGYVJoQjEtREtUSUpER19SbGhHYkdCLVRraHg3c012ZUF3c0tYY2p3UDJLVXdyRXB6UkEyejRGT2J5MFgyYTI?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "为什么 Netflix 股价今天上涨 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT01WZ2ZRWHQwRjY5aUJvNW4xUE8wSVpsZkhnZ25PNHFQamJWT0RJZ3IxR3M5c2w3eE44Y3AwZGVLZnZsTnhvRkpZV3BjOS1MUUJ3aUR5UXRJRWhzcWRGYVJoQjEtREtUSUpER19SbGhHYkdCLVRraHg3c012ZUF3c0tYY2p3UDJLVXdyRXB6UkEyejRGT2J5MFgyYTI?oc=5"
+        "text": "NFLX 股票周五逆市回调：创始人里德·黑斯廷斯退出 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSDhtUWNBQ2t4QmRiMVdqUGZLYnNKcmtPdGRfQmNKVjBnRG5aWUktci1XQkRBMlJDNXUxMmdySWZUWUtNcWxESWVBNVEzSzBPaF9zeW5oblFJM0UwWUd2VFlGNGNFeWhpTkhBUzdONW9QMUVhcE1GeGYxcy11Qlp5SFVwdzY5OU1wYnV1bDBORG9wNklKNU5rdDE3aEw5ck5OR2lBU1FUY1hyRTFEQnQ2ZW9DT0dlQjhBTEJyenNHZ0FOM2xURjl1X0hWd2F1VnQ1c2hz?oc=5"
       },
       {
         "source": "📰 实时资讯",
