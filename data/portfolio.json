@@ -119,7 +119,7 @@
           "benchmark": "hshylv",
           "lastPrice": 210756.61,
           "navDate": "2026-09-15",
-          "navChangePct": 0.06
+          "navChangePct": -0.94
         },
         {
           "ticker": "022438",
@@ -129,7 +129,7 @@
           "lastPrice": 127769.93,
           "benchmark": "a500",
           "navDate": "2026-09-15",
-          "navChangePct": -0.53
+          "navChangePct": -0.52
         },
         {
           "ticker": "007466",
@@ -139,7 +139,7 @@
           "lastPrice": 112456.74,
           "benchmark": "csi-lowvol",
           "navDate": "2026-09-15",
-          "navChangePct": 0.35
+          "navChangePct": -0.77
         },
         {
           "ticker": "600900.SS",
@@ -217,8 +217,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5485.45,
-        "change": -0.55,
+        "value": 5537.96,
+        "change": 0.96,
         "date": "09/16",
         "pe": 15.0
       }
@@ -226,18 +226,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "99.65",
-        "change": 0.19
+        "value": "99.61",
+        "change": -0.04
       },
       {
         "name": "黄金",
-        "value": "4333.4",
-        "change": -0.43
+        "value": "4374.7",
+        "change": 0.97
       },
       {
         "name": "原油",
-        "value": "105.48",
-        "change": 4.03
+        "value": "104.43",
+        "change": -1.32
       },
       {
         "name": "10Y美债",
@@ -264,8 +264,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "埃隆·马斯克（Elon Musk）向 SpaceX 和 Nvidia 股票发出强烈信号 - thestreet.com",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sd1ZSNXV3bEZ1dk9lcDMtVnlHVFBYWlMtSmhrNmxTRXhicnhwbHhIeVQ1Vmxua05YaDNSdmpmb1hRbTV3azZleGpLbGp5bm1qUHVhSFB6RVpieEVyek1GUGlMMVFkLXhpN2ZjNW1ncG01THdFbDdLYkZQc2NmNDg?oc=5"
+        "text": "英伟达股价下跌。在人工智能放缓的情况下，它仍然是最好的筹码赌注。 - 巴伦周刊",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd28zaEgxYzJOZi1kWWhWa0Y5RG5za0VEUDN5dEVXTjVPdzhnTlhLX3BIaUdTNUEtN20zRWhkandEbDlZaTNiX0VrUkQ2aFQ3Z3BvbmlDeTI5enc2RUJqaTkzV3FZZWxZUmxqMXBNZ25MNnRLMDhPYmV1aTd0WWc3MERLWQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -276,8 +276,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "ORCL 与 MSFT：价值投资者现在应该购买哪只股票？ - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRTdfZ3lPUm1uVnlFdmNLdE1pVS1ocnltWkE2Z2NBSkZWUW9WcjJZZF9iVHVvYVhtelZRaHF4TV9FUGRTT0s4amhTTEZnSEtCa3lGRlh4TmJLME1XWWRTYzN4UjBpWXVBenEwdTVsQWZXTHdlWmNmcmU2blFsMjNERzVuNEhQc3ZfX3BIS3NTc09FSUU?oc=5"
+        "text": "MSFT 股价上涨 2%——微软推出“人文主义人工智能”行为准则以遏制自主人工智能风险 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWJFMFVaekZjNFdoSXF2X0lHY0NyUUxhM1FEWDdjdENHYVNaMExGc3BTX2V0dWtMUXh6SGNmYmNFQWZRUEkyb180MnNWWlBabHNKZG92TFBTNi1Fa0owSks3QWwxV0xkWHJKQWVabHhxdzVtcXpwN094QjF2N0NkZnphZWkxcG9ScTZYa2E1RjJISjlkZVdF?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -288,8 +288,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "摩根大通表示，随着人工智能货币化势头强劲，Meta Platforms Inc. (META) 股价可能飙升 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnh3WGwzeDdMbHFIY1lQM3BQVmxfZ0lMa1RCQm1ZRmJjVFBVeElKdzNxODl2YlRmNzlMQWdNVmFMZWFNU1hXZFp5WlJNak9OZmxsbU91UDRuWWRDWnBiRjhodm1aTXZ1VnB5YjdZZnJuQ3U3dFF1Q3Z2cUR4WGh6U0hINGlaWE8zMkR6S3dMZ08tbUZoamVXaQ?oc=5"
+        "text": "元多头押注股票在经历一年的假头事件后将爆发 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHZCazdCNml5SVVvZ1RxcUlwYUZnb0pWaGZYeG9BRW53ZVl3YTRmTmtBQmpXUU0tZlk1Y2sweDhPTjJzMGJRejliTUNWSFBHRmY3a01qVEo5VkQwQllVVWhmcXNuU2NaM0dQMUVSRzlRdHJfcUIydmdkOTBMLXM0RGpnaTRHbmdSb3ljTTJhanpUN2pZS2c?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -300,8 +300,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet Inc-CL C（纳斯达克股票代码：GOOG）：建立在高投资回报率和持久增长基础上的优质股票 - ChartMill",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMUQzRlAxTFBsMXdNS1NyZWhaeG9uQXlodl81cXVNMTlqcXJkV2lnU3M0UEpkS3Z5VXVtRGxrU1NUQi1kdEhLTE5zWm53VUhxWFVUNHRfUGtxSVlBeW5FVDRwbXY5aUgyQmZ1SmdBZmE1bmptdVlvTGVKMlBMTlprdF82d0F3Sy1KSFRFNFpxdkxMOU5tRWtmR19nN3FKQ29PWnExZ2hHd2dLM2FuUnRIc3RXU0d3WjdMWTNWempOMm1iU2E3QmxOSG91bFYyVFE?oc=5"
+        "text": "谷歌在经历了十多年来最长的月度连续亏损后，在 9 月份开始在人工智能方面表现强劲 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNekV4X2IzT2hRdElVbXlXa0pVY3B0cE9va0tNYlNMMDJmb1I0NUxSellhbUs1TUw5aFBlZmtrdlB2bVV4ZW54VkNrOEs2Wkh5VGF5dUNadjlCQ3hqaUhVd1RSaDdyYXp2Qmx6YWN3WTF4blhhT3piSGJuMzF3UE83Z0lWOWVlVDVCRWtEZFJLVzRPdTdIRUw0OHdqbGFNbUxHVTNGRdIBqgFBVV95cUxOWnZTc0wtbjlNdi1FYUtpc19zWVpfVUxVZnJtSlpid0hTTUhnM1FZMmNyeVlXV0VCeEhHTi1WVE1QNzg4N0d6aDZ3b09xd2stRjljSU1ONXVsb1RTWWF2VWg4ZXMtQUVmR2lCb2dLM1dFT3l0R0VGNUo3S1FmZi01MzRHSU52NmNoaEpQSWdFWkp2Vk51Rk10Y0kyTmY4WW1nbWRGY0lETmpLUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -312,8 +312,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "Anthropic 上市后将获利的 2 只股票 - 96配资",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSVFWNHUxd0FmTms0bWpJc3dHRm9KbGVfNzdYYjlaMHZ1VnNDc3hmWnk2eUhsc2hrQWl3a3VuVHRBdEF6ejBlSzZRSjdTRkpNR3VjX3RKT3VNTE5MTTNEdDdqdmR3UG9DTk03czllQ3NXY3B4LUptQVdWNXBIMXpseE9nbmp1aG1wdFpzdWlEb2tQVGM?oc=5"
+        "text": "亚马逊（AMZN）下跌幅度不只限于更广泛的市场：您应该知道什么 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQlhtQjFNZU55djhTZ3daeG9iRmo0RjNQWUJrMXdKaWhTVlFVV05ONG9vTXR3STR6XzhlZ2xWWXE4WTljUGV1ZUkxNWtYeHk3eHpJWWJqWGFyaU4xQk5aeHZLb3BnSVlfdXo0Q0NQazNOaHoyQy1fOHpVS2RSRVhtdlYybE9uSExKZlNfLUxUSXo3bng5eXhlbE1R?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -324,8 +324,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "随着马斯克加入对人工智能的关注，特斯拉股价下跌 - 《巴伦周刊》",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Xanh5YmpPYm5GQVJHNDY1ZjFxWkE4b2NmUkw3WlVFNklrWHJHZk5UY0k5M1dBV2YwVGpRbldHZ1NaS0d5d1pBcHhHWDRiTkRRRzUwZGlPMXJWNGp2WE8yRmY4TnFpNjMySEZuTGhtcEs3cDg0OW85b1hkckE?oc=5"
+        "text": "埃隆·马斯克 (Elon Musk) 计划于 10 月推出新款特斯拉 Roadster；股价下跌 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yUU1peWVXdlFieFFBTFRzUnBwcnZYU18xd3cwTTdha25kUlhrVlR3QmxiRGJFTzBOdjZiX0JFZWhXWDI0cXpxZU1hTDREUk5ZTzQ3Sk5oMUU3RkRmdFZyOWpJUjJLZGhjaUdMMHYyMGkyWTVMOW9vM0RXblVLUE0?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -336,26 +336,26 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "第三季度指引未达预期后，WMT 股价下跌——一些关键亮点 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV3lZX3JIeGlvcUlxN01wTVZROFhXRmZaZGFkUmtoeXV3ZEU2T1RJSy1zeHRSR0Y0d25VS21aYkxieTh6NnBGTGt3MTJUaTEwZ2JRaGxFQVZaRWNaSjc1VXBCODMyNVpVQklRQ01KWHZmejlCQnc3U0tfM2JZakRFWE5FTnE1elpvVlE0eUNhd0MyOFkydmRNUjdfNElWT2Q0TEtPb3hyZ3BZd0lybTIxRVNaT1VYRk9hdnEtWDhVTVJkdDVubjBOQTR4T0pkZXQ4TjZwWUc0YUlQNFh0?oc=5"
+        "text": "沃尔玛的暴跌使得该股值得买入 - 《巴伦周刊》",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VQkM5RVZhclJOV1NzdE9YV0hsbW5xMFZnckxlVVJ6Vk90ZWNWbUktbkR5QmRQRFpHdmFtVGhRYnJ3ZkpVdXg2bVpKUi04bVIyUUwwTnR3ek50V1VIN3NNQTZMU2hmNW5Kb09qRWtRRl9rMk0?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "Netflix 股价 (NFLX) 攀升，加入亚马逊和谷歌，成立新的流媒体联盟 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOHBCLThubmdKV2NCZGNGTEZlejFVZ09aWV9wanJITGo5TkVySy0tQ3A4VEtfRlUxTzlRTDVfY0RaSTF4Zm0yQXlNamFyNjJ3ZEtsRDZHRzdQVXZhT2VmWU1LNnNWdkZIMnZLREJaUUN2WnhnS0plNXRGbzlxQjF4RWtzamFkNm5pZ0w5cTMxQXNGSk8tS203bnRrXzhUZkN4MTRLUk5fVkcxM1RRa1NJQzMwb3JrTkN2dXd3?oc=5"
+        "text": "派拉蒙收购华纳的混乱给 Netflix 带来了终极护城河（纳斯达克股票代码：NFLX） - 美股指南 - 美股开户 - 港股开户",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMWpSVTVRTHQ2MjN0bmw1M1dtcVB0T1FpVk54bklGYmg1QXh2ZFBxQTdoOGlYTk9nRmZaS1JZWjZJakI1X3BUdnY5T1M0OXhSRVllYW1LQjZOWm91emNZTzRmMFBzZy10NkpCNFJPVXNGdzlubFRTWlhCamlwTGZHTWhqZWRjYUNEajFOWmJSNEdjcmlZOGtuamM3ZlNRQkkzSDJZ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "22 名知名投资者持有 Netflix 股票，其中 14 名投资者最近增持了股份，其中包括比尔·阿克曼 (Bill Ackman) 的潘兴广场 (Pershing Square)。你应该跟随他们吗",
-        "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQVE9ldW5TWnNEWGlhMkVJSDF1dU43Z0lTeDBvUGFESnpZY1Q1b3UwMHNrRW5xOE9JQmNybEFXdTl1Ry1BX3NoQzhXbW83eElSUkxvVHlXbm53TUVscW0xTzJBOE9nUVM3N01IS2xsOFhDM2VFQ1F1UEVoTUgxZ0NaSFZBWnlIU09YZFFBd2pzdVZCdXh5NG1VVThta0x3Nk1SaUlINjhvclZmV196T3VhRXF2M19lU0ZlcWV0S1NobldwNmg1RlJfTkhseUR3MU9xOTllcEZTcW1MSXEyaTgwRDl4SC1wV1RlVFNQTktFUEFPLS1zeE82cE9ldFExWllHcjZNY1NLRy1GN0F1aG5CdElXQWhKUlVLYlJ3OHZLeVZnSWd1NklaVkdiNDBhcFBuZ21KbWNMYzJVSlFyNmdhaTlGaEstZGdpeFdYWklFazNLUWZJdFUxS2JTeHVOZw?oc=5"
+        "text": "为什么 Netflix 股价今天上涨 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT01WZ2ZRWHQwRjY5aUJvNW4xUE8wSVpsZkhnZ25PNHFQamJWT0RJZ3IxR3M5c2w3eE44Y3AwZGVLZnZsTnhvRkpZV3BjOS1MUUJ3aUR5UXRJRWhzcWRGYVJoQjEtREtUSUpER19SbGhHYkdCLVRraHg3c012ZUF3c0tYY2p3UDJLVXdyRXB6UkEyejRGT2J5MFgyYTI?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "腾讯 (SEHK:700) 三年回报率为 43%，股价看起来很便宜 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0w1MldZa1lDcHFwMmRfano4MXNKQ2ZvSWN6R2dFaVBzb3g5WXBNMU02ZzlsM3dHWUVnRmdra0JrMGxUVXMtNEpXUWxvbVZ6ZnZ4dVh5M1N4U3NaZld4UWhVZndHUHh3TlV1TW5hM2ptRlg1VlhfVHYyMDl2SFNiZUR4VEhvZGpsbDRscnJWYmQzTEt0ck5BXw?oc=5"
+        "text": "腾讯控股（SEHK：700）近期股价波动后的估值检查 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMG9tQkE0ZHNvSVJ3UHZTZHdfbnl5cGNGVHFiYUY3TDRDWjd6dHp1a3hEMnotanNqUzUtbFE0bEJHMkJVSThrdEYyQW1VaURzWm1xekRaQjVCU1l4VHFUSzYxc1BkQUJsOUs0eVM2V2pwMjA1TWNaV2xma3lHQXRYdVNuejBLaWt0S2ZnVXg2Y2J6Sm5Wc2p1QWVXRDFOUWZvQUE?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -366,14 +366,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "独家|马云斥资 6 亿港元买入阿里巴巴股票，彰显人工智能信心：消息人士 - scmp.com",
+        "text": "独家|马云斥资 6 亿港元购买阿里巴巴股票，彰显人工智能信心：消息人士 - 《南华早报》",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYjVYT3lzSHBZWG93XzVxQW5ZOGwyanBNd1JISEZrbXY2d3FfRFc2Q2FJcWFHUU9fOHlQeWRQcEVSeVRRY3ZZQ3QxUm41SmNRRU1hMWFxU3R6djBqS3BYRk1QdFU4dFdVY0xiUWtaZ3V2NHFWdUpGTVhEZ21rRVJUS1gzeE5mXzZzQzVfYzRDWlB4RG5CamFtejUzR3N0aHQ1N2NaZnRySkVVRGFqWl8zYW1FT01OQnRQeDVxN0xZeElMYjDSAcMBQVVfeXFMT3FkOXBPRGZDeDF1VXlBZ1ZhdHNxeUlqX2R2U3lkTVdZNHhqV3Y0bHBiUVlFRG1lc1VWYjRELWs2RHREeXZxc1VnMnU1cUpnR3BxeG11M0I0bWhqTGdGZzk5aXpqVTZyN3JxRnZSNTRES1N2LUxHUnEzd3V6YXdUX0RQY0J5Zm5CTzBremlOamZFY0Fnci1vMG1KV19HMzlJR2kzcU9RN3BWOUVXR19WU2xkcTNBVExMRzhUMzZGeDRVN3hV?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "今天阿里巴巴港股为何下跌？ - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2hlbkotbWk3cGRnV2djcGtnM3QwVlBPYWhpeXhEbnlyNjc5ampkN0R1VERkaGhtV0d3ZEVLd05FWjhVR01pR0lzMGMxci1NMjBTZnJ0a3FhV2Q0UUhvYjc5YVhYeTlfcUx6MDlxT2tSNkh6M2RqVmVVUHJab3puODN4UWlMT3V5X2hrc0V3RGV4UGs0UTU1VnF6dzVnTzFQcmc?oc=5"
+        "text": "9988 预测 — 价格目标 — 2027 年预测 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80UmpWb3I3RzlwamFWRkxyNE54MXplQ2ZWbnl2M1VzZnhhMXpEWGszajF6d3ctUkl4N3ZBa05ORDhMWE9uNm13RjYxakt2SWFTOUF3cnZZQmZqQUFTdGFzcER0ck1JbnZqS3A2STdfZ3FXd0xqWTNZ?oc=5"
       }
     ]
   },
