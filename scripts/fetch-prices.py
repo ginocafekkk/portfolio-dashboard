@@ -121,6 +121,7 @@ def main():
                     print(f"  ⚠️ {s['ticker']} {s['name']}: lastPrice缺失, 从avgCost初始化")
                 s['lastPrice'] = round(base * change_ratio, 2)
                 s['navDate'] = fund['nav_date']
+                s['navChangePct'] = fund['change_pct']
                 a_ok += 1
                 print(f"  ✅ {s['ticker']} {s['name']}: ¥{s['lastPrice']}")
             else:
