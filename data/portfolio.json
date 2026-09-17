@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,72 +14,72 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 213.9,
+          "lastPrice": 219.34,
           "ytdStartPrice": 188.62,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 490.3,
+          "lastPrice": 497.75,
           "ytdStartPrice": 470.84,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 673.31,
+          "lastPrice": 682.31,
           "ytdStartPrice": 649.25,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 339.36,
+          "lastPrice": 343.68,
           "ytdStartPrice": 314.91,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 245.96,
+          "lastPrice": 251.19,
           "ytdStartPrice": 226.5,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 358.08,
+          "lastPrice": 366.2,
           "ytdStartPrice": 438.07,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "WMT",
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 107.5,
+          "lastPrice": 106.79,
           "ytdStartPrice": 112.31,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         },
         {
           "ticker": "NFLX",
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 76.41,
+          "lastPrice": 75.31,
           "ytdStartPrice": 90.99,
-          "lastUpdated": "2026-09-16"
+          "lastUpdated": "2026-09-17"
         }
       ]
     },
@@ -117,29 +117,29 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 211199.2,
-          "navDate": "2026-09-16",
-          "navChangePct": 0.21
+          "lastPrice": 209953.12,
+          "navDate": "2026-09-17",
+          "navChangePct": -0.59
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 128945.41,
+          "lastPrice": 128468.31,
           "benchmark": "a500",
-          "navDate": "2026-09-16",
-          "navChangePct": 0.92
+          "navDate": "2026-09-17",
+          "navChangePct": -0.37
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 111669.54,
+          "lastPrice": 111267.53,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-09-16",
-          "navChangePct": -0.7
+          "navDate": "2026-09-17",
+          "navChangePct": -0.36
         },
         {
           "ticker": "600900.SS",
@@ -378,7 +378,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-18",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -431,14 +431,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 5.01%",
+          "value": "10Y 4.95%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~16",
+          "value": "~15",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -466,7 +466,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $78.42",
+          "value": "HYG $78.72",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -483,7 +483,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8452",
+          "value": "~7.8450",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -619,7 +619,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7079",
+          "value": "~6.7069",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
