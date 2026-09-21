@@ -16,7 +16,7 @@
           "avgCost": 144.28,
           "lastPrice": 227.38,
           "ytdStartPrice": 188.62,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "MSFT",
@@ -25,7 +25,7 @@
           "avgCost": 409.63,
           "lastPrice": 501.61,
           "ytdStartPrice": 470.84,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "META",
@@ -34,7 +34,7 @@
           "avgCost": 610.59,
           "lastPrice": 741.25,
           "ytdStartPrice": 649.25,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "GOOG",
@@ -43,7 +43,7 @@
           "avgCost": 193.37,
           "lastPrice": 350.87,
           "ytdStartPrice": 314.91,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "AMZN",
@@ -52,7 +52,7 @@
           "avgCost": 210.56,
           "lastPrice": 258.45,
           "ytdStartPrice": 226.5,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "TSLA",
@@ -61,7 +61,7 @@
           "avgCost": 407.76,
           "lastPrice": 375.3,
           "ytdStartPrice": 438.07,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "WMT",
@@ -70,7 +70,7 @@
           "avgCost": 117.59,
           "lastPrice": 107.44,
           "ytdStartPrice": 112.31,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         },
         {
           "ticker": "NFLX",
@@ -79,7 +79,7 @@
           "avgCost": 74.59,
           "lastPrice": 73.36,
           "ytdStartPrice": 90.99,
-          "lastUpdated": "2026-09-18"
+          "lastUpdated": "2026-09-21"
         }
       ]
     },
@@ -378,7 +378,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-09-21",
+    "lastUpdated": "2026-09-22",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -431,7 +431,7 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 5.00%",
+          "value": "10Y 4.96%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
@@ -466,7 +466,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $78.53",
+          "value": "HYG $78.68",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -483,7 +483,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8452",
+          "value": "~7.8450",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -511,7 +511,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.3",
+          "value": "~100.4",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -619,7 +619,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.6947",
+          "value": "~6.6948",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
