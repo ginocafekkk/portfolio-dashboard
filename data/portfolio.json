@@ -226,23 +226,23 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.26",
-        "change": 0.04
+        "value": "100.27",
+        "change": 0.05
       },
       {
         "name": "黄金",
-        "value": "4394.5",
-        "change": -0.69
+        "value": "4399.9",
+        "change": -0.56
       },
       {
         "name": "原油",
-        "value": "93.62",
-        "change": -6.66
+        "value": "92.96",
+        "change": -7.32
       },
       {
         "name": "10Y美债",
-        "value": "4.96",
-        "change": -0.82
+        "value": "4.97",
+        "change": -0.62
       }
     ],
     "fx": {
@@ -276,32 +276,32 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "股息公告：2026 年 9 月 12 日至 18 日 - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMzJRYnl6MmVHTkNuWE5mRUltREdlZ2pNdVV2RU4tSlBvWVVKM2VYcnozeEY5cVA0bG9yUm9YYmRKRlZmQ3pNZzRUZzZZTHhfVnhjVzVMOEM2dnlXVHhqbW5ybXNxMVVUX0JyYk1hQTRsenNKeVluZTVxZktPZEZyYWdISlp2U2ZONGpiUA?oc=5"
+        "text": "MSFT 股票：Redburn 将目标提高至 440 美元，因为人工智能安全和支出争论仍在继续 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2xfdHBUNEdXNDVVNnI1bmxTck5GSkt3eUJ5c0IzMVc1NzJnTWRucVFfeWQ3VVE3VzFMellhVzRrTkplNzF2OHhwR2RxaElGd05DbjN4ZkE0cTR2QnQyTTBVZmFOb194TC0wSnhWdVJWUTE4TmhNSnVUS18xM0NwWjM4MGF6SWdBVlpLTURMMU8tdlhIc3lIZU9sQk5SUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "人工智能重大突破后，摩根大通改变了对 Meta Stock 的看法 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbnBDM0xoaFNhSWwtR0EwMVVmT2ltcVZKZHg3Vy1fYzNyWXBuMFUwMldxc0lDRkJjd1E5RGtJVlhGeDluQkdNMWtnSUN4a1lrMFpkbVctNTZVeUtjNFFnODZQQXU1TDJ5alFMNFd6OTh2Rm53VDR4MVZVeERFWnVPdVFVUTRmQzVOeWVsRk00cGRQTVJGbzM3NEZTQk8?oc=5"
+        "text": "在人工智能重大突破之后，摩根大通改变了对 Meta Stock 的看法 - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTTA0THVwcS0yZXd5QjBYM3BUU2x4NUNxcmhmbjN6dGZEaHUwbVlMQ092LXRRV3lESVByZ1U4ZjdoeHJOMXE3amJtM1lacEhXZE5zVHBjdWhLc3hGYTM0OXhVMWtjeV85T1lJMy12bDJMck1oZVZGQUk1T0hLREdvcW80VVdQZFJsekJLbllSZ2UtcFRwTnZ2TjZPVFM2UnF0eHh6VF9CT0Fla0pwbHZSYURRQ0h6WGs?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta 股票：有望实现强劲的长期增长（纳斯达克股票代码：META） - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRi00ajZ2eDVpaUhGbjNyUy1zUGlGYjRJQ1JkVHp6LTNfUW9FT2JHdEdyY1UyOERMM1pLQ3JhWGdxVkFrc0tnRldIYnRlYmVuN2M5eFlIdmlCR1FQTTJwUVFEZ25XSW9XMWtkZF8ybUNJNDRBTDJTNzV1a3pidjJiVGZiRHlKclU?oc=5"
+        "text": "尽管 Facebook 和 Instagram 出现短暂中断，Meta 股票仍暴涨——原因如下 - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUdMdGNRaVppNklXdkxXS18tMkY1VS04aEJ4bFVHaXhVN3owRUtQWWo1Zm9ObWkxTTJfWG92QnhTS1BCTHByTjVKZ2N2bnJ6bjM1akpLalBBMWYtbEJZY3QtUk9WWXFHaDNKQXZZRm1ybGJrSkFTUHdKWS1pQ202bURRRkNCdzc1dHEzU0FDYzZ5NE9VRkk0MldpTWRwd1RXTHRTcg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet (GOOGL) 2026 年股价预测：云计算触及 20B 美元，但 FCF 崩溃——买入还是空头？ - 交易密钥",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5"
+        "text": "GOOG 与 GOOGL - 您应该购买哪种 Alphabet 股票类别？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRnIzXzJBQkk4T1oyNXV2N0tKWEFrMy1pUTZlc3N5VW1Yc1JQbDY4dzJUeFBSUVVTTXlfQk9BaUlTbnYwNFVUcWVlS2xiZGVPd0NxS0xQdnMwQm9YYW91WU9QcnNkMVRDRlBucjB6WHdUZTN4SUdtQXZFeVJiX0lXZXlnbTN5bEUxOEVGSVF5b0l4clA5YWxSVg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "“Mag 7 的市值将达到 100 万亿美元。但其中之一即将灭绝。” - 24/7 华尔街",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ0JYLVo2ekR0b2tVR2ZtRXhfRnlvUzBra190OGVSeDBXd0I1dEtsQnpJRWlyd0V1bkxuZjBqLXFuQ3hMV3ptX0VQNkdNaGZpZEpiT1IyQVQyR0ZkMFNoLV81UVQ0NTFfZXc4NjJlNm9CQ2hyeTlMRGdwSjYyUzBudFVBaXpkbDBNNnZseVVaa1h1dzh4NTJOVnhkZzF6YUpqRGwtRjJ1WUJPRE9kb1dHb0F3UjZpS1RNSXh1UEhrWl8?oc=5"
+        "text": "谷歌搜索卷土重来，Alphabet 股价飙升 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaFpkeWFEOWJVeFoxNHBIQnJSckhtXzlRVkNhR1JVX1dkZW1xVW9oRmVIVVM2R28zQzBZQ0FKczY2eVVjUXNteEFuSUNkeC14R2s0VmJOX3pNRFlfd3RoVW9SeFBEbXpWNFNhR2xYNVhzRmtHekR1LTFTSjlqQ3VWdi1XazMxOFVFakU0Y2FBTEV4RDBYWXdFenFrT3ltcE1IOWJObVN3bVUxSXVjdHlEUWJTcHF3eDAzaEwyWHln?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -312,8 +312,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "预测：到 2036 年，对亚马逊 (AMZN) 股票进行 5,000 美元的投资可能价值几何。 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelhBajk0V29iZmxkWVhLN0xwMlFfU29QOHZobnYxeGY0ZWFyUkNFT2VNbzM5Z2h2cF92SzNlSU5TOWd1VU1EaE5KdzRnUlI4VWRiVV9FOWpGMTc3TkVfaHZBZEMydmRHRFZrbGZyNFpUUDlkUWJ2OUxYLWI4S2lMQXBqYWxFNWdsY29KNmQ2Rm5GZ083clBHaHZJdU5nckk?oc=5"
+        "text": "为什么亚马逊股票今天上涨 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYnlLNHgwSi1mZVgySHpQZkl0QzhFb05sQUpqSFROeGNtQmoxQzFKT09PbHBTRy1fdFBZRUJNeTBaa04xZ2d2YWJEYUNZSk8zT2FfbUVDandRaE4weVZtTjQ3M3NTTWdLalFXRnpfRi1rdTFNNnpQVEZSV01VbzRtajlnTTR5RmxZLWdZd2RrQzFNYXJKeTRBUDNIUjIzT1pDMHFGYVcwZDBqTDBJZ3BuNm5SNENEdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -360,7 +360,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "中际科技在香港股市下滑，人工智能抛售令其首秀估值达 68 亿美元 - 路透中文网",
+        "text": "人工智能抛售令中际科技首次亮相香港股市下滑 68 亿美元 - reuters.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa2ttTnl4cUpFbUNXbjBDMUFOLXRpa3NiN0pQRTN5NmRTRGVrNlVnS2Vtc1dMZUxwSWxRSVRFczFtSlBHdWQ2NDBGdjIySkVIT1VVVDR1MmxzZVpwS3lobGJWSlBTdlQxVEFfTElpdXF0WVVPOHZtRHRYSDdyeERkdmx3bFpDUS1UWTV3d3puTExEYjd0amNKYng5MlZVYTNOWmNyeW92MjR1OXVSS0REcGZrdXdmZXdMYXU3TzlEYzhpUQ?oc=5"
       },
       {
