@@ -32,7 +32,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 741.245,
+          "lastPrice": 741.25,
           "ytdStartPrice": 649.25,
           "lastUpdated": "2026-09-21"
         },
@@ -92,7 +92,7 @@
           "name": "腾讯控股",
           "shares": 500,
           "avgCost": 500.0,
-          "lastPrice": 450.0,
+          "lastPrice": 451.6,
           "ytdStartPrice": 615.83,
           "lastUpdated": "2026-09-21"
         },
@@ -101,7 +101,7 @@
           "name": "阿里巴巴",
           "shares": 900,
           "avgCost": 124.822,
-          "lastPrice": 114.6,
+          "lastPrice": 114.8,
           "ytdStartPrice": 148.83,
           "lastUpdated": "2026-09-21"
         }
