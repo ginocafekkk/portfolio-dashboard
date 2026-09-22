@@ -117,29 +117,29 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 210431.75,
-          "navDate": "2026-09-21",
-          "navChangePct": 0.58
+          "lastPrice": 208579.95,
+          "navDate": "2026-09-22",
+          "navChangePct": -0.88
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 130906.93,
+          "lastPrice": 130998.56,
           "benchmark": "a500",
-          "navDate": "2026-09-21",
-          "navChangePct": 0.68
+          "navDate": "2026-09-22",
+          "navChangePct": 0.07
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 111389.72,
+          "lastPrice": 111423.14,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-09-21",
-          "navChangePct": 0.2
+          "navDate": "2026-09-22",
+          "navChangePct": 0.03
         },
         {
           "ticker": "600900.SS",
@@ -193,8 +193,8 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4321.6,
-        "change": 0.58,
+        "value": 4283.49,
+        "change": -0.88,
         "date": "09/22",
         "pe": 8.5
       },
