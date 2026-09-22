@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-09-23",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,72 +14,72 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 227.38,
+          "lastPrice": 228.87,
           "ytdStartPrice": 188.62,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 501.61,
+          "lastPrice": 498.0,
           "ytdStartPrice": 470.84,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 741.25,
+          "lastPrice": 736.6,
           "ytdStartPrice": 649.25,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 350.87,
+          "lastPrice": 347.41,
           "ytdStartPrice": 314.91,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 258.45,
+          "lastPrice": 254.98,
           "ytdStartPrice": 226.5,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 375.3,
+          "lastPrice": 378.9,
           "ytdStartPrice": 438.07,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "WMT",
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 107.44,
+          "lastPrice": 110.12,
           "ytdStartPrice": 112.31,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         },
         {
           "ticker": "NFLX",
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 73.36,
+          "lastPrice": 72.16,
           "ytdStartPrice": 90.99,
-          "lastUpdated": "2026-09-21"
+          "lastUpdated": "2026-09-22"
         }
       ]
     },
@@ -378,7 +378,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-09-22",
+    "lastUpdated": "2026-09-23",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -431,14 +431,14 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 4.96%",
+          "value": "10Y 4.97%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~14",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -466,7 +466,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $78.68",
+          "value": "HYG $78.67",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -483,7 +483,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8436",
+          "value": "~7.8433",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -511,7 +511,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~100.6",
+          "value": "~100.5",
           "status": "neutral",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -619,7 +619,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7013",
+          "value": "~6.6991",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
