@@ -32,7 +32,7 @@
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 736.6,
+          "lastPrice": 736.595,
           "ytdStartPrice": 649.25,
           "lastUpdated": "2026-09-22"
         },
@@ -117,29 +117,29 @@
           "shares": 1,
           "avgCost": 200000,
           "benchmark": "hshylv",
-          "lastPrice": 208579.95,
-          "navDate": "2026-09-22",
-          "navChangePct": -0.88
+          "lastPrice": 207286.75,
+          "navDate": "2026-09-23",
+          "navChangePct": -0.62
         },
         {
           "ticker": "022438",
           "name": "华泰柏瑞中证A500ETF联接A",
           "shares": 1,
           "avgCost": 150000,
-          "lastPrice": 130998.56,
+          "lastPrice": 130238.77,
           "benchmark": "a500",
-          "navDate": "2026-09-22",
-          "navChangePct": 0.07
+          "navDate": "2026-09-23",
+          "navChangePct": -0.58
         },
         {
           "ticker": "007466",
           "name": "华泰柏瑞中证红利低波A",
           "shares": 1,
           "avgCost": 100000,
-          "lastPrice": 111423.14,
+          "lastPrice": 110944.02,
           "benchmark": "csi-lowvol",
-          "navDate": "2026-09-22",
-          "navChangePct": 0.03
+          "navDate": "2026-09-23",
+          "navChangePct": -0.43
         },
         {
           "ticker": "600900.SS",
@@ -193,8 +193,8 @@
       {
         "key": "hshylv",
         "name": "恒生红利低波",
-        "value": 4283.49,
-        "change": -0.88,
+        "value": 4256.85,
+        "change": -0.62,
         "date": "09/23",
         "pe": 8.5
       },
@@ -226,18 +226,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.8",
-        "change": 0.08
+        "value": "100.89",
+        "change": 0.17
       },
       {
         "name": "黄金",
-        "value": "4359.4",
-        "change": -0.39
+        "value": "4351.3",
+        "change": -0.57
       },
       {
         "name": "原油",
-        "value": "90.14",
-        "change": -4.7
+        "value": "90.63",
+        "change": -4.19
       },
       {
         "name": "10Y美债",
@@ -258,14 +258,14 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "英伟达股票：特朗普与中国习近平的会谈是其所需的人工智能芯片催化剂吗？ - 巴伦周刊",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWIzWXFnQ3VTZjVDUXRCcm5OeUx5Q094XzI4alVVaUNFZWc4T285YWo2Y0phRm8xSDVBS0gycU56VlJ2emw2SUQwdGpCS0J3bjc0NGJFT1ZYZUY0YlJ5RkJ3bVFHQkhZVHNPQnd4VXZPYmxXOGVwajdlZnQ2OS1vWDN1Y0dESjk1ZktGUw?oc=5"
+        "text": "在两个催化剂之前，英伟达期权正在做一些不寻常的事情。一位交易员是这样玩的 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWmh6Ykkza0ktNjVYNFY0Y1ZtNGdZek1wcGczX2Z1VklDY0VqVXRRM0FfVUJQNlc5YTBGVnZkRzFxcWpmU181V1p2RF83X1ljV1pEOUI5WFZibTRnczhQSUsxWWNoYzROMlpreXZ5VVlvWGQ4SmkyWEZyeTFiSTNEMEJtai1RVFB6MEFjdmFvTmJhZ1dETVo5czFxTkpDbVZNMVRyT3NybEpjVHRDd2ZuMjd3cjhIbmJJN1RTcFBfaWpUYTBDTHVBQWE0UVdZTEUzQWo00gHYAUFVX3lxTFBPM25WRlJZMlJDLVRDaFp3a0tkZDB1azUzYVl5Uld1Z2dJT1JoajZpY1pXMUppUjZPa28wRF9Rczg4alJRVTdpVGZxV0Q0bGd4WkVhSnRxSHlKR3pIOWFlR0pQcE5iSER0eFlLQlVBQWREX081RWFlQTJtWG9sZ2FtczhseVl1NFhDSWhHcjZmNTE5UF9KUmt6VENFR0lGNDBDNmRsWUVVUDYzdWZqbk5JSDZCOTM0b1d5NTBVd1RZbEhfZmtycnlEREd2OHdDR0pQVUlaR2h4UA?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "随着估值下跌，英伟达的股票发出了警告信号 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQVB0djBZRHItdW9ub3BCOEFrUGtQZlhfNmEwXzdhR1dVU3BuX0ZFRmNvOXcxMUlBMUtEb3dxWVd6cURqbkV3dXcxMWR3WUo2MTBkZDdETWJWWGNnWk0wNk9ZVGw5N2VRVTQ2ZWVtSUJBeWpGXzZsOUJSbzNsX1lJZ1g5dDRKS3JFb29UX0JwSWs4a3FxVlJmd21pSE9nRHB2?oc=5"
+        "text": "英伟达股票：特朗普与中国习近平的会谈是其所需的人工智能芯片催化剂吗？ - 巴伦周刊",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWIzWXFnQ3VTZjVDUXRCcm5OeUx5Q094XzI4alVVaUNFZWc4T285YWo2Y0phRm8xSDVBS0gycU56VlJ2emw2SUQwdGpCS0J3bjc0NGJFT1ZYZUY0YlJ5RkJ3bVFHQkhZVHNPQnd4VXZPYmxXOGVwajdlZnQ2OS1vWDN1Y0dESjk1ZktGUw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -276,20 +276,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "MSFT 股票：Redburn 将目标提高至 440 美元，因为人工智能安全和支出争论仍在继续 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2xfdHBUNEdXNDVVNnI1bmxTck5GSkt3eUJ5c0IzMVc1NzJnTWRucVFfeWQ3VVE3VzFMellhVzRrTkplNzF2OHhwR2RxaElGd05DbjN4ZkE0cTR2QnQyTTBVZmFOb194TC0wSnhWdVJWUTE4TmhNSnVUS18xM0NwWjM4MGF6SWdBVlpLTURMMU8tdlhIc3lIZU9sQk5SUQ?oc=5"
+        "text": "MSFT 股价一夜之间上涨：分析师上调至“买入”，并认为人工智能增长和成本约束将有 15% 的上涨空间 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHRjRC1ib1ZyczBPTGdpclRqYWRmdjh5c3F5cnpqT3gyV0FuLVZ2Wl9BLU5oM01IYllIY3pOaUpucjhtNkYzcUtiZUhTMEZYZUc0eDN6eGtzMVZBcWZtTWJtMEoyTGxrdmVOQ0ZVNTZLZHFCdXF1V3JBbzJxaXFRUVRXeGpST0NHVVdDaHdacHUzSDhfSlQ5cVh2RVBpQ2pSanViVQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Muse AI 登上应用排行榜榜首，META 股票上涨 — Exec 承认它受到 OpenClaw 的“极大启发” - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWJLSDVfM2YzREZfTm1BNy1kNUEzYW9LeGZTaWc5ODRBRUtBRW83dmJqZHhYSHl0TzhyRXpGYmZVUUtXelh0WXdZcjh0MmJwWlJENmtyQmszMmgtTldyVzhodnBQeWNZck5pSTQ3NmdpTHdSbWFiQThlMzRPX0JlOC1oRE9TSjIwZjI3RlFPNF94NG1oQ2c?oc=5"
+        "text": "Muse AI 下载，目标价格上涨，Meta 股价飙升 10% - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObDF3aTdKOF9NRDVQUTc2Tm5ld3ZOMmt2MHlnMFVleC03c3NlZ2J0QThiUVJ3c0RwRHNpV3JUODNaai1VbE1kekVqQmZHMXB1S0N4VmR6VF9tTDFuTFowS19NMjh4VnJ0aGk1ZkJiOXlmQjQxcGk3UFlJNUUxc3pud01saHFWUmgyYXFjcDlMX1BQU3pqaXVIQ3BpNHJhNzhnOHRwU3BQZEQ3c2lsSWRmTm5oMk9HSzM4RmNSMUJoZ196Zw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "得益于该公司热门的新人工智能助手，Meta 的股价正迎来 13 年来最好的一个月 - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObFNROG1MUU1jdTRjSlBPRXBSWWJBbDhadmdWcFVYa1F2dDd1VWV4NkRnX1YyaUEzLXFNWEtlNm1EMmNlU1BmbmJwaDhsN1BjZXVRNzA1Z3lCSUZxa01qcXR2TTc0T2p4alVySWdFQWMxa0dpNldkd0ZTM1dDbVFUbXoxLVdocTUzRzluYlROMUtsUUxLNzZTMVdSUjBnSTY1VXlScDBCSEdqVk05U2E3TWNwQlBUZGVfT1pVT0tfVnl2MnNjQUpaWlBjekd0aVFXcURaN1Y4bmpqN1lHM2lDRkhR?oc=5"
+        "text": "以下是交易员在本周 Connect 活动后看到的 Meta 股票走势 - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSS1nYWJMMFVGUGFfdzY2UlRKdHZOLXFOVDVVN193eExJeG9yM0UwcC1fVWx1MnZ4ZkpRZHJLNmxiSDhQRmRmdVNEMWlZXzBlenhrd0pXWXhlVVZITTBJUEtzTFRheU9jZEprYnFHZV9hOE40LWxKdmdpMklVcndSRXVXSXpDNDlldlpzSl9paG9vMjRoX1ExSWZJdjlFZEd3eHhxUEVDQUtaQ3dQakJIS0w5V0Y?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -300,14 +300,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "周二 Alphabet 股票发生了什么？ - Alphabet (纳斯达克股票代码：GOOGL)、Alphabet (纳斯达克股票代码：GOOG) - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ25OcXViY3FvYVM3T3ZHbk9jcVdUY2RTY2lqaklSdGZYMUdlSFktajR5ejBJZUZadjNiOThMcmNZb0VOek1OMEZxUU9GQjE4a3RWcDJ5WkJHWENsTlFhOGF0ZEktTVZlVUhPbFloSjFSTWhPZ0VYcS05Smg0X3BtYmE5R3FDd3NycVhpRHpSNTJab0gyY2JPeGFRV25SOURnX0ktX2FkVXhCR1RFOFJ0cEs0Ul8wd2Z1V3hpVzRCWmhiOUk3WHl2S3ltdXdSS28?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "AMZN",
-        "text": "亚马逊（AMZN）领先股市：原因如下 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ3FMcU42LUxvckI2em41OGJEZ3BwMDlRbGJwV3FyWXk2VENJWUZZZVB1dXppYmlubkRZT0lSRXBtQ1F5Rnk0dHl3T1Y1RDBVVWZVYVhpUHl0Wk5xU0ZPZkREc1ZwcXBWaTJfRnN2cVpvcVJ0NWc0XzJwdjZFZlJHeTZLUnNkUldFVkgtWjhyd3NPYk9DTVQzdG5R?oc=5"
+        "text": "今天 Alphabet 股票发生了什么？ - 本辛加",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXBRSy13RHRDcWFtZUxOdk5fOWtUdl9PY3NpaTRRaHotUXR4dkJ1ODdIX2E0eW82b3hYbFFidFdqR2tpVGdlYVB4RzVQbEoza2dwWjVTQ1huMnJOZVR3ZGUxaWJBYndLMVU1d0VlSzV5c1ZZR3BTVl9BZWhYWEpfV1FObUplWDJkSmhGbmJSX2VQcGRXTGJORDRWUmI0YnR1a3NIUkF3?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -317,9 +311,15 @@
       },
       {
         "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "投资 5,000 美元购买亚马逊股票 5 年后价值多少？ - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdU5DQTJ6UXJtM1YtRmIzNVBFU3ZtLWpRdEhNMEZuYmdBNHY5UjRLclpYc3FtMjhZTVd2U0ZhWnBmRktnUEJzQ0FYMGhWcTF6OTdPbTc3ZThCSnJHOWlRUmVmcXduQ1pndWxMNndGR0NpdXBoR0pjbVNLSGN4bkVnelZEd0JMaWZzaG91bDlyWHFHTWlTTEhN?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "特斯拉赢得了另一位怀疑论者的支持：摩根大通将特斯拉股价目标提高了 200% 以上 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5"
+        "text": "特斯拉股价盘前下滑：晨星公司称特斯拉在盈利暴跌后“非常有吸引力”——“现在是买入的好时机” - stocktwits.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQVRKc3kzZi1oeC1oSDk5ZW9tRl91ekJqZURhZnN4UmhiaTlLWFBpR1R5OTVKT1hFd2ItWFdhUVFHbUU4OEhYUUM1ZkhaTV9OWS1LNGpkR1Mwcm1WaWZMUnRkRTJLLTF0clhMb0RXU05VcXIwUUdsaldRX2wxcGFJVWtIZmFaUFZPS0t4RHI3ZVBXWFVMVHNQWkN0dEt5bm9iS0MyOG1hOUstWG5ZUGVN?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -330,7 +330,7 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "WMT 股价盘前攀升：特朗普降价声明引发“白宫资助”猜测，零售热度飙升 - Stocktwits",
+        "text": "WMT 股价盘前攀升：特朗普降价声明引发“白宫资助”猜测，零售热度飙升 - stocktwits.com",
         "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWTJVTWRPT1Z4RFpUQkh5ZmRSakFaVVRZQjdJc0FZLVJsc090OWlrVHNJeGRvZWQxMHhzd0xvNVBXZm9aTkpBb09odE5MX093NHBmRFN1amNPZUdfel8zeV9VV2w3QURveUNfVHlqaUprVjF0WUhsQmZjZWdUc0FZQjY3MXdaMThCdWpMb0tsR3UwbUx3Uml0UF9Pc2FnY3FEMjExaXpXYW5Ta1JzdC1vaUdoX3VldGdXNVM4XzNUSElidnc2VTJMb2VwVkNNWVVLcktKYWZwbVRaTjJhLUMteml6WjY5WHhjQUxhTFBSRGZ2WTlXMWpKdkh3eUtWUQ?oc=5"
       },
       {
@@ -360,8 +360,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "腾讯 (SEHK:700) 三年回报率为 43%，股价看起来很便宜 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0w1MldZa1lDcHFwMmRfano4MXNKQ2ZvSWN6R2dFaVBzb3g5WXBNMU02ZzlsM3dHWUVnRmdra0JrMGxUVXMtNEpXUWxvbVZ6ZnZ4dVh5M1N4U3NaZld4UWhVZndHUHh3TlV1TW5hM2ptRlg1VlhfVHYyMDl2SFNiZUR4VEhvZGpsbDRscnJWYmQzTEt0ck5BXw?oc=5"
+        "text": "腾讯控股（SEHK：700）近期股价波动后的估值检查 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMG9tQkE0ZHNvSVJ3UHZTZHdfbnl5cGNGVHFiYUY3TDRDWjd6dHp1a3hEMnotanNqUzUtbFE0bEJHMkJVSThrdEYyQW1VaURzWm1xekRaQjVCU1l4VHFUSzYxc1BkQUJsOUs0eVM2V2pwMjA1TWNaV2xma3lHQXRYdVNuejBLaWt0S2ZnVXg2Y2J6Sm5Wc2p1QWVXRDFOUWZvQUE?oc=5"
       },
       {
         "source": "📰 实时资讯",
