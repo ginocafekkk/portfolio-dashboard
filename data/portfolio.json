@@ -217,8 +217,8 @@
       {
         "key": "a500",
         "name": "中证A500",
-        "value": 5630.46,
-        "change": 0.07,
+        "value": 5596.18,
+        "change": -0.61,
         "date": "09/23",
         "pe": 15.0
       }
@@ -226,18 +226,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "100.53",
-        "change": 0.1
+        "value": "100.8",
+        "change": 0.08
       },
       {
         "name": "黄金",
-        "value": "4396.2",
-        "change": 0.28
+        "value": "4359.4",
+        "change": -0.39
       },
       {
         "name": "原油",
-        "value": "89.85",
-        "change": -6.19
+        "value": "90.14",
+        "change": -4.7
       },
       {
         "name": "10Y美债",
@@ -258,80 +258,80 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "不是英伟达。不是美光。人工智能基础设施股票将在短短 3 年内翻三倍 - 傻瓜网",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV0dPOG9jbF9JRlo3Q0xSeFFiRUM3R0F3b1JrNURoZmlodEFPT2JfSFZGTGFLNE9KM1p4ZTVRTkQwVG1pcE00amRFRk1LOHRGeWlFRUtIaGo0dExmblV1V25kX1hFNVVJUnh4WklkUW56MzFDS20wUVM2cGQxYkZVWTZsdmI1eFhTdTJEQXJBdjRERHJPTjdPSFZmZU1LZGlBWTFXRTRsNXlmT1pWRlk3SVRwNWJMT2EtVkV6QzZSZW1JU3B0akZ0ak1mdw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "NVDA",
         "text": "英伟达股票：特朗普与中国习近平的会谈是其所需的人工智能芯片催化剂吗？ - 巴伦周刊",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWIzWXFnQ3VTZjVDUXRCcm5OeUx5Q094XzI4alVVaUNFZWc4T285YWo2Y0phRm8xSDVBS0gycU56VlJ2emw2SUQwdGpCS0J3bjc0NGJFT1ZYZUY0YlJ5RkJ3bVFHQkhZVHNPQnd4VXZPYmxXOGVwajdlZnQ2OS1vWDN1Y0dESjk1ZktGUw?oc=5"
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "MSFT",
-        "text": "尽管对 ChatGPT 和职场女性存在担忧，微软股票 (NASDAQ:MSFT) 仍上涨 - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcHluX0Jwc05GNFlYN1NpYW1Xbm91bG00WkRORjRXLS1XbXlLcm5tM0NvaUl6LWlmcHZMNG91OXFmZTF2Mzk4c3l2SDVmT1VHb2xQbUdOX1FYZVpOZWtUOVFReFd2WFQ1SzlaQW5nYXNDa2FYNmxzNW5UVjFidy1fY29xUDZjOWhIREowdllQWXZNY2VraWpIX0hFeTlDTjFaaHYyOHhSV0Fvcy1XWlNDN1AtUlVmX1U?oc=5"
+        "ticker": "NVDA",
+        "text": "随着估值下跌，英伟达的股票发出了警告信号 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQVB0djBZRHItdW9ub3BCOEFrUGtQZlhfNmEwXzdhR1dVU3BuX0ZFRmNvOXcxMUlBMUtEb3dxWVd6cURqbkV3dXcxMWR3WUo2MTBkZDdETWJWWGNnWk0wNk9ZVGw5N2VRVTQ2ZWVtSUJBeWpGXzZsOUJSbzNsX1lJZ1g5dDRKS3JFb29UX0JwSWs4a3FxVlJmd21pSE9nRHB2?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "MSFT 股票：Redburn 将目标提高至 440 美元，因为人工智能安全和支出争论仍在继续 - Finance.yahoo.com",
+        "text": "亲爱的微软股票粉丝，请在您的日历上标记 9 月 24 日 - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHE4ZmQ4eGwzS2ZteTlpc3BoTG1NdEN0a054cHZianQzcnlfbVlLS2dDVVpZZUp4TEhSQXFFenpJVUhsaF81RkZvQnFfcHNSWVpqTXp2R1E3YlVUaVhWUnVTZG90RTJrcUJMWDJwczJkLWVLcTVySGJBclFjOVduOGVQd0RnRzFPbmtoM0pVSFFDVEZpRnNOS2tndjJsalRSSnU4SGVlYVlDdw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "MSFT",
+        "text": "MSFT 股票：Redburn 将目标提高至 440 美元，因为人工智能安全和支出争论仍在继续 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd2xfdHBUNEdXNDVVNnI1bmxTck5GSkt3eUJ5c0IzMVc1NzJnTWRucVFfeWQ3VVE3VzFMellhVzRrTkplNzF2OHhwR2RxaElGd05DbjN4ZkE0cTR2QnQyTTBVZmFOb194TC0wSnhWdVJWUTE4TmhNSnVUS18xM0NwWjM4MGF6SWdBVlpLTURMMU8tdlhIc3lIZU9sQk5SUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta (META) 股票交易上涨，原因如下 - Finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUFYa0JKa0VRd25SY21oTll0Mi1WcFpEOXhhVERJb0g3Z2U5a3dyY3NlMVVtRFZDRzcySWFwbU9SbG02amw0NXFQQlYtRzZOTkNzNlNJR0dXQURzVzdGUEVFS0VsRVBEdWRJd29UbTMyN093MERUUmVrbmVOc1oySkZLVFpNdmRfT00xbHVCcVpRRjl2b3c?oc=5"
+        "text": "Muse AI 登上应用排行榜榜首，META 股票上涨 — Exec 承认它受到 OpenClaw 的“极大启发” - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWJLSDVfM2YzREZfTm1BNy1kNUEzYW9LeGZTaWc5ODRBRUtBRW83dmJqZHhYSHl0TzhyRXpGYmZVUUtXelh0WXdZcjh0MmJwWlJENmtyQmszMmgtTldyVzhodnBQeWNZck5pSTQ3NmdpTHdSbWFiQThlMzRPX0JlOC1oRE9TSjIwZjI3RlFPNF94NG1oQ2c?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "尽管 Facebook 再次出现故障，Meta 股价仍上涨。这就是原因 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1NoMFVfMy1WTWhic3pqTGEyQkNrLVgyeWl5TWJSMVc3MnhUUFFzalN1dE0xdFQ1bm1PLS1vbGZPb2xKOGF5NXJZc3NrdG1ZdDJzT0otZ2Q4MjRjUkNaUFFBTjIzdHhPOXBRcDFReU9XWnhTcEFmWVVFZDhYYWZFZjVnYWJfUUdHSUpLV0FtVEMtb3k3d2hyR05SMm5IU2hZTjBfUVZvQWpfRFFCS25waGthcC14cGM0Qmdn?oc=5"
+        "text": "得益于该公司热门的新人工智能助手，Meta 的股价正迎来 13 年来最好的一个月 - MarketWatch",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObFNROG1MUU1jdTRjSlBPRXBSWWJBbDhadmdWcFVYa1F2dDd1VWV4NkRnX1YyaUEzLXFNWEtlNm1EMmNlU1BmbmJwaDhsN1BjZXVRNzA1Z3lCSUZxa01qcXR2TTc0T2p4alVySWdFQWMxa0dpNldkd0ZTM1dDbVFUbXoxLVdocTUzRzluYlROMUtsUUxLNzZTMVdSUjBnSTY1VXlScDBCSEdqVk05U2E3TWNwQlBUZGVfT1pVT0tfVnl2MnNjQUpaWlBjekd0aVFXcURaN1Y4bmpqN1lHM2lDRkhR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "谷歌搜索卷土重来，Alphabet 股价飙升 - Finance.yahoo.com",
+        "text": "谷歌搜索卷土重来，Alphabet 股价飙升 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaDFydG15ZFFtSFFQWFAwMlVZeHYtOXpQcE5vclI1QURVcHFLVW5VdHBrNlFQZFBnMXdtaE5TWmMzaGRYQXRsUHVlMDdKakFMVUMyV2d4WVVFcG03X3lpX2w3WGx6bUpHYzhjTldhb3hwQmw3ZHZqclNzRGVMYWJYSGJybDlEYlJRam9ZODN1SGJkYnNjNHFEY0IwSmZHdHJPN2c?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "周二 Alphabet 股票发生了什么？ - Alphabet（纳斯达克股票代码：GOOGL）、Alphabet（纳斯达克股票代码：GOOG） - benzinga.com",
+        "text": "周二 Alphabet 股票发生了什么？ - Alphabet (纳斯达克股票代码：GOOGL)、Alphabet (纳斯达克股票代码：GOOG) - Benzinga",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ25OcXViY3FvYVM3T3ZHbk9jcVdUY2RTY2lqaklSdGZYMUdlSFktajR5ejBJZUZadjNiOThMcmNZb0VOek1OMEZxUU9GQjE4a3RWcDJ5WkJHWENsTlFhOGF0ZEktTVZlVUhPbFloSjFSTWhPZ0VYcS05Smg0X3BtYmE5R3FDd3NycVhpRHpSNTJab0gyY2JPeGFRV25SOURnX0ktX2FkVXhCR1RFOFJ0cEs0Ul8wd2Z1V3hpVzRCWmhiOUk3WHl2S3ltdXdSS28?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "特朗普披露了 7 月份的 1,100 多笔交易，其中微软、亚马逊各销售额高达 2500 万美元 - cnbc.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDhjQUdQbl9DazhqUEFYbklmaVhoVXhJOGQtNzEwZ2p1YnBfSXBXejctMWpxY3ltV1BPVElRQnhydm5xdm5vYmFydVVBeHFtcTJraUNFamVRUDFvb0tCMEtDZmtOaGcwWDhDYWQ0d1YycEVmNC1vZnh3VnNOQlFUaUlGLW0xR2FjWm5rWmRibFRhcm1LemZZ0gGcAUFVX3lxTE9YX0VmZjdHQXdGRjVnNFRWQnItRElCWGFFTTZWVWhOTVR6ZTdVR0hzU3dybFc4WXlSR3RSM3kzWVo5SGcyeTRpeFhWcmdXanVJWm9jX2d1bW9zalF1bXN6UEU1M1N6Q2JaSE5rQm9CWHpSM0RtS1hrMFNCaDhya0dneExYOEh1RVgtUzliN1daaU9zazJMQnppV3FkNQ?oc=5"
+        "text": "亚马逊（AMZN）领先股市：原因如下 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ3FMcU42LUxvckI2em41OGJEZ3BwMDlRbGJwV3FyWXk2VENJWUZZZVB1dXppYmlubkRZT0lSRXBtQ1F5Rnk0dHl3T1Y1RDBVVWZVYVhpUHl0Wk5xU0ZPZkREc1ZwcXBWaTJfRnN2cVpvcVJ0NWc0XzJwdjZFZlJHeTZLUnNkUldFVkgtWjhyd3NPYk9DTVQzdG5R?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
-        "text": "随着亚马逊股票的繁荣，交易员可能会考虑这种期权投资 - 投资者商业日报",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU3gxaEt5OXp1NTBTQ0JEdk8wdW52b19VXzV4RUdsc0hrTGpSOXJBaVFKLW0wQkloYWtTNzdTX0ZuMncyNXVPUGhMbEI0LThMYmFtX1dkNXJ1RzRwRll2Skc4VDgxdThvMlZ2N0J5VDhnV0dPWDBGdXFlQ1Y2SmRoZ2ttdDFCOFpoQXZpNGVn?oc=5"
+        "text": "亚马逊：为AWS（纳斯达克股票代码：AMZN）利润率崩溃做好准备 - 美股指南 - 美股开户",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYV9ZaWQxMWVHWU1EejVZLVZFc2VwbGRDdVNlSlp0SmI3R0NNLUFYNFFkblNvV2lzSFVlM2VYeGZ3akpWZ09yOHJxaWlET09vMkRWSUkwcW9DeGR2aUY2T1UwVnQ1Qmc5ZWVuZHNCaEhGS0dDVldYTkhrb0sycHFYdWQtOC1hYmh4VUJHdw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "TSLA 股价触及近三周新高：尽管 Optimus 延迟，英伟达获胜仍为“物理人工智能”支点增添力量 - Finance.yahoo.com",
+        "text": "特斯拉赢得了另一位怀疑论者的支持：摩根大通将特斯拉股价目标提高了 200% 以上 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "TSLA",
+        "text": "TSLA 股价触及近三周新高：尽管 Optimus 延迟，英伟达获胜仍为“物理人工智能”支点增添力量 - 雅虎财经",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONVU5SmZTSW1MQ1ktQVZOTENySlRVa3UxOTBia1F0VGNYbExjcV9ycW1UdmtRVEM0a0R2a19EaDdOLUFLR296Yko0TDUwc2ZpTFN2eDRZalNiQnpFWHlWQWljd0xYM3F1cDN3OXVzdVRQOENlbEhod1NfV2w3R2NDOGpiS0NSekVZNUhpTTFBRFhJVTQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
-        "ticker": "TSLA",
-        "text": "特斯拉：特朗普可能会击沉该股；方法如下（纳斯达克股票代码：TSLA） - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWNJRl9ZdTBacWd3SzNBMnpBZHhPN2xXakkzOUFQUEhSYXhsMHNWLXFscWdSWnZFRE9DRTFOMDZJakEyQVVKTml3Mk43S2MzR3hncnllUFg5REZWOEk2WnFELW9vMl9aQXZzZ3lJZUxSZTlsYlY5bDRkbFl5QnFqcTV4OVZBM1RWTk5kVA?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "这四只零售股正在赢得厌倦通胀的逢低买入者的竞争 - 《巴伦周刊》",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcG5IeFNfbDczYjdGWUd0SDRwZVhQazdRVXZpVTEwV2pEM3JNTmJFYXlIS0xqM05GM2ZZdzA0Q0R4MzlLQ1BHWUtPVmVkQXdwLWZYWlJoMU0wcmNVZ0d5dnR4bHpvMkFZNFdxWVMzUzVZQkVUWUd4TjFmZzZJeE5wTG9EU1l1ajhUVnhkNWxCSWItM2RMYkpzUy03alJKRVlG?oc=5"
+        "text": "WMT 股价盘前攀升：特朗普降价声明引发“白宫资助”猜测，零售热度飙升 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWTJVTWRPT1Z4RFpUQkh5ZmRSakFaVVRZQjdJc0FZLVJsc090OWlrVHNJeGRvZWQxMHhzd0xvNVBXZm9aTkpBb09odE5MX093NHBmRFN1amNPZUdfel8zeV9VV2w3QURveUNfVHlqaUprVjF0WUhsQmZjZWdUc0FZQjY3MXdaMThCdWpMb0tsR3UwbUx3Uml0UF9Pc2FnY3FEMjExaXpXYW5Ta1JzdC1vaUdoX3VldGdXNVM4XzNUSElidnc2VTJMb2VwVkNNWVVLcktKYWZwbVRaTjJhLUMteml6WjY5WHhjQUxhTFBSRGZ2WTlXMWpKdkh3eUtWUQ?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -348,8 +348,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NFLX",
-        "text": "在增长减速的担忧中，Netflix 股票估值似乎具有吸引力 - Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZDZmTzFEdmxycXBVcllpQ0FpdUVpQVo4UGpHWFg4X3lBYl96SFdfZ1dkUXZ0TFB3VU5OUTdERzJsN0ZQaHVYOVBDUl8zb1JFUW9ZYmtWMVhtaTVUb1pJcFBYSjQtWGtXelZidXdPcWdCci05MlZxeGZlYnBRQlM0OTE1OXVvZmpFVnI0X2xGeHdaN2pYRXBOcE1WeFNpV0pHdmJMS2pDSUNmQ0hjZUtUN1ZNQUN1cUpGbk1EeA?oc=5"
+        "text": "Netflix (NFLX) 超越股市：原因如下 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUNFVFA4dXpsd0p4RHF1WjRnR21kaUdOUkVublBBVVlwV0R2ZzAzZjVCRk0zdW5IcVBLMmg5TnFYN0VxT3ZucFdiTXYtZjdNaXl1ZlEwS01vT1RmUUJ1WmM3ZTJ1WWlJbTYzUkhhb2xQNnd2am1rTXpmSzA5bzRCdnFxZ2FUbTJGMHZFamJQNTVGVjg0UWlCbnB1NA?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -360,20 +360,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "腾讯斥资 3 亿港元捍卫价值 445 港元的股票 - Finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRC0tTTV2VW9sZktrc2VuQS1wUUs1TnB6WldLaXpvdnk3bWo1RkhFRHpPS2M1YlZSNEltZHh6TURfbVB2QnhEWHRyYjlHZm05ZHgwWEpuSjRTOVJ3X2VKY3lrWFRQeXoybW9obTJJNklxV0tFX1B4WE1FYlJBWVdMOVNfTGxsZEpnMzlibmJhZnNZbGozdWx1aFV3?oc=5"
+        "text": "腾讯 (SEHK:700) 三年回报率为 43%，股价看起来很便宜 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0w1MldZa1lDcHFwMmRfano4MXNKQ2ZvSWN6R2dFaVBzb3g5WXBNMU02ZzlsM3dHWUVnRmdra0JrMGxUVXMtNEpXUWxvbVZ6ZnZ4dVh5M1N4U3NaZld4UWhVZndHUHh3TlV1TW5hM2ptRlg1VlhfVHYyMDl2SFNiZUR4VEhvZGpsbDRscnJWYmQzTEt0ck5BXw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "9988.HK",
+        "text": "阿里巴巴 — NYSE:BABA 股票价格和图表 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GZXRLamxTaU52NWtDWU1oV0Q4WUl2ZW1HN19kRzFEWC1QVnpjdXBZNXI2eHZHNlRJOVQ3aXJuVzN2N0d5Y2N5c01Qd1dEX3RpR1ZPWEx6ZlI3Zw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
         "text": "阿里巴巴股价大幅折价出售 102 亿美元 AI 股票后股价下跌 - 路透中文网",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbmJDLXh4Z1Q1TU1xaFVKallDYkY5TmdpYUlUTkpxZ1BGS09ReGNfSlJTd0F4OGNKYndTUndKRmRVaU9DUUNfWVc0b1FyV211dFQwRTdHZS1CNExRd3owLU93WEUtcWZ6YkQyOThYMmZlNDFJM01RbjhOenhvaFptLW44S2tmR2pPSjJOWlhnUHNhUy02Wm1Td0gyY3F1QzhyQk42YWhnNl9UUXBxY0Z3bzhUSm1tRjhTZ3YyM3dVU21ibERiRzMtQ3B6eTlfZw?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "9988.HK",
-        "text": "9988 预测 — 价格目标 — 2027 年预测 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80UmpWb3I3RzlwamFWRkxyNE54MXplQ2ZWbnl2M1VzZnhhMXpEWGszajF6d3ctUkl4N3ZBa05ORDhMWE9uNm13RjYxakt2SWFTOUF3cnZZQmZqQUFTdGFzcER0ck1JbnZqS3A2STdfZ3FXd0xqWTNZ?oc=5"
       }
     ]
   },

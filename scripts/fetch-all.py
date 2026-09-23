@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """一站式持仓数据更新：价格 + 新闻 + 宏观指数 + 大类资产 + A股指数"""
 import json, os, sys, time, re
-from datetime import datetime
+from datetime import datetime, timedelta
 try:
     import requests
 except ImportError:
@@ -34,24 +34,88 @@ def fetch_price(ticker, retries=3):
             time.sleep(2)
     return None
 
+def _chart(ticker, interval, rng):
+    """Yahoo chart 接口统一封装；失败返回 None"""
+    headers = {'User-Agent': UA, 'Accept': 'application/json'}
+    url = ('https://query1.finance.yahoo.com/v8/finance/chart/' + ticker +
+           '?interval=' + interval + '&range=' + rng)
+    r = requests.get(url, headers=headers, timeout=12)
+    if r.status_code == 200:
+        res = r.json().get('chart', {}).get('result') or []
+        if res:
+            return res[0]
+    return None
+
+def _us_offset_hours(dt_utc):
+    """美国时区偏移：EDT=UTC-4（3月第二个周日 ~ 11月第一个周日），其余 EST=UTC-5"""
+    y = dt_utc.year
+    def nth_sunday(year, month, n):
+        first = datetime(year, month, 1)
+        first_sun = 1 + (6 - first.weekday()) % 7
+        return first_sun + 7 * (n - 1)
+    start = datetime(y, 3, nth_sunday(y, 3, 2), 7)   # 02:00 EST -> 07:00 UTC
+    end = datetime(y, 11, nth_sunday(y, 11, 1), 6)   # 02:00 EDT -> 06:00 UTC
+    return -4 if start <= dt_utc < end else -5
+
+def _prev_close_from_hourly(ticker, meta_dt_utc):
+    """日线缺「前一时段」时（Yahoo 数据缺口），用小时线按美东日期归组，
+    取 meta 所在时段之前最近一个时段的收盘价"""
+    result = _chart(ticker, '1h', '7d')
+    if not result:
+        return None
+    q = result.get('indicators', {}).get('quote', [{}])[0]
+    off = _us_offset_hours(meta_dt_utc)
+    sess = {}
+    for ts, c in zip(result.get('timestamp') or [], q.get('close') or []):
+        if c is None:
+            continue
+        et = datetime.utcfromtimestamp(ts) + timedelta(hours=off)
+        sess[et.strftime('%Y-%m-%d')] = c
+    meta_date = (meta_dt_utc + timedelta(hours=off)).strftime('%Y-%m-%d')
+    prev_dates = sorted([d for d in sess if d < meta_date])
+    if not prev_dates:
+        return None
+    return sess[prev_dates[-1]]
+
 def fetch_index_with_change(ticker):
     for attempt in range(3):
         try:
-            headers = {'User-Agent': UA, 'Accept': 'application/json'}
-            url = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?interval=1d&range=5d'
-            r = requests.get(url, headers=headers, timeout=10)
-            if r.status_code == 200:
-                result = r.json()['chart']['result'][0]
-                meta = result['meta']
+            result = _chart(ticker, '1d', '5d')
+            if result:
+                meta = result.get('meta', {})
                 price = meta.get('regularMarketPrice')
                 # 优先用「最近两个交易日收盘」计算当日涨跌幅；
                 # chartPreviousClose 是 5d 区间前一天的收盘（约一周前），用它算出来是周涨幅，会误导
                 try:
-                    _q = result.get('indicators', {}).get('quote', [{}])[0]
-                    _closes = [c for c in (_q.get('close') or []) if c is not None]
+                    raw = result.get('indicators', {}).get('quote', [{}])[0].get('close') or []
                 except Exception:
-                    _closes = []
-                prev_close = _closes[-2] if len(_closes) >= 2 else meta.get('chartPreviousClose')
+                    raw = []
+                # 尾部 None 计数：Yahoo 偶发「最新交易日的收盘缺失」，
+                # 此时 meta 价格属于缺失的最新时段，前收应取 bars[-1]（取 bars[-2] 会退化成两日涨跌幅）
+                tn = 0
+                for c in reversed(raw):
+                    if c is None:
+                        tn += 1
+                    else:
+                        break
+                bars = [c for c in raw if c is not None]
+                prev_close = None
+                if tn >= 1 and bars:
+                    prev_close = bars[-1]
+                elif len(bars) >= 2:
+                    prev_close = bars[-2]
+                # 中间时段缺口（如当日盘中而前一日缺失）→ 用小时线补
+                if tn == 0 and len(raw) >= 2 and raw[-2] is None:
+                    mdt = meta.get('regularMarketTime')
+                    if mdt:
+                        try:
+                            alt = _prev_close_from_hourly(ticker, datetime.utcfromtimestamp(mdt))
+                            if alt:
+                                prev_close = alt
+                        except Exception:
+                            pass
+                if prev_close is None:
+                    prev_close = meta.get('chartPreviousClose')
                 if price and prev_close and prev_close > 0:
                     change_pct = (price - prev_close) / prev_close * 100
                     return {'price': price, 'change_pct': change_pct}
