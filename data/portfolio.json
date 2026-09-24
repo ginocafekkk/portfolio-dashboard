@@ -94,7 +94,7 @@
           "avgCost": 500.0,
           "lastPrice": 438.4,
           "ytdStartPrice": 615.83,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "9988.HK",
@@ -103,7 +103,7 @@
           "avgCost": 124.822,
           "lastPrice": 110.0,
           "ytdStartPrice": 148.83,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         }
       ]
     },
@@ -148,7 +148,7 @@
           "avgCost": 26.913,
           "lastPrice": 28.36,
           "ytdStartPrice": 26.22,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "600036.SS",
@@ -157,7 +157,7 @@
           "avgCost": 36.592,
           "lastPrice": 40.69,
           "ytdStartPrice": 39.94,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "000651.SZ",
@@ -166,7 +166,7 @@
           "avgCost": 38.51,
           "lastPrice": 38.5,
           "ytdStartPrice": 39.24,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         }
       ]
     },
@@ -438,7 +438,7 @@
         },
         {
           "name": "VIX",
-          "value": "~15",
+          "value": "~16",
           "status": "neutral",
           "weight": "4%",
           "detail": "波动率可控，但日本加息可能放大"
@@ -483,7 +483,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8430",
+          "value": "~7.8428",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -619,14 +619,14 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7106",
+          "value": "~6.7121",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
         },
         {
           "name": "A股成交量",
-          "value": "CSI300 28.3亿股",
+          "value": "CSI300 23.1亿股",
           "status": "neutral",
           "weight": "5%",
           "detail": "活跃度尚可但缩量趋势"
