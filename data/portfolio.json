@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "fx": {
     "USD_HKD": 7.8393,
     "USD_CNY": 6.7667
@@ -14,72 +14,72 @@
           "name": "NVIDIA",
           "shares": 400,
           "avgCost": 144.28,
-          "lastPrice": 225.51,
+          "lastPrice": 224.58,
           "ytdStartPrice": 188.62,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "MSFT",
           "name": "Microsoft",
           "shares": 230,
           "avgCost": 409.63,
-          "lastPrice": 500.59,
+          "lastPrice": 497.93,
           "ytdStartPrice": 470.84,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "META",
           "name": "Meta Platforms",
           "shares": 155,
           "avgCost": 610.59,
-          "lastPrice": 744.1,
+          "lastPrice": 777.59,
           "ytdStartPrice": 649.25,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "GOOG",
           "name": "Alphabet (GOOG)",
           "shares": 100,
           "avgCost": 193.37,
-          "lastPrice": 334.98,
+          "lastPrice": 339.01,
           "ytdStartPrice": 314.91,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "shares": 100,
           "avgCost": 210.56,
-          "lastPrice": 249.27,
+          "lastPrice": 249.38,
           "ytdStartPrice": 226.5,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "shares": 80,
           "avgCost": 407.76,
-          "lastPrice": 380.12,
+          "lastPrice": 377.94,
           "ytdStartPrice": 438.07,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "WMT",
           "name": "Walmart",
           "shares": 150,
           "avgCost": 117.59,
-          "lastPrice": 110.53,
+          "lastPrice": 107.59,
           "ytdStartPrice": 112.31,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         },
         {
           "ticker": "NFLX",
           "name": "Netflix",
           "shares": 100,
           "avgCost": 74.59,
-          "lastPrice": 71.36,
+          "lastPrice": 71.72,
           "ytdStartPrice": 90.99,
-          "lastUpdated": "2026-09-23"
+          "lastUpdated": "2026-09-24"
         }
       ]
     },
@@ -378,7 +378,7 @@
     ]
   },
   "liquidity": {
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-09-25",
     "US": {
       "score": 41,
       "rating": "中性偏紧",
@@ -431,7 +431,7 @@
         },
         {
           "name": "国债发行/TGA",
-          "value": "10Y 5.11%",
+          "value": "10Y 5.16%",
           "status": "bearish",
           "weight": "6%",
           "detail": "吸收市场资金，债务上限悬而未决"
@@ -466,7 +466,7 @@
         },
         {
           "name": "信用利差",
-          "value": "HYG $78.10",
+          "value": "HYG $77.89",
           "status": "neutral",
           "weight": "5%",
           "detail": "暂无压力信号"
@@ -483,7 +483,7 @@
       "factors": [
         {
           "name": "港元汇率",
-          "value": "~7.8428",
+          "value": "~7.8423",
           "status": "bearish",
           "weight": "12%",
           "detail": "偏弱，有资金流出压力"
@@ -511,7 +511,7 @@
         },
         {
           "name": "美元指数(DXY)",
-          "value": "~101.1",
+          "value": "~101.3",
           "status": "bearish",
           "weight": "10%",
           "detail": "弱美元有利资金流向新兴市场"
@@ -619,7 +619,7 @@
         },
         {
           "name": "人民币汇率",
-          "value": "~6.7121",
+          "value": "~6.7123",
           "status": "bullish",
           "weight": "5%",
           "detail": "外汇占款增加补充基础货币"
