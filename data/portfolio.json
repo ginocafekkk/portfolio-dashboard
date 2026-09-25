@@ -226,18 +226,18 @@
     "assets": [
       {
         "name": "美元指数",
-        "value": "101.26",
-        "change": 0.16
-      },
-      {
-        "name": "黄金",
-        "value": "4310.1",
+        "value": "101.1",
         "change": -0.19
       },
       {
+        "name": "黄金",
+        "value": "4329.0",
+        "change": 0.72
+      },
+      {
         "name": "原油",
-        "value": "94.76",
-        "change": 2.82
+        "value": "92.83",
+        "change": -1.88
       },
       {
         "name": "10Y美债",
@@ -264,13 +264,13 @@
       {
         "source": "📰 实时资讯",
         "ticker": "NVDA",
-        "text": "标准普尔 500 指数从未如此集中于 2 只股票 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUk9mUURLSlhHMDZCMkZFc2gwdkxxQVNWWnY0cVl4Zkh4VTZtcTRCRXZaVmt4SEwyU2kxNmFiZVl3VEgzSW02bTlZeGZwWC04U3Jiei03S1g4OWl2Q0NsVVczQ2RiU0l2U1JDUXZGdUZ1UUZuWkhQV3k3eVdoaGs3STdFRmszY1A4bG5EclREUi04WHZGblpFTGdaMDBYcHZCOFVCSzNYMzBPV0ZxeUxUMWQwSkZPcHUz?oc=5"
+        "text": "今日股市：随着国债收益率飙升，道琼斯指数下跌；英伟达股价下跌，美光股价上涨 - 投资者商业日报",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2l0R0JrY2c1cDFCU0VsV3p4d0hhLVp4Q2Q5aEVYUkYwd0o0dW1QMjRPYXVZaFNzbzczOVEzeFZTbENFQWZOVHdtX0NSZi1DVFFXWkpVb3JnLWM1eF9nbkpkSkdtMGE3XzV4NFdPZG9ha3E4YWZQZWpiQkNKZDZwWE5EeHk0cnd3LWh3QUozMUdWQ2NXS2xuWE9uMFJFaFFjMERDSTFLcjJNLW5RQVU2SkhZVU11R0N0WlFCMTI2VEhsWDg?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "MSFT",
-        "text": "亲爱的微软股票粉丝，请在您的日历上标记 9 月 24 日 - Barchart.com",
+        "text": "亲爱的微软股票粉丝，请在您的日历上标记 9 月 24 日 - barchart.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHE4ZmQ4eGwzS2ZteTlpc3BoTG1NdEN0a054cHZianQzcnlfbVlLS2dDVVpZZUp4TEhSQXFFenpJVUhsaF81RkZvQnFfcHNSWVpqTXp2R1E3YlVUaVhWUnVTZG90RTJrcUJMWDJwczJkLWVLcTVySGJBclFjOVduOGVQd0RnRzFPbmtoM0pVSFFDVEZpRnNOS2tndjJsalRSSnU4SGVlYVlDdw?oc=5"
       },
       {
@@ -282,38 +282,38 @@
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "有关 Muse 的消息推动 Meta 股票一日上涨 11%。但人工智能代理的价值可能比市场想象的还要高。 - 傻瓜网",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTk5PT2JLbFQwU3dzeFMxbTd5RXczWUE2QkEyN2x6U2YxenBmUmF4X0pXZHMzeU9sMHdqOUl4XzBfdDJ5dE8xdTNNcWJCZG9JWUNGZ1Joam05ZThvQkF4bThtTjZLVTNvaVBkSW41czZLYlN3c0dMM05leVktOHdBUHhYUWIxcEdhblFhZjZYcUg1aDVvYWc0?oc=5"
+        "text": "Meta (META) 股票上涨，你需要知道什么 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjd5ZlBOeXJ3dE5yVmtJeGZMeVRrVHZmY0hTaEhJMDI5Y2FsbEdBWXZGUmtfTGhtVlY2Q1NwNmIxYUU1YkNnYTdueHVYbzhLRkhpYVBZZ0ZGNlg0QXVPVXRRX3RfMVIzWUFZajBWWWs1X2t6R1k1T2F2VjZoUVpPR2ZFVzlxcGFsRnpEQTZR?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "META",
-        "text": "Meta (META) 股票上涨了，你需要知道什么 - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmk1ZEc4WDNHaWZoVGUzYVhTS3N4Uzc5SkhwbnZhbkRCTlcxdjExQ01MamZINEhZeXFhcUJDM3V0LUx1NElENklySlcySGxBMG9vTFdWQnRzOVNrUzlFNEttSEZZMFprbUt6bld2dmhLM0VvVFRxVmd6Z2hHTkRWSFB5Sm8tRDdfZkk4VXdEVzhMMkhzX21DRVVXVzVXalpvQzd1UG5ZTUpHVnM?oc=5"
+        "text": "投资者关于 Meta 股票的评价是：“不要欺骗自己” - TipRanks",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX1Z2dm1UaVFab1JjTG1iR1ZFaFVuT1BreGNRNG9fSDU4d2VxNk0wWldqcEhELWlzUkphT1lwaVpNQy1uNktKeFhkb2lfQkhSMWZXTmZPVG5KLWNua0pKWExNZEh1SGhSZWJwM2RKQ1ZmS0hOZnRkOXdsbjdqYXRjWTdwZXU0Zw?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "谷歌搜索卷土重来，Alphabet 股价飙升 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaDFydG15ZFFtSFFQWFAwMlVZeHYtOXpQcE5vclI1QURVcHFLVW5VdHBrNlFQZFBnMXdtaE5TWmMzaGRYQXRsUHVlMDdKakFMVUMyV2d4WVVFcG03X3lpX2w3WGx6bUpHYzhjTldhb3hwQmw3ZHZqclNzRGVMYWJYSGJybDlEYlJRam9ZODN1SGJkYnNjNHFEY0IwSmZHdHJPN2c?oc=5"
+        "text": "道琼斯指数、标准普尔 500 指数、纳斯达克期货下跌，债券收益率下跌，特朗普与习近平会面成为焦点：为什么 META、MCD、GOOG、U 股成为趋势 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaHhaZGZDVENXakxFdXZFWmJqMDR0VUUxb3BIUVNTMVdaQy1XR2lCNGVtdzNwVzRjYTNRMFBSUkhsbXVudzhETVhwZTBJQ29panY5SzlSbzhiOUpGSjBQdGMzU3VhVFhYV1o1R2FucDVFM05GYTVkanRROElXVWVFWHpGY2NPdU03WkUweTIyNW9EOHM?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "GOOG",
-        "text": "Alphabet 股票下跌：这是你需要知道的 - Benzinga",
+        "text": "Alphabet 股票下跌：这是您需要了解的 - benzinga.com",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUmR2NGxyek5WMWxrb0hKenVvTkVERmhMWTlaR1N0VmZMa3AzNVZORnFNMXFibm9JZW9WY2ROUWJjaHp5YlVCVTZGbG56czIzMHlsTTdpazJTZHptb2dTdGZCR25qS0NrRzZvbXYwR1JybjRvb2pYYVBzU0FFQ1hJeW5FdmhKR1g4OWY0V1RMTTlKLWVjZDFmQ1dtTHBoM2lLd1o5aHo3bkh5Qkgt?oc=5"
-      },
-      {
-        "source": "📰 实时资讯",
-        "ticker": "AMZN",
-        "text": "顶级投资者对亚马逊股票表示“稳住” - TipRanks",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcVVyc0ptNzVSX3RfbHgtdDNxUkVYLWZfR1RidkRaQndRSlZyVlV2b3E4TkM5Nnpsem1HT05SVEliQkV6c3RYaDFBc3hoM1IxalV2QTBvVVpCbFA0YngwenBqZnlMREVhUHVxYzh6cmZ1OUNEaUVKMW5NNnRzWTB1RVU5SVktdk9kdGRj?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "AMZN",
         "text": "亚马逊：市场误解了 Meta Muse 的威胁（评级升级）（纳斯达克股票代码：AMZN） - 美股指南 - 美股开户 - 港股开户",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVEdUcWNZZk5FbkJMT1Y0Y0UzRjFKX3c4UTl2aUdmNlRod1VINnRFeUxyTV92bi0zS3o0cWNWZGJXWUZKYWN3d28xUXd2YzhPTHlKcUxDckNHMWZZbWlVUGtvbmdFaVV4Zkg5QnNyWFAxeGh2dkFpR1FEN01ENTRadUJpYk1HZXIySEJ1Wnd3UTBFVERLcmtkTDFoSjkwOHhSclYxNXNidU0wUXVyb1pPRzc1ekJIdw?oc=5"
+      },
+      {
+        "source": "📰 实时资讯",
+        "ticker": "AMZN",
+        "text": "亚马逊股票成为焦点——据报道，亚马逊利用前员工和下岗员工来加速招募人工智能人才 - 雅虎财经",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMHJPS0dfT0dqdUptc3R1dmxodFdVaUd5bTRYaG4zdnFQR3ptSnY0NmgwNjRPU2FvZTB1U3AxZGxMTVNBODhTQl9Kb0lYQ1luZ3pNZDNVS2Z4U3Q1ZlBGLUk5SjFfcHNic3V6YTVoSV9aRTVXOTdtVHVYeldUUW00bzJ6eTJvSENYVDFQUjh1MExBZEhoZkJtTEstcXA1VnM?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -324,8 +324,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "TSLA",
-        "text": "预测：特斯拉股票的最大机会可能即将到来 - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHZGVVE4dll2RGlRVnotanlEYVdsWDlmRV9GV1dNaWhLY3Q2cEpVc2hROGhFX1NyaXQ4TUhuV2xBUWY2d2JrWWlPZXc4RjZwR0VaemxScWZmMEpFUjQ1alFrVHF6U2k3b05seHAzQTJ1czJ0emdXOFZjWHVuWlpnN3NWNmxvX0ZfSjEzUGx2S1gzb3BzcWFBQThWc0hBX0RoUXVFVjViZ0R2T3I2SVBNOGRR?oc=5"
+        "text": "TSLA 股价一夜攀升：Roadster 预告片引发 SpaceX 热议——马斯克称新款 Semi 为“游戏规则改变者” - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeXB5QjBLLWEzUjZSUlpWWTNENm9DSHpEOUowVXhhYWFsdmdmU2xHTzE0NUdhNEN3elJDOEdrdE90UTJWV0VtcDlEQW93VzkxeTFoaEtaMGo5NHdPdnRmWDE3cG8wcjQzT1BTYWw4UGR6VExQX0k3YzZPd0RScTk4NDhXNFc2cGt2UnczOEZLNU05QVhvSklzSFdkS3FCdVJUUUphSTJkTzhxUl9sZlc1NjFiOE9mV0dNeUpuQjZPSFQtV1RiaDRDXw?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -336,8 +336,8 @@
       {
         "source": "📰 实时资讯",
         "ticker": "WMT",
-        "text": "WMT 股价盘前上涨：分析师称沃尔玛收购 Vibe.co 交易加强了广告推动 - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSlNaV2w0ODZWaFlWRTBaOXo0enVQV0VNWjlYc3ZPTy00SjhDaUE2XzlRa29mbU1wejBWcnBrdkVha19xMEdPTmxRUWllTkR3ekdHMThnN1dpc1h4ME9mYUxTY1JfdEcwejB0eWxvN01hUWJvTWs2NDlNYnpMSnZjaVdEZDU3ZERnQzB2UmNKZ0lkbjlicGp0Z1lwc3pPc3JUYjB0aUJ3REluUzZmR2lHUl9wUnFPeTRmbWtuM1N3LUZsNEk3b201RnE1YjljemtJVFJMZ1NXdVZ0VURhNG5Na181cUxMZU9VZnc?oc=5"
+        "text": "沃尔玛（纳斯达克股票代码：WMT）股价下跌 2.7% - 原因如下 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUJrOVE4emNEajB5bTRGcjI3anF5ZDg1WWNSanp1RkRGWGs3Q21MTURrcGd3Rk1wZ2p1OXhoeERoSmd5aEJ3RzdWLXRhSFJnNHNnbWVpdWFFeE9pWThhYUxJRXZ3WkxRQTlFMDNmcFM3QTBCWjR1amw2YkZfNkJvNTB0QUpaOVJ1dDVKZXI4TjYtYVhQNTNjZ2FTYWR2dm9LU2dyQUFB?oc=5"
       },
       {
         "source": "📰 实时资讯",
@@ -360,20 +360,20 @@
       {
         "source": "📰 实时资讯",
         "ticker": "0700.HK",
-        "text": "腾讯控股有限公司 (0700.HK) 股票价格、新闻、报价和历史 - 雅虎财经",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJYUp5bUlYdFhkSElTRTFrSmJJSE5EMXNPUFpOQk95eHh4eDFxUmZXM1YyNHc5RklLYkprNDZFX0ptRjNreUJvVk1kM2N5dWdEU0NycnV3?oc=5"
+        "text": "HKG:0700 - 腾讯控股股价预测。你应该买0700.HK吗？ - StockInvest.us",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBDeVF4a19kMjRDRnRQOU1kUWpkSkxKb3lTM3dzcThqNE1zMUZTQ2wzVWNmOGhPYW9sYUJjMlpXOEdueGw2UmNMVEt0M2U?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "小米集团 (1810.HK) 股票价格、新闻、报价及历史 - 雅虎！加拿大金融",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iZHlwZGN0OGd6ZEg3WTV0bThhU2pnYnAzaG1aMzVVd2licm0wYmtSbEw3MEx4OWFQYTRWUnlMblhvOHZLVTY4UDV2aG5tWFFUeTJNMmtn?oc=5"
+        "text": "百度 (9888.HK) 股票价格、新闻、报价和历史 - 雅虎！加拿大金融",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CUlluZElJMU5yVnpGTTRRT2drRWVvRjVKcjhfdTdNTWxrdS0ycE5YM0ZNQklZT3lRZHdSLVB2SVF4TURENjFEa0lZTEtoc3I0dUNwTnpn?oc=5"
       },
       {
         "source": "📰 实时资讯",
         "ticker": "9988.HK",
-        "text": "9988 股票价格和图表 — HKEX:9988 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ESmhzS05sWENiNXFDN0pKR1dlNWUtYlhFb3FZQVlEdjEtN01uM29lLVBRaVNyUzd6Y2VXVnlzQTg3c0xkMkN4ZjMwSEFlZ1E5bUgxTVRvbkFBZw?oc=5"
+        "text": "腾讯控股有限公司 (0700.HK) 股票价格、新闻、报价和历史 - 雅虎！加拿大金融",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yandpalBscEhnS1UtV3AxYXNOMGVVdjA0U3RMcGc4VjRrTl94aFlFbjBtYy0xREZvQVNyc0pUNmExRGZ4RkdjNzlESFM1T0xVdmxFUlV3?oc=5"
       }
     ]
   },
